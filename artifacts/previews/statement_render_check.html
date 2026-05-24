@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Statements Render Check</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f6f7fb;
+      color: #111827;
+    }
+    main {
+      max-width: 920px;
+      margin: 32px auto;
+      padding: 0 20px;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid #d9dee8;
+      border-radius: 8px;
+      padding: 22px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+    }
+    h1 {
+      font-size: 22px;
+      margin: 0 0 18px;
+    }
+    .status {
+      display: inline-block;
+      margin-bottom: 18px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #dcfce7;
+      color: #166534;
+      font-weight: 700;
+      font-size: 13px;
+    }
+    .statement {
+      display: grid;
+      grid-template-columns: 34px 1fr 70px;
+      gap: 12px;
+      align-items: start;
+      padding: 13px 0;
+      border-top: 1px solid #edf0f5;
+      font-size: 17px;
+      line-height: 1.55;
+    }
+    .label {
+      font-weight: 700;
+      color: #2563eb;
+    }
+    .answer {
+      justify-self: end;
+      font-weight: 700;
+    }
+    .true {
+      color: #15803d;
+    }
+    .false {
+      color: #b91c1c;
+    }
+    pre {
+      white-space: pre-wrap;
+      background: #111827;
+      color: #e5e7eb;
+      border-radius: 6px;
+      padding: 14px;
+      font-size: 13px;
+      overflow: auto;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card">
+      <h1>True/False statements render check</h1>
+      <div id="status" class="status"></div>
+      <div id="statements"></div>
+      <h2>Parsed data</h2>
+      <pre id="parsed"></pre>
+    </section>
+  </main>
+  <script>
+    const storedStatements = "[{\"label\": \"a\", \"text\": \"Hàm số đồng biến trên khoảng $(0; 2)$.\", \"answer\": true}, {\"label\": \"b\", \"text\": \"Hàm số đồng biến trên các khoảng $(-\\\\infty; 0)$; $(2; 3)$.\", \"answer\": false}, {\"label\": \"c\", \"text\": \"Hàm số nghịch biến trên các khoảng $(-\\\\infty; 0)$; $(2; 3)$.\", \"answer\": true}, {\"label\": \"d\", \"text\": \"Đồ thị hàm số có hai cực trị.\", \"answer\": true}]";
+
+    function parseStatements(value) {
+      let parsed = value;
+      for (let i = 0; i < 2 && typeof parsed === "string"; i += 1) {
+        parsed = JSON.parse(parsed);
+      }
+      return Array.isArray(parsed) ? parsed : [];
+    }
+
+    const statements = parseStatements(storedStatements);
+    document.getElementById("status").textContent = statements.length === 4
+      ? "OK: parse được 4 statements"
+      : `ERROR: parse được ${statements.length} statements`;
+    document.getElementById("parsed").textContent = JSON.stringify(statements, null, 2);
+
+    const container = document.getElementById("statements");
+    for (const statement of statements) {
+      const row = document.createElement("div");
+      row.className = "statement";
+      const answerText = statement.answer === true ? "Đúng" : statement.answer === false ? "Sai" : "";
+      row.innerHTML = `
+        <div class="label">${statement.label})</div>
+        <div>${statement.text}</div>
+        <div class="answer ${statement.answer ? "true" : "false"}">${answerText}</div>
+      `;
+      container.appendChild(row);
+    }
+  </script>
+</body>
+</html>

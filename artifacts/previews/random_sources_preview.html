@@ -1,0 +1,751 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ingest Preview</title>
+  <script>
+    window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  <style>
+    :root {
+      --bg: #f4f6f8;
+      --text: #182230;
+      --muted: #667085;
+      --line: #d0d5dd;
+      --card: #fff;
+      --accent: #1769aa;
+      --ok: #157347;
+      --warn: #b54708;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Segoe UI, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    .wrap { max-width: 1160px; margin: 0 auto; padding: 28px 20px 56px; }
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: flex-end;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 18px;
+      margin-bottom: 18px;
+    }
+    h1 { margin: 0 0 6px; font-size: 30px; }
+    .sub { color: var(--muted); }
+    .stats { display: grid; grid-template-columns: repeat(2, minmax(120px, 1fr)); gap: 8px; min-width: 260px; }
+    .stat { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+    .stat strong { display: block; font-size: 24px; }
+    .stat span { color: var(--muted); font-size: 12px; text-transform: uppercase; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-left: 5px solid var(--accent);
+      border-radius: 8px;
+      margin: 14px 0;
+      padding: 18px;
+    }
+    .card.visual { border-left-color: var(--warn); }
+    header { display: flex; justify-content: space-between; gap: 16px; }
+    .eyebrow { color: var(--muted); font-size: 12px; text-transform: uppercase; }
+    h2 { margin: 2px 0 0; font-size: 17px; overflow-wrap: anywhere; }
+    h3 { margin: 18px 0 8px; color: var(--muted); text-transform: uppercase; font-size: 13px; }
+    .question { font-size: 17px; }
+    .question p { margin: 0 0 10px; }
+    .table-wrap { overflow-x: auto; margin: 12px 0 14px; }
+    .math-table {
+      border-collapse: collapse;
+      min-width: 520px;
+      background: white;
+      font-size: 16px;
+    }
+    .math-table th,
+    .math-table td {
+      border: 1px solid #344054;
+      padding: 8px 12px;
+      text-align: center;
+      min-width: 62px;
+      height: 38px;
+    }
+    .math-table th:first-child,
+    .math-table td:first-child {
+      font-weight: 700;
+      background: #f8fafc;
+      min-width: 72px;
+    }
+    .tf-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 8px;
+      background: #fff;
+      font-size: 15px;
+    }
+    .tf-table th,
+    .tf-table td {
+      border: 1px solid var(--line);
+      padding: 8px 10px;
+      vertical-align: top;
+    }
+    .tf-table thead th {
+      background: #f8fafc;
+      color: var(--muted);
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+    .tf-table tbody th {
+      width: 44px;
+      text-align: center;
+    }
+    .tf-table td:last-child {
+      width: 64px;
+      text-align: center;
+      font-weight: 700;
+      color: var(--accent);
+    }
+    .clean-visual {
+      margin-top: 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      background: #fbfcfe;
+    }
+    .clean-svg {
+      width: fit-content;
+      max-width: 100%;
+      background: white;
+      padding: 0;
+      border: 0;
+      border-radius: 0;
+      overflow-x: auto;
+    }
+    .calc-svg {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      background: white;
+      color: #111827;
+      font-family: "Cambria Math", Cambria, "Times New Roman", serif;
+    }
+    .variation-svg {
+      width: 472px;
+    }
+    .sign-svg {
+      width: 572px;
+    }
+    .svg-fill {
+      fill: #fff;
+    }
+    .svg-line {
+      fill: none;
+      stroke: #111827;
+      stroke-width: 1.2;
+      vector-effect: non-scaling-stroke;
+    }
+    .svg-line.light {
+      stroke-width: 0.9;
+    }
+    .svg-line.strong {
+      stroke-width: 1.35;
+    }
+    .svg-trend {
+      stroke: #111827;
+      stroke-width: 1.9;
+      marker-end: url(#arrowhead);
+      vector-effect: non-scaling-stroke;
+    }
+    .svg-arrow-head {
+      fill: #111827;
+    }
+    .svg-math,
+    .svg-label {
+      fill: #111827;
+      dominant-baseline: middle;
+      text-anchor: middle;
+      font-size: 21px;
+    }
+    .svg-label {
+      font-size: 22px;
+      font-style: italic;
+      font-weight: 600;
+    }
+    .source-visual {
+      margin-top: 12px;
+    }
+    .source-visual .visual-img {
+      max-width: 720px;
+    }
+    .rendered-table-img {
+      display: block;
+      max-width: 720px;
+      width: auto;
+      margin: 14px 0 0;
+      background: white;
+    }
+    .clean-visual-label {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .visual-table {
+      min-width: 620px;
+    }
+    .calculus-table {
+      border-collapse: collapse;
+      background: white;
+      color: #101828;
+      font-family: "Cambria Math", Cambria, "Times New Roman", serif;
+      font-size: 22px;
+      min-width: 560px;
+      table-layout: fixed;
+    }
+    .calculus-table th,
+    .calculus-table td {
+      border: 1.5px solid #101828;
+      min-width: 72px;
+      height: 46px;
+      padding: 4px 12px;
+      text-align: center;
+      vertical-align: middle;
+      font-style: italic;
+      background: white;
+    }
+    .calculus-table th {
+      width: 72px;
+      font-weight: 700;
+    }
+    .calculus-table td {
+      font-style: normal;
+    }
+    .calculus-table tr:first-child td,
+    .calculus-table tr:first-child th {
+      font-style: italic;
+    }
+    .variation_table {
+      min-width: 620px;
+    }
+    .variation_table tr:nth-child(2) td.zero,
+    .variation_table tr:nth-child(2) td.asymptote {
+      border-left-width: 4px;
+      border-right-width: 4px;
+    }
+    .trend {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 34px;
+      line-height: 1;
+      min-width: 44px;
+      color: #101828;
+    }
+    .visual-img { display: block; max-width: 720px; width: 100%; margin-top: 14px; border: 1px solid var(--line); border-radius: 8px; background: white; }
+    .options { margin: 10px 0 0 22px; padding: 0; }
+    .options li { padding: 3px 0 3px 4px; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .answer { font-weight: 800; font-size: 22px; color: var(--accent); }
+    .badge { border-radius: 999px; padding: 6px 10px; color: white; font-size: 12px; font-weight: 700; white-space: nowrap; }
+    .badge.ok { background: var(--ok); }
+    .badge.warn { background: var(--warn); }
+    .muted, .meta-line { color: var(--muted); }
+    summary { margin-top: 16px; cursor: pointer; color: var(--accent); font-weight: 700; }
+    pre { white-space: pre-wrap; background: #eef2f6; border: 1px solid var(--line); border-radius: 8px; padding: 12px; overflow: auto; }
+    @media (max-width: 760px) {
+      .hero { display: block; }
+      .stats { min-width: 0; margin-top: 14px; }
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div>
+        <h1>Ingest Preview</h1>
+        <div class="sub">True/False source sample</div>
+        <div class="sub">Generated 2026-05-18 03:50:50 · source MAPSTUDY + NGTIENDAT + NGPHANTIEN (LB excluded)</div>
+      </div>
+      <div class="stats">
+        <div class="stat"><strong>5</strong><span>Questions</span></div>
+        <div class="stat"><strong>2</strong><span>Need Visual</span></div>
+      </div>
+    </section>
+    
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#1 · MAPSTUDY · page 3 · true_false</div>
+          <h2>Câu 1 Phần II [MAP] - Trang 3</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question"><p>Cho hàm số $f(x)$ xác định trên $\mathbb{R}$ và có đồ thị của hàm số $f&#x27;(x)$ như hình vẽ (đồ thị $f&#x27;(x)$ có điểm đặc biệt tại $x = -1$, $x = 2$, giá trị nhỏ nhất khoảng $-4$).</p></div>
+        
+        
+    <table class="tf-table">
+      <thead><tr><th>Ý</th><th>Mệnh đề</th><th>Đ/S</th></tr></thead>
+      <tbody>
+            <tr>
+              <th>a</th>
+              <td>Hàm số $y = f(x)$ đồng biến trên khoảng $(-4; 2)$.</td>
+              <td>Sai</td>
+            </tr>
+            
+            <tr>
+              <th>b</th>
+              <td>Hàm số $y = f(x)$ đồng biến trên khoảng $(-\infty; -1)$.</td>
+              <td>Sai</td>
+            </tr>
+            
+            <tr>
+              <th>c</th>
+              <td>Hàm số $y = f(x)$ có một điểm cực trị.</td>
+              <td>Sai</td>
+            </tr>
+            
+            <tr>
+              <th>d</th>
+              <td>Hàm số $y = f(x)$ nghịch biến trên khoảng $(-\infty; -4)$ và $(2; +\infty)$.</td>
+              <td>?</td>
+            </tr>
+            </tbody>
+    </table>
+    
+        
+        
+        <img class="visual-img" src="random_sources_preview_assets/visual_01_page_3_crop.png" alt="visual crop">
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer"><span class="muted">Chua co</span></div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Hàm số và đạo hàm</div>
+          <div class="meta-line">Difficulty: Thông hiểu</div>
+          <div class="meta-line">Visual: do_thi</div>
+          <div class="meta-line">File: Bài 2 Cực trị của hàm số cơ bản.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;true_false&quot;,
+  &quot;topic&quot;: &quot;Hàm số và đạo hàm&quot;,
+  &quot;subtopic&quot;: &quot;Tính đơn điệu và cực trị của hàm số&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: &quot;II&quot;,
+  &quot;question_text&quot;: &quot;Cho hàm số $f(x)$ xác định trên $\\mathbb{R}$ và có đồ thị của hàm số $f&#x27;(x)$ như hình vẽ (đồ thị $f&#x27;(x)$ có điểm đặc biệt tại $x = -1$, $x = 2$, giá trị nhỏ nhất khoảng $-4$).&quot;,
+  &quot;difficulty&quot;: &quot;Thông hiểu&quot;,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;do_thi&quot;,
+  &quot;source_hint&quot;: &quot;Câu 1 Phần II [MAP] - Trang 3&quot;,
+  &quot;source_file&quot;: &quot;Bài 2 Cực trị của hàm số cơ bản.pdf&quot;,
+  &quot;page_number&quot;: 3,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;true_false\&quot;, \&quot;part\&quot;: \&quot;II\&quot;, \&quot;topic\&quot;: \&quot;Hàm số và đạo hàm\&quot;, \&quot;subtopic\&quot;: \&quot;Tính đơn điệu và cực trị của hàm số\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: \&quot;Thông hiểu\&quot;, \&quot;question_text\&quot;: \&quot;Cho hàm số $f(x)$ xác định trên $\\\\mathbb{R}$ và có đồ thị của hàm số $f&#x27;(x)$ như hình vẽ (đồ thị $f&#x27;(x)$ có điểm đặc biệt tại $x = -1$, $x = 2$, giá trị nhỏ nhất khoảng $-4$).\&quot;, \&quot;option_a\&quot;: null, \&quot;option_b\&quot;: null, \&quot;option_c\&quot;: null, \&quot;option_d\&quot;: null, \&quot;correct_answer\&quot;: null, \&quot;statements\&quot;: [{\&quot;label\&quot;: \&quot;a\&quot;, \&quot;text\&quot;: \&quot;Hàm số $y = f(x)$ đồng biến trên khoảng $(-4; 2)$.\&quot;, \&quot;answer\&quot;: false}, {\&quot;label\&quot;: \&quot;b\&quot;, \&quot;text\&quot;: \&quot;Hàm số $y = f(x)$ đồng biến trên khoảng $(-\\\\infty; -1)$.\&quot;, \&quot;answer\&quot;: false}, {\&quot;label\&quot;: \&quot;c\&quot;, \&quot;text\&quot;: \&quot;Hàm số $y = f(x)$ có một điểm cực trị.\&quot;, \&quot;answer\&quot;: false}, {\&quot;label\&quot;: \&quot;d\&quot;, \&quot;text\&quot;: \&quot;Hàm số $y = f(x)$ nghịch biến trên khoảng $(-\\\\infty; -4)$ và $(2; +\\\\infty)$.\&quot;, \&quot;answer\&quot;: null}], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;do_thi\&quot;, \&quot;visual_bbox\&quot;: [0.25, 0.6, 0.75, 0.78], \&quot;visual_table\&quot;: null, \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;Câu 1 Phần II [MAP] - Trang 3\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;statements&quot;: &quot;[{\&quot;label\&quot;: \&quot;a\&quot;, \&quot;text\&quot;: \&quot;Hàm số $y = f(x)$ đồng biến trên khoảng $(-4; 2)$.\&quot;, \&quot;answer\&quot;: false}, {\&quot;label\&quot;: \&quot;b\&quot;, \&quot;text\&quot;: \&quot;Hàm số $y = f(x)$ đồng biến trên khoảng $(-\\\\infty; -1)$.\&quot;, \&quot;answer\&quot;: false}, {\&quot;label\&quot;: \&quot;c\&quot;, \&quot;text\&quot;: \&quot;Hàm số $y = f(x)$ có một điểm cực trị.\&quot;, \&quot;answer\&quot;: false}, {\&quot;label\&quot;: \&quot;d\&quot;, \&quot;text\&quot;: \&quot;Hàm số $y = f(x)$ nghịch biến trên khoảng $(-\\\\infty; -4)$ và $(2; +\\\\infty)$.\&quot;, \&quot;answer\&quot;: null}]&quot;,
+  &quot;source&quot;: &quot;MAPSTUDY&quot;,
+  &quot;source_path&quot;: &quot;D:\\Database\\MAPSTUDY\\Bài 2 Cực trị của hàm số cơ bản.pdf&quot;,
+  &quot;sampled_at&quot;: &quot;2026-05-18T03:32:10.808992&quot;,
+  &quot;sample_page_item&quot;: 3
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#2 · MAPSTUDY · page 5 · true_false</div>
+          <h2>MAPSTUDY KHÓA IMOE TOÁN 12</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question"><p>Cho hàm số $y = f&#x27;(x)$ có đồ thị như hình bên dưới.</p></div>
+        
+        
+    <table class="tf-table">
+      <thead><tr><th>Ý</th><th>Mệnh đề</th><th>Đ/S</th></tr></thead>
+      <tbody>
+            <tr>
+              <th>a</th>
+              <td>Hàm số $y = f(x)$ có 2 cực trị.</td>
+              <td>Đúng</td>
+            </tr>
+            
+            <tr>
+              <th>b</th>
+              <td>$f\left(\dfrac{1}{2}\right) &lt; f\left(\dfrac{-1}{2}\right)$.</td>
+              <td>Sai</td>
+            </tr>
+            
+            <tr>
+              <th>c</th>
+              <td>Hàm số $y = f(x)$ giảm trên khoảng $(-1; 1)$.</td>
+              <td>Sai</td>
+            </tr>
+            
+            <tr>
+              <th>d</th>
+              <td>Hàm số $y = f(x)$ giảm trên khoảng $(-\infty; -1)$.</td>
+              <td>Đúng</td>
+            </tr>
+            </tbody>
+    </table>
+    
+        
+        
+        <img class="visual-img" src="random_sources_preview_assets/visual_02_page_5_crop.png" alt="visual crop">
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer"><span class="muted">Chua co</span></div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Hàm số</div>
+          <div class="meta-line">Difficulty: Thông hiểu</div>
+          <div class="meta-line">Visual: do_thi</div>
+          <div class="meta-line">File: Bài 2 Cực trị của hàm số cơ bản.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;true_false&quot;,
+  &quot;topic&quot;: &quot;Hàm số&quot;,
+  &quot;subtopic&quot;: &quot;Cực trị, tính đơn điệu của hàm số&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: &quot;II&quot;,
+  &quot;question_text&quot;: &quot;Cho hàm số $y = f&#x27;(x)$ có đồ thị như hình bên dưới.&quot;,
+  &quot;difficulty&quot;: &quot;Thông hiểu&quot;,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;do_thi&quot;,
+  &quot;source_hint&quot;: &quot;MAPSTUDY KHÓA IMOE TOÁN 12&quot;,
+  &quot;source_file&quot;: &quot;Bài 2 Cực trị của hàm số cơ bản.pdf&quot;,
+  &quot;page_number&quot;: 5,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;true_false\&quot;, \&quot;part\&quot;: \&quot;II\&quot;, \&quot;topic\&quot;: \&quot;Hàm số\&quot;, \&quot;subtopic\&quot;: \&quot;Cực trị, tính đơn điệu của hàm số\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: \&quot;Thông hiểu\&quot;, \&quot;question_text\&quot;: \&quot;Cho hàm số $y = f&#x27;(x)$ có đồ thị như hình bên dưới.\&quot;, \&quot;option_a\&quot;: null, \&quot;option_b\&quot;: null, \&quot;option_c\&quot;: null, \&quot;option_d\&quot;: null, \&quot;correct_answer\&quot;: null, \&quot;statements\&quot;: [{\&quot;label\&quot;: \&quot;a\&quot;, \&quot;text\&quot;: \&quot;Hàm số $y = f(x)$ có 2 cực trị.\&quot;, \&quot;answer\&quot;: true}, {\&quot;label\&quot;: \&quot;b\&quot;, \&quot;text\&quot;: \&quot;$f\\\\left(\\\\dfrac{1}{2}\\\\right) &lt; f\\\\left(\\\\dfrac{-1}{2}\\\\right)$.\&quot;, \&quot;answer\&quot;: false}, {\&quot;label\&quot;: \&quot;c\&quot;, \&quot;text\&quot;: \&quot;Hàm số $y = f(x)$ giảm trên khoảng $(-1; 1)$.\&quot;, \&quot;answer\&quot;: false}, {\&quot;label\&quot;: \&quot;d\&quot;, \&quot;text\&quot;: \&quot;Hàm số $y = f(x)$ giảm trên khoảng $(-\\\\infty; -1)$.\&quot;, \&quot;answer\&quot;: true}], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;do_thi\&quot;, \&quot;visual_bbox\&quot;: [0.25, 0.04, 0.75, 0.22], \&quot;visual_table\&quot;: null, \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;MAPSTUDY KHÓA IMOE TOÁN 12\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;statements&quot;: &quot;[{\&quot;label\&quot;: \&quot;a\&quot;, \&quot;text\&quot;: \&quot;Hàm số $y = f(x)$ có 2 cực trị.\&quot;, \&quot;answer\&quot;: true}, {\&quot;label\&quot;: \&quot;b\&quot;, \&quot;text\&quot;: \&quot;$f\\\\left(\\\\dfrac{1}{2}\\\\right) &lt; f\\\\left(\\\\dfrac{-1}{2}\\\\right)$.\&quot;, \&quot;answer\&quot;: false}, {\&quot;label\&quot;: \&quot;c\&quot;, \&quot;text\&quot;: \&quot;Hàm số $y = f(x)$ giảm trên khoảng $(-1; 1)$.\&quot;, \&quot;answer\&quot;: false}, {\&quot;label\&quot;: \&quot;d\&quot;, \&quot;text\&quot;: \&quot;Hàm số $y = f(x)$ giảm trên khoảng $(-\\\\infty; -1)$.\&quot;, \&quot;answer\&quot;: true}]&quot;,
+  &quot;source&quot;: &quot;MAPSTUDY&quot;,
+  &quot;source_path&quot;: &quot;D:\\Database\\MAPSTUDY\\Bài 2 Cực trị của hàm số cơ bản.pdf&quot;,
+  &quot;sampled_at&quot;: &quot;2026-05-18T03:32:30.633608&quot;,
+  &quot;sample_page_item&quot;: 1
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card ">
+      <header>
+        <div>
+          <div class="eyebrow">#3 · NGTIENDAT · page 1 · true_false</div>
+          <h2>Khoá học SSLive Toán học 2k8 | S1 Toán học - Bài 9</h2>
+        </div>
+        <span class="badge ok">Text only</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question"><p>Trong không gian với hệ tọa độ $Oxyz$, mỗi đơn vị trên trục có độ dài $10\,km$. Một trạm theo dõi được đặt ở gốc tọa độ và có thể phát hiện được các vật thể cách nó một khoảng không quá $30\,km$. Một vệ tinh do thám di chuyển từ vị trí $A(4;2;1)$ đến vị trí $B\!\left(-1;-\dfrac{1}{2};\dfrac{7}{2}\right)$ với vận tốc $80\,km/h$ theo một đường thẳng.</p></div>
+        
+        
+    <table class="tf-table">
+      <thead><tr><th>Ý</th><th>Mệnh đề</th><th>Đ/S</th></tr></thead>
+      <tbody>
+            <tr>
+              <th>a</th>
+              <td>Hai điểm $A, B$ nằm ngoài tầm phát hiện của trạm theo dõi.</td>
+              <td>Đúng</td>
+            </tr>
+            
+            <tr>
+              <th>b</th>
+              <td>Phương trình đường thẳng $AB$ là $\begin{cases} x = 4 + 2t \\ y = 2 + t \\ z = 1 - t \end{cases},\, t \in \mathbb{R}$.</td>
+              <td>Đúng</td>
+            </tr>
+            
+            <tr>
+              <th>c</th>
+              <td>Vị trí đầu tiên vệ tinh do thám bị trạm theo dõi phát hiện là $M(0;0;3)$.</td>
+              <td>Sai</td>
+            </tr>
+            
+            <tr>
+              <th>d</th>
+              <td>Vệ tinh do thám bay qua vùng bị phát hiện trong khoảng thời gian ít hơn $15$ phút.</td>
+              <td>?</td>
+            </tr>
+            </tbody>
+    </table>
+    
+        
+        
+        
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer"><span class="muted">Chua co</span></div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Hình học không gian - Oxyz</div>
+          <div class="meta-line">Difficulty: Vận dụng cao</div>
+          <div class="meta-line">Visual: none</div>
+          <div class="meta-line">File: S2 Toán học 12 - Hình - Bài 9. Bài toán thực tế Oxyz (Phần 2) - File học - Đáp án.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;true_false&quot;,
+  &quot;topic&quot;: &quot;Hình học không gian - Oxyz&quot;,
+  &quot;subtopic&quot;: &quot;Bài toán thực tế Oxyz&quot;,
+  &quot;chapter&quot;: &quot;Bài 9: Bài toán thực tế Oxyz (Phần 2)&quot;,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;Trong không gian với hệ tọa độ $Oxyz$, mỗi đơn vị trên trục có độ dài $10\\,km$. Một trạm theo dõi được đặt ở gốc tọa độ và có thể phát hiện được các vật thể cách nó một khoảng không quá $30\\,km$. Một vệ tinh do thám di chuyển từ vị trí $A(4;2;1)$ đến vị trí $B\\!\\left(-1;-\\dfrac{1}{2};\\dfrac{7}{2}\\right)$ với vận tốc $80\\,km/h$ theo một đường thẳng.&quot;,
+  &quot;difficulty&quot;: &quot;Vận dụng cao&quot;,
+  &quot;needs_visual&quot;: false,
+  &quot;visual_type&quot;: null,
+  &quot;source_hint&quot;: &quot;Khoá học SSLive Toán học 2k8 | S1 Toán học - Bài 9&quot;,
+  &quot;source_file&quot;: &quot;S2 Toán học 12 - Hình - Bài 9. Bài toán thực tế Oxyz (Phần 2) - File học - Đáp án.pdf&quot;,
+  &quot;page_number&quot;: 1,
+  &quot;explanation&quot;: &quot;a) Đúng. Ta có: $OA = \\sqrt{4^2+2^2+1^2} = \\sqrt{21}$ đơn vị $\\approx 45{,}83\\,km &gt; 30\\,km$ và $OB = \\sqrt{(-1)^2+\\left(-\\dfrac{1}{2}\\right)^2+\\left(\\dfrac{7}{2}\\right)^2} = \\dfrac{3\\sqrt{6}}{2}$ đơn vị $\\approx 36{,}74\\,km &gt; 30\\,km$. Vậy cả hai điểm $A, B$ nằm ngoài tầm phát hiện của trạm theo dõi.\n\nb) Đúng. Ta có: $\\overrightarrow{AB} = \\left(-5;-\\dfrac{5}{2};\\dfrac{5}{2}\\right)$. Suy ra vectơ chỉ phương của đường thẳng $AB$ là $\\vec{u} = -\\dfrac{2}{5}\\overrightarrow{AB} = (2;1;-1)$. Phương trình tham số của đường thẳng $AB$ là $\\begin{cases} x = 4+2t \\\\ y = 2+t \\\\ z = 1-t \\end{cases}\\,(t\\in\\mathbb{R})$.\n\nc) Sai.&quot;,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: false,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;true_false\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Hình học không gian - Oxyz\&quot;, \&quot;subtopic\&quot;: \&quot;Bài toán thực tế Oxyz\&quot;, \&quot;chapter\&quot;: \&quot;Bài 9: Bài toán thực tế Oxyz (Phần 2)\&quot;, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: \&quot;Vận dụng cao\&quot;, \&quot;question_text\&quot;: \&quot;Trong không gian với hệ tọa độ $Oxyz$, mỗi đơn vị trên trục có độ dài $10\\\\,km$. Một trạm theo dõi được đặt ở gốc tọa độ và có thể phát hiện được các vật thể cách nó một khoảng không quá $30\\\\,km$. Một vệ tinh do thám di chuyển từ vị trí $A(4;2;1)$ đến vị trí $B\\\\!\\\\left(-1;-\\\\dfrac{1}{2};\\\\dfrac{7}{2}\\\\right)$ với vận tốc $80\\\\,km/h$ theo một đường thẳng.\&quot;, \&quot;option_a\&quot;: null, \&quot;option_b\&quot;: null, \&quot;option_c\&quot;: null, \&quot;option_d\&quot;: null, \&quot;correct_answer\&quot;: null, \&quot;statements\&quot;: [{\&quot;label\&quot;: \&quot;a\&quot;, \&quot;text\&quot;: \&quot;Hai điểm $A, B$ nằm ngoài tầm phát hiện của trạm theo dõi.\&quot;, \&quot;answer\&quot;: true}, {\&quot;label\&quot;: \&quot;b\&quot;, \&quot;text\&quot;: \&quot;Phương trình đường thẳng $AB$ là $\\\\begin{cases} x = 4 + 2t \\\\\\\\ y = 2 + t \\\\\\\\ z = 1 - t \\\\end{cases},\\\\, t \\\\in \\\\mathbb{R}$.\&quot;, \&quot;answer\&quot;: true}, {\&quot;label\&quot;: \&quot;c\&quot;, \&quot;text\&quot;: \&quot;Vị trí đầu tiên vệ tinh do thám bị trạm theo dõi phát hiện là $M(0;0;3)$.\&quot;, \&quot;answer\&quot;: false}, {\&quot;label\&quot;: \&quot;d\&quot;, \&quot;text\&quot;: \&quot;Vệ tinh do thám bay qua vùng bị phát hiện trong khoảng thời gian ít hơn $15$ phút.\&quot;, \&quot;answer\&quot;: null}], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: false, \&quot;visual_type\&quot;: null, \&quot;visual_bbox\&quot;: null, \&quot;visual_table\&quot;: null, \&quot;explanation\&quot;: \&quot;a) Đúng. Ta có: $OA = \\\\sqrt{4^2+2^2+1^2} = \\\\sqrt{21}$ đơn vị $\\\\approx 45{,}83\\\\,km &gt; 30\\\\,km$ và $OB = \\\\sqrt{(-1)^2+\\\\left(-\\\\dfrac{1}{2}\\\\right)^2+\\\\left(\\\\dfrac{7}{2}\\\\right)^2} = \\\\dfrac{3\\\\sqrt{6}}{2}$ đơn vị $\\\\approx 36{,}74\\\\,km &gt; 30\\\\,km$. Vậy cả hai điểm $A, B$ nằm ngoài tầm phát hiện của trạm theo dõi.\\n\\nb) Đúng. Ta có: $\\\\overrightarrow{AB} = \\\\left(-5;-\\\\dfrac{5}{2};\\\\dfrac{5}{2}\\\\right)$. Suy ra vectơ chỉ phương của đường thẳng $AB$ là $\\\\vec{u} = -\\\\dfrac{2}{5}\\\\overrightarrow{AB} = (2;1;-1)$. Phương trình tham số của đường thẳng $AB$ là $\\\\begin{cases} x = 4+2t \\\\\\\\ y = 2+t \\\\\\\\ z = 1-t \\\\end{cases}\\\\,(t\\\\in\\\\mathbb{R})$.\\n\\nc) Sai.\&quot;, \&quot;source_hint\&quot;: \&quot;Khoá học SSLive Toán học 2k8 | S1 Toán học - Bài 9\&quot;}&quot;,
+  &quot;is_published&quot;: true,
+  &quot;statements&quot;: &quot;[{\&quot;label\&quot;: \&quot;a\&quot;, \&quot;text\&quot;: \&quot;Hai điểm $A, B$ nằm ngoài tầm phát hiện của trạm theo dõi.\&quot;, \&quot;answer\&quot;: true}, {\&quot;label\&quot;: \&quot;b\&quot;, \&quot;text\&quot;: \&quot;Phương trình đường thẳng $AB$ là $\\\\begin{cases} x = 4 + 2t \\\\\\\\ y = 2 + t \\\\\\\\ z = 1 - t \\\\end{cases},\\\\, t \\\\in \\\\mathbb{R}$.\&quot;, \&quot;answer\&quot;: true}, {\&quot;label\&quot;: \&quot;c\&quot;, \&quot;text\&quot;: \&quot;Vị trí đầu tiên vệ tinh do thám bị trạm theo dõi phát hiện là $M(0;0;3)$.\&quot;, \&quot;answer\&quot;: false}, {\&quot;label\&quot;: \&quot;d\&quot;, \&quot;text\&quot;: \&quot;Vệ tinh do thám bay qua vùng bị phát hiện trong khoảng thời gian ít hơn $15$ phút.\&quot;, \&quot;answer\&quot;: null}]&quot;,
+  &quot;source&quot;: &quot;NGTIENDAT&quot;,
+  &quot;source_path&quot;: &quot;D:\\Database\\NGTIENDAT\\S2 Toán học 12 - Hình - Bài 9. Bài toán thực tế Oxyz (Phần 2) - File học - Đáp án.pdf&quot;,
+  &quot;sampled_at&quot;: &quot;2026-05-18T03:34:57.652982&quot;,
+  &quot;sample_page_item&quot;: 1
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card ">
+      <header>
+        <div>
+          <div class="eyebrow">#4 · MAPSTUDY · page 2 · true_false</div>
+          <h2>IT1250113</h2>
+        </div>
+        <span class="badge ok">Text only</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question"><p>[IT1250113] Xét tính **đúng sai** của các khẳng định sau:</p></div>
+        
+        
+    <table class="tf-table">
+      <thead><tr><th>Ý</th><th>Mệnh đề</th><th>Đ/S</th></tr></thead>
+      <tbody>
+            <tr>
+              <th>a</th>
+              <td>Phương trình mặt phẳng $(Oxy)$ có 1 VTPT là $(0;1;0)$.</td>
+              <td>Sai</td>
+            </tr>
+            
+            <tr>
+              <th>b</th>
+              <td>Phương trình mặt phẳng $(Oyz)$ có 1 VTPT là $(-1;0;0)$.</td>
+              <td>Đúng</td>
+            </tr>
+            
+            <tr>
+              <th>c</th>
+              <td>Phương trình mặt phẳng $(Oxz)$ là $x + z = 0$.</td>
+              <td>Sai</td>
+            </tr>
+            
+            <tr>
+              <th>d</th>
+              <td>Phương trình mặt phẳng $(Oxz)$ có 1 VTPT là vecto đơn vị của trục $Oy$.</td>
+              <td>Đúng</td>
+            </tr>
+            </tbody>
+    </table>
+    
+        
+        
+        
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer"><span class="muted">Chua co</span></div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Phương trình mặt phẳng</div>
+          <div class="meta-line">Difficulty: Nhận biết</div>
+          <div class="meta-line">Visual: none</div>
+          <div class="meta-line">File: 1 1. File test.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;true_false&quot;,
+  &quot;topic&quot;: &quot;Phương trình mặt phẳng&quot;,
+  &quot;subtopic&quot;: &quot;Phương trình mặt phẳng tọa độ và vectơ pháp tuyến&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;[IT1250113] Xét tính **đúng sai** của các khẳng định sau:&quot;,
+  &quot;difficulty&quot;: &quot;Nhận biết&quot;,
+  &quot;needs_visual&quot;: false,
+  &quot;visual_type&quot;: null,
+  &quot;source_hint&quot;: &quot;IT1250113&quot;,
+  &quot;source_file&quot;: &quot;1 1. File test.pdf&quot;,
+  &quot;page_number&quot;: 2,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: false,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;true_false\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Phương trình mặt phẳng\&quot;, \&quot;subtopic\&quot;: \&quot;Phương trình mặt phẳng tọa độ và vectơ pháp tuyến\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: \&quot;Nhận biết\&quot;, \&quot;question_text\&quot;: \&quot;[IT1250113] Xét tính **đúng sai** của các khẳng định sau:\&quot;, \&quot;option_a\&quot;: null, \&quot;option_b\&quot;: null, \&quot;option_c\&quot;: null, \&quot;option_d\&quot;: null, \&quot;correct_answer\&quot;: null, \&quot;statements\&quot;: [{\&quot;label\&quot;: \&quot;a\&quot;, \&quot;text\&quot;: \&quot;Phương trình mặt phẳng $(Oxy)$ có 1 VTPT là $(0;1;0)$.\&quot;, \&quot;answer\&quot;: false}, {\&quot;label\&quot;: \&quot;b\&quot;, \&quot;text\&quot;: \&quot;Phương trình mặt phẳng $(Oyz)$ có 1 VTPT là $(-1;0;0)$.\&quot;, \&quot;answer\&quot;: true}, {\&quot;label\&quot;: \&quot;c\&quot;, \&quot;text\&quot;: \&quot;Phương trình mặt phẳng $(Oxz)$ là $x + z = 0$.\&quot;, \&quot;answer\&quot;: false}, {\&quot;label\&quot;: \&quot;d\&quot;, \&quot;text\&quot;: \&quot;Phương trình mặt phẳng $(Oxz)$ có 1 VTPT là vecto đơn vị của trục $Oy$.\&quot;, \&quot;answer\&quot;: true}], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: false, \&quot;visual_type\&quot;: null, \&quot;visual_bbox\&quot;: null, \&quot;visual_table\&quot;: null, \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1250113\&quot;}&quot;,
+  &quot;is_published&quot;: true,
+  &quot;statements&quot;: &quot;[{\&quot;label\&quot;: \&quot;a\&quot;, \&quot;text\&quot;: \&quot;Phương trình mặt phẳng $(Oxy)$ có 1 VTPT là $(0;1;0)$.\&quot;, \&quot;answer\&quot;: false}, {\&quot;label\&quot;: \&quot;b\&quot;, \&quot;text\&quot;: \&quot;Phương trình mặt phẳng $(Oyz)$ có 1 VTPT là $(-1;0;0)$.\&quot;, \&quot;answer\&quot;: true}, {\&quot;label\&quot;: \&quot;c\&quot;, \&quot;text\&quot;: \&quot;Phương trình mặt phẳng $(Oxz)$ là $x + z = 0$.\&quot;, \&quot;answer\&quot;: false}, {\&quot;label\&quot;: \&quot;d\&quot;, \&quot;text\&quot;: \&quot;Phương trình mặt phẳng $(Oxz)$ có 1 VTPT là vecto đơn vị của trục $Oy$.\&quot;, \&quot;answer\&quot;: true}]&quot;,
+  &quot;source&quot;: &quot;MAPSTUDY&quot;,
+  &quot;source_path&quot;: &quot;D:\\Database\\MAPSTUDY\\1 1. File test.pdf&quot;,
+  &quot;sampled_at&quot;: &quot;2026-05-18T03:50:50.624705&quot;,
+  &quot;sample_page_item&quot;: 5
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card ">
+      <header>
+        <div>
+          <div class="eyebrow">#5 · MAPSTUDY · page 2 · true_false</div>
+          <h2>IT1250114</h2>
+        </div>
+        <span class="badge ok">Text only</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question"><p>[IT1250114] Trong không gian $Oxyz$, cho hai điểm $A(0;-1;2)$, $B(2;-3;1)$ và mặt phẳng $(P): x + 2y - 3z + 1 = 0$. Các mệnh đề sau **đúng** hay **sai**:</p></div>
+        
+        
+    <table class="tf-table">
+      <thead><tr><th>Ý</th><th>Mệnh đề</th><th>Đ/S</th></tr></thead>
+      <tbody>
+            <tr>
+              <th>a</th>
+              <td>Mặt phẳng $(P)$ có một vectơ pháp tuyến là $(-1;-2;3)$.</td>
+              <td>Đúng</td>
+            </tr>
+            
+            <tr>
+              <th>b</th>
+              <td>Phương trình mặt phẳng đi qua $A$ và song song với $(P)$ là $x + 2y - 3z - 8 = 0$.</td>
+              <td>Sai</td>
+            </tr>
+            
+            <tr>
+              <th>c</th>
+              <td>Phương trình mặt phẳng đi qua $B$ và song song với $(Oxy)$ là $z - 1 = 0$.</td>
+              <td>Đúng</td>
+            </tr>
+            
+            <tr>
+              <th>d</th>
+              <td>Phương trình mặt phẳng đi qua $A$ và vuông góc với $AB$ là $2x + 2y - z = 0$.</td>
+              <td>Sai</td>
+            </tr>
+            </tbody>
+    </table>
+    
+        
+        
+        
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer"><span class="muted">Chua co</span></div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Phương trình mặt phẳng</div>
+          <div class="meta-line">Difficulty: Thông hiểu</div>
+          <div class="meta-line">Visual: none</div>
+          <div class="meta-line">File: 1 1. File test.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;true_false&quot;,
+  &quot;topic&quot;: &quot;Phương trình mặt phẳng&quot;,
+  &quot;subtopic&quot;: &quot;Mặt phẳng song song, vuông góc, vectơ pháp tuyến&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;[IT1250114] Trong không gian $Oxyz$, cho hai điểm $A(0;-1;2)$, $B(2;-3;1)$ và mặt phẳng $(P): x + 2y - 3z + 1 = 0$. Các mệnh đề sau **đúng** hay **sai**:&quot;,
+  &quot;difficulty&quot;: &quot;Thông hiểu&quot;,
+  &quot;needs_visual&quot;: false,
+  &quot;visual_type&quot;: null,
+  &quot;source_hint&quot;: &quot;IT1250114&quot;,
+  &quot;source_file&quot;: &quot;1 1. File test.pdf&quot;,
+  &quot;page_number&quot;: 2,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: false,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;true_false\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Phương trình mặt phẳng\&quot;, \&quot;subtopic\&quot;: \&quot;Mặt phẳng song song, vuông góc, vectơ pháp tuyến\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: \&quot;Thông hiểu\&quot;, \&quot;question_text\&quot;: \&quot;[IT1250114] Trong không gian $Oxyz$, cho hai điểm $A(0;-1;2)$, $B(2;-3;1)$ và mặt phẳng $(P): x + 2y - 3z + 1 = 0$. Các mệnh đề sau **đúng** hay **sai**:\&quot;, \&quot;option_a\&quot;: null, \&quot;option_b\&quot;: null, \&quot;option_c\&quot;: null, \&quot;option_d\&quot;: null, \&quot;correct_answer\&quot;: null, \&quot;statements\&quot;: [{\&quot;label\&quot;: \&quot;a\&quot;, \&quot;text\&quot;: \&quot;Mặt phẳng $(P)$ có một vectơ pháp tuyến là $(-1;-2;3)$.\&quot;, \&quot;answer\&quot;: true}, {\&quot;label\&quot;: \&quot;b\&quot;, \&quot;text\&quot;: \&quot;Phương trình mặt phẳng đi qua $A$ và song song với $(P)$ là $x + 2y - 3z - 8 = 0$.\&quot;, \&quot;answer\&quot;: false}, {\&quot;label\&quot;: \&quot;c\&quot;, \&quot;text\&quot;: \&quot;Phương trình mặt phẳng đi qua $B$ và song song với $(Oxy)$ là $z - 1 = 0$.\&quot;, \&quot;answer\&quot;: true}, {\&quot;label\&quot;: \&quot;d\&quot;, \&quot;text\&quot;: \&quot;Phương trình mặt phẳng đi qua $A$ và vuông góc với $AB$ là $2x + 2y - z = 0$.\&quot;, \&quot;answer\&quot;: false}], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: false, \&quot;visual_type\&quot;: null, \&quot;visual_bbox\&quot;: null, \&quot;visual_table\&quot;: null, \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1250114\&quot;}&quot;,
+  &quot;is_published&quot;: true,
+  &quot;statements&quot;: &quot;[{\&quot;label\&quot;: \&quot;a\&quot;, \&quot;text\&quot;: \&quot;Mặt phẳng $(P)$ có một vectơ pháp tuyến là $(-1;-2;3)$.\&quot;, \&quot;answer\&quot;: true}, {\&quot;label\&quot;: \&quot;b\&quot;, \&quot;text\&quot;: \&quot;Phương trình mặt phẳng đi qua $A$ và song song với $(P)$ là $x + 2y - 3z - 8 = 0$.\&quot;, \&quot;answer\&quot;: false}, {\&quot;label\&quot;: \&quot;c\&quot;, \&quot;text\&quot;: \&quot;Phương trình mặt phẳng đi qua $B$ và song song với $(Oxy)$ là $z - 1 = 0$.\&quot;, \&quot;answer\&quot;: true}, {\&quot;label\&quot;: \&quot;d\&quot;, \&quot;text\&quot;: \&quot;Phương trình mặt phẳng đi qua $A$ và vuông góc với $AB$ là $2x + 2y - z = 0$.\&quot;, \&quot;answer\&quot;: false}]&quot;,
+  &quot;source&quot;: &quot;MAPSTUDY&quot;,
+  &quot;source_path&quot;: &quot;D:\\Database\\MAPSTUDY\\1 1. File test.pdf&quot;,
+  &quot;sampled_at&quot;: &quot;2026-05-18T03:50:50.624705&quot;,
+  &quot;sample_page_item&quot;: 6
+}</pre>
+      </details>
+    </article>
+    
+  </main>
+</body>
+</html>

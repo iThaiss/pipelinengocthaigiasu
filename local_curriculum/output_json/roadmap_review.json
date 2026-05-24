@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-05-19T14:45:14",
+  "unit_count": 59,
+  "source_lesson_ref_count": 106,
+  "duplicate_source_refs": {},
+  "manual_moves_applied": [
+    {
+      "lesson": {
+        "source": "NGPHANTIEN",
+        "source_order": 5,
+        "title": "Bài Tập Tự Luyện: Cực Trị Hàm Số"
+      },
+      "from": "Khảo sát sự biến thiên và vẽ đồ thị hàm số",
+      "to": "Cực trị của hàm số"
+    },
+    {
+      "lesson": {
+        "source": "LB",
+        "source_order": 42,
+        "title": "Ứng dụng thực tế của phương trình mặt cầu trong không gian"
+      },
+      "from": "Ứng dụng thực tế của phương trình mặt phẳng trong không gian",
+      "to": "Phương trình mặt cầu"
+    },
+    {
+      "lesson": {
+        "source": "NGPHANTIEN",
+        "source_order": 30,
+        "title": "Phương Trình Mặt Phẳng - Buổi 2: Phương Trình Mặt Chắn"
+      },
+      "from": "Phương Trình Mặt Phẳng - Buổi 2: Phương Trình Mặt Chắn",
+      "to": "Phương trình mặt phẳng"
+    },
+    {
+      "lesson": {
+        "source": "NGPHANTIEN",
+        "source_order": 31,
+        "title": "Phương Trình Mặt Phẳng - Buổi 3: Vị Trí Tương Đối"
+      },
+      "from": "Nâng cao về phương trình mặt cầu, vị trí tương đối giữa mặt cầu và mặt phẳng, đường thẳng",
+      "to": "Phương trình mặt phẳng"
+    },
+    {
+      "lesson": {
+        "source": "NGPHANTIEN",
+        "source_order": 38,
+        "title": "Phương Trình Mặt Cầu - Vị Trí Tương Đối"
+      },
+      "from": "Phương Trình Mặt Cầu - Vị Trí Tương Đối",
+      "to": "Phương trình mặt cầu"
+    },
+    {
+      "lesson": {
+        "source": "NGPHANTIEN",
+        "source_order": 41,
+        "title": "Toán Thực Tế Oxyz - Phương Trình Mặt Phẳng"
+      },
+      "from": "Toán Thực Tế Oxyz - Phương Trình Mặt Phẳng",
+      "to": "Ứng dụng thực tế của phương trình mặt phẳng trong không gian"
+    },
+    {
+      "lesson": {
+        "source": "NGPHANTIEN",
+        "source_order": 42,
+        "title": "Bài 1.1 Vecto Trong Không Gian"
+      },
+      "from": "Theme 15. Ứng dụng thực tế của vectơ trong không gian",
+      "to": "Vectơ và các phép toán vectơ trong không gian"
+    },
+    {
+      "lesson": {
+        "source": "NGPHANTIEN",
+        "source_order": 43,
+        "title": "Bài 4.1. Toán Thực Tế Vecto - Dạng 1: Tổng Hợp Lực"
+      },
+      "from": "Bài 4.1. Toán Thực Tế Vecto - Dạng 1: Tổng Hợp Lực",
+      "to": "Theme 15. Ứng dụng thực tế của vectơ trong không gian"
+    },
+    {
+      "lesson": {
+        "source": "NGPHANTIEN",
+        "source_order": 45,
+        "title": "Toán Thực Tế Vecto - Dạng 3. Tính Công (Tích Vô Hướng)"
+      },
+      "from": "Bài 0. Tích Có Hướng Và Ứng Dụng",
+      "to": "Theme 15. Ứng dụng thực tế của vectơ trong không gian"
+    },
+    {
+      "lesson": {
+        "source": "NGPHANTIEN",
+        "source_order": 46,
+        "title": "Toán Thực Tế Vecto - Dạng 4. Treo Vật Bằng Sợi Dậy"
+      },
+      "from": "Toán Thực Tế Vecto - Dạng 4. Treo Vật Bằng Sợi Dậy",
+      "to": "Theme 15. Ứng dụng thực tế của vectơ trong không gian"
+    },
+    {
+      "lesson": {
+        "source": "NGPHANTIEN",
+        "source_order": 47,
+        "title": "Bài 4. Toán Thực Tế Vecto"
+      },
+      "from": "Vectơ và các phép toán vectơ trong không gian",
+      "to": "Theme 15. Ứng dụng thực tế của vectơ trong không gian"
+    }
+  ],
+  "suspicious_units": [],
+  "review_status": "auto_reviewed_clean"
+}

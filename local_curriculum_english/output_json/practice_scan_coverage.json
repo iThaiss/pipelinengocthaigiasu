@@ -1,0 +1,372 @@
+{
+  "generated_at": "2026-05-24T18:46:21",
+  "total_practice_files": 412,
+  "total_passages": 135,
+  "scanned_files": 360,
+  "failed_files": 52,
+  "failed_file_details": [
+    {
+      "relative_path": "MP/LUYỆN GIẢI ĐỀ THI TỐT NGHIỆP/CHINH PHỤC CÂU HỎI 10 ĐIỂM/LINEAR THINKING/2.plus-2-luyen-tap-ung-dung-chuyen-sau-tu-duy-tuyen-tinh-buoi-1.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/LUYỆN GIẢI ĐỀ THI TỐT NGHIỆP/CHINH PHỤC CÂU HỎI 10 ĐIỂM/LINEAR THINKING/5.plus-2-luya-n-ta-p-a-ng-da-ng-chuya-n-sa-u-t-duy-tuya-n-ta-nh-bua-i-2.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/LUYỆN GIẢI ĐỀ THI TỐT NGHIỆP/CHINH PHỤC CÂU HỎI 10 ĐIỂM/LINEAR THINKING/8.plus-2-luyen-tap-ung-dung-chuyen-sau-tu-duy-tuyen-tinh-buoi-3.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/LUYỆN GIẢI ĐỀ THI TỐT NGHIỆP/CHINH PHỤC CÂU HỎI 10 ĐIỂM/LINEAR THINKING/11.plus-2-luyen-tap-ung-dung-chuyen-sau-tu-duy-tuyen-tinh-buoi-4.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/LUYỆN GIẢI ĐỀ THI TỐT NGHIỆP/CHINH PHỤC CÂU HỎI 10 ĐIỂM/LINEAR THINKING/14.plus-2-luyen-tap-ung-dung-chuyen-sau-tu-duy-tuyen-tinh-buoi-5.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/LUYỆN GIẢI ĐỀ THI TỐT NGHIỆP/CHINH PHỤC CÂU HỎI 10 ĐIỂM/PARAPHASING/plus-2-luyen-tap-chuyen-sau-tu-duy-xu-ly-cau-hoi-paraphrasing-buoi-1.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/LUYỆN GIẢI ĐỀ THI TỐT NGHIỆP/CHINH PHỤC CÂU HỎI 10 ĐIỂM/PARAPHASING/plus-2-luyen-tap-chuyen-sau-tu-duy-xu-ly-cau-hoi-paraphrasing-buoi-2.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/LUYỆN GIẢI ĐỀ THI TỐT NGHIỆP/CHINH PHỤC CÂU HỎI 10 ĐIỂM/PARAPHASING/thi-online-chien-thuat-xu-ly-cau-hoi-paraphrasing-buoi-1.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/LUYỆN GIẢI ĐỀ THI TỐT NGHIỆP/CHINH PHỤC CÂU HỎI 10 ĐIỂM/PARAPHASING/thi-online-chien-thuat-xu-ly-cau-hoi-paraphrasing-buoi-2.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/LUYỆN GIẢI ĐỀ THI TỐT NGHIỆP/CHINH PHỤC CÂU HỎI 10 ĐIỂM/PARAPHASING/thi-online-chien-thuat-xu-ly-cau-hoi-paraphrasing-buoi-3.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC SƯ PHẠM HÀ NỘI/PHÁT TRIỂN NĂNG LỰC & TƯ DUY XỬ LÍ DẠNG BÀI KHÓ/covumaiphuongdudoandacbietbaiwordformationxuathientrongdethideso01.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC SƯ PHẠM HÀ NỘI/PHÁT TRIỂN NĂNG LỰC & TƯ DUY XỬ LÍ DẠNG BÀI KHÓ/covumaiphuongdudoandacbietbaiwordformationxuathientrongdethideso02.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC SƯ PHẠM HÀ NỘI/PHÁT TRIỂN NĂNG LỰC & TƯ DUY XỬ LÍ DẠNG BÀI KHÓ/covumaiphuongdudoandacbietbaiwordformationxuathientrongdethideso03.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC SƯ PHẠM HÀ NỘI/PHÁT TRIỂN NĂNG LỰC & TƯ DUY XỬ LÍ DẠNG BÀI KHÓ/covumaiphuongdudoandacbietbaiwordformationxuathientrongdethideso04.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC SƯ PHẠM HÀ NỘI/PHÁT TRIỂN NĂNG LỰC & TƯ DUY XỬ LÍ DẠNG BÀI KHÓ/covumaiphuongdudoandacbietbaiwordformationxuathientrongdethideso05.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN/Bài 15 Từ vựng chủ đề Tự lập.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN/Bài thi online từ vựng chủ đề Tự lập.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN/CÔNG VIỆC B2.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN/HỌC TẬP SUỐT ĐỜI.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN/KHOẢNG CÁCH THẾ HỆ.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN/VĂN HÓA.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN/XÃ HỘI B1.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN/XÃ HỘI B2.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN/ĐÔ THỊ HÓA.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/TỪ VỰNG CHUYÊN SÂU/CHUYÊN SÂU ĐỌC HIỂU 10 CÂU/plus2_buoi1.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/TỪ VỰNG CHUYÊN SÂU/CHUYÊN SÂU ĐỌC HIỂU 10 CÂU/plus2_buoi2.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/TỪ VỰNG CHUYÊN SÂU/CHUYÊN SÂU ĐỌC HIỂU 10 CÂU/plus2_buoi3.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/TỪ VỰNG CHUYÊN SÂU/CHUYÊN SÂU ĐỌC HIỂU 10 CÂU/plus2_buoi4.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/TỪ VỰNG CHUYÊN SÂU/CHUYÊN SÂU ĐỌC HIỂU 10 CÂU/plus2_buoi5.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/TỪ VỰNG CHUYÊN SÂU/CHUYÊN SÂU ĐỌC ĐIỀN KHUYẾT THÔNG TIn/Luyện tập nâng cao Đọc điền khuyết thông tin (Buổi 1) - Format mới (1).pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/TỪ VỰNG CHUYÊN SÂU/CHUYÊN SÂU ĐỌC ĐIỀN KHUYẾT THÔNG TIn/Luyện tập nâng cao Đọc điền khuyết thông tin (Buổi 1) - Format mới.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/TỪ VỰNG CHUYÊN SÂU/CHUYÊN SÂU ĐỌC ĐIỀN KHUYẾT THÔNG TIn/Luyện tập nâng cao Đọc điền khuyết thông tin (Buổi 2) - Format mới (1).pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/TỪ VỰNG CHUYÊN SÂU/CHUYÊN SÂU ĐỌC ĐIỀN KHUYẾT THÔNG TIn/Luyện tập nâng cao Đọc điền khuyết thông tin (Buổi 2) - Format mới.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/TỪ VỰNG CHUYÊN SÂU/ĐỌC HIỂU CHUYÊN SÂU THEO CHỦ ĐỀ/Chuyên sâu Đọc điền - Đọc hiểu chủ đề Career Paths.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/TỪ VỰNG CHUYÊN SÂU/ĐỌC HIỂU CHUYÊN SÂU THEO CHỦ ĐỀ/Chuyên sâu Đọc điền - Đọc hiểu chủ đề The World of Mass Media.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/TỪ VỰNG CHUYÊN SÂU/ĐỌC HIỂU CHUYÊN SÂU THEO CHỦ ĐỀ/Chuyên sâu Đọc điền - Đọc hiểu chủ đề The World of Work.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/TỪ VỰNG CHUYÊN SÂU/ĐỌC HIỂU CHUYÊN SÂU THEO CHỦ ĐỀ/Chuyên sâu Đọc điền - Đọc hiểu chủ đề Wildlife Conservation.pdf",
+      "error": "ocr_required_or_image_only_pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/VIP90/TUẦN 1/12 Thi Online Học tủ bộ từ vựng trọng điểm - dễ thi nhất (Buổi 1) - Đề vận dụng BT.pdf",
+      "error": "missing_pdf: local_curriculum_english/input_sources/MP/VIP90/TUẦN 1/12 Thi Online Học tủ bộ từ vựng trọng điểm - dễ thi nhất (Buổi 1) - Đề vận dụng BT.pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/VIP90/TUẦN 1/13 Thi Online Học tủ bộ từ vựng trọng điểm - dễ thi nhất (Buổi 1) - Đề Nâng cao BT.pdf",
+      "error": "missing_pdf: local_curriculum_english/input_sources/MP/VIP90/TUẦN 1/13 Thi Online Học tủ bộ từ vựng trọng điểm - dễ thi nhất (Buổi 1) - Đề Nâng cao BT.pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/VIP90/TUẦN 1/16 Thi Online Tinh hoa Đọc hiểu (Buổi 1) - Đề vận dụng BT.pdf",
+      "error": "missing_pdf: local_curriculum_english/input_sources/MP/VIP90/TUẦN 1/16 Thi Online Tinh hoa Đọc hiểu (Buổi 1) - Đề vận dụng BT.pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/VIP90/TUẦN 1/17 Thi Online Tinh hoa Đọc hiểu (Buổi 1) - Đề Nâng cao BT.pdf",
+      "error": "missing_pdf: local_curriculum_english/input_sources/MP/VIP90/TUẦN 1/17 Thi Online Tinh hoa Đọc hiểu (Buổi 1) - Đề Nâng cao BT.pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/VIP90/TUẦN 1/20 Thi Online Làm chủ kiến thức Ngữ pháp Danh động từ và động từ nguyên mẫu - Đề vận dụng BT.pdf",
+      "error": "missing_pdf: local_curriculum_english/input_sources/MP/VIP90/TUẦN 1/20 Thi Online Làm chủ kiến thức Ngữ pháp Danh động từ và động từ nguyên mẫu - Đề vận dụng BT.pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/VIP90/TUẦN 1/21 Thi Online Làm chủ kiến thức Ngữ pháp Danh động từ và động từ nguyên mẫu - Đề Nâng cao BT.pdf",
+      "error": "missing_pdf: local_curriculum_english/input_sources/MP/VIP90/TUẦN 1/21 Thi Online Làm chủ kiến thức Ngữ pháp Danh động từ và động từ nguyên mẫu - Đề Nâng cao BT.pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/VIP90/TUẦN 1/24 Thi Online Tinh hoa Đọc hiểu (Buổi 2) - Đề vận dụng BT.pdf",
+      "error": "missing_pdf: local_curriculum_english/input_sources/MP/VIP90/TUẦN 1/24 Thi Online Tinh hoa Đọc hiểu (Buổi 2) - Đề vận dụng BT.pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/VIP90/TUẦN 1/25 Thi Online Tinh hoa Đọc hiểu (Buổi 2) - Đề Nâng cao BT.pdf",
+      "error": "missing_pdf: local_curriculum_english/input_sources/MP/VIP90/TUẦN 1/25 Thi Online Tinh hoa Đọc hiểu (Buổi 2) - Đề Nâng cao BT.pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/VIP90/TUẦN 1/Bài thi trước buổi học Học tủ bộ từ vựng trọng điểm - dễ thi nhất (Buổi 1) BT.pdf",
+      "error": "missing_pdf: local_curriculum_english/input_sources/MP/VIP90/TUẦN 1/Bài thi trước buổi học Học tủ bộ từ vựng trọng điểm - dễ thi nhất (Buổi 1) BT.pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/VIP90/TUẦN 1/Dành trọn điểm câu hỏi Từ loại và Trật tự từ (Buổi 1) BT.pdf",
+      "error": "missing_pdf: local_curriculum_english/input_sources/MP/VIP90/TUẦN 1/Dành trọn điểm câu hỏi Từ loại và Trật tự từ (Buổi 1) BT.pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/VIP90/TUẦN 1/Học tủ bộ từ vựng trọng điểm - dễ thi nhất (Buổi 1) BT.pdf",
+      "error": "missing_pdf: local_curriculum_english/input_sources/MP/VIP90/TUẦN 1/Học tủ bộ từ vựng trọng điểm - dễ thi nhất (Buổi 1) BT.pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/VIP90/TUẦN 1/Thi Online Dành trọn điểm câu hỏi Từ loại và Trật tự từ (Buổi 1) - Đề Nâng cao BT.pdf",
+      "error": "missing_pdf: local_curriculum_english/input_sources/MP/VIP90/TUẦN 1/Thi Online Dành trọn điểm câu hỏi Từ loại và Trật tự từ (Buổi 1) - Đề Nâng cao BT.pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/VIP90/TUẦN 1/Thi Online Dành trọn điểm câu hỏi Từ loại và Trật tự từ (Buổi 1) - Đề vận dụng BT.pdf",
+      "error": "missing_pdf: local_curriculum_english/input_sources/MP/VIP90/TUẦN 1/Thi Online Dành trọn điểm câu hỏi Từ loại và Trật tự từ (Buổi 1) - Đề vận dụng BT.pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/VIP90/TUẦN 1/Thi Online Dành trọn điểm câu hỏi Từ loại và Trật tự từ (Buổi 2) - Đề Nâng cao BT.pdf",
+      "error": "missing_pdf: local_curriculum_english/input_sources/MP/VIP90/TUẦN 1/Thi Online Dành trọn điểm câu hỏi Từ loại và Trật tự từ (Buổi 2) - Đề Nâng cao BT.pdf",
+      "needs_ai_review": true
+    },
+    {
+      "relative_path": "MP/VIP90/TUẦN 1/Đọc hiểu C1 - C2 (Bộ đề dễ trúng tủ) (Tuần 1) BT.pdf",
+      "error": "missing_pdf: local_curriculum_english/input_sources/MP/VIP90/TUẦN 1/Đọc hiểu C1 - C2 (Bộ đề dễ trúng tủ) (Tuần 1) BT.pdf",
+      "needs_ai_review": true
+    }
+  ],
+  "raw_extracted_questions": 9210,
+  "total_questions": 5850,
+  "rejected_questions": 3360,
+  "duplicate_question_ids": 0,
+  "by_format": {
+    "hsa_dialogue_arrangement": 162,
+    "thpt_arrangement_text": 160,
+    "hsa_sentence_completion": 2765,
+    "hsa_cloze_text": 502,
+    "thpt_reading_passage": 603,
+    "hsa_synonym": 330,
+    "hsa_antonym": 30,
+    "hsa_dialogue_completion": 59,
+    "hsa_sentence_rewriting": 348,
+    "spt_paragraph_writing": 170,
+    "spt_word_formation": 721
+  },
+  "by_subtopic": {
+    "E2O.02": 60,
+    "E2O.03": 20,
+    "E2W.03": 90,
+    "E2X.08": 90,
+    "E2C.05": 502,
+    "E2R.07": 25,
+    "E2R.02": 548,
+    "E2R.08": 80,
+    "E2R.03": 20,
+    "E2R.06": 10,
+    "E2R.05": 50,
+    "E2X.05": 360,
+    "E2O.01": 115,
+    "E2F.01": 89,
+    "E2M.01": 343,
+    "E2W.01": 30,
+    "E2M.99": 80,
+    "E2V.07": 120,
+    "E2W.02": 120,
+    "E2V.05": 15,
+    "E2V.04": 185,
+    "E2V.08": 54,
+    "E2V.06": 53,
+    "E2S.01": 279,
+    "E2S.02": 228,
+    "E2S.03": 117,
+    "E2S.07": 30,
+    "E2G.02": 219,
+    "E2X.01": 691,
+    "E2G.06": 70,
+    "E2G.03": 145,
+    "E2V.02": 30,
+    "E2S.08": 100,
+    "E2S.06": 53,
+    "E2S.10": 10,
+    "E2S.09": 98,
+    "E2G.04": 150,
+    "E2X.04": 1,
+    "E2G.05": 120,
+    "E2X.07": 450
+  },
+  "by_answer_source": {
+    "missing": 5850
+  },
+  "by_confidence": {
+    "medium": 5741,
+    "low": 109
+  },
+  "by_format_default_subtopic": {
+    "E2O.01": 162,
+    "E2O.04": 322,
+    "E2O.02": 160,
+    "E2O.03": 160,
+    "E2G.01": 2765,
+    "E2V.04": 2765,
+    "E2S.03": 3113,
+    "E2X.06": 3125,
+    "E2C.05": 502,
+    "E2C.01": 502,
+    "E2C.02": 502,
+    "E2R.02": 603,
+    "E2R.03": 603,
+    "E2R.04": 603,
+    "E2R.05": 603,
+    "E2R.06": 603,
+    "E2R.07": 603,
+    "E2R.08": 603,
+    "E2X.05": 360,
+    "E2F.01": 59,
+    "E2F.02": 59,
+    "E2F.03": 59,
+    "E2W.01": 348,
+    "E2S.06": 348,
+    "E2W.03": 170,
+    "E2W.04": 170,
+    "E2X.01": 721
+  },
+  "needs_review_count": 5850,
+  "ready_for_ai_solve_count": 5850,
+  "rejected_by_reason": {
+    "missing_or_short_question_text": 2697,
+    "missing_options": 127,
+    "missing_required_context": 539
+  },
+  "files_zero_questions": []
+}

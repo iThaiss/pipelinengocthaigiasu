@@ -1,0 +1,529 @@
+{
+  "generated_at": "2026-05-23T00:46:52",
+  "subject": "english",
+  "version": "english_taxonomy_v1",
+  "topics": [
+    {
+      "id": 1,
+      "topic_code": "EN01",
+      "topic_title": "Grammar Foundation",
+      "topic_order": 1
+    },
+    {
+      "id": 2,
+      "topic_code": "EN02",
+      "topic_title": "Verb Tenses and Verb Forms",
+      "topic_order": 2
+    },
+    {
+      "id": 3,
+      "topic_code": "EN03",
+      "topic_title": "Sentence Structures and Clauses",
+      "topic_order": 3
+    },
+    {
+      "id": 4,
+      "topic_code": "EN04",
+      "topic_title": "Vocabulary and Word Formation",
+      "topic_order": 4
+    },
+    {
+      "id": 5,
+      "topic_code": "EN05",
+      "topic_title": "Reading Comprehension",
+      "topic_order": 5
+    },
+    {
+      "id": 6,
+      "topic_code": "EN06",
+      "topic_title": "Cloze and Gap Filling",
+      "topic_order": 6
+    },
+    {
+      "id": 7,
+      "topic_code": "EN07",
+      "topic_title": "Writing and Sentence Transformation",
+      "topic_order": 7
+    },
+    {
+      "id": 8,
+      "topic_code": "EN08",
+      "topic_title": "Pronunciation and Phonetics",
+      "topic_order": 8
+    },
+    {
+      "id": 9,
+      "topic_code": "EN09",
+      "topic_title": "Communication and Functional Language",
+      "topic_order": 9
+    },
+    {
+      "id": 10,
+      "topic_code": "EN10",
+      "topic_title": "Test Practice and Mixed Skills",
+      "topic_order": 10
+    }
+  ],
+  "subtopics": [
+    {
+      "id": 101,
+      "topic_id": 1,
+      "topic_code": "EN01",
+      "topic_title": "Grammar Foundation",
+      "subtopic_code": "EN01.01",
+      "subtopic_title": "Parts of Speech",
+      "subtopic_order": 1
+    },
+    {
+      "id": 102,
+      "topic_id": 1,
+      "topic_code": "EN01",
+      "topic_title": "Grammar Foundation",
+      "subtopic_code": "EN01.02",
+      "subtopic_title": "Articles, Determiners, Quantifiers",
+      "subtopic_order": 2
+    },
+    {
+      "id": 103,
+      "topic_id": 1,
+      "topic_code": "EN01",
+      "topic_title": "Grammar Foundation",
+      "subtopic_code": "EN01.03",
+      "subtopic_title": "Prepositions and Phrasal Verbs",
+      "subtopic_order": 3
+    },
+    {
+      "id": 104,
+      "topic_id": 1,
+      "topic_code": "EN01",
+      "topic_title": "Grammar Foundation",
+      "subtopic_code": "EN01.04",
+      "subtopic_title": "Comparisons",
+      "subtopic_order": 4
+    },
+    {
+      "id": 201,
+      "topic_id": 2,
+      "topic_code": "EN02",
+      "topic_title": "Verb Tenses and Verb Forms",
+      "subtopic_code": "EN02.01",
+      "subtopic_title": "Present Tenses",
+      "subtopic_order": 1
+    },
+    {
+      "id": 202,
+      "topic_id": 2,
+      "topic_code": "EN02",
+      "topic_title": "Verb Tenses and Verb Forms",
+      "subtopic_code": "EN02.02",
+      "subtopic_title": "Past Tenses",
+      "subtopic_order": 2
+    },
+    {
+      "id": 203,
+      "topic_id": 2,
+      "topic_code": "EN02",
+      "topic_title": "Verb Tenses and Verb Forms",
+      "subtopic_code": "EN02.03",
+      "subtopic_title": "Future Forms",
+      "subtopic_order": 3
+    },
+    {
+      "id": 204,
+      "topic_id": 2,
+      "topic_code": "EN02",
+      "topic_title": "Verb Tenses and Verb Forms",
+      "subtopic_code": "EN02.04",
+      "subtopic_title": "Sequence of Tenses",
+      "subtopic_order": 4
+    },
+    {
+      "id": 205,
+      "topic_id": 2,
+      "topic_code": "EN02",
+      "topic_title": "Verb Tenses and Verb Forms",
+      "subtopic_code": "EN02.05",
+      "subtopic_title": "Gerunds and Infinitives",
+      "subtopic_order": 5
+    },
+    {
+      "id": 301,
+      "topic_id": 3,
+      "topic_code": "EN03",
+      "topic_title": "Sentence Structures and Clauses",
+      "subtopic_code": "EN03.01",
+      "subtopic_title": "Passive Voice",
+      "subtopic_order": 1
+    },
+    {
+      "id": 302,
+      "topic_id": 3,
+      "topic_code": "EN03",
+      "topic_title": "Sentence Structures and Clauses",
+      "subtopic_code": "EN03.02",
+      "subtopic_title": "Reported Speech",
+      "subtopic_order": 2
+    },
+    {
+      "id": 303,
+      "topic_id": 3,
+      "topic_code": "EN03",
+      "topic_title": "Sentence Structures and Clauses",
+      "subtopic_code": "EN03.03",
+      "subtopic_title": "Conditional Sentences",
+      "subtopic_order": 3
+    },
+    {
+      "id": 304,
+      "topic_id": 3,
+      "topic_code": "EN03",
+      "topic_title": "Sentence Structures and Clauses",
+      "subtopic_code": "EN03.04",
+      "subtopic_title": "Relative Clauses",
+      "subtopic_order": 4
+    },
+    {
+      "id": 305,
+      "topic_id": 3,
+      "topic_code": "EN03",
+      "topic_title": "Sentence Structures and Clauses",
+      "subtopic_code": "EN03.05",
+      "subtopic_title": "Inversion",
+      "subtopic_order": 5
+    },
+    {
+      "id": 306,
+      "topic_id": 3,
+      "topic_code": "EN03",
+      "topic_title": "Sentence Structures and Clauses",
+      "subtopic_code": "EN03.06",
+      "subtopic_title": "Conjunctions and Adverbial Clauses",
+      "subtopic_order": 6
+    },
+    {
+      "id": 307,
+      "topic_id": 3,
+      "topic_code": "EN03",
+      "topic_title": "Sentence Structures and Clauses",
+      "subtopic_code": "EN03.07",
+      "subtopic_title": "Cleft Sentences and Emphasis",
+      "subtopic_order": 7
+    },
+    {
+      "id": 401,
+      "topic_id": 4,
+      "topic_code": "EN04",
+      "topic_title": "Vocabulary and Word Formation",
+      "subtopic_code": "EN04.01",
+      "subtopic_title": "Word Formation",
+      "subtopic_order": 1
+    },
+    {
+      "id": 402,
+      "topic_id": 4,
+      "topic_code": "EN04",
+      "topic_title": "Vocabulary and Word Formation",
+      "subtopic_code": "EN04.02",
+      "subtopic_title": "Collocations",
+      "subtopic_order": 2
+    },
+    {
+      "id": 403,
+      "topic_id": 4,
+      "topic_code": "EN04",
+      "topic_title": "Vocabulary and Word Formation",
+      "subtopic_code": "EN04.03",
+      "subtopic_title": "Synonyms and Antonyms in Context",
+      "subtopic_order": 3
+    },
+    {
+      "id": 404,
+      "topic_id": 4,
+      "topic_code": "EN04",
+      "topic_title": "Vocabulary and Word Formation",
+      "subtopic_code": "EN04.04",
+      "subtopic_title": "Semantic Fields",
+      "subtopic_order": 4
+    },
+    {
+      "id": 405,
+      "topic_id": 4,
+      "topic_code": "EN04",
+      "topic_title": "Vocabulary and Word Formation",
+      "subtopic_code": "EN04.05",
+      "subtopic_title": "Topic Vocabulary",
+      "subtopic_order": 5
+    },
+    {
+      "id": 501,
+      "topic_id": 5,
+      "topic_code": "EN05",
+      "topic_title": "Reading Comprehension",
+      "subtopic_code": "EN05.01",
+      "subtopic_title": "Main Idea and Title",
+      "subtopic_order": 1
+    },
+    {
+      "id": 502,
+      "topic_id": 5,
+      "topic_code": "EN05",
+      "topic_title": "Reading Comprehension",
+      "subtopic_code": "EN05.02",
+      "subtopic_title": "Detail Questions",
+      "subtopic_order": 2
+    },
+    {
+      "id": 503,
+      "topic_id": 5,
+      "topic_code": "EN05",
+      "topic_title": "Reading Comprehension",
+      "subtopic_code": "EN05.03",
+      "subtopic_title": "Reference Questions",
+      "subtopic_order": 3
+    },
+    {
+      "id": 504,
+      "topic_id": 5,
+      "topic_code": "EN05",
+      "topic_title": "Reading Comprehension",
+      "subtopic_code": "EN05.04",
+      "subtopic_title": "Vocabulary in Context",
+      "subtopic_order": 4
+    },
+    {
+      "id": 505,
+      "topic_id": 5,
+      "topic_code": "EN05",
+      "topic_title": "Reading Comprehension",
+      "subtopic_code": "EN05.05",
+      "subtopic_title": "True False Not Given and Except",
+      "subtopic_order": 5
+    },
+    {
+      "id": 506,
+      "topic_id": 5,
+      "topic_code": "EN05",
+      "topic_title": "Reading Comprehension",
+      "subtopic_code": "EN05.06",
+      "subtopic_title": "Inference Questions",
+      "subtopic_order": 6
+    },
+    {
+      "id": 507,
+      "topic_id": 5,
+      "topic_code": "EN05",
+      "topic_title": "Reading Comprehension",
+      "subtopic_code": "EN05.07",
+      "subtopic_title": "Paragraph Matching and Sentence Insertion",
+      "subtopic_order": 7
+    },
+    {
+      "id": 508,
+      "topic_id": 5,
+      "topic_code": "EN05",
+      "topic_title": "Reading Comprehension",
+      "subtopic_code": "EN05.08",
+      "subtopic_title": "Summary and Paraphrase",
+      "subtopic_order": 8
+    },
+    {
+      "id": 601,
+      "topic_id": 6,
+      "topic_code": "EN06",
+      "topic_title": "Cloze and Gap Filling",
+      "subtopic_code": "EN06.01",
+      "subtopic_title": "Grammar Gap Filling",
+      "subtopic_order": 1
+    },
+    {
+      "id": 602,
+      "topic_id": 6,
+      "topic_code": "EN06",
+      "topic_title": "Cloze and Gap Filling",
+      "subtopic_code": "EN06.02",
+      "subtopic_title": "Vocabulary Gap Filling",
+      "subtopic_order": 2
+    },
+    {
+      "id": 603,
+      "topic_id": 6,
+      "topic_code": "EN06",
+      "topic_title": "Cloze and Gap Filling",
+      "subtopic_code": "EN06.03",
+      "subtopic_title": "Advertisement and Notice Cloze",
+      "subtopic_order": 3
+    },
+    {
+      "id": 604,
+      "topic_id": 6,
+      "topic_code": "EN06",
+      "topic_title": "Cloze and Gap Filling",
+      "subtopic_code": "EN06.04",
+      "subtopic_title": "Long Passage Cloze",
+      "subtopic_order": 4
+    },
+    {
+      "id": 701,
+      "topic_id": 7,
+      "topic_code": "EN07",
+      "topic_title": "Writing and Sentence Transformation",
+      "subtopic_code": "EN07.01",
+      "subtopic_title": "Sentence Transformation",
+      "subtopic_order": 1
+    },
+    {
+      "id": 702,
+      "topic_id": 7,
+      "topic_code": "EN07",
+      "topic_title": "Writing and Sentence Transformation",
+      "subtopic_code": "EN07.02",
+      "subtopic_title": "Sentence Combination",
+      "subtopic_order": 2
+    },
+    {
+      "id": 703,
+      "topic_id": 7,
+      "topic_code": "EN07",
+      "topic_title": "Writing and Sentence Transformation",
+      "subtopic_code": "EN07.03",
+      "subtopic_title": "Paragraph and Letter Ordering",
+      "subtopic_order": 3
+    },
+    {
+      "id": 704,
+      "topic_id": 7,
+      "topic_code": "EN07",
+      "topic_title": "Writing and Sentence Transformation",
+      "subtopic_code": "EN07.04",
+      "subtopic_title": "Writing Prompts",
+      "subtopic_order": 4
+    },
+    {
+      "id": 801,
+      "topic_id": 8,
+      "topic_code": "EN08",
+      "topic_title": "Pronunciation and Phonetics",
+      "subtopic_code": "EN08.01",
+      "subtopic_title": "Stress",
+      "subtopic_order": 1
+    },
+    {
+      "id": 802,
+      "topic_id": 8,
+      "topic_code": "EN08",
+      "topic_title": "Pronunciation and Phonetics",
+      "subtopic_code": "EN08.02",
+      "subtopic_title": "Sound Identification",
+      "subtopic_order": 2
+    },
+    {
+      "id": 803,
+      "topic_id": 8,
+      "topic_code": "EN08",
+      "topic_title": "Pronunciation and Phonetics",
+      "subtopic_code": "EN08.03",
+      "subtopic_title": "Ending Sounds",
+      "subtopic_order": 3
+    },
+    {
+      "id": 901,
+      "topic_id": 9,
+      "topic_code": "EN09",
+      "topic_title": "Communication and Functional Language",
+      "subtopic_code": "EN09.01",
+      "subtopic_title": "Everyday Conversation",
+      "subtopic_order": 1
+    },
+    {
+      "id": 902,
+      "topic_id": 9,
+      "topic_code": "EN09",
+      "topic_title": "Communication and Functional Language",
+      "subtopic_code": "EN09.02",
+      "subtopic_title": "Agreement, Disagreement, Suggestions",
+      "subtopic_order": 2
+    },
+    {
+      "id": 903,
+      "topic_id": 9,
+      "topic_code": "EN09",
+      "topic_title": "Communication and Functional Language",
+      "subtopic_code": "EN09.03",
+      "subtopic_title": "Requests, Offers, Invitations",
+      "subtopic_order": 3
+    },
+    {
+      "id": 1001,
+      "topic_id": 10,
+      "topic_code": "EN10",
+      "topic_title": "Test Practice and Mixed Skills",
+      "subtopic_code": "EN10.01",
+      "subtopic_title": "Basic Mock Exams",
+      "subtopic_order": 1
+    },
+    {
+      "id": 1002,
+      "topic_id": 10,
+      "topic_code": "EN10",
+      "topic_title": "Test Practice and Mixed Skills",
+      "subtopic_code": "EN10.02",
+      "subtopic_title": "Applied Mock Exams",
+      "subtopic_order": 2
+    },
+    {
+      "id": 1003,
+      "topic_id": 10,
+      "topic_code": "EN10",
+      "topic_title": "Test Practice and Mixed Skills",
+      "subtopic_code": "EN10.03",
+      "subtopic_title": "Advanced Mock Exams",
+      "subtopic_order": 3
+    },
+    {
+      "id": 1004,
+      "topic_id": 10,
+      "topic_code": "EN10",
+      "topic_title": "Test Practice and Mixed Skills",
+      "subtopic_code": "EN10.04",
+      "subtopic_title": "HSA/DGNL Practice",
+      "subtopic_order": 4
+    },
+    {
+      "id": 1099,
+      "topic_id": 10,
+      "topic_code": "EN10",
+      "topic_title": "Test Practice and Mixed Skills",
+      "subtopic_code": "EN10.99",
+      "subtopic_title": "Needs Review or Mixed",
+      "subtopic_order": 5
+    }
+  ],
+  "question_types": [
+    "multiple_choice",
+    "cloze",
+    "reading_comprehension",
+    "sentence_transformation",
+    "sentence_combination",
+    "ordering",
+    "pronunciation",
+    "stress",
+    "communication",
+    "writing_prompt"
+  ],
+  "skills": [
+    "grammar",
+    "vocabulary",
+    "reading",
+    "writing",
+    "pronunciation",
+    "communication",
+    "mixed"
+  ],
+  "difficulties": [
+    "foundation",
+    "basic",
+    "intermediate",
+    "advanced",
+    "exam"
+  ]
+}

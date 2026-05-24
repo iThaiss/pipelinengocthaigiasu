@@ -1,0 +1,3143 @@
+{
+  "title": "Local Curriculum Roadmap",
+  "summary": "Roadmap tổng hợp local, gom các bài tương đương bằng title/concept similarity và giữ thứ tự folder làm chuẩn.",
+  "source_profiles": [
+    {
+      "source": "LB",
+      "teaching_style": "Giảng dạy lý thuyết có cấu trúc từng bước; Phân tích trường hợp (Δ > 0, Δ = 0, Δ < 0 cho hàm bậc ba); Lập bảng biến thiên để mô phỏng dáng điệu đồ thị",
+      "strengths": [
+        "Cấu trúc bài học rõ ràng với 3 bước khảo sát chuẩn",
+        "Phân tích chi tiết các trường hợp hàm bậc ba theo biệt số Δ",
+        "Có Remark giải thích cách lập bảng biến thiên",
+        "Bảng biến thiên được trình bày chi tiết với ví dụ minh họa",
+        "Đề cập đến điểm uốn và tính chất đối xứng của đồ thị"
+      ],
+      "weaknesses_or_gaps": [
+        "Tài liệu không chứa nội dung thực tế - chỉ có watermark và thông tin nguồn",
+        "Không thể trích xuất cấu trúc dạy học do thiếu dữ liệu nội dung",
+        "Cần xem lại file PDF gốc để đảm bảo tính toàn vẹn",
+        "Nội dung tài liệu không hiển thị - chỉ chứa watermark và thông tin nguồn",
+        "Không thể trích xuất thông tin chi tiết về phương pháp dạy học, ví dụ, hoặc câu hỏi áp dụng"
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "teaching_style": "Trình bày lý thuyết định nghĩa và tính chất; Phân dạng bài tập theo phương pháp tiếp cận; Giải ví dụ minh họa chi tiết",
+      "strengths": [
+        "Cấu trúc rõ ràng: lý thuyết - phân dạng - ví dụ",
+        "Phân dạng chi tiết theo 4 dạng bài tập chính",
+        "Có 18 ví dụ minh họa từ cơ bản đến nâng cao",
+        "Bao quát đầy đủ các cách tiếp cận: bảng biến thiên, bảng xét dấu, hàm số, đồ thị",
+        "Có ví dụ về hàm bậc ba, bậc bốn, hàm phân thức, hàm chứa căn"
+      ],
+      "weaknesses_or_gaps": [
+        "Không có lời giải chi tiết cho các ví dụ",
+        "Một số ví dụ (VD6) có công thức không rõ ràng do lỗi định dạng",
+        "Không có bài tập tự luyện sau mỗi dạng",
+        "Không có phần tóm tắt hoặc sơ đồ tư duy",
+        "Thiếu ví dụ về hàm số chứa tham số"
+      ]
+    }
+  ],
+  "roadmap_units": [
+    {
+      "order": 1,
+      "canonical_title": "Sự đồng biến, nghịch biến của hàm số",
+      "program_area": "Giải tích",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 1,
+          "lesson_title": "Sự đồng biến, nghịch biến của hàm số",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 1,
+          "lesson_title": "Bài 1.1 Tính Đơn Điệu Của Hàm Số",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 2,
+          "lesson_title": "Bài 1.1 Tính Đơn Điệu Của Hàm Số",
+          "role": "practice"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 3,
+          "lesson_title": "Tính Đơn Điệu từ hàm số, đồ thị, bảng biến thiên",
+          "role": "homework"
+        }
+      ],
+      "learning_goals": [
+        "Hiểu khái niệm hàm số đồng biến và nghịch biến trên một khoảng",
+        "Nắm vững mối liên hệ giữa dấu của đạo hàm và tính đơn điệu của hàm số",
+        "Lập bảng biến thiên và xét tính đơn điệu của hàm số",
+        "Đọc và phân tích bảng biến thiên, bảng xét dấu đạo hàm",
+        "Xác định khoảng đơn điệu từ đồ thị hàm số và đồ thị đạo hàm",
+        "Xác định tính đơn điệu của hàm số từ bảng biến thiên",
+        "Xác định khoảng đơn điệu của hàm số từ bảng biến thiên"
+      ],
+      "prerequisites": [
+        "Khái niệm đạo hàm",
+        "Cách tính đạo hàm của các hàm số cơ bản",
+        "Giải bất phương trình",
+        "Khái niệm khoảng, đoạn trên tập số thực",
+        "Quy tắc tính đạo hàm",
+        "Khái niệm tập xác định"
+      ],
+      "teaching_strategy": [
+        "Trình bày lý thuyết định nghĩa và tính chất",
+        "Phân dạng bài tập theo phương pháp tiếp cận",
+        "Giải ví dụ minh họa chi tiết",
+        "Sử dụng bảng biến thiên để phân tích",
+        "Sử dụng đồ thị để trực quan hóa",
+        "Phân dạng bài tập theo phương pháp",
+        "Phân tích bảng biến thiên"
+      ],
+      "application_types": [
+        "Cho bảng biến thiên, mệnh đề nào về tính đơn điệu là đúng?",
+        "Cho bảng xét dấu f'(x), hàm số đồng/nghịch biến trên khoảng nào?",
+        "Lập bảng biến thiên của hàm số y = f(x) cho trước",
+        "Xét tính đơn điệu của hàm số bậc ba, bậc bốn, hàm phân thức",
+        "Cho đạo hàm f'(x) = (x-a)(x-b)(x-c), xác định khoảng đơn điệu",
+        "Từ đồ thị f(x), xác định khoảng đơn điệu",
+        "Xác định khoảng đồng biến từ bảng biến thiên",
+        "Hàm số đồng biến trên khoảng nào?"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cấu trúc rõ ràng: lý thuyết - phân dạng - ví dụ",
+        "Phân dạng chi tiết theo 4 dạng bài tập chính",
+        "Có 18 ví dụ minh họa từ cơ bản đến nâng cao",
+        "Bao quát đầy đủ các cách tiếp cận: bảng biến thiên, bảng xét dấu, hàm số, đồ thị",
+        "Có ví dụ về hàm bậc ba, bậc bốn, hàm phân thức, hàm chứa căn",
+        "Phân dạng rõ ràng, hệ thống từ dễ đến khó",
+        "Bài tập tự luyện toàn diện với 4 dạng chính"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu không chứa nội dung thực tế - chỉ có watermark và thông tin nguồn",
+        "Không thể trích xuất cấu trúc dạy học do thiếu dữ liệu nội dung",
+        "Cần xem lại file PDF gốc để đảm bảo tính toàn vẹn",
+        "Không có lời giải chi tiết cho các ví dụ",
+        "Một số ví dụ (VD6) có công thức không rõ ràng do lỗi định dạng",
+        "Một số công thức đạo hàm trong VD6-VD8 có lỗi hiển thị (ký tự không rõ)",
+        "Không có lời giải chi tiết cho các câu hỏi"
+      ]
+    },
+    {
+      "order": 2,
+      "canonical_title": "Cực trị của hàm số",
+      "program_area": "Giải tích",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 2,
+          "lesson_title": "Cực trị của hàm số",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 4,
+          "lesson_title": "Bài 1.2. Cực Trị Hàm Số",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Hiểu định nghĩa cực đại, cực tiểu của hàm số",
+        "Phân biệt điểm cực trị và giá trị cực trị",
+        "Xác định cực trị từ bảng biến thiên",
+        "Tìm cực trị từ công thức hàm số bằng đạo hàm",
+        "Phân tích cực trị từ đồ thị đạo hàm f'(x)",
+        "Giải quyết các bài toán liên quan đến cực trị"
+      ],
+      "prerequisites": [
+        "Khái niệm đạo hàm",
+        "Tính đạo hàm của các hàm số cơ bản",
+        "Xét dấu đạo hàm",
+        "Lập bảng biến thiên",
+        "Đọc hiểu đồ thị hàm số"
+      ],
+      "teaching_strategy": [
+        "Giảng dạy lý thuyết định nghĩa",
+        "Phân tích bảng biến thiên",
+        "Giải bài tập theo dạng",
+        "Sử dụng đồ thị minh họa",
+        "Phương pháp trắc nghiệm đúng/sai",
+        "Phân loại bài tập theo nguồn dữ liệu"
+      ],
+      "application_types": [
+        "Xác định số điểm cực trị của hàm số",
+        "Tìm tọa độ điểm cực trị",
+        "Phân biệt cực đại và cực tiểu",
+        "Tính giá trị cực đại, cực tiểu",
+        "Xác định khoảng đơn điệu từ cực trị",
+        "Tìm tham số a, b để hàm số đạt cực trị tại điểm cho trước"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cấu trúc rõ ràng: lý thuyết - phân dạng - bài tập",
+        "Phân loại 3 dạng chính: bảng biến thiên, hàm f(x), đạo hàm f'(x)",
+        "Có thêm dạng 4: cho đồ thị hàm số",
+        "Ví dụ đa dạng từ cơ bản đến nâng cao",
+        "Bài tập trắc nghiệm đúng/sai giúp kiểm tra hiểu biết"
+      ],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị - chỉ chứa watermark và thông tin nguồn",
+        "Không thể trích xuất thông tin chi tiết về phương pháp dạy học, ví dụ, hoặc câu hỏi áp dụng",
+        "Cần xem lại file PDF để có dữ liệu đầy đủ",
+        "Tài liệu chỉ trích xuất được 4 trang đầu và 2 trang cuối, phần giữa không đầy đủ",
+        "Không có lời giải chi tiết cho các ví dụ"
+      ]
+    },
+    {
+      "order": 3,
+      "canonical_title": "Giá trị lớn nhất – giá trị nhỏ nhất của hàm số",
+      "program_area": "Giải tích",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 3,
+          "lesson_title": "Giá trị lớn nhất – giá trị nhỏ nhất của hàm số",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 6,
+          "lesson_title": "Bài 2. Giá Trị Lớn Nhất - Giá Trị Nhỏ Nhất Của Hàm Số",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Hiểu định nghĩa giá trị lớn nhất và giá trị nhỏ nhất của hàm số",
+        "Tìm giá trị lớn nhất, nhỏ nhất trên đoạn [a;b]",
+        "Tìm giá trị lớn nhất, nhỏ nhất trên khoảng (a;b)",
+        "Đọc và phân tích đồ thị hàm số để xác định max, min",
+        "Áp dụng đạo hàm để tìm cực trị và giá trị cực trị"
+      ],
+      "prerequisites": [
+        "Khái niệm hàm số liên tục",
+        "Đạo hàm và ứng dụng của đạo hàm",
+        "Cực trị của hàm số",
+        "Kỹ năng đọc đồ thị hàm số",
+        "Giải phương trình f'(x) = 0"
+      ],
+      "teaching_strategy": [
+        "Phân tích đồ thị hàm số",
+        "Phương pháp đạo hàm (tìm điểm tới hạn)",
+        "So sánh giá trị tại các điểm tới hạn và điểm biên",
+        "Lập bảng biến thiên",
+        "Phương pháp đặt ẩn phụ (cho hàm lượng giác, logarit)",
+        "Kiểm tra tính đúng sai của mệnh đề"
+      ],
+      "application_types": [
+        "Cho đồ thị, tìm M + m trên đoạn cho trước",
+        "Cho đồ thị, tìm M - m trên đoạn cho trước",
+        "Cho hàm số, tìm max min trên đoạn [a;b]",
+        "Cho hàm số, tìm max min trên khoảng (a;b)",
+        "Tính tổng M + m",
+        "Tính hiệu M - m"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Phân dạng bài tập rõ ràng (3 dạng chính)",
+        "Có ví dụ minh họa chi tiết cho từng dạng",
+        "Bài tập tự luyện phong phú (34 câu)",
+        "Bao quát nhiều loại hàm số (đa thức, phân thức, lượng giác, mũ, logarit)",
+        "Có câu hỏi trắc nghiệm và tự luận"
+      ],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị - chỉ chứa watermark và thông tin nguồn",
+        "Không thể trích xuất cấu trúc dạy học, phương pháp, ví dụ hoặc bài tập từ tài liệu",
+        "Cần xem lại file PDF để có nội dung thực tế",
+        "Không có lời giải chi tiết cho các ví dụ (chỉ có đáp án hoặc yêu cầu xét đúng sai)",
+        "Không có lời giải cho bài tập tự luyện"
+      ]
+    },
+    {
+      "order": 4,
+      "canonical_title": "Đường tiệm cận của đồ thị hàm số",
+      "program_area": "Giải tích",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 4,
+          "lesson_title": "Đường tiệm cận của đồ thị hàm số",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 8,
+          "lesson_title": "Bài 3.1 Đường Tiệm Cận Của Đồ Thị Hàm Số - Tiệm Cận Đứng, Tiệm Cận Ngang",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Hiểu định nghĩa đường tiệm cận ngang của đồ thị hàm số",
+        "Hiểu định nghĩa đường tiệm cận đứng của đồ thị hàm số",
+        "Tìm tiệm cận ngang thông qua giới hạn tại vô cực",
+        "Tìm tiệm cận đứng thông qua giới hạn một phía",
+        "Áp dụng mẹo tính nhanh tiệm cận ngang dựa trên bậc đa thức",
+        "Xác định tiệm cận từ bảng biến thiên"
+      ],
+      "prerequisites": [
+        "Giới hạn của hàm số",
+        "Giới hạn tại vô cực",
+        "Giới hạn một phía",
+        "Hàm số hữu tỉ",
+        "Hàm số chứa căn thức",
+        "Bảng biến thiên"
+      ],
+      "teaching_strategy": [
+        "Định nghĩa hình thức",
+        "Ví dụ minh họa trực tiếp",
+        "Mẹo tính nhanh (so sánh bậc tử-mẫu)",
+        "Phương pháp bấm máy tính (CALC)",
+        "Phân tích từ bảng biến thiên",
+        "Bài tập tự luyện có đáp án trắc nghiệm"
+      ],
+      "application_types": [
+        "Tìm số tiệm cận ngang của hàm số cho trước",
+        "Tìm số tiệm cận đứng của hàm số cho trước",
+        "Tìm tất cả các đường tiệm cận đứng của hàm số",
+        "Tìm tất cả các đường tiệm cận ngang của hàm số",
+        "Tính tổng số tiệm cận đứng và ngang",
+        "Xác định hàm số không có tiệm cận ngang"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Định nghĩa rõ ràng và chính xác",
+        "Mẹo tính nhanh tiệm cận ngang dựa trên bậc đa thức",
+        "Nhận xét quan trọng về điều kiện cần của tiệm cận đứng",
+        "Hướng dẫn sử dụng máy tính (CALC) cho hàm chứa căn",
+        "Ví dụ đa dạng từ đơn giản đến phức tạp"
+      ],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị - chỉ có watermark từ fanpage Tài Liệu Khóa Học UniMap trên tất cả 12 trang",
+        "Không thể trích xuất thông tin chi tiết về cấu trúc dạy học, phương pháp, ví dụ, hoặc câu hỏi áp dụng",
+        "Cần xem lại file PDF để đảm bảo nội dung được tải đầy đủ",
+        "Không có lời giải chi tiết cho các ví dụ VD1-VD10",
+        "Không có lời giải cho bài tập tự luyện (chỉ có đáp án trắc nghiệm)"
+      ]
+    },
+    {
+      "order": 5,
+      "canonical_title": "Khảo sát sự biến thiên và vẽ đồ thị hàm số",
+      "program_area": "Giải tích",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 5,
+          "lesson_title": "Khảo sát sự biến thiên và vẽ đồ thị hàm số",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 5,
+          "lesson_title": "Bài Tập Tự Luyện: Cực Trị Hàm Số",
+          "role": "homework"
+        }
+      ],
+      "learning_goals": [
+        "Nắm vững các bước khảo sát hàm số (tập xác định, sự biến thiên, vẽ đồ thị)",
+        "Lập bảng biến thiên chính xác",
+        "Vẽ đồ thị hàm số dựa vào bảng biến thiên",
+        "Khảo sát và vẽ đồ thị hàm số bậc ba",
+        "Khảo sát và vẽ đồ thị hàm số phân thức hữu tỉ",
+        "Xác định tiệm cận, cực trị, điểm uốn của đồ thị",
+        "Xác định điểm cực đại, cực tiểu của hàm số"
+      ],
+      "prerequisites": [
+        "Khái niệm hàm số và tập xác định",
+        "Đạo hàm và các quy tắc tính đạo hàm",
+        "Giới hạn của hàm số",
+        "Phương trình bậc hai và biệt số Δ",
+        "Tính đạo hàm của hàm số",
+        "Giải phương trình đạo hàm bằng 0"
+      ],
+      "teaching_strategy": [
+        "Giảng dạy lý thuyết có cấu trúc từng bước",
+        "Phân tích trường hợp (Δ > 0, Δ = 0, Δ < 0 cho hàm bậc ba)",
+        "Lập bảng biến thiên để mô phỏng dáng điệu đồ thị",
+        "Vẽ đồ thị dựa vào bảng biến thiên",
+        "Ví dụ minh họa cụ thể",
+        "Bài tập rèn luyện theo dạng thức",
+        "Bài tập trắc nghiệm"
+      ],
+      "application_types": [
+        "Lập bảng biến thiên của hàm số cho trước",
+        "Vẽ đồ thị hàm số dựa vào bảng biến thiên",
+        "Giải bài toán tương giao trên bảng biến thiên",
+        "Xác định số cực trị của hàm số",
+        "Tìm tiệm cận của đồ thị hàm số",
+        "Xác định tâm đối xứng của đồ thị",
+        "Tìm điểm cực trị của hàm số y = x⁴/4 - 3x³/4 - 5"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cấu trúc bài học rõ ràng với 3 bước khảo sát chuẩn",
+        "Phân tích chi tiết các trường hợp hàm bậc ba theo biệt số Δ",
+        "Có Remark giải thích cách lập bảng biến thiên",
+        "Bảng biến thiên được trình bày chi tiết với ví dụ minh họa",
+        "Đề cập đến điểm uốn và tính chất đối xứng của đồ thị",
+        "Bài tập đa dạng, bao quát các dạng hàm số khác nhau"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu cắt từ trang 1-7, chưa thấy toàn bộ nội dung (15 trang)",
+        "Phần ví dụ minh họa chỉ thấy tiêu đề, chưa thấy lời giải chi tiết",
+        "Phần bài tập rèn luyện chỉ thấy tiêu đề dạng thức, chưa thấy câu hỏi cụ thể",
+        "Chưa thấy phần khảo sát hàm số phân thức hữu tỉ chi tiết (chỉ thấy tiêu đề)",
+        "Chưa thấy phần khảo sát hàm phân thức bậc 2/bậc 1 chi tiết",
+        "Không có lời giải chi tiết, chỉ có đáp án"
+      ]
+    },
+    {
+      "order": 6,
+      "canonical_title": "Ứng dụng đạo hàm giải quyết một số vấn đề liên quan đến thực tiễn",
+      "program_area": "Giải tích",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 6,
+          "lesson_title": "Ứng dụng đạo hàm giải quyết một số vấn đề liên quan đến thực tiễn",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị - chỉ có watermark từ fanpage",
+        "Không thể trích xuất thông tin chi tiết về phương pháp dạy học, ví dụ, hoặc câu hỏi ứng dụng",
+        "Không đủ dữ liệu để xác định mục tiêu học tập cụ thể",
+        "Không thể xác định loại bài tập (BTVN/bài tập/bonus) từ nội dung hiện có"
+      ]
+    },
+    {
+      "order": 7,
+      "canonical_title": "Nguyên hàm và tính chất của nguyên hàm",
+      "program_area": "Giải tích",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 7,
+          "lesson_title": "Nguyên hàm và tính chất của nguyên hàm",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 19,
+          "lesson_title": "Bài 1.1 Nguyên Hàm Cơ Bản",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị - chỉ chứa watermark và thông tin nguồn",
+        "Không thể trích xuất cấu trúc dạy học, mục tiêu, khái niệm, phương pháp giảng dạy",
+        "Không thể xác định dạng câu hỏi áp dụng hoặc tiến trình độ khó",
+        "Nội dung tài liệu không hiển thị - chỉ có watermark và thông tin nguồn",
+        "Không thể trích xuất cấu trúc dạy học từ tài liệu hiện tại"
+      ]
+    },
+    {
+      "order": 8,
+      "canonical_title": "Tích phân và tính chất của tích phân",
+      "program_area": "Giải tích",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 8,
+          "lesson_title": "Tích phân và tính chất của tích phân",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 22,
+          "lesson_title": "Bài 2.1 Tích Phân Cơ Bản",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Tài liệu không chứa nội dung thực tế - chỉ có watermark từ fanpage",
+        "Không thể trích xuất thông tin chi tiết về phương pháp dạy học",
+        "Không thể xác định các dạng bài tập và ví dụ cụ thể",
+        "Không thể xác định mục tiêu học tập chi tiết",
+        "Tài liệu chỉ chứa header/footer và watermark, nội dung thực của bài học không được cung cấp"
+      ]
+    },
+    {
+      "order": 9,
+      "canonical_title": "Ứng dụng của tích phân vào tính diện tích hình phẳng",
+      "program_area": "Giải tích",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 9,
+          "lesson_title": "Ứng dụng của tích phân vào tính diện tích hình phẳng",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 24,
+          "lesson_title": "Ứng Dụng Tích Phân Trong Hình Học - Tính Diện Tích",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Tài liệu chỉ chứa watermark và thông tin nguồn, không có nội dung thực tế để phân tích",
+        "Không thể trích xuất cấu trúc dạy học từ 10 trang được cung cấp",
+        "Nội dung tài liệu không hiển thị - chỉ chứa watermark và thông tin nguồn",
+        "Không thể trích xuất chi tiết về phương pháp dạy học, ví dụ, hoặc câu hỏi áp dụng",
+        "Cần xem lại file PDF để có đánh giá chính xác"
+      ]
+    },
+    {
+      "order": 10,
+      "canonical_title": "Ứng dụng của tích phân vào tính thể tích vật thể",
+      "program_area": "Giải tích",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 10,
+          "lesson_title": "Ứng dụng của tích phân vào tính thể tích vật thể",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 26,
+          "lesson_title": "Ứng Dụng Tích Phân Trong Hình Học - Tính Thể Tích",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Tài liệu chỉ chứa header/footer lặp lại, không có nội dung thực tế để phân tích",
+        "Không thể trích xuất thông tin chi tiết về phương pháp dạy học, ví dụ, hoặc câu hỏi áp dụng",
+        "Cần xem lại file PDF gốc để đảm bảo nội dung được tải đầy đủ",
+        "Tài liệu không hiển thị nội dung thực tế - chỉ chứa watermark và thông tin fanpage trên tất cả 10 trang",
+        "Không thể trích xuất thông tin về phương pháp dạy học, ví dụ, hoặc câu hỏi ứng dụng"
+      ]
+    },
+    {
+      "order": 11,
+      "canonical_title": "Vectơ và các phép toán vectơ trong không gian",
+      "program_area": "Hình học",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 11,
+          "lesson_title": "Vectơ và các phép toán vectơ trong không gian",
+          "role": "core"
+        },
+        {
+          "source": "LB",
+          "source_order": 45,
+          "lesson_title": "Các bài toán về vectơ trong không gian nâng cao",
+          "role": "practice"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 47,
+          "lesson_title": "Bài 4. Toán Thực Tế Vecto",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Vận dụng các phép toán vectơ trong không gian để giải quyết các bài toán nâng cao",
+        "Tính góc giữa vectơ, đường thẳng và mặt phẳng",
+        "Xác định điều kiện đồng phẳng của ba vectơ",
+        "Tính khoảng cách từ điểm đến mặt phẳng",
+        "Phân tích các trường hợp đặc biệt của tam giác trong không gian"
+      ],
+      "prerequisites": [
+        "Tọa độ điểm và vectơ trong không gian Oxyz",
+        "Phép toán vectơ cơ bản (cộng, trừ, nhân vô hướng)",
+        "Phương trình mặt phẳng",
+        "Công thức tính góc giữa hai vectơ",
+        "Công thức tính khoảng cách"
+      ],
+      "teaching_strategy": [
+        "Bài giảng lý thuyết kết hợp ví dụ minh họa",
+        "Phân dạng bài tập theo hình thức trắc nghiệm",
+        "Rèn luyện kỹ năng tính toán với tham số",
+        "Phân tích điều kiện và tìm giá trị tham số thỏa mãn"
+      ],
+      "application_types": [
+        "Góc giữa vectơ OA và tia Ox bằng 30° thì giá trị của a thuộc khoảng nào?",
+        "Góc giữa đường thẳng OA và mặt phẳng Oxy là 45° thì a bằng bao nhiêu?",
+        "Khoảng cách từ A đến mặt phẳng P bằng 2 thì tổng các giá trị thực của tham số a là bao nhiêu?",
+        "Tích vô hướng giữa hai vectơ OA và OB thuộc đoạn [2;12] thì có bao nhiêu giá trị nguyên của a?",
+        "Khi góc ABC là góc tù thì điều kiện của a là gì?",
+        "Ba vectơ đã cho đồng phẳng khi nào?"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp đầy đủ các dạng bài tập từ cơ bản đến nâng cao",
+        "Phân loại rõ ràng theo hình thức trắc nghiệm (đúng/sai, trả lời ngắn)",
+        "Có ví dụ minh họa chi tiết trước phần bài tập rèn luyện",
+        "Bao quát các khía cạnh của vectơ trong không gian",
+        "Hướng tới mục tiêu 8-9 điểm cho học sinh THPT"
+      ],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị - chỉ có watermark và thông tin nguồn",
+        "Không thể trích xuất cấu trúc dạy học, mục tiêu, khái niệm, phương pháp giảng dạy",
+        "Không thể xác định dạng câu hỏi áp dụng hoặc tiến trình độ khó",
+        "Không cung cấp lời giải chi tiết cho các ví dụ minh họa",
+        "Không có hướng dẫn phương pháp giải cụ thể cho từng dạng",
+        "Tài liệu chỉ chứa thông tin watermark và không có nội dung học tập thực tế"
+      ]
+    },
+    {
+      "order": 12,
+      "canonical_title": "Hệ trục tọa độ trong không gian",
+      "program_area": "Hình học",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 12,
+          "lesson_title": "Hệ trục tọa độ trong không gian",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 36,
+          "lesson_title": "Hệ Trục Tọa Độ Oxyz",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Tài liệu không chứa nội dung thực tế - chỉ có watermark và thông tin đăng ký khóa học trên tất cả 10 trang",
+        "Không thể trích xuất cấu trúc dạy học do thiếu dữ liệu nội dung",
+        "Nội dung tài liệu không hiển thị đầy đủ - chỉ có header/footer lặp lại trên 6 trang",
+        "Không thể xác định được các mục tiêu, khái niệm, phương pháp dạy học, ví dụ và bài tập cụ thể",
+        "Cần xem lại file PDF gốc để trích xuất nội dung thực tế"
+      ]
+    },
+    {
+      "order": 13,
+      "canonical_title": "Biểu thức tọa độ của các phép toán vectơ",
+      "program_area": "Hình học",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 13,
+          "lesson_title": "Biểu thức tọa độ của các phép toán vectơ",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 39,
+          "lesson_title": "Bài 3. Các Phép Toán Trong Hệ Tọa Độ Oxyz",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Nắm vững biểu thức tọa độ của các phép toán vectơ (cộng, trừ, nhân vô hướng)",
+        "Hiểu và áp dụng tích vô hướng của hai vectơ trong không gian Oxyz",
+        "Xác định điều kiện cùng phương, vuông góc của hai vectơ",
+        "Tính độ dài vectơ, khoảng cách giữa hai điểm",
+        "Tính góc giữa hai vectơ và ứng dụng trong hình học không gian"
+      ],
+      "prerequisites": [
+        "Khái niệm vectơ trong không gian",
+        "Hệ tọa độ Oxyz",
+        "Các phép toán vectơ cơ bản",
+        "Kiến thức về góc và khoảng cách"
+      ],
+      "teaching_strategy": [
+        "Giảng dạy lý thuyết kết hợp với ví dụ minh họa",
+        "Phương pháp tính toán trực tiếp từ công thức tọa độ",
+        "Bài tập rèn luyện theo dạng thức trắc nghiệm",
+        "Ứng dụng vào bài toán hình học không gian"
+      ],
+      "application_types": [
+        "Tìm tọa độ vectơ từ các phép toán cơ bản",
+        "Xác định tính chất hình học (thẳng hàng, vuông góc, cùng phương)",
+        "Tính độ dài, khoảng cách, góc trong hình học không gian",
+        "Tìm điểm thỏa mãn điều kiện cho trước (chia đoạn, trọng tâm, hình chiếu)",
+        "Bài toán về hình chóp, hình hộp với hệ tọa độ",
+        "Ứng dụng thực tế (vị trí máy bay, chuyển động)"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cấu trúc rõ ràng: Lý thuyết - Ví dụ - Bài tập",
+        "Công thức đầy đủ với các Remark giải thích chi tiết",
+        "Ví dụ minh họa cụ thể cho từng khái niệm",
+        "Bài tập đa dạng theo dạng thức trắc nghiệm (nhiều phương án, đúng sai, trả lời ngắn)",
+        "Ứng dụng vào bài toán hình học không gian thực tế"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu cắt từ trang 1-3 không đầy đủ, thiếu phần bài tập rèn luyện hoàn chỉnh",
+        "Không có đáp án cho các bài tập",
+        "Một số ví dụ trên trang 4-7 bị cắt ngang, không rõ đầu đủ",
+        "Thiếu bài tập về tích có hướng (nếu có trong chương trình)",
+        "Không có phần tóm tắt công thức ở cuối bài",
+        "Nội dung tài liệu không hiển thị - chỉ có watermark và thông tin nguồn"
+      ]
+    },
+    {
+      "order": 14,
+      "canonical_title": "Phương trình mặt phẳng",
+      "program_area": "Hình học",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 14,
+          "lesson_title": "Phương trình mặt phẳng",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 28,
+          "lesson_title": "Phương Trình Mặt Phẳng - Buổi 1: Phương Trình Tổng Quát",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị - chỉ chứa watermark và thông tin fanpage",
+        "Không thể trích xuất thông tin chi tiết về phương pháp dạy học, ví dụ, hoặc câu hỏi áp dụng",
+        "Cần xem lại file PDF gốc để có nội dung thực tế",
+        "Nội dung tài liệu không hiển thị đầy đủ - chỉ thấy header/footer lặp lại trên 6 trang",
+        "Không thể trích xuất thông tin chi tiết về mục tiêu, khái niệm, phương pháp dạy học, ví dụ và bài tập"
+      ]
+    },
+    {
+      "order": 15,
+      "canonical_title": "Phương trình đường thẳng",
+      "program_area": "Hình học",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 15,
+          "lesson_title": "Phương trình đường thẳng",
+          "role": "core"
+        },
+        {
+          "source": "LB",
+          "source_order": 40,
+          "lesson_title": "Ứng dụng thực tế của phương trình đường thẳng trong không gian",
+          "role": "practice"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 32,
+          "lesson_title": "Phương Trình Đường Thẳng - Buổi 1. PT Cơ Bản",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Viết phương trình tham số của đường thẳng từ điểm và vectơ chỉ phương",
+        "Tìm giao điểm của hai đường thẳng trong không gian",
+        "Tính góc giữa đường thẳng và mặt phẳng",
+        "Ứng dụng phương trình đường thẳng vào các bài toán thực tế (cáp treo, máy bay, xe tự lái, máy khoan)",
+        "Tính vận tốc, quãng đường, thời gian dựa trên phương trình chuyển động"
+      ],
+      "prerequisites": [
+        "Phương trình tham số của đường thẳng",
+        "Vectơ trong không gian",
+        "Hệ tọa độ Oxyz",
+        "Mặt phẳng Oxy là mặt đất",
+        "Công thức tính góc giữa đường thẳng và mặt phẳng",
+        "Kiến thức vật lý về chuyển động thẳng đều"
+      ],
+      "teaching_strategy": [
+        "Học qua ví dụ minh họa thực tế",
+        "Giải quyết vấn đề (problem-solving)",
+        "Mô phỏng các tình huống thực tế",
+        "Phân tích từng bước giải pháp"
+      ],
+      "application_types": [
+        "Viết phương trình đường cáp từ điểm xuất phát và vectơ chỉ phương",
+        "Tìm giá trị tham số để đạn trúng hồng tâm (tìm giao điểm)",
+        "Tính tọa độ giao điểm của trục khoan và đường rãnh",
+        "Tính góc mà đường cáp tạo với mặt đất",
+        "Tính góc nâng của máy bay khi cất cánh",
+        "Xác định vị trí xe dừng lại khi mất sóng wifi"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp các ví dụ thực tế, sinh động từ các lĩnh vực khác nhau",
+        "Bao gồm ba dạng câu hỏi: trắc nghiệm nhiều phương án, đúng sai, trả lời ngắn",
+        "Có bài tập rèn luyện sau phần ví dụ minh họa",
+        "Các bài toán liên quan đến vận tốc, thời gian, quãng đường giúp học sinh thấy ứng dụng thực tế",
+        "Yêu cầu tính toán chính xác và làm tròn kết quả theo yêu cầu"
+      ],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị - chỉ chứa watermark và thông tin đăng ký khóa học",
+        "Không thể trích xuất thông tin chi tiết về cấu trúc dạy học, phương pháp, ví dụ, hoặc câu hỏi áp dụng",
+        "Cần xem lại file PDF để đảm bảo nội dung được tải đầy đủ",
+        "Tài liệu chỉ hiển thị phần ví dụ minh họa (11 câu), phần bài tập rèn luyện không được trình bày đầy đủ",
+        "Không có lời giải chi tiết cho các ví dụ",
+        "Nội dung tài liệu không hiển thị - chỉ có watermark và thông tin đăng ký khóa học"
+      ]
+    },
+    {
+      "order": 16,
+      "canonical_title": "Các công thức tính góc trong không gian",
+      "program_area": "Hình học",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 16,
+          "lesson_title": "Các công thức tính góc trong không gian",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị - chỉ có watermark và thông tin nguồn",
+        "Không thể trích xuất cấu trúc dạy học, phương pháp, ví dụ hoặc bài tập từ tài liệu",
+        "Cần xem lại file PDF để có đầy đủ thông tin"
+      ]
+    },
+    {
+      "order": 17,
+      "canonical_title": "Phương trình mặt cầu",
+      "program_area": "Hình học",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 17,
+          "lesson_title": "Phương trình mặt cầu",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 37,
+          "lesson_title": "Phương Trình Mặt Cầu - Buổi 1. Viết PT",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị - chỉ có watermark từ Fanpage Tài Liệu Khóa Học UniMap trên tất cả 8 trang",
+        "Không thể trích xuất thông tin chi tiết về cấu trúc dạy học, phương pháp, ví dụ, hoặc câu hỏi áp dụng",
+        "Nội dung tài liệu không hiển thị đầy đủ - chỉ có header/footer lặp lại trên 6 trang",
+        "Không thể trích xuất thông tin chi tiết về phương pháp dạy, ví dụ, bài tập, hay mục tiêu học tập",
+        "Cần xem lại file PDF để có dữ liệu đầy đủ"
+      ]
+    },
+    {
+      "order": 18,
+      "canonical_title": "Giới hạn hàm số khi x → a",
+      "program_area": "Giải tích",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 18,
+          "lesson_title": "Giới hạn hàm số khi x → a",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị - chỉ có watermark từ fanpage Tài Liệu Khóa Học UniMap trên tất cả 8 trang",
+        "Không thể trích xuất cấu trúc dạy học, ví dụ, phương pháp giảng dạy hoặc câu hỏi áp dụng",
+        "Cần xem lại file PDF gốc để đảm bảo nội dung được tải đầy đủ"
+      ]
+    },
+    {
+      "order": 19,
+      "canonical_title": "Giới hạn của hàm số khi x → ∞",
+      "program_area": "Giải tích",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 19,
+          "lesson_title": "Giới hạn của hàm số khi x → ∞",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị - chỉ có watermark từ fanpage",
+        "Không thể trích xuất cấu trúc dạy học, phương pháp, ví dụ, hoặc câu hỏi áp dụng",
+        "Không đủ thông tin để xác định lesson_type chính xác"
+      ]
+    },
+    {
+      "order": 20,
+      "canonical_title": "Hàm số liên tục",
+      "program_area": "Toán THPT",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 20,
+          "lesson_title": "Hàm số liên tục",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị đầy đủ - chỉ có watermark và thông tin nguồn",
+        "Không thể trích xuất các yếu tố dạy học (mục tiêu, khái niệm, phương pháp, ví dụ)",
+        "Cần xem lại file PDF gốc để có nội dung chi tiết"
+      ]
+    },
+    {
+      "order": 21,
+      "canonical_title": "Đạo hàm và các quy tắc tính đạo hàm",
+      "program_area": "Toán THPT",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 21,
+          "lesson_title": "Đạo hàm và các quy tắc tính đạo hàm",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị - chỉ có watermark từ fanpage",
+        "Không thể trích xuất thông tin chi tiết về cấu trúc dạy học",
+        "Không thể xác định các phương pháp dạy học cụ thể",
+        "Không thể xác định các dạng câu hỏi và ví dụ"
+      ]
+    },
+    {
+      "order": 22,
+      "canonical_title": "Phương trình, bất phương trình đạo hàm",
+      "program_area": "Toán THPT",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 22,
+          "lesson_title": "Phương trình, bất phương trình đạo hàm",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Tài liệu chỉ chứa thông tin header/footer, nội dung thực của bài học không có trong dữ liệu cung cấp",
+        "Không thể trích xuất chi tiết cấu trúc dạy học do thiếu nội dung chính"
+      ]
+    },
+    {
+      "order": 23,
+      "canonical_title": "Khoảng biến thiên và khoảng tứ phân vị của mẫu số liệu ghép nhóm",
+      "program_area": "Thống kê, Xác suất",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 23,
+          "lesson_title": "Khoảng biến thiên và khoảng tứ phân vị của mẫu số liệu ghép nhóm",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 17,
+          "lesson_title": "Khoảng Biến Thiên Và Khoảng Tứ Phân Vị",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Tài liệu chỉ chứa watermark và thông tin fanpage, không có nội dung học tập thực tế",
+        "Không thể trích xuất thông tin về phương pháp dạy học, ví dụ, hoặc câu hỏi áp dụng",
+        "Cần xem lại file PDF gốc để đảm bảo nội dung được tải đầy đủ",
+        "Nội dung tài liệu không hiển thị đầy đủ - chỉ có watermark từ fanpage Tài Liệu Khóa Học UniMap trên 8 trang",
+        "Không thể trích xuất thông tin chi tiết về phương pháp dạy học, ví dụ, bài tập, hay mục tiêu học tập"
+      ]
+    },
+    {
+      "order": 24,
+      "canonical_title": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm",
+      "program_area": "Thống kê, Xác suất",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 24,
+          "lesson_title": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm",
+          "role": "core"
+        },
+        {
+          "source": "LB",
+          "source_order": 44,
+          "lesson_title": "Các số đặc trưng đo độ phân tán của mẫu số liệu ghép nhóm",
+          "role": "practice"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 18,
+          "lesson_title": "Phương Sai Và Độ Lệch Chuẩn",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Tính khoảng biến thiên của mẫu số liệu ghép nhóm",
+        "Tính tứ phân vị thứ nhất, thứ ba của mẫu số liệu ghép nhóm",
+        "Tính khoảng tứ phân vị của mẫu số liệu ghép nhóm",
+        "Tính phương sai của mẫu số liệu ghép nhóm",
+        "Tính độ lệch chuẩn của mẫu số liệu ghép nhóm",
+        "So sánh độ phân tán giữa các mẫu số liệu ghép nhóm"
+      ],
+      "prerequisites": [
+        "Ghép nhóm mẫu số liệu",
+        "Lập bảng tần số ghép nhóm",
+        "Tính trung bình cộng của mẫu số liệu ghép nhóm",
+        "Khái niệm tứ phân vị"
+      ],
+      "teaching_strategy": [
+        "Ví dụ minh họa với dữ liệu thực tế",
+        "Bài tập rèn luyện dạng trắc nghiệm đúng sai",
+        "Bài tập rèn luyện dạng trắc nghiệm trả lời ngắn",
+        "So sánh và phân tích dữ liệu từ biểu đồ",
+        "Chuyển đổi giữa các dạng biểu diễn dữ liệu"
+      ],
+      "application_types": [
+        "Tính khoảng biến thiên của mẫu số liệu ghép nhóm",
+        "Tính tứ phân vị thứ nhất, thứ ba và khoảng tứ phân vị",
+        "Tính phương sai và độ lệch chuẩn",
+        "So sánh độ phân tán giữa hai mẫu số liệu dựa trên khoảng tứ phân vị",
+        "So sánh độ phân tán giữa hai mẫu số liệu dựa trên độ lệch chuẩn",
+        "Xác định giá trị ngưỡng dựa trên tứ phân vị (ứng dụng thực tế)"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp nhiều ví dụ minh họa với dữ liệu thực tế đa dạng",
+        "Bao gồm cả dạng trắc nghiệm đúng sai và trả lời ngắn",
+        "Có bài tập so sánh hai mẫu số liệu ghép nhóm",
+        "Bao gồm bài toán ứng dụng thực tế",
+        "Yêu cầu chuyển đổi giữa các dạng biểu diễn dữ liệu (bảng, biểu đồ)"
+      ],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị - chỉ chứa watermark và thông tin fanpage trên tất cả 14 trang",
+        "Không thể trích xuất cấu trúc dạy học, ví dụ, phương pháp giảng dạy hoặc câu hỏi áp dụng",
+        "Tài liệu có thể bị lỗi PDF hoặc nội dung thực không được tải đúng",
+        "Tài liệu chỉ hiển thị phần ví dụ minh họa và bài tập, không có phần lý thuyết chi tiết",
+        "Không có lời giải hoặc hướng dẫn giải chi tiết",
+        "Nội dung tài liệu không hiển thị đầy đủ - chỉ có watermark từ fanpage, không có text học tập thực tế"
+      ]
+    },
+    {
+      "order": 25,
+      "canonical_title": "Theme 20. Xác suất có điều kiện",
+      "program_area": "Thống kê, Xác suất",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 25,
+          "lesson_title": "Theme 20. Xác suất có điều kiện",
+          "role": "core"
+        },
+        {
+          "source": "LB",
+          "source_order": 47,
+          "lesson_title": "Tính xác suất có điều kiện bằng bảng thống kê 2×2",
+          "role": "practice"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 49,
+          "lesson_title": "Bài 1. Xác Suất Có Điều Kiện và Công Thức Nhân Xác Suất",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Hiểu định nghĩa xác suất có điều kiện P(A|B)",
+        "Áp dụng công thức tính xác suất có điều kiện",
+        "Sử dụng công thức nhân xác suất",
+        "Nhận biết mối liên hệ giữa xác suất có điều kiện và biến cố độc lập",
+        "Sử dụng sơ đồ hình cây để tính xác suất có điều kiện",
+        "Tính xác suất cơ bản từ bảng thống kê 2×2"
+      ],
+      "prerequisites": [
+        "Định nghĩa xác suất cổ điển",
+        "Biến cố và các phép toán trên biến cố",
+        "Xác suất của biến cố hợp, giao",
+        "Khái niệm xác suất cơ bản",
+        "Công thức tính xác suất",
+        "Biến cố và không gian mẫu"
+      ],
+      "teaching_strategy": [
+        "Giảng dạy lý thuyết định nghĩa",
+        "Ví dụ minh họa cụ thể (cây ăn quả, viên bi)",
+        "Sử dụng sơ đồ hình cây để trực quan hóa",
+        "Bài tập rèn luyện phân dạng",
+        "Học từ bảng thống kê 2×2 thực tế",
+        "Phân tích dữ liệu từ các tình huống thực tiễn"
+      ],
+      "application_types": [
+        "Tính P(B|A) khi biết P(A), P(A∩B)",
+        "Tính xác suất lấy sản phẩm tốt lần thứ hai biết lần thứ nhất lấy được sản phẩm tốt (không hoàn lại)",
+        "Tính xác suất sản phẩm đủ tiêu chuẩn qua 2 lần kiểm tra liên tiếp",
+        "Tính xác suất một sinh viên đạt giỏi biết sinh viên đó là nữ",
+        "Tính xác suất tổng xúc xắc bằng 6 biết xúc xắc thứ nhất là 5",
+        "Tính xác suất biên từ bảng 2×2"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cấu trúc rõ ràng: lý thuyết → ví dụ → bài tập",
+        "Có ví dụ minh họa cụ thể với lời giải chi tiết",
+        "Sử dụng sơ đồ hình cây giúp trực quan hóa",
+        "Phân dạng bài tập: trắc nghiệm nhiều phương án, đúng sai, trả lời ngắn",
+        "Nhấn mạnh mối liên hệ giữa xác suất có điều kiện và biến cố độc lập",
+        "Sử dụng dữ liệu thực tế từ các lĩnh vực khác nhau (y tế, sản xuất, khảo sát)"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu bị cắt ngang ở trang 4, không thể xác định đầy đủ phần bài tập rèn luyện",
+        "Không rõ có bao nhiêu câu hỏi dạng trắc nghiệm trả lời ngắn (dạng thức 3)",
+        "Không thể xác định đầy đủ phần bài tập rèn luyện dạng thức 1 và 2",
+        "Lời giải ví dụ về sơ đồ hình cây không hoàn chỉnh (không tính được P(A|B) cuối cùng)",
+        "Tài liệu không hiển thị phần lý thuyết chi tiết (chỉ ghi 'BÀI GIẢNG LÍ THUYẾT' nhưng nội dung không có)",
+        "Nội dung tài liệu không hiển thị đầy đủ - chỉ có watermark và thông tin nguồn"
+      ]
+    },
+    {
+      "order": 26,
+      "canonical_title": "Công thức xác suất toàn phần và công thức Bayes",
+      "program_area": "Thống kê, Xác suất",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 26,
+          "lesson_title": "Công thức xác suất toàn phần và công thức Bayes",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 50,
+          "lesson_title": "Công Thức Xác Suất Toàn Phần",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [
+        "Xác suất cơ bản",
+        "Xác suất có điều kiện",
+        "Các quy tắc tính xác suất"
+      ],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Tài liệu chính thức từ khóa học có cấu trúc"
+      ],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị đầy đủ - chỉ thấy watermark và thông tin nguồn",
+        "Không thể trích xuất chi tiết về phương pháp dạy học, ví dụ, bài tập áp dụng",
+        "Cần xem lại file PDF để có đánh giá chính xác",
+        "Nội dung tài liệu không hiển thị đầy đủ - chỉ có header/footer lặp lại trên 7 trang",
+        "Không thể trích xuất thông tin chi tiết về mục tiêu, khái niệm, phương pháp dạy học, ví dụ, hoặc câu hỏi áp dụng"
+      ]
+    },
+    {
+      "order": 27,
+      "canonical_title": "Nguyên hàm – Tích phân hàm phân thức hữu tỉ",
+      "program_area": "Giải tích",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 27,
+          "lesson_title": "Nguyên hàm – Tích phân hàm phân thức hữu tỉ",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 21,
+          "lesson_title": "Bài 1.3 Toán Thực Tế Nguyên Hàm",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Tìm nguyên hàm của hàm phân thức hữu tỉ bằng phương pháp đổi biến",
+        "Phân tích và xử lý hàm phân thức hữu tỉ khi bậc tử nhỏ hơn bậc mẫu",
+        "Thực hiện phép chia đa thức bằng lược đồ Hoocne khi bậc tử ≥ bậc mẫu",
+        "Áp dụng tích phân để tính diện tích hình phẳng và thể tích khối tròn xoay"
+      ],
+      "prerequisites": [
+        "Nguyên hàm cơ bản",
+        "Phương pháp đổi biến tìm nguyên hàm",
+        "Chia đa thức",
+        "Tích phân xác định"
+      ],
+      "teaching_strategy": [
+        "Giảng dạy lý thuyết có ví dụ minh họa",
+        "Phân dạng bài toán (Dạng 1: Bậc tử < Bậc mẫu; Dạng 2: Bậc P(x) ≥ Bậc Q(x))",
+        "Hướng dẫn chi tiết phương pháp xử lí từng dạng",
+        "Sử dụng lược đồ Hoocne với quy tắc 'Nhân ngang – cộng chéo'",
+        "Bài tập rèn luyện phân theo dạng thức"
+      ],
+      "application_types": [
+        "Tìm họ nguyên hàm của hàm phân thức hữu tỉ",
+        "Tính tích phân xác định của hàm phân thức",
+        "Xác định các hệ số trong phân tích phân thức",
+        "Tính diện tích hình phẳng giới hạn bởi đồ thị hàm phân thức",
+        "Tính thể tích khối tròn xoay từ hàm phân thức",
+        "Bài toán trắc nghiệm đúng sai về nguyên hàm và tích phân"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cấu trúc rõ ràng với 2 dạng chính và phương pháp xử lí cụ thể",
+        "Có 7 ví dụ minh họa từ cơ bản đến nâng cao",
+        "Giải thích chi tiết lược đồ Hoocne với quy tắc nhớ dễ dàng",
+        "Bài tập rèn luyện phong phú với dạng thức trắc nghiệm đúng sai và trả lời ngắn",
+        "Các bài tập liên quan đến ứng dụng thực tế (diện tích, thể tích)"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu chỉ trích xuất 3 trang đầu (lý thuyết và ví dụ), phần bài tập rèn luyện không đầy đủ",
+        "Không có lời giải chi tiết cho các ví dụ",
+        "Phần bài tập trên trang 4-7 bị cắt ngắn, không thể xác định đầy đủ nội dung",
+        "Một số ký hiệu toán học bị mất hoặc không rõ ràng do định dạng PDF",
+        "Nội dung tài liệu không hiển thị - chỉ có watermark từ fanpage Tài Liệu Khóa Học UniMap trên 6 trang"
+      ]
+    },
+    {
+      "order": 28,
+      "canonical_title": "Tính tích phân nhờ ý nghĩa hình học",
+      "program_area": "Nguyên hàm và tích phân",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 28,
+          "lesson_title": "Tính tích phân nhờ ý nghĩa hình học",
+          "role": "practice"
+        }
+      ],
+      "learning_goals": [
+        "Tính tích phân dựa vào ý nghĩa hình học của tích phân",
+        "Liên hệ giữa diện tích hình phẳng và tích phân",
+        "Xác định phương trình hàm số từ đồ thị",
+        "Tính giá trị tích phân thông qua diện tích hình học",
+        "Ứng dụng nguyên hàm để tính tích phân"
+      ],
+      "prerequisites": [
+        "Khái niệm tích phân xác định",
+        "Nguyên hàm của hàm số",
+        "Công thức tính diện tích các hình hình học cơ bản",
+        "Phương trình đường thẳng",
+        "Phương trình parabol",
+        "Phương trình đường tròn"
+      ],
+      "teaching_strategy": [
+        "Phương pháp hình học: suy từ diện tích sang tích phân",
+        "Phương pháp đại số: viết phương trình hàm số rồi tính tích phân",
+        "Phân tích đồ thị hàm số",
+        "Liên hệ giữa hình học và giải tích"
+      ],
+      "application_types": [
+        "Tính tích phân khi biết đồ thị hàm số",
+        "Xác định phương trình đường thẳng từ đồ thị",
+        "Tính diện tích hình phẳng giới hạn bởi đồ thị và trục hoành",
+        "Tính giá trị nguyên hàm tại các điểm khác nhau",
+        "Liên hệ giữa diện tích các phần khác nhau của hình phẳng",
+        "Xác định tính chất số học của kết quả (số nguyên tố, số chính phương, phân số tối giản)"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp phương pháp rõ ràng: dễ tính diện tích thì suy từ tích phân, khó tính diện tích thì viết hàm rồi tính tích phân",
+        "Bài tập đa dạng với các dạng đồ thị khác nhau",
+        "Kết hợp hai dạng câu hỏi: trắc nghiệm đúng/sai và trắc nghiệm trả lời ngắn",
+        "Các bài tập yêu cầu xác định tính chất số học của kết quả, phát triển tư duy sâu",
+        "Có ví dụ minh họa cụ thể trước phần bài tập"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu chỉ trích xuất được phần bài tập rèn luyện, phần ví dụ minh họa chi tiết không được cung cấp đầy đủ",
+        "Không có lời giải chi tiết cho các bài tập",
+        "Một số bài tập yêu cầu làm tròn kết quả nhưng không rõ phương pháp làm tròn",
+        "Cần có hình vẽ rõ ràng để học sinh hiểu đúng đồ thị"
+      ]
+    },
+    {
+      "order": 29,
+      "canonical_title": "Ứng dụng thực tế của nguyên hàm, tích phân vào bài toán tốc độ thay đổi của một đại lượng",
+      "program_area": "Nguyên hàm và tích phân",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 29,
+          "lesson_title": "Ứng dụng thực tế của nguyên hàm, tích phân vào bài toán tốc độ thay đổi của một đại lượng",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Hiểu và áp dụng nguyên hàm, tích phân để giải quyết các bài toán thực tế liên quan đến tốc độ thay đổi",
+        "Nắm vững mối liên hệ giữa đạo hàm (tốc độ thay đổi) và nguyên hàm (đại lượng gốc)",
+        "Giải quyết các bài toán ứng dụng trong vật lý, hóa học, sinh học và kinh tế"
+      ],
+      "prerequisites": [
+        "Khái niệm đạo hàm và ý nghĩa hình học, vật lý",
+        "Nguyên hàm cơ bản",
+        "Tích phân xác định",
+        "Kiến thức về tốc độ thay đổi (Theme 4)"
+      ],
+      "teaching_strategy": [
+        "Giảng dạy lý thuyết kết hợp ví dụ minh họa",
+        "Phương pháp ngược: từ tốc độ thay đổi tìm lại đại lượng gốc",
+        "Bài tập rèn luyện với các dạng thức khác nhau",
+        "Liên hệ thực tế với các lĩnh vực: vật lý, hóa học, sinh học, kinh tế"
+      ],
+      "application_types": [
+        "Tính số lượng đối tượng sau một khoảng thời gian nhất định khi biết tốc độ thay đổi",
+        "Tính sự thay đổi của một đại lượng trong một khoảng thời gian cụ thể",
+        "Xác định thời điểm đạt được một mục tiêu nhất định",
+        "Tính giá trị trung bình của một đại lượng trong một khoảng thời gian",
+        "Tính lợi nhuận dựa trên chi phí biên",
+        "Dự đoán giá trị của đại lượng tại một thời điểm trong tương lai"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp lý thuyết rõ ràng về ứng dụng nguyên hàm và tích phân",
+        "Có nhiều ví dụ minh họa đa dạng từ các lĩnh vực khác nhau",
+        "Bài tập rèn luyện phong phú với các dạng thức khác nhau (trắc nghiệm đúng sai, trả lời ngắn)",
+        "Các bài toán gắn liền với thực tế, dễ hiểu và hấp dẫn",
+        "Cấu trúc bài học rõ ràng: lý thuyết → ví dụ → bài tập"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu chỉ cung cấp phần đầu (trang 1-3 của 8 trang), thiếu phần bài tập rèn luyện hoàn chỉnh",
+        "Không có lời giải chi tiết cho các ví dụ minh họa",
+        "Một số công thức trong ví dụ có thể không hiển thị đầy đủ do định dạng văn bản"
+      ]
+    },
+    {
+      "order": 30,
+      "canonical_title": "Ứng dụng của nguyên hàm, tích phân vào mô hình bài toán chuyển động",
+      "program_area": "Nguyên hàm và tích phân",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 30,
+          "lesson_title": "Ứng dụng của nguyên hàm, tích phân vào mô hình bài toán chuyển động",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 23,
+          "lesson_title": "Bài Toán Chuyển Động SVA",
+          "role": "practice"
+        }
+      ],
+      "learning_goals": [
+        "Áp dụng nguyên hàm và tích phân để giải quyết các bài toán chuyển động thực tế",
+        "Phân biệt giữa khái niệm quãng đường và độ dịch chuyển",
+        "Tính quãng đường đi được của vật khi biết hàm vận tốc",
+        "Tính độ dịch chuyển trong khoảng thời gian cho trước",
+        "Giải các bài toán liên quan đến chuyển động với vận tốc thay đổi theo thời gian"
+      ],
+      "prerequisites": [
+        "Khái niệm đạo hàm và nguyên hàm",
+        "Tính chất của tích phân xác định",
+        "Các phương pháp tính tích phân cơ bản",
+        "Kiến thức về chuyển động trong vật lý"
+      ],
+      "teaching_strategy": [
+        "Giảng dạy lý thuyết với chứng minh công thức",
+        "Sử dụng đồ thị vận tốc-thời gian để minh họa",
+        "Phương pháp ghi nhớ (REMARK): v↔s, a↔v để tư duy ngược lại công thức tích phân",
+        "Ví dụ minh họa với các tình huống thực tế",
+        "Bài tập rèn luyện với độ khó tăng dần"
+      ],
+      "application_types": [
+        "Tính quãng đường vật đi được trong khoảng thời gian cho trước khi biết hàm vận tốc",
+        "Tính độ dịch chuyển của vật trong khoảng thời gian xác định",
+        "Tính vận tốc trung bình trong một khoảng thời gian",
+        "So sánh quãng đường giữa hai vật chuyển động",
+        "Tìm khoảng cách ngắn nhất giữa hai vật chuyển động",
+        "Xác định thời gian để vật đạt được quãng đường nhất định"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp lý thuyết rõ ràng với chứng minh công thức",
+        "Phân biệt rõ ràng giữa quãng đường và độ dịch chuyển",
+        "Có mẹo ghi nhớ (REMARK) giúp học sinh dễ nhớ công thức",
+        "Ví dụ minh họa đa dạng với các tình huống thực tế",
+        "Bài tập rèn luyện phong phú với nhiều dạng thức (trắc nghiệm đúng/sai, trắc nghiệm trả lời ngắn)"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu chỉ trích xuất được 3 trang đầu, không có đầy đủ phần bài tập rèn luyện",
+        "Không có lời giải chi tiết cho các ví dụ minh họa",
+        "Một số công thức trong tài liệu bị cắt xén hoặc không rõ ràng do định dạng PDF",
+        "Cần xem bài giảng video trên ngochuyenlb.edu.vn để hiểu đầy đủ",
+        "Nội dung tài liệu không hiển thị đầy đủ - chỉ có header/footer lặp lại trên 5 trang"
+      ]
+    },
+    {
+      "order": 31,
+      "canonical_title": "Ứng dụng của tích phân vào tính diện tích hình phẳng trong thực tế",
+      "program_area": "Nguyên hàm và tích phân",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 31,
+          "lesson_title": "Ứng dụng của tích phân vào tính diện tích hình phẳng trong thực tế",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 25,
+          "lesson_title": "Bài 3.2 Toán Thực Tế - Tính Diện Tích Hình Phẳng",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Áp dụng tích phân để tính diện tích hình phẳng giới hạn bởi các đường cong trong các bài toán thực tế",
+        "Phát triển kỹ năng phân tích hình học và mô hình hóa bài toán thực tế thành bài toán toán học",
+        "Xác định phương trình các đường cong từ các điều kiện hình học cho trước",
+        "Tính diện tích hình phẳng giới hạn bởi một đường cong với trục hoành hoặc hai đường cong"
+      ],
+      "prerequisites": [
+        "Kiến thức về tích phân xác định",
+        "Kỹ năng giải phương trình",
+        "Hiểu biết về các hàm số cơ bản (parabol, đường thẳng)",
+        "Khả năng phân tích hình học cơ bản"
+      ],
+      "teaching_strategy": [
+        "Phương pháp tư duy phân tích hình (Step 1: Phân tích hình, Step 2: Viết phương trình đường cong, Step 3: Mô hình hóa toán học)",
+        "Phương pháp gắn hệ trục tọa độ vào bài toán thực tế",
+        "Phương pháp xác định dáng đồ thị và công thức tổng quát",
+        "Phương pháp tìm điểm mà đồ thị đi qua để xác định hệ số",
+        "Giải pháp từng bước (Step-by-step approach)"
+      ],
+      "application_types": [
+        "Tính diện tích bốn cánh hoa của viên gạch hình vuông",
+        "Xác định phương trình parabol từ các điều kiện hình học (khoảng cách, chiều cao)",
+        "Tính diện tích phần cửa gỗ của cửa vòm kiến trúc cổ",
+        "Xác định tọa độ các điểm đặc biệt (đỉnh parabol, điểm giao điểm)",
+        "Tính toán các hình phẳng được tạo bởi parabol và các trục tọa độ"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp phương pháp tư duy có hệ thống (3 bước rõ ràng) cho các bài toán thực tế",
+        "Có các ghi chú (REMARK) giúp làm rõ các điểm quan trọng",
+        "Bao gồm ví dụ minh họa chi tiết với lời giải đầy đủ",
+        "Cung cấp các dạng bài tập đa dạng (trắc nghiệm đúng sai, trả lời ngắn)",
+        "Liên hệ chặt chẽ với các bài toán thực tế trong kiến trúc và kỹ thuật"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu chỉ hiển thị 3 trang đầu, không có đầy đủ phần bài tập rèn luyện",
+        "Không có lời giải chi tiết cho các ví dụ minh họa dạng trắc nghiệm đúng sai",
+        "Thiếu các bài tập trả lời ngắn (Dạng thức 3) được đề cập nhưng không hiển thị",
+        "Không có phần đáp án hoặc hướng dẫn giải cho các bài tập",
+        "Nội dung tài liệu không hiển thị - chỉ có watermark từ fanpage Tài Liệu Khóa Học UniMap trên tất cả 8 trang"
+      ]
+    },
+    {
+      "order": 32,
+      "canonical_title": "Ứng dụng của tích phân vào tính thể tích vật thể trong thực tế",
+      "program_area": "Nguyên hàm và tích phân",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 32,
+          "lesson_title": "Ứng dụng của tích phân vào tính thể tích vật thể trong thực tế",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 27,
+          "lesson_title": "Bài 3.4 Toán Thực Tế - Tính Thể Tích Vật Thể",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Tính thể tích vật thể bằng công thức tích phân mặt cắt V = ∫S(x)dx",
+        "Tính thể tích khối tròn xoay quanh trục Ox",
+        "Tính thể tích khối tròn xoay giới hạn bởi hai đường cong",
+        "Áp dụng tích phân vào các bài toán thực tế về thể tích"
+      ],
+      "prerequisites": [
+        "Tích phân xác định",
+        "Tính diện tích hình phẳng bằng tích phân",
+        "Phương trình đường cong (parabol, đường tròn, elip)",
+        "Hình học không gian cơ bản"
+      ],
+      "teaching_strategy": [
+        "Giảng dạy lý thuyết với công thức tổng quát",
+        "Phương pháp phân tích hình (Step 1: Tư duy phân tích hình)",
+        "Xây dựng mô hình tích phân (Step 2: Xây dựng mô hình)",
+        "Quy trình 4 bước tính thể tích vật thể",
+        "Ví dụ minh họa với bài toán thực tế",
+        "Bài tập rèn luyện dạng trắc nghiệm đúng sai"
+      ],
+      "application_types": [
+        "Tính thể tích cái chum từ khối cầu bán kính 15dm",
+        "Tính thể tích vật trang trí từ quay hình chữ nhật với parabol",
+        "Tính thể tích hộp đựng kẹo từ elip và nửa cầu",
+        "Tính thể tích khối tròn xoay với parabol",
+        "Tính thể tích tòa nhà với mặt cắt ngang hình vuông"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp công thức tổng quát rõ ràng cho thể tích vật thể",
+        "Có quy trình 4 bước cụ thể để tính thể tích",
+        "Phương pháp giải 3 bước (phân tích hình, xây dựng mô hình, kết luận)",
+        "Ví dụ minh họa với bài toán thực tế đa dạng",
+        "Bài tập dạng trắc nghiệm đúng sai giúp kiểm tra hiểu biết sâu"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu chỉ trích xuất 3 trang đầu, chưa thấy phần bài tập rèn luyện hoàn chỉnh",
+        "Chưa có lời giải chi tiết cho các ví dụ minh họa",
+        "Dạng thức 3 (trắc nghiệm trả lời ngắn) được đề cập nhưng nội dung không đầy đủ",
+        "Bài toán tòa nhà (ví dụ cuối) bị cắt ngang, không có đầy đủ thông tin",
+        "Nội dung tài liệu không hiển thị đầy đủ - chỉ có header/footer lặp lại trên 7 trang"
+      ]
+    },
+    {
+      "order": 33,
+      "canonical_title": "Theme 7. Nguyên hàm hàm lượng giác nâng cao",
+      "program_area": "Nguyên hàm và Tích phân",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 33,
+          "lesson_title": "Theme 7. Nguyên hàm hàm lượng giác nâng cao",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 20,
+          "lesson_title": "Nguyên Hàm Của Các Hàm Đặc Biệt",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Nắm vững định nghĩa và tính chất của nguyên hàm",
+        "Áp dụng bảng nguyên hàm cơ bản để tính nguyên hàm của hàm lượng giác",
+        "Tính nguyên hàm của các hàm lượng giác phức tạp thông qua biến đổi lượng giác",
+        "Xác định hằng số C trong nguyên hàm dựa trên điều kiện ban đầu",
+        "Giải quyết các bài toán nguyên hàm lượng giác ở mức độ vận dụng cao"
+      ],
+      "prerequisites": [
+        "Công thức lượng giác cơ bản",
+        "Công thức biến đổi tích thành tổng",
+        "Công thức hạ bậc",
+        "Đạo hàm của hàm lượng giác",
+        "Khái niệm nguyên hàm cơ bản"
+      ],
+      "teaching_strategy": [
+        "Nhắc lại kiến thức lý thuyết cơ bản",
+        "Cung cấp bảng nguyên hàm tham khảo",
+        "Ví dụ minh họa với các dạng bài tập",
+        "Bài tập rèn luyện theo dạng thức trắc nghiệm"
+      ],
+      "application_types": [
+        "Cho f'(x) = sin3x + 2cosx - 1, tìm f(x) với điều kiện f(0) = 1",
+        "Cho f'(x) = 4sin²x + 3cos²x - 4cosx, tìm f(x) với điều kiện f(0) = 4/5",
+        "Cho f'(x) = 6sin2x, tìm F(x) với F(0) = 5",
+        "Cho f'(x) = 2cos²2x·cos3x - cos3x, tìm F(x) với F(0) = 6",
+        "Cho f'(x) = 4cos·sin5x, tìm F(x) với F(π/2) = 2",
+        "Cho f'(x) = 1/cos²2x, tìm F(x) với điều kiện cho trước"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp bảng nguyên hàm đầy đủ cho hàm lượng giác",
+        "Có ví dụ minh họa chi tiết với các dạng bài tập khác nhau",
+        "Bài tập rèn luyện phong phú với nhiều mức độ khó",
+        "Sử dụng các dạng thức trắc nghiệm đúng sai và trả lời ngắn phù hợp với kỳ thi",
+        "Hướng tới mục tiêu điểm 8-9 cho học sinh"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu không cung cấp lời giải chi tiết cho các ví dụ minh họa",
+        "Không có hướng dẫn cụ thể về các bước biến đổi lượng giác cần thiết",
+        "Một số bài tập có kết quả phức tạp (phân số tối giản, làm tròn) nhưng không giải thích rõ phương pháp",
+        "Thiếu bài tập với độ khó cơ bản để học sinh làm quen trước khi lên vận dụng cao",
+        "Tài liệu chỉ chứa header/footer và watermark, nội dung thực của bài học không được cung cấp"
+      ]
+    },
+    {
+      "order": 34,
+      "canonical_title": "Nguyên hàm cho bởi nhiều công thức",
+      "program_area": "Giải tích",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 34,
+          "lesson_title": "Nguyên hàm cho bởi nhiều công thức",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Tìm nguyên hàm của hàm số cho bởi nhiều công thức trên các khoảng khác nhau",
+        "Xác định hằng số tích phân dựa trên điều kiện ban đầu",
+        "Kiểm tra tính liên tục của nguyên hàm tại điểm gián đoạn",
+        "Tính giá trị của nguyên hàm tại các điểm cụ thể",
+        "Giải quyết các bài toán liên quan đến tham số trong hàm số"
+      ],
+      "prerequisites": [
+        "Nguyên hàm cơ bản của các hàm số sơ cấp",
+        "Tính chất của nguyên hàm",
+        "Khái niệm hàm số từng khúc",
+        "Tính liên tục của hàm số"
+      ],
+      "teaching_strategy": [
+        "Bài giảng lý thuyết kết hợp ví dụ minh họa",
+        "Phương pháp giải từng bước",
+        "Sử dụng điều kiện ban đầu để xác định hằng số",
+        "Kiểm tra tính liên tục tại điểm gián đoạn",
+        "Luyện tập với các dạng bài tập đa dạng"
+      ],
+      "application_types": [
+        "Tìm nguyên hàm F(x) của hàm số f(x) cho bởi nhiều công thức",
+        "Xác định giá trị của tham số dựa trên điều kiện F(x₀) = y₀",
+        "Tính F(x₁) - F(x₂) với x₁, x₂ ở các khoảng khác nhau",
+        "Kiểm tra tính liên tục của nguyên hàm tại điểm gián đoạn",
+        "Giải hệ phương trình để tìm các tham số m, n, a, b",
+        "Tính giá trị biểu thức chứa nguyên hàm tại các điểm khác nhau"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp đầy đủ lý thuyết và ví dụ minh họa",
+        "Bài tập rèn luyện phong phú với các dạng thức khác nhau",
+        "Bao gồm cả câu trắc nghiệm đúng/sai và trả lời ngắn",
+        "Các bài tập có tham số giúp phát triển tư duy linh hoạt",
+        "Kết hợp nhiều loại hàm số: đa thức, mũ, lượng giác, logarit"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu không hiển thị rõ phần lý thuyết chi tiết trên trang 1",
+        "Một số công thức trong tài liệu bị cắt xén hoặc không rõ ràng do định dạng",
+        "Không có lời giải chi tiết cho các ví dụ minh họa",
+        "Không có đáp án cho phần bài tập rèn luyện"
+      ]
+    },
+    {
+      "order": 35,
+      "canonical_title": "Phương pháp tham số hóa",
+      "program_area": "Phương pháp tọa độ trong không gian",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 35,
+          "lesson_title": "Phương pháp tham số hóa",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 44,
+          "lesson_title": "Bài Toán Tổng Tìm Tọa Độ, Tọa Độ Hóa",
+          "role": "practice"
+        }
+      ],
+      "learning_goals": [
+        "Nắm vững hai dạng biểu diễn phương trình đường thẳng trong không gian (tham số và chính tắc)",
+        "Áp dụng phương pháp tham số hóa để giải các bài toán về đường thẳng trong không gian",
+        "Tìm giao điểm của đường thẳng với các đối tượng hình học khác",
+        "Giải quyết các bài toán liên quan đến đường thẳng cắt, song song, vuông góc",
+        "Áp dụng phương pháp tọa độ hóa để giải quyết bài toán véctơ",
+        "Tìm tọa độ điểm thông qua các điều kiện về véctơ"
+      ],
+      "prerequisites": [
+        "Phương trình đường thẳng trong không gian",
+        "Vectơ trong không gian",
+        "Phương trình mặt phẳng",
+        "Tích vô hướng và tích có hướng của vectơ",
+        "Khái niệm véctơ trong không gian",
+        "Hệ tọa độ Oxyz"
+      ],
+      "teaching_strategy": [
+        "Giảng dạy lý thuyết kết hợp ví dụ minh họa",
+        "Phương pháp tham số hóa để chuyển bài toán hình học thành bài toán đại số",
+        "Rút gọn bài toán về một ẩn tham số t",
+        "Sử dụng điều kiện hình học để thiết lập phương trình",
+        "Phương pháp tọa độ hóa",
+        "Giải quyết bài toán thực tế bằng véctơ"
+      ],
+      "application_types": [
+        "Đường thẳng d cắt hai đường thẳng d₁, d₂ và vuông góc với mặt phẳng P",
+        "Đường thẳng d cắt hai đường thẳng d₁, d₂ và song song với đường thẳng d₃",
+        "Tìm đoạn vuông góc chung của hai đường thẳng chéo nhau",
+        "Tìm đường thẳng cắt hai đường thẳng sao cho độ dài đoạn cắt ngắn nhất",
+        "Tìm điểm trên đường thẳng thỏa mãn điều kiện cho trước",
+        "Tính độ dài đoạn thẳng hoặc khoảng cách",
+        "Tìm tọa độ điểm khi biết các điều kiện về véctơ"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp lý thuyết rõ ràng với hai nhận xét quan trọng (REMARK 1, 2)",
+        "Có 9 ví dụ minh họa chi tiết với các dạng bài khác nhau",
+        "Bao gồm cả câu trắc nghiệm đúng sai và trắc nghiệm trả lời ngắn",
+        "Các bài tập rèn luyện đa dạng, từ cơ bản đến nâng cao",
+        "Phương pháp tham số hóa được trình bày rõ ràng và dễ áp dụng",
+        "Tập trung vào dạng toán thực tế với véctơ"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu không cung cấp đáp án chi tiết cho các bài tập",
+        "Một số ký hiệu toán học trong tài liệu gốc có thể bị mất định dạng khi trích xuất",
+        "Không có phần giải thích chi tiết từng bước cho các ví dụ phức tạp",
+        "Thiếu hình vẽ minh họa cho các bài toán hình học",
+        "Nội dung tài liệu không hiển thị rõ ràng - chỉ có header/footer"
+      ]
+    },
+    {
+      "order": 36,
+      "canonical_title": "Các bài toán liên quan đến tìm hình chiếu vuông góc, đối xứng",
+      "program_area": "Phương pháp tọa độ trong không gian",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 36,
+          "lesson_title": "Các bài toán liên quan đến tìm hình chiếu vuông góc, đối xứng",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 40,
+          "lesson_title": "Tìm Hình Chiếu, Điểm Đối Xứng",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Tìm hình chiếu vuông góc của một điểm lên đường thẳng",
+        "Tìm điểm đối xứng với một điểm qua đường thẳng",
+        "Tìm hình chiếu vuông góc của một điểm lên mặt phẳng",
+        "Tìm điểm đối xứng với một điểm qua mặt phẳng",
+        "Tìm hình chiếu vuông góc của đường thẳng lên mặt phẳng",
+        "Tìm đường thẳng đối xứng với đường thẳng qua mặt phẳng"
+      ],
+      "prerequisites": [
+        "Phương trình tham số của đường thẳng",
+        "Phương trình tổng quát của mặt phẳng",
+        "Tích vô hướng của hai vectơ",
+        "Điều kiện vuông góc giữa vectơ và đường thẳng",
+        "Điều kiện vuông góc giữa vectơ và mặt phẳng"
+      ],
+      "teaching_strategy": [
+        "Dạy theo dạng bài toán cụ thể (6 dạng)",
+        "Phương pháp tham số hoá tọa độ",
+        "Sử dụng điều kiện vuông góc (tích vô hướng bằng 0)",
+        "Sử dụng tính chất trung điểm",
+        "Phương pháp dựng mặt phẳng phụ trợ"
+      ],
+      "application_types": [
+        "Tìm hình chiếu vuông góc của điểm M(4; -3; 1) lên đường thẳng d",
+        "Tìm điểm đối xứng với A(1; 2; 3) qua đường thẳng d",
+        "Tìm hình chiếu vuông góc của điểm A lên mặt phẳng (P)",
+        "Tìm điểm đối xứng với N(3; 2; 3) qua mặt phẳng (P)",
+        "Tìm hình chiếu vuông góc của đường thẳng d lên mặt phẳng (P)",
+        "Tìm đường thẳng đối xứng với d qua mặt phẳng (P)"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Phân loại rõ ràng 6 dạng bài toán cơ bản",
+        "Cung cấp quy trình giải chi tiết từng dạng",
+        "Có ví dụ minh họa cụ thể với các dạng câu hỏi trắc nghiệm",
+        "Bài tập rèn luyện phong phú với nhiều mức độ",
+        "Hướng tới mục tiêu 8-9 điểm (vận dụng cao)"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu chỉ trích xuất 3 trang đầu (trang 1-3), nội dung bài tập rèn luyện không đầy đủ",
+        "Không có lời giải chi tiết cho các ví dụ minh họa",
+        "Không có phân tích sai lầm thường gặp",
+        "Các ví dụ minh họa chỉ hiển thị đề bài, không có đáp án",
+        "Tài liệu chỉ chứa header/footer và watermark, nội dung thực của bài học không được cung cấp"
+      ]
+    },
+    {
+      "order": 37,
+      "canonical_title": "Viết phương trình đường thẳng, mặt phẳng liên quan đến góc, khoảng cách",
+      "program_area": "Phương pháp tọa độ trong không gian",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 37,
+          "lesson_title": "Viết phương trình đường thẳng, mặt phẳng liên quan đến góc, khoảng cách",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 33,
+          "lesson_title": "Phương Trình Đường Thẳng - Buổi 2. PT Nâng Cao",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Viết phương trình đường thẳng thỏa mãn điều kiện về góc và khoảng cách",
+        "Viết phương trình mặt phẳng thỏa mãn điều kiện về góc và khoảng cách",
+        "Áp dụng công thức tính góc giữa các đối tượng hình học",
+        "Áp dụng công thức tính khoảng cách giữa các đối tượng hình học",
+        "Giải quyết các bài toán cực trị liên quan đến góc và khoảng cách"
+      ],
+      "prerequisites": [
+        "Phương trình mặt phẳng trong không gian",
+        "Phương trình đường thẳng trong không gian",
+        "Vectơ trong không gian",
+        "Tích vô hướng của vectơ",
+        "Tích có hướng của vectơ",
+        "Hệ tọa độ Oxyz"
+      ],
+      "teaching_strategy": [
+        "Trình bày lý thuyết công thức",
+        "Phương pháp 4 bước: gọi tọa độ → áp dụng công thức → kết hợp điều kiện → viết phương trình",
+        "Ví dụ minh họa chi tiết",
+        "Bài tập rèn luyện phân dạng",
+        "Phương pháp mở rộng: lập phương trình đường phân giác"
+      ],
+      "application_types": [
+        "Viết phương trình đường thẳng đi qua A, song song với mặt phẳng P, tạo với đường thẳng d một góc 60°",
+        "Viết phương trình mặt phẳng đi qua B, vuông góc với đường thẳng Δ, tạo với mặt phẳng P một góc 30°",
+        "Viết phương trình mặt phẳng đi qua hai điểm A, B sao cho góc giữa đường thẳng d và mặt phẳng là lớn nhất",
+        "Viết phương trình mặt phẳng đi qua hai điểm A, B sao cho khoảng cách từ C đến mặt phẳng là nhỏ nhất",
+        "Viết phương trình đường thẳng đi qua A, cắt mặt cầu S tại hai điểm M, N sao cho độ dài MN ngắn nhất",
+        "Tính khoảng cách từ điểm O đến mặt phẳng Q"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Tổng hợp đầy đủ các công thức về góc và khoảng cách",
+        "Trình bày phương pháp 4 bước rõ ràng, dễ áp dụng",
+        "Có phương pháp mở rộng về đường phân giác",
+        "Bài tập rèn luyện phân dạng chi tiết",
+        "Bao gồm các dạng câu hỏi trắc nghiệm đúng sai và trắc nghiệm trả lời ngắn"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu chỉ cung cấp phần lý thuyết và ví dụ minh họa, nội dung bài tập rèn luyện bị cắt ngắn",
+        "Không có lời giải chi tiết cho các ví dụ minh họa",
+        "Không có đáp án cho bài tập rèn luyện",
+        "Một số ví dụ minh họa bị cắt ngang, không đầy đủ",
+        "Nội dung tài liệu không hiển thị - chỉ có header/footer lặp lại trên 5 trang"
+      ]
+    },
+    {
+      "order": 38,
+      "canonical_title": "Phương pháp gắn hệ trục tọa độ Oxyz vào hình học không gian",
+      "program_area": "Hình học không gian",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 38,
+          "lesson_title": "Phương pháp gắn hệ trục tọa độ Oxyz vào hình học không gian",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Nắm vững phương pháp gắn hệ trục tọa độ Oxyz để giải bài toán hình học không gian",
+        "Xác định tọa độ các điểm trong không gian Oxyz",
+        "Tính góc giữa các yếu tố hình học (đường thẳng, mặt phẳng)",
+        "Tính khoảng cách giữa các yếu tố hình học",
+        "Tính diện tích đa giác và thể tích đa diện bằng phương pháp tọa độ"
+      ],
+      "prerequisites": [
+        "Kiến thức hình học không gian thuần túy (góc, khoảng cách, thể tích)",
+        "Vectơ trong không gian",
+        "Tích vô hướng, tích có hướng của vectơ",
+        "Phương trình mặt phẳng, đường thẳng trong không gian"
+      ],
+      "teaching_strategy": [
+        "Giảng dạy lý thuyết kết hợp với hình vẽ minh họa",
+        "Phương pháp tam diện vuông",
+        "Quy trình 3 bước: chọn hệ trục → xác định tọa độ → áp dụng công thức",
+        "Phân loại theo các dạng hình đa diện thường gặp",
+        "Ví dụ minh họa cụ thể"
+      ],
+      "application_types": [
+        "Tính góc giữa hai mặt phẳng trong hình chóp/lăng trụ",
+        "Tính góc giữa hai đường thẳng chéo nhau",
+        "Tính góc giữa đường thẳng và mặt phẳng",
+        "Tính khoảng cách từ điểm đến mặt phẳng",
+        "Tính khoảng cách giữa hai đường thẳng chéo nhau",
+        "Tính diện tích thiết diện"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp đầy đủ công thức cơ bản cần thiết",
+        "Phân loại rõ ràng các dạng hình đa diện thường gặp",
+        "Có hình vẽ minh họa cụ thể cho từng dạng",
+        "Quy trình 3 bước rõ ràng, dễ áp dụng",
+        "Bao gồm cả ví dụ minh họa và bài tập rèn luyện"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu cắt từ trang 1-3, chưa thấy phần ví dụ minh họa chi tiết",
+        "Chưa thấy phần bài tập rèn luyện cụ thể (chỉ thấy tiêu đề)",
+        "Không có lời giải chi tiết cho các ví dụ",
+        "Phần 'Phương pháp 2' và các bước tiếp theo bị cắt ngang"
+      ]
+    },
+    {
+      "order": 39,
+      "canonical_title": "Ứng dụng thực tế của phương trình mặt phẳng trong không gian",
+      "program_area": "Phương pháp tọa độ trong không gian",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 39,
+          "lesson_title": "Ứng dụng thực tế của phương trình mặt phẳng trong không gian",
+          "role": "practice"
+        },
+        {
+          "source": "LB",
+          "source_order": 42,
+          "lesson_title": "Ứng dụng thực tế của phương trình mặt cầu trong không gian",
+          "role": "practice"
+        }
+      ],
+      "learning_goals": [
+        "Áp dụng phương trình mặt phẳng để giải quyết các bài toán thực tế",
+        "Tính góc giữa mặt phẳng và mặt phẳng, giữa đường thẳng và mặt phẳng",
+        "Tính khoảng cách từ điểm đến mặt phẳng trong các tình huống thực tế",
+        "Xác định phương trình mặt phẳng từ các điều kiện hình học",
+        "Vận dụng phương trình mặt cầu để giải quyết các bài toán thực tế",
+        "Xác định vị trí điểm so với mặt cầu (bên trong, bên ngoài, trên mặt cầu)"
+      ],
+      "prerequisites": [
+        "Phương trình mặt phẳng cơ bản",
+        "Vectơ trong không gian",
+        "Tích vô hướng và tích có hướng của vectơ",
+        "Hệ trục tọa độ Oxyz",
+        "Hệ tọa độ Oxyz trong không gian",
+        "Công thức tính khoảng cách giữa hai điểm"
+      ],
+      "teaching_strategy": [
+        "Học qua ví dụ minh họa thực tế",
+        "Mô hình hóa các tình huống thực tế bằng hệ tọa độ",
+        "Giải quyết vấn đề từng bước",
+        "Luyện tập với các dạng bài tập khác nhau",
+        "Phân tích bài toán ứng dụng (radar, định vị GPS, xạ trị)",
+        "Kiểm chứng kết quả bằng các phương pháp khác nhau"
+      ],
+      "application_types": [
+        "Góc giữa mái nhà và nền nhà trong xây dựng",
+        "Góc hạ cánh của máy bay so với sân bay",
+        "Khoảng cách ngắn nhất từ điểm đến mặt phẳng trong không gian",
+        "Thiết kế sân dốc để thoát nước",
+        "Tính toán kích thước và góc trong các công trình xây dựng",
+        "Xác định phương trình mặt phẳng từ các điều kiện thực tế",
+        "Xác định phương trình mặt cầu từ tâm và bán kính cho trước"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp 11 ví dụ minh họa chi tiết với các tình huống thực tế đa dạng",
+        "Bao gồm ba dạng thức câu hỏi: trắc nghiệm nhiều phương án, đúng sai, trả lời ngắn",
+        "Các bài toán liên quan đến xây dựng, kiến trúc, công nghệ thực tế",
+        "Có hình vẽ minh họa giúp học sinh hình dung không gian",
+        "Kết quả được làm tròn đến các hàng khác nhau, phù hợp với thực tế",
+        "Cung cấp 9 ví dụ minh họa đa dạng từ thực tế"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu chỉ hiển thị 3 trang đầu, không có đầy đủ phần bài tập rèn luyện",
+        "Không có lời giải chi tiết cho các ví dụ, chỉ có đáp án",
+        "Không có phần lý thuyết tóm tắt công thức trước các ví dụ",
+        "Một số ví dụ phức tạp (ví dụ 08, 11) có thể cần giải thích thêm",
+        "Tài liệu chỉ cung cấp đề bài, không có lời giải chi tiết"
+      ]
+    },
+    {
+      "order": 40,
+      "canonical_title": "Nâng cao về phương trình mặt cầu, vị trí tương đối giữa mặt cầu và mặt phẳng, đường thẳng",
+      "program_area": "Phương pháp tọa độ trong không gian",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 41,
+          "lesson_title": "Nâng cao về phương trình mặt cầu, vị trí tương đối giữa mặt cầu và mặt phẳng, đường thẳng",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 31,
+          "lesson_title": "Phương Trình Mặt Phẳng - Buổi 3: Vị Trí Tương Đối",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Nắm vững vị trí tương đối của điểm với mặt cầu",
+        "Xác định vị trí tương đối giữa đường thẳng và mặt cầu",
+        "Phân tích vị trí tương đối giữa mặt cầu và mặt phẳng",
+        "Giải quyết bài toán về vị trí tương đối của hai mặt cầu",
+        "Vận dụng kiến thức để giải các bài toán phức tạp liên quan đến mặt cầu"
+      ],
+      "prerequisites": [
+        "Phương trình mặt cầu cơ bản",
+        "Khoảng cách từ điểm đến mặt phẳng",
+        "Hình chiếu vuông góc",
+        "Phương trình mặt phẳng",
+        "Phương trình đường thẳng trong không gian"
+      ],
+      "teaching_strategy": [
+        "Giảng dạy lý thuyết có hình vẽ minh họa",
+        "Phân tích các trường hợp vị trí tương đối",
+        "Ví dụ minh họa cụ thể",
+        "Bài tập rèn luyện dạng trắc nghiệm đúng sai",
+        "Bài tập trắc nghiệm trả lời ngắn"
+      ],
+      "application_types": [
+        "Cho 4 điểm, tìm phương trình mặt cầu đi qua 4 điểm đó",
+        "Cho 3 điểm và mặt phẳng, tìm mặt cầu đi qua 3 điểm có tâm thuộc mặt phẳng",
+        "Xác định vị trí tương đối giữa mặt cầu và mặt phẳng, tính diện tích giao tuyến",
+        "Tìm mặt phẳng tiếp xúc với mặt cầu đi qua điểm cho trước",
+        "Tìm đường thẳng cắt mặt cầu thỏa điều kiện cho trước",
+        "Tính thể tích khối chóp liên quan đến mặt cầu"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp đầy đủ lý thuyết về 4 loại vị trí tương đối",
+        "Có hình vẽ minh họa rõ ràng cho từng trường hợp",
+        "Bài tập phong phú với dạng trắc nghiệm đúng sai",
+        "Các ví dụ minh họa cụ thể với tọa độ cụ thể",
+        "Bao gồm bài tập rèn luyện và bài tập trả lời ngắn"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu cắt ở trang 4, không thể xem toàn bộ nội dung bài tập rèn luyện",
+        "Không có đáp án hoặc hướng dẫn giải chi tiết cho các ví dụ",
+        "Phần bài tập trả lời ngắn (dạng thức 3) không được hiển thị đầy đủ",
+        "Không có bài tập về tiếp tuyến của mặt cầu từ điểm ngoài mặt cầu",
+        "Tài liệu không hiển thị nội dung thực tế - chỉ chứa watermark và thông tin nguồn"
+      ]
+    },
+    {
+      "order": 41,
+      "canonical_title": "Một số mô hình cực trị Oxyz",
+      "program_area": "Phương pháp tọa độ trong không gian",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 43,
+          "lesson_title": "Một số mô hình cực trị Oxyz",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Nắm vững các phương pháp tiếp cận bài toán cực trị (GTLN-GTNN) trong không gian Oxyz",
+        "Áp dụng bất đẳng thức Cauchy, Schwartz và các nguyên lý hình học để giải quyết bài toán cực trị",
+        "Giải quyết các mô hình cực trị liên quan đến mặt phẳng, đường thẳng và khoảng cách",
+        "Tìm vị trí tối ưu của các đối tượng hình học để đạt cực trị"
+      ],
+      "prerequisites": [
+        "Phương trình mặt phẳng trong không gian",
+        "Phương trình đường thẳng trong không gian",
+        "Công thức tính khoảng cách từ điểm đến mặt phẳng",
+        "Công thức tính khoảng cách từ điểm đến đường thẳng",
+        "Vectơ pháp tuyến và vectơ chỉ phương",
+        "Hình chiếu vuông góc"
+      ],
+      "teaching_strategy": [
+        "Trình bày lý thuyết các phương pháp tiếp cận",
+        "Phân tích hình học cực hạn",
+        "Minh họa bằng ví dụ cụ thể",
+        "Phân loại theo dạng toán",
+        "Hướng dẫn từng bước giải quyết",
+        "Sử dụng tính chất bất biến của hình học"
+      ],
+      "application_types": [
+        "Cho hai điểm A, B và mặt phẳng, tìm điểm M trên mặt phẳng sao cho MA + MB nhỏ nhất",
+        "Cho hai điểm A, B và mặt phẳng, tìm điểm M trên mặt phẳng sao cho |MA - MB| lớn nhất",
+        "Cho điểm A, đường thẳng d và mặt phẳng, tìm mặt phẳng chứa d cách A khoảng lớn nhất",
+        "Cho điểm A, mặt phẳng và đường thẳng d, tìm đường thẳng trong mặt phẳng qua A cách d khoảng lớn nhất",
+        "Cho đường thẳng d, mặt phẳng và điểm A, tìm mặt phẳng chứa d tạo với mặt phẳng cho trước góc nhỏ nhất"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Tổng hợp đầy đủ các phương pháp tiếp cận bài toán cực trị",
+        "Phân loại rõ ràng theo 7 dạng toán cụ thể",
+        "Cung cấp ví dụ minh họa chi tiết với lời giải đầy đủ",
+        "Giải thích hình học trực quan cho từng mô hình",
+        "Cấu trúc logic từ lý thuyết đến ứng dụng"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu chỉ trích xuất 3 trang đầu, chưa thấy toàn bộ 7 dạng toán được trình bày chi tiết",
+        "Chưa có bài tập rèn luyện đầy đủ (chỉ thấy tiêu đề)",
+        "Chưa thấy các ví dụ minh họa cho các dạng toán 2-7",
+        "Không rõ mức độ khó của bài tập rèn luyện",
+        "Tài liệu dành cho mục tiêu 8-9 điểm nhưng chưa rõ phân bố độ khó"
+      ]
+    },
+    {
+      "order": 42,
+      "canonical_title": "Theme 15. Ứng dụng thực tế của vectơ trong không gian",
+      "program_area": "Vectơ và hệ trục tọa độ trong không gian",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 46,
+          "lesson_title": "Theme 15. Ứng dụng thực tế của vectơ trong không gian",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 42,
+          "lesson_title": "Bài 1.1 Vecto Trong Không Gian",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Áp dụng hệ trục tọa độ trong không gian để giải quyết các bài toán thực tế",
+        "Sử dụng vectơ để mô tả lực và chuyển động trong không gian",
+        "Tính toán khoảng cách, tọa độ điểm và vectơ vận tốc trong các tình huống thực tế",
+        "Phân tích và giải quyết các bài toán liên quan đến chuyển động của chất điểm"
+      ],
+      "prerequisites": [
+        "Kiến thức về hệ trục tọa độ trong không gian",
+        "Phép toán với vectơ (cộng, trừ, nhân vô hướng)",
+        "Công thức tính khoảng cách giữa hai điểm",
+        "Khái niệm về lực và vận tốc"
+      ],
+      "teaching_strategy": [
+        "Bài giảng lý thuyết kết hợp ví dụ minh họa",
+        "Phương pháp gắn hệ trục tọa độ vào các tình huống thực tế",
+        "Giải quyết vấn đề thông qua mô hình hóa toán học",
+        "Bài tập rèn luyện với các dạng câu hỏi trắc nghiệm đúng/sai"
+      ],
+      "application_types": [
+        "Xác định tọa độ của các điểm trong không gian dựa trên điều kiện cho trước",
+        "Tính khoảng cách giữa hai điểm hoặc từ điểm đến gốc tọa độ",
+        "Tính độ dài dây cáp, dây điện trong các bài toán thực tế",
+        "Xác định vectơ vận tốc và tọa độ sau một khoảng thời gian",
+        "Tính tổng hợp lực và độ lớn của lực căng",
+        "Kiểm tra xem máy bay có nằm trong phạm vi theo dõi của ra đa hay không"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp các ví dụ thực tế cụ thể và sinh động (phòng, nhà kho, sân bay, máy bay)",
+        "Sử dụng hình vẽ minh họa để giúp học sinh hình dung không gian",
+        "Bao gồm các dạng câu hỏi trắc nghiệm đúng/sai phù hợp với kỳ thi",
+        "Có bài tập rèn luyện đa dạng với độ khó tăng dần",
+        "Kết nối toán học với các ứng dụng thực tế (hàng không, xây dựng, cơ học)"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu chỉ hiển thị phần ví dụ minh họa, không có đầy đủ phần bài tập rèn luyện",
+        "Không có lời giải chi tiết cho các ví dụ, chỉ có đáp án",
+        "Một số bài toán có tính toán phức tạp nhưng không giải thích từng bước",
+        "Phần lý thuyết cơ bản được liệt kê ngắn gọn, có thể cần bổ sung thêm công thức",
+        "Tài liệu chỉ chứa watermark và thông tin fanpage, không có nội dung học tập thực tế"
+      ]
+    },
+    {
+      "order": 43,
+      "canonical_title": "Tính xác suất bằng công thức nhân tổng quát",
+      "program_area": "Xác suất có điều kiện",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 48,
+          "lesson_title": "Tính xác suất bằng công thức nhân tổng quát",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Nắm vững công thức nhân xác suất cho hai biến cố",
+        "Hiểu và áp dụng công thức nhân xác suất tổng quát cho nhiều biến cố",
+        "Phân biệt giữa biến cố độc lập và biến cố có điều kiện",
+        "Giải quyết các bài toán xác suất phức tạp liên quan đến chuỗi sự kiện"
+      ],
+      "prerequisites": [
+        "Định nghĩa xác suất cổ điển",
+        "Xác suất có điều kiện",
+        "Biến cố độc lập",
+        "Công thức cộng xác suất"
+      ],
+      "teaching_strategy": [
+        "Trình bày lý thuyết với công thức cụ thể",
+        "Giải thích bằng nhận xét (Remark) về mối liên hệ giữa xác suất có điều kiện và biến cố độc lập",
+        "Ví dụ minh họa đa dạng với các tình huống thực tế",
+        "Bài tập rèn luyện phân theo dạng thức trắc nghiệm"
+      ],
+      "application_types": [
+        "Tính xác suất của chuỗi sự kiện phụ thuộc nhau",
+        "Tính xác suất khi biết xác suất có điều kiện ở mỗi bước",
+        "Xác định xác suất của các kết quả cụ thể trong quá trình nhiều giai đoạn",
+        "Phân tích ảnh hưởng của kết quả trước đó đến xác suất của sự kiện tiếp theo",
+        "Tính xác suất của các biến cố phức hợp từ các biến cố đơn giản"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp công thức rõ ràng và chính xác",
+        "Có nhận xét giải thích mối liên hệ giữa xác suất có điều kiện và biến cố độc lập",
+        "Ví dụ minh họa đa dạng với các tình huống thực tế gần gũi",
+        "Bài tập phong phú với hai dạng thức: trắc nghiệm đúng sai và trắc nghiệm trả lời ngắn",
+        "Các bài toán có độ phức tạp tăng dần"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu chỉ trích xuất 3 trang đầu, chưa thấy phần bài tập rèn luyện hoàn chỉnh",
+        "Không có lời giải chi tiết cho các ví dụ minh họa",
+        "Không có hướng dẫn cách phân tích bài toán trước khi áp dụng công thức",
+        "Công thức nhân tổng quát được nêu nhưng chưa có ví dụ minh họa cụ thể cho trường hợp n > 3"
+      ]
+    },
+    {
+      "order": 44,
+      "canonical_title": "Sử dụng sơ đồ cây cho bài toán xác suất nâng cao",
+      "program_area": "Xác suất có điều kiện",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 49,
+          "lesson_title": "Sử dụng sơ đồ cây cho bài toán xác suất nâng cao",
+          "role": "practice"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 52,
+          "lesson_title": "Biến Đổi, Tính Toán Công Thức Xác Suất",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Áp dụng sơ đồ cây để giải quyết các bài toán xác suất phức tạp",
+        "Tính xác suất có điều kiện trong các tình huống thực tế",
+        "Sử dụng công thức xác suất toàn phần và định lý Bayes",
+        "Phân tích các bài toán xác suất với nhiều giai đoạn và điều kiện phụ thuộc"
+      ],
+      "prerequisites": [
+        "Khái niệm xác suất cơ bản",
+        "Công thức cộng xác suất",
+        "Công thức nhân xác suất",
+        "Xác suất có điều kiện cơ bản"
+      ],
+      "teaching_strategy": [
+        "Sơ đồ cây (tree diagram)",
+        "Phương pháp bảng xác suất",
+        "Giải quyết vấn đề từng bước",
+        "Ví dụ minh họa thực tế",
+        "Bài tập rèn luyện phân loại"
+      ],
+      "application_types": [
+        "Tính xác suất có điều kiện khi biết điều kiện xảy ra",
+        "Tính xác suất giao của hai biến cố",
+        "Tính xác suất toàn phần từ các xác suất có điều kiện",
+        "Áp dụng định lý Bayes để tìm xác suất ngược",
+        "Tìm tỷ lệ hoặc xác suất chưa biết từ điều kiện cho trước",
+        "Tính xác suất trong các bài toán lấy mẫu không hoàn lại"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp 15 ví dụ minh họa đa dạng từ thực tế",
+        "Bao gồm cả dạng trắc nghiệm đúng/sai và trả lời ngắn",
+        "Các bài toán có độ phức tạp tăng dần",
+        "Áp dụng vào các tình huống thực tế (bóng đèn, cầu, concert, dâu tây, v.v.)",
+        "Yêu cầu sử dụng sơ đồ cây để giải quyết vấn đề"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu không hiển thị phần lý thuyết chi tiết về sơ đồ cây",
+        "Không có lời giải chi tiết cho các ví dụ",
+        "Không rõ cách vẽ sơ đồ cây cụ thể cho từng bài toán",
+        "Một số ví dụ có dữ liệu bị cắt (ví dụ 01a không hiển thị đầy đủ)",
+        "Không có phần bài tập rèn luyện chi tiết (chỉ có tiêu đề)",
+        "Tài liệu chỉ chứa header/footer và thông tin chia sẻ, nội dung thực tế không được cung cấp"
+      ]
+    },
+    {
+      "order": 45,
+      "canonical_title": "Bài toán thực tế về hàm doanh thu, lợi nhuận, tối ưu chi phí",
+      "program_area": "Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 50,
+          "lesson_title": "Bài toán thực tế về hàm doanh thu, lợi nhuận, tối ưu chi phí",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Áp dụng đạo hàm để giải quyết các bài toán thực tế về doanh thu, chi phí và lợi nhuận",
+        "Xây dựng mô hình hàm số từ các bài toán kinh tế thực tế",
+        "Tìm giá trị lớn nhất, nhỏ nhất của hàm lợi nhuận để tối ưu hóa sản xuất",
+        "Hiểu và vận dụng khái niệm chi phí biên, doanh thu biên, lợi nhuận biên"
+      ],
+      "prerequisites": [
+        "Khái niệm đạo hàm và tính chất",
+        "Quy tắc tính đạo hàm",
+        "Tìm cực trị của hàm số bằng đạo hàm",
+        "Lập bảng biến thiên",
+        "Tìm giá trị lớn nhất, nhỏ nhất trên một khoảng"
+      ],
+      "teaching_strategy": [
+        "Giảng dạy lý thuyết kết hợp với ví dụ minh họa cụ thể",
+        "Phương pháp 4 bước giải bài toán mô hình thực tế (đọc đề → xây dựng mô hình → thu hẹp điều kiện → xét cực trị)",
+        "Phân tích ý nghĩa kinh tế của các khái niệm toán học",
+        "Bài tập rèn luyện với các dạng thức trắc nghiệm khác nhau"
+      ],
+      "application_types": [
+        "Xác định hàm lợi nhuận từ hàm doanh thu và hàm chi phí",
+        "Tìm số lượng sản phẩm để lợi nhuận đạt cực đại",
+        "Kiểm tra điều kiện thực tế (số lượng > 0, giá > 0, lợi nhuận ≥ 0)",
+        "Tính giá trị lợi nhuận lớn nhất",
+        "Phân tích ý nghĩa kinh tế của lợi nhuận biên",
+        "Xác định khoảng sản xuất có lợi (lợi nhuận > 0)"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp phương pháp 4 bước rõ ràng, hệ thống để giải bài toán mô hình thực tế",
+        "Giải thích chi tiết ý nghĩa kinh tế của các khái niệm toán học (chi phí biên, lợi nhuận biên)",
+        "Ví dụ minh họa cụ thể với các hàm số phức tạp (bậc 3)",
+        "Nhấn mạnh các điều kiện thực tế cần xem xét khi giải toán",
+        "Bài tập rèn luyện đa dạng với các dạng thức khác nhau (trắc nghiệm đúng/sai, trắc nghiệm trả lời ngắn)"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu chỉ trích xuất 3 trang đầu, nội dung bài tập rèn luyện không đầy đủ",
+        "Không có lời giải chi tiết cho các bài tập rèn luyện được liệt kê",
+        "Các bài tập ở trang 4 trở đi chỉ được liệt kê tiêu đề mà không có lời giải",
+        "Cần xem toàn bộ 9 trang để có đánh giá hoàn chỉnh về nội dung bài tập"
+      ]
+    },
+    {
+      "order": 46,
+      "canonical_title": "Bài toán thực tế liên quan đến tốc độ thay đổi của một đại lượng",
+      "program_area": "Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 51,
+          "lesson_title": "Bài toán thực tế liên quan đến tốc độ thay đổi của một đại lượng",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 13,
+          "lesson_title": "Bài 5.1 Ứng Dụng Đạo Hàm - Phần 1. Bài Toán Tốc Độ Thay Đổi Của 1 Đại Lượng",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Hiểu khái niệm tốc độ thay đổi trung bình và tốc độ thay đổi tức thời của một đại lượng",
+        "Áp dụng đạo hàm để giải quyết các bài toán thực tế liên quan đến tốc độ thay đổi",
+        "Tìm giá trị lớn nhất/nhỏ nhất của tốc độ thay đổi trong các bối cảnh thực tế",
+        "Phân tích và mô hình hóa các hiện tượng thực tế bằng hàm số",
+        "Nhận biết đạo hàm là tốc độ thay đổi tức thời",
+        "Áp dụng đạo hàm để giải quyết các bài toán thực tế trong vật lí, hoá học, sinh học và kinh tế"
+      ],
+      "prerequisites": [
+        "Khái niệm đạo hàm và cách tính đạo hàm",
+        "Quy tắc tìm giá trị lớn nhất, nhỏ nhất của hàm số",
+        "Bảng biến thiên và xét dấu đạo hàm",
+        "Các hàm số cơ bản: đa thức, hàm mũ, hàm logarit",
+        "Các quy tắc tính đạo hàm",
+        "Hàm số và tính chất của hàm số"
+      ],
+      "teaching_strategy": [
+        "Giảng dạy lý thuyết khái niệm tốc độ thay đổi",
+        "Phân tích hướng tư duy từ câu hỏi thực tế đến hàm cần đánh giá",
+        "Giải chi tiết ví dụ minh họa với các bước cụ thể",
+        "Lập bảng biến thiên để tìm cực trị",
+        "Bài tập rèn luyện dạng trắc nghiệm đúng/sai",
+        "Giới thiệu khái niệm từ định nghĩa toán học"
+      ],
+      "application_types": [
+        "Ở ngày thứ bao nhiêu thì tốc độ tăng trưởng của loài virus là lớn nhất?",
+        "Tốc độ thay đổi nhiệt độ tại thành phố X vào lúc 13h30 là bao nhiêu?",
+        "Tốc độ thay đổi tỉ lệ phụ thuộc đạt giá trị lớn nhất vào năm nào?",
+        "Nồng độ thuốc trong máu lớn nhất vào thời điểm nào?",
+        "Trong bao nhiêu ngày đầu, số lượng người bị lây nhiễm luôn tăng?",
+        "Tìm vận tốc tức thời tại một thời điểm cụ thể"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp định nghĩa rõ ràng về tốc độ thay đổi trung bình và tức thời",
+        "Liên hệ chặt chẽ giữa lý thuyết đạo hàm và ứng dụng thực tế",
+        "Ví dụ minh họa chi tiết với hướng tư duy rõ ràng",
+        "Bài tập rèn luyện đa dạng với các bối cảnh thực tế khác nhau",
+        "Hình thức trắc nghiệm đúng/sai giúp kiểm tra hiểu biết sâu"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu chỉ trích xuất 3 trang đầu, chưa thấy toàn bộ bài tập rèn luyện",
+        "Dạng thức 3 (trắc nghiệm trả lời ngắn) được đề cập nhưng nội dung không đầy đủ",
+        "Không có hướng dẫn giải chi tiết cho các ví dụ minh họa 01, 02, 03, 04",
+        "Cần xem trang tiếp theo để đánh giá đầy đủ phạm vi bài tập",
+        "Tài liệu chỉ là Phần 1, chưa bao gồm các ứng dụng khác của đạo hàm"
+      ]
+    },
+    {
+      "order": 47,
+      "canonical_title": "Bài toán thực tế ứng dụng của khảo sát đồ thị hàm số",
+      "program_area": "Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 52,
+          "lesson_title": "Bài toán thực tế ứng dụng của khảo sát đồ thị hàm số",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 10,
+          "lesson_title": "Bài 4.1. Khảo Sát Đồ Thị Hàm Số - Hàm Bậc Ba và Phân Thức Bậc Nhất",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Áp dụng sơ đồ khảo sát hàm số vào giải quyết các bài toán thực tế",
+        "Xác định hàm số từ dữ liệu thực tế (hàm bậc ba, hàm phân thức)",
+        "Tìm cực trị, giá trị lớn nhất/nhỏ nhất trong các bài toán ứng dụng",
+        "Phân tích tính chất đồ thị (tiệm cận, tâm đối xứng) trong bối cảnh thực tế",
+        "Giải quyết các bài toán tối ưu hóa liên quan đến chi phí, quãng đường, sản lượng",
+        "Khảo sát và vẽ đồ thị hàm bậc ba"
+      ],
+      "prerequisites": [
+        "Khái niệm đạo hàm và quy tắc tính đạo hàm",
+        "Giới hạn của hàm số",
+        "Khảo sát sự biến thiên của hàm số",
+        "Vẽ đồ thị hàm số cơ bản",
+        "Đạo hàm và ứng dụng đạo hàm",
+        "Tính đơn điệu của hàm số"
+      ],
+      "teaching_strategy": [
+        "Trình bày lý thuyết sơ đồ khảo sát hàm số",
+        "Minh họa bằng ví dụ cụ thể từ thực tế",
+        "Phân tích từng bước giải quyết bài toán ứng dụng",
+        "Rèn luyện qua các dạng câu hỏi trắc nghiệm đúng/sai và trả lời ngắn",
+        "Phân tích đồ thị cho trước",
+        "Phân tích bảng biến thiên"
+      ],
+      "application_types": [
+        "Xác định hàm số mô tả hiện tượng thực tế từ bảng dữ liệu",
+        "Tính giá trị hàm số tại điểm cụ thể",
+        "Tìm vận tốc tối đa (đạo hàm bậc nhất)",
+        "Tìm chi phí/sản lượng nhỏ nhất/lớn nhất",
+        "Xác định tiệm cận và ý nghĩa thực tế của nó",
+        "Tìm tâm đối xứng của đồ thị",
+        "Cho đồ thị hàm bậc ba, xác định các tính chất (cực trị, tính đơn điệu)"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp sơ đồ khảo sát hàm số rõ ràng, có hệ thống",
+        "Ví dụ minh họa đa dạng từ các lĩnh vực thực tế khác nhau",
+        "Bài tập rèn luyện phong phú với các dạng câu hỏi khác nhau",
+        "Các bài toán có độ khó tăng dần, phù hợp với mục tiêu 8-9 điểm",
+        "Liên kết chặt chẽ giữa lý thuyết và ứng dụng thực tế",
+        "Cung cấp nhiều ví dụ minh họa chi tiết với đồ thị"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu chỉ trích xuất 6 trang đầu, chưa thấy phần bài tập rèn luyện đầy đủ",
+        "Không có lời giải chi tiết cho các ví dụ minh họa",
+        "Một số công thức/hàm số trong tài liệu bị cắt xén hoặc không rõ ràng do định dạng",
+        "Chưa rõ có bao nhiêu bài tập rèn luyện trong phần còn lại (trang 4-9)",
+        "Cần kiểm chứng lại các công thức hàm số do có thể bị lỗi OCR",
+        "Một số hình vẽ trong tài liệu không rõ ràng hoặc bị mất (VD 1, 2, 3, 7 và các câu hỏi trắc nghiệm)"
+      ]
+    },
+    {
+      "order": 48,
+      "canonical_title": "Bài toán thực tế tối ưu diện tích, thể tích vật thể",
+      "program_area": "Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 53,
+          "lesson_title": "Bài toán thực tế tối ưu diện tích, thể tích vật thể",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 15,
+          "lesson_title": "Ứng Dụng Đạo Hàm - Phần 3: Bài Toán Chu Vi, Diện Tích, Quãng Đường",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Giải quyết các bài toán thực tế liên quan đến tối ưu hóa diện tích và thể tích",
+        "Xây dựng mô hình hàm số từ các bài toán thực tiễn",
+        "Áp dụng đạo hàm để tìm giá trị lớn nhất, nhỏ nhất của hàm số",
+        "Phát triển kỹ năng chuyển đổi bài toán thực tế thành bài toán toán học"
+      ],
+      "prerequisites": [
+        "Kiến thức về đạo hàm và cách tính đạo hàm",
+        "Phương pháp tìm giá trị lớn nhất, nhỏ nhất của hàm số",
+        "Công thức tính thể tích và diện tích các hình khối cơ bản",
+        "Kỹ năng giải phương trình, bất phương trình"
+      ],
+      "teaching_strategy": [
+        "Phương pháp 5 bước giải bài toán tối ưu (Hiểu vấn đề → Giới thiệu kí hiệu → Tìm mối quan hệ → Phát biểu bài toán → Giải quyết)",
+        "Phương pháp rút gọn 3 bước (Đọc đề → Xây dựng mô hình → Xét tính chất hàm)",
+        "Học qua ví dụ minh họa chi tiết (đề thi THPT QG 2018)",
+        "Bài tập rèn luyện với các dạng thức khác nhau"
+      ],
+      "application_types": [
+        "Tìm thể tích lớn nhất của bể cá khi biết diện tích kính sử dụng",
+        "Tính chi phí xây dựng tối thiểu cho bể chứa nước với thể tích cố định",
+        "Xác định kích thước bể để tối ưu hóa chi phí vật liệu",
+        "Tìm kích thước miếng gỗ phụ để tối ưu hóa diện tích sử dụng"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp phương pháp giải bài toán tối ưu một cách hệ thống và rõ ràng",
+        "Có ví dụ minh họa chi tiết từ đề thi THPT QG thực tế",
+        "Đưa ra các nhận xét (REMARK) quan trọng về cách đặt ẩn và tìm điều kiện",
+        "Bao gồm nhiều dạng bài tập khác nhau (trắc nghiệm đúng sai, trả lời ngắn)",
+        "Liên hệ chặt chẽ với thực tiễn (xây dựng, tưới cây, v.v.)"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu chỉ hiển thị 3 trang đầu, không thể xác định đầy đủ tất cả các bài tập rèn luyện",
+        "Không rõ có bao nhiêu ví dụ minh họa và bài tập tổng cộng trong 8 trang",
+        "Các bài tập ở trang 3 chưa hoàn chỉnh (ví dụ 03 bị cắt ngang)",
+        "Không có đáp án hoặc hướng dẫn giải cho các bài tập rèn luyện",
+        "Nội dung tài liệu không hiển thị - chỉ chứa watermark và thông tin nguồn"
+      ]
+    },
+    {
+      "order": 49,
+      "canonical_title": "Bài toán thực tế liên quan đến quãng đường ngắn nhất, thời gian ngắn nhất",
+      "program_area": "Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "LB",
+          "source_order": 54,
+          "lesson_title": "Bài toán thực tế liên quan đến quãng đường ngắn nhất, thời gian ngắn nhất",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Áp dụng đạo hàm để giải quyết các bài toán thực tế tìm quãng đường ngắn nhất",
+        "Áp dụng đạo hàm để giải quyết các bài toán thực tế tìm thời gian ngắn nhất",
+        "Xây dựng mô hình hàm số từ các tình huống thực tế",
+        "Tìm giá trị cực tiểu của hàm số trong bối cảnh ứng dụng"
+      ],
+      "prerequisites": [
+        "Tính đạo hàm của hàm số",
+        "Tìm cực trị của hàm số",
+        "Định lý Pytago",
+        "Kiến thức về chuyển động đều",
+        "Khái niệm vận tốc, quãng đường, thời gian"
+      ],
+      "teaching_strategy": [
+        "Phương pháp 3 bước: Đặt ẩn → Xây dựng hàm → Xét min/max",
+        "Phương pháp hình học: Vẽ sơ đồ, mô hình hóa bài toán",
+        "Phương pháp đạo hàm: Tính f'(x), lập bảng biến thiên",
+        "Phương pháp so sánh: So sánh các phương án khác nhau",
+        "Học qua ví dụ minh họa cụ thể"
+      ],
+      "application_types": [
+        "Tìm quãng đường/vị trí để thời gian di chuyển ngắn nhất",
+        "Tìm vị trí tối ưu để chi phí thấp nhất",
+        "So sánh thời gian giữa các phương án di chuyển khác nhau",
+        "Xác định điểm chuyển tiếp tối ưu giữa hai phương tiện/đường khác nhau",
+        "Tính thời gian/chi phí tối ưu trong các tình huống thực tế"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp phương pháp tổng quát 3 bước rõ ràng",
+        "Có ghi chú (REMARK) giải thích công thức quan trọng",
+        "Ví dụ minh họa chi tiết với lời giải đầy đủ",
+        "Bài tập đa dạng với nhiều dạng thức (trắc nghiệm đúng/sai, trả lời ngắn)",
+        "Các bài toán gắn liền với thực tế (quân sự, thương mại, thể thao, công trình)"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu chỉ trích xuất 3 trang đầu, chưa thấy toàn bộ bài tập rèn luyện",
+        "Một số công thức trong ví dụ minh họa có ký tự không rõ ràng (có thể do OCR)",
+        "Chưa có hướng dẫn chi tiết cho các bài tập dạng trắc nghiệm đúng/sai",
+        "Không có phần đáp án hoặc hướng dẫn giải cho các bài tập"
+      ]
+    },
+    {
+      "order": 50,
+      "canonical_title": "Đơn Điệu, Cực Trị, Maxmin của Hàm Lượng Giác và Mũ Logarit",
+      "program_area": "Hàm số và Ứng dụng Đạo hàm",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 7,
+          "lesson_title": "Đơn Điệu, Cực Trị, Maxmin của Hàm Lượng Giác và Mũ Logarit",
+          "role": "practice"
+        }
+      ],
+      "learning_goals": [
+        "Xác định tính đơn điệu của hàm lượng giác, mũ, logarit",
+        "Tìm cực trị của hàm lượng giác, mũ, logarit",
+        "Tìm giá trị lớn nhất, nhỏ nhất trên đoạn cho trước",
+        "Giải phương trình đạo hàm bằng 0",
+        "Vẽ bảng biến thiên và phân tích tính chất hàm số"
+      ],
+      "prerequisites": [
+        "Công thức đạo hàm cơ bản",
+        "Đạo hàm của hàm hợp",
+        "Khái niệm cực trị và maxmin",
+        "Hàm lượng giác cơ bản",
+        "Hàm mũ và logarit"
+      ],
+      "teaching_strategy": [
+        "Phương pháp trắc nghiệm đúng/sai (True/False)",
+        "Giải quyết vấn đề từng bước",
+        "Phân tích đạo hàm để xác định tính chất",
+        "Lập bảng biến thiên",
+        "Tính toán giá trị tại các điểm đặc biệt"
+      ],
+      "application_types": [
+        "Tính đạo hàm của hàm số cho trước",
+        "Tìm nghiệm của phương trình f'(x) = 0 trên đoạn cho trước",
+        "Xác định giá trị lớn nhất/nhỏ nhất trên đoạn",
+        "Xác định khoảng đơn điệu của hàm số",
+        "Tìm số điểm cực trị trên khoảng cho trước",
+        "Vẽ bảng biến thiên và phân tích tính chất"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Bài tập phong phú với 19 câu hỏi trắc nghiệm đúng/sai",
+        "Bao quát đầy đủ các loại hàm: lượng giác, mũ, logarit",
+        "Cấu trúc câu hỏi rõ ràng: tính giá trị, đạo hàm, cực trị, maxmin",
+        "Có 10 ví dụ chi tiết (VD1-VD10) trước phần bài tập",
+        "Đa dạng các khoảng và đoạn xét"
+      ],
+      "gaps_to_fill": [
+        "Một số công thức trong tài liệu bị lỗi hiển thị (ký tự không rõ)",
+        "Thiếu lời giải chi tiết cho các bài tập",
+        "Không có hướng dẫn phương pháp giải tổng quát",
+        "Một số câu hỏi có nội dung không đầy đủ (VD8, Câu 7, Câu 8)",
+        "Không có phân loại mức độ khó rõ ràng"
+      ]
+    },
+    {
+      "order": 51,
+      "canonical_title": "Bài 3.2 Đường Tiệm Cận Của Đồ Thị Hàm Số - Tiệm Cận Xiên",
+      "program_area": "Hàm Số Và Ứng Dụng Đạo Hàm",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 9,
+          "lesson_title": "Bài 3.2 Đường Tiệm Cận Của Đồ Thị Hàm Số - Tiệm Cận Xiên",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Hiểu định nghĩa đường tiệm cận xiên của đồ thị hàm số",
+        "Nắm vững hai cách tìm đường tiệm cận xiên (công thức giới hạn và phân tích hàm số)",
+        "Phân biệt điều kiện để hàm số có tiệm cận xiên dựa trên bậc của tử và mẫu",
+        "Áp dụng công thức tìm tiệm cận xiên cho các hàm số cụ thể"
+      ],
+      "prerequisites": [
+        "Khái niệm giới hạn của hàm số",
+        "Tính giới hạn khi x → +∞ và x → -∞",
+        "Phép chia đa thức",
+        "Khái niệm đường tiệm cận đứng và tiệm cận ngang"
+      ],
+      "teaching_strategy": [
+        "Trình bày định nghĩa qua giới hạn",
+        "Minh họa bằng hình vẽ đồ thị",
+        "Cung cấp hai phương pháp tìm tiệm cận xiên (công thức và phân tích)",
+        "Giải chi tiết các ví dụ từ cơ bản đến phức tạp",
+        "Cung cấp ghi chú (NOTE) về điều kiện bậc của tử mẫu",
+        "Bài tập tự luyện với trắc nghiệm và tự luận"
+      ],
+      "application_types": [
+        "Tìm tiệm cận xiên của hàm số hữu tỉ cho trước",
+        "Xác định hệ số a, b trong phương trình tiệm cận xiên",
+        "Phân biệt hàm số có tiệm cận xiên hay không dựa trên bậc tử mẫu",
+        "Viết lại hàm số dưới dạng y = ax + b + g(x) để tìm tiệm cận",
+        "Tính toán giới hạn để xác định tiệm cận xiên",
+        "Ứng dụng tiệm cận xiên trong bài toán về hàm số phức tạp (VD4)"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Cung cấp định nghĩa chính xác qua giới hạn",
+        "Trình bày hai phương pháp tìm tiệm cận xiên rõ ràng",
+        "Có ghi chú (NOTE) về điều kiện bậc tử mẫu giúp học sinh nhanh chóng xác định",
+        "Ví dụ đa dạng từ hàm hữu tỉ đến hàm chứa căn và logarit",
+        "Bài tập tự luyện phong phú với cả trắc nghiệm và tự luận"
+      ],
+      "gaps_to_fill": [
+        "Trang 1 có một số công thức bị lỗi hiển thị (dấu mũi tên và ký hiệu không rõ)",
+        "Không có lời giải chi tiết cho các ví dụ VD1, VD2, VD3, VD4",
+        "Không có lời giải cho bài tập tự luyện",
+        "VD3 yêu cầu 'BẤM MÁY' nhưng không hướng dẫn cách bấm máy tính",
+        "Thiếu giải thích về trường hợp hàm số bậc 2 trên bậc 1 có hai tiệm cận xiên"
+      ]
+    },
+    {
+      "order": 52,
+      "canonical_title": "Khảo Sát Đồ Thị Hàm Số Hàm Phân Thức Bậc Hai",
+      "program_area": "Hàm Số và Ứng Dụng Đạo Hàm",
+      "phase": "Kết hợp",
+      "source_lessons": [
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 11,
+          "lesson_title": "Khảo Sát Đồ Thị Hàm Số Hàm Phân Thức Bậc Hai",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 12,
+          "lesson_title": "Khảo Sát Đồ Thị Hàm Số Hàm Phân Thức Bậc Hai",
+          "role": "homework"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Tài liệu chỉ chứa watermark và thông tin fanpage, không có nội dung học tập thực tế",
+        "Không thể trích xuất thông tin chi tiết về phương pháp dạy học, ví dụ, hoặc bài tập",
+        "Cần xem lại file PDF gốc để đảm bảo nội dung được tải đầy đủ",
+        "Tài liệu không chứa nội dung thực tế - chỉ có watermark và thông tin nguồn",
+        "Không thể trích xuất thông tin chi tiết về mục tiêu, khái niệm, phương pháp dạy học"
+      ]
+    },
+    {
+      "order": 53,
+      "canonical_title": "Ứng Dụng Đạo Hàm - Phần 2: Bài Toán Kinh Tế",
+      "program_area": "Hàm Số và Ứng Dụng Đạo Hàm",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 14,
+          "lesson_title": "Ứng Dụng Đạo Hàm - Phần 2: Bài Toán Kinh Tế",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị rõ - chỉ chứa watermark và thông tin nguồn",
+        "Không thể trích xuất chi tiết về phương pháp dạy học, ví dụ, hoặc câu hỏi ứng dụng",
+        "Cần xem lại file PDF gốc để có đánh giá chính xác"
+      ]
+    },
+    {
+      "order": 54,
+      "canonical_title": "Ứng Dụng Đạo Hàm - Phần 4. Bài Toán Hình Học Không Gian",
+      "program_area": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+      "phase": "Kết hợp",
+      "source_lessons": [
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 16,
+          "lesson_title": "Ứng Dụng Đạo Hàm - Phần 4. Bài Toán Hình Học Không Gian",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Tài liệu chỉ chứa header/footer và watermark, nội dung thực của bài học không được cung cấp",
+        "Không thể trích xuất thông tin chi tiết về mục tiêu, khái niệm, phương pháp dạy học",
+        "Không thể xác định loại bài tập cụ thể (bài học, bài tập về nhà, hay bài tập luyện tập)"
+      ]
+    },
+    {
+      "order": 55,
+      "canonical_title": "Bài 0. Tích Có Hướng Và Ứng Dụng",
+      "program_area": "Hình học không gian",
+      "phase": "Kết hợp",
+      "source_lessons": [
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 29,
+          "lesson_title": "Bài 0. Tích Có Hướng Và Ứng Dụng",
+          "role": "core"
+        },
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 45,
+          "lesson_title": "Toán Thực Tế Vecto - Dạng 3. Tính Công (Tích Vô Hướng)",
+          "role": "practice"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [
+        "Định nghĩa vectơ trong không gian",
+        "Tích vô hướng cơ bản",
+        "Khái niệm công trong vật lý"
+      ],
+      "teaching_strategy": [
+        "Học qua ví dụ thực tế",
+        "Giải quyết bài toán ứng dụng"
+      ],
+      "application_types": [
+        "Tính công khi biết lực và độ dịch chuyển",
+        "Ứng dụng tích vô hướng trong bài toán vật lý thực tế"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Tập trung vào ứng dụng thực tế của tích vô hướng",
+        "Dạng bài toán liên hệ với vật lý"
+      ],
+      "gaps_to_fill": [
+        "Tài liệu chỉ chứa thông tin header/footer, nội dung thực của bài học không được cung cấp",
+        "Không thể xác định được phương pháp dạy học, ví dụ, bài tập áp dụng",
+        "Không thể xác định mục tiêu học tập cụ thể",
+        "Không thể xác định các khái niệm được dạy",
+        "Nội dung tài liệu không hiển thị rõ ràng - chỉ có header/footer"
+      ]
+    },
+    {
+      "order": 56,
+      "canonical_title": "Phương Trình Mặt Phẳng - Buổi 2: Phương Trình Mặt Chắn",
+      "program_area": "Hình học không gian (OXYZ)",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 30,
+          "lesson_title": "Phương Trình Mặt Phẳng - Buổi 2: Phương Trình Mặt Chắn",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị đầy đủ - chỉ có header/footer lặp lại trên 5 trang",
+        "Không thể trích xuất thông tin chi tiết về phương pháp dạy, ví dụ, bài tập, hay mục tiêu học tập",
+        "Cần xem lại file PDF để có dữ liệu đầy đủ"
+      ]
+    },
+    {
+      "order": 57,
+      "canonical_title": "Phương Trình Đường Thẳng - Buổi 3: Góc và Khoảng Cách, Vị Trí Tương Đối",
+      "program_area": "Hình học không gian (OXYZ)",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 34,
+          "lesson_title": "Phương Trình Đường Thẳng - Buổi 3: Góc và Khoảng Cách, Vị Trí Tương Đối",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [
+        "Tính góc giữa hai đường thẳng trong không gian",
+        "Tính khoảng cách từ điểm đến đường thẳng",
+        "Tính khoảng cách giữa hai đường thẳng",
+        "Xác định vị trí tương đối của hai đường thẳng"
+      ],
+      "prerequisites": [
+        "Phương trình tham số của đường thẳng",
+        "Phương trình chính tắc của đường thẳng",
+        "Vectơ chỉ phương",
+        "Tích vô hướng của vectơ",
+        "Tích có hướng của vectơ"
+      ],
+      "teaching_strategy": [
+        "Công thức trực tiếp",
+        "Phương pháp vectơ",
+        "Phân tích hình học"
+      ],
+      "application_types": [
+        "Cho hai đường thẳng, tính góc giữa chúng",
+        "Cho điểm và đường thẳng, tính khoảng cách",
+        "Cho hai đường thẳng chéo nhau, tính khoảng cách",
+        "Xác định hai đường thẳng có cắt nhau, song song hay chéo nhau"
+      ],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [
+        "Tập trung vào ba nội dung chính: góc, khoảng cách, vị trí tương đối",
+        "Là buổi 3 trong chuỗi bài về phương trình đường thẳng, có tính liên tiếp"
+      ],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị rõ ràng - chỉ có watermark, không thể xác định chi tiết công thức, ví dụ cụ thể, bài tập",
+        "Không thể kiểm chứng các dạng bài tập cụ thể được dạy",
+        "Không thể xác định mức độ chi tiết của từng phần nội dung"
+      ]
+    },
+    {
+      "order": 58,
+      "canonical_title": "Bài 2.4 Toán Thực Tế Oxyz - Phương Trình Đường Thẳng",
+      "program_area": "Hình học không gian",
+      "phase": "Kết hợp",
+      "source_lessons": [
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 35,
+          "lesson_title": "Bài 2.4 Toán Thực Tế Oxyz - Phương Trình Đường Thẳng",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị - chỉ có header/footer lặp lại trên 7 trang",
+        "Không thể trích xuất thông tin chi tiết về phương pháp dạy học, ví dụ, hoặc câu hỏi ứng dụng",
+        "Cần xem lại file PDF để có dữ liệu đầy đủ"
+      ]
+    },
+    {
+      "order": 59,
+      "canonical_title": "Phương Trình Mặt Cầu - Vị Trí Tương Đối",
+      "program_area": "Hình học không gian Oxyz",
+      "phase": "Kết hợp",
+      "source_lessons": [
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 38,
+          "lesson_title": "Phương Trình Mặt Cầu - Vị Trí Tương Đối",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị - chỉ có header/footer lặp lại trên 6 trang",
+        "Không thể trích xuất thông tin chi tiết về phương pháp dạy học, ví dụ, hoặc câu hỏi áp dụng",
+        "Cần xem lại file PDF để có dữ liệu đầy đủ"
+      ]
+    },
+    {
+      "order": 60,
+      "canonical_title": "Toán Thực Tế Oxyz - Phương Trình Mặt Phẳng",
+      "program_area": "Hình học không gian",
+      "phase": "Kết hợp",
+      "source_lessons": [
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 41,
+          "lesson_title": "Toán Thực Tế Oxyz - Phương Trình Mặt Phẳng",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị - chỉ có watermark và thông tin nguồn",
+        "Không thể xác định được phương pháp dạy học, ví dụ, mục tiêu cụ thể",
+        "Không thể phân loại loại bài học (lesson/homework/practice/bonus/test)",
+        "Không thể xác định giai đoạn học tập (Nền tảng/Vận dụng/Vận dụng cao)"
+      ]
+    },
+    {
+      "order": 61,
+      "canonical_title": "Bài 4.1. Toán Thực Tế Vecto - Dạng 1: Tổng Hợp Lực",
+      "program_area": "VÉCTƠ TRONG KHÔNG GIAN",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 43,
+          "lesson_title": "Bài 4.1. Toán Thực Tế Vecto - Dạng 1: Tổng Hợp Lực",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị đầy đủ - chỉ có header/footer từ 3 trang",
+        "Không thể trích xuất các thành phần chi tiết: mục tiêu, khái niệm, phương pháp dạy học, ví dụ, bài tập áp dụng",
+        "Không xác định được lesson_type chính xác (lesson/homework/practice/bonus/test)"
+      ]
+    },
+    {
+      "order": 62,
+      "canonical_title": "Toán Thực Tế Vecto - Dạng 4. Treo Vật Bằng Sợi Dậy",
+      "program_area": "Véctơ trong không gian",
+      "phase": "Vận dụng",
+      "source_lessons": [
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 46,
+          "lesson_title": "Toán Thực Tế Vecto - Dạng 4. Treo Vật Bằng Sợi Dậy",
+          "role": "practice"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị đầy đủ - chỉ có header/footer và thông tin nguồn",
+        "Không thể trích xuất chi tiết về phương pháp dạy học, ví dụ, hoặc câu hỏi áp dụng",
+        "Cần xem lại file PDF để có đánh giá chính xác"
+      ]
+    },
+    {
+      "order": 63,
+      "canonical_title": "Bài Toán Tâm Tỉ Cự",
+      "program_area": "Véctơ trong không gian",
+      "phase": "Kết hợp",
+      "source_lessons": [
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 48,
+          "lesson_title": "Bài Toán Tâm Tỉ Cự",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không đủ để phân tích - chỉ chứa thông tin header/footer",
+        "Không thể xác định phương pháp dạy học, ví dụ, mục tiêu cụ thể",
+        "Không thể xác định mức độ khó và tiến trình học tập"
+      ]
+    },
+    {
+      "order": 64,
+      "canonical_title": "Công Thức Bayes",
+      "program_area": "Xác suất có điều kiện",
+      "phase": "Kết hợp",
+      "source_lessons": [
+        {
+          "source": "NGPHANTIEN",
+          "source_order": 51,
+          "lesson_title": "Công Thức Bayes",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "Nội dung tài liệu không hiển thị - chỉ có watermark và thông tin nguồn",
+        "Không thể trích xuất cấu trúc dạy học từ tài liệu hiện tại",
+        "Cần xem lại file PDF để phân tích chi tiết"
+      ]
+    }
+  ],
+  "global_gaps": [
+    "Một số bài cùng chủ đề nhưng tên quá khác nhau có thể chưa được merge hoàn hảo.",
+    "Các file scan text ít ký tự cần kiểm tra lại nếu PDF chủ yếu là ảnh."
+  ],
+  "next_actions": [
+    "Review preview HTML và chỉnh ngưỡng merge nếu thấy bài bị gom sai.",
+    "Thêm MAPSTUDY/NGTIENDAT vào input_sources rồi chạy lại manifest, scan, synthesize."
+  ],
+  "_meta": {
+    "generated_at": "2026-05-19T05:43:09",
+    "ai_status": "fallback_no_ai",
+    "model": null,
+    "scan_file": "D:\\Projects\\pipeline\\local_curriculum\\output_json\\curriculum_scan.json",
+    "lesson_count": 106
+  }
+}

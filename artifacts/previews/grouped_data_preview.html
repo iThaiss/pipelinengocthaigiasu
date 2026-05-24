@@ -1,0 +1,1683 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ingest Preview</title>
+  <script>
+    window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  <style>
+    :root {
+      --bg: #f4f6f8;
+      --text: #182230;
+      --muted: #667085;
+      --line: #d0d5dd;
+      --card: #fff;
+      --accent: #1769aa;
+      --ok: #157347;
+      --warn: #b54708;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Segoe UI, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    .wrap { max-width: 1160px; margin: 0 auto; padding: 28px 20px 56px; }
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: flex-end;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 18px;
+      margin-bottom: 18px;
+    }
+    h1 { margin: 0 0 6px; font-size: 30px; }
+    .sub { color: var(--muted); }
+    .stats { display: grid; grid-template-columns: repeat(2, minmax(120px, 1fr)); gap: 8px; min-width: 260px; }
+    .stat { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+    .stat strong { display: block; font-size: 24px; }
+    .stat span { color: var(--muted); font-size: 12px; text-transform: uppercase; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-left: 5px solid var(--accent);
+      border-radius: 8px;
+      margin: 14px 0;
+      padding: 18px;
+    }
+    .card.visual { border-left-color: var(--warn); }
+    header { display: flex; justify-content: space-between; gap: 16px; }
+    .eyebrow { color: var(--muted); font-size: 12px; text-transform: uppercase; }
+    h2 { margin: 2px 0 0; font-size: 17px; overflow-wrap: anywhere; }
+    h3 { margin: 18px 0 8px; color: var(--muted); text-transform: uppercase; font-size: 13px; }
+    .question { font-size: 17px; }
+    .visual-img { display: block; max-width: 720px; width: 100%; margin-top: 14px; border: 1px solid var(--line); border-radius: 8px; background: white; }
+    .options { margin: 10px 0 0 22px; padding: 0; }
+    .options li { padding: 3px 0 3px 4px; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .answer { font-weight: 800; font-size: 22px; color: var(--accent); }
+    .badge { border-radius: 999px; padding: 6px 10px; color: white; font-size: 12px; font-weight: 700; white-space: nowrap; }
+    .badge.ok { background: var(--ok); }
+    .badge.warn { background: var(--warn); }
+    .muted, .meta-line { color: var(--muted); }
+    summary { margin-top: 16px; cursor: pointer; color: var(--accent); font-weight: 700; }
+    pre { white-space: pre-wrap; background: #eef2f6; border: 1px solid var(--line); border-radius: 8px; padding: 12px; overflow: auto; }
+    @media (max-width: 760px) {
+      .hero { display: block; }
+      .stats { min-width: 0; margin-top: 14px; }
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div>
+        <h1>Ingest Preview</h1>
+        <div class="sub">Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        <div class="sub">Generated 2026-05-18 02:53:19 · source MAPSTUDY</div>
+      </div>
+      <div class="stats">
+        <div class="stat"><strong>23</strong><span>Questions</span></div>
+        <div class="stat"><strong>23</strong><span>Need Visual</span></div>
+      </div>
+    </section>
+    
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#1 ·  · page 1 · multiple_choice</div>
+          <h2>IT1230101</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">Tìm hiểu thời gian xem Tivi trong tuần trước (đơn vị: giờ) của một số học sinh thu được kết quả sau:
+
+| Thời gian (giờ) | $[0;5)$ | $[5;10)$ | $[10;15)$ | $[15;20)$ | $[20;25)$ |
+|---|---|---|---|---|---|
+| Số học sinh | 8 | 16 | 4 | 2 | 2 |
+
+Giá trị đại diện của nhóm $[20;25)$ là</div>
+        
+    <ol class="options" type="A">
+      <li>$22{,}5$</li>
+      <li>$23$</li>
+      <li>$20$</li>
+      <li>$5$</li>
+    </ol>
+    
+        
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer">A</div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: Nhận biết</div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;multiple_choice&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: &quot;IT12301&quot;,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;Tìm hiểu thời gian xem Tivi trong tuần trước (đơn vị: giờ) của một số học sinh thu được kết quả sau:\n\n| Thời gian (giờ) | $[0;5)$ | $[5;10)$ | $[10;15)$ | $[15;20)$ | $[20;25)$ |\n|---|---|---|---|---|---|\n| Số học sinh | 8 | 16 | 4 | 2 | 2 |\n\nGiá trị đại diện của nhóm $[20;25)$ là&quot;,
+  &quot;difficulty&quot;: &quot;Nhận biết&quot;,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230101&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 1,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;multiple_choice\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: \&quot;IT12301\&quot;, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: \&quot;Nhận biết\&quot;, \&quot;question_text\&quot;: \&quot;Tìm hiểu thời gian xem Tivi trong tuần trước (đơn vị: giờ) của một số học sinh thu được kết quả sau:\\n\\n| Thời gian (giờ) | $[0;5)$ | $[5;10)$ | $[10;15)$ | $[15;20)$ | $[20;25)$ |\\n|---|---|---|---|---|---|\\n| Số học sinh | 8 | 16 | 4 | 2 | 2 |\\n\\nGiá trị đại diện của nhóm $[20;25)$ là\&quot;, \&quot;option_a\&quot;: \&quot;$22{,}5$\&quot;, \&quot;option_b\&quot;: \&quot;$23$\&quot;, \&quot;option_c\&quot;: \&quot;$20$\&quot;, \&quot;option_d\&quot;: \&quot;$5$\&quot;, \&quot;correct_answer\&quot;: \&quot;A\&quot;, \&quot;statements\&quot;: [], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: null, \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230101\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;option_a&quot;: &quot;$22{,}5$&quot;,
+  &quot;option_b&quot;: &quot;$23$&quot;,
+  &quot;option_c&quot;: &quot;$20$&quot;,
+  &quot;option_d&quot;: &quot;$5$&quot;,
+  &quot;correct_answer&quot;: &quot;A&quot;
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#2 ·  · page 1 · multiple_choice</div>
+          <h2>IT1230102</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">Đo chiều cao (tính bằng cm) của 500 học sinh trong một trường THPT ta thu được kết quả như sau:
+
+| Chiều cao | $[150;154)$ | $[154;158)$ | $[158;162)$ | $[162;166)$ | $[166;170)$ |
+|---|---|---|---|---|---|
+| Số học sinh | 25 | 50 | 200 | 175 | 50 |
+
+Mẫu số liệu ghép nhóm đã cho có tất cả bao nhiêu nhóm?</div>
+        
+    <ol class="options" type="A">
+      <li>$5$</li>
+      <li>$6$</li>
+      <li>$7$</li>
+      <li>$4$</li>
+    </ol>
+    
+        
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer">A</div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: Nhận biết</div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;multiple_choice&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: &quot;IT12301&quot;,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;Đo chiều cao (tính bằng cm) của 500 học sinh trong một trường THPT ta thu được kết quả như sau:\n\n| Chiều cao | $[150;154)$ | $[154;158)$ | $[158;162)$ | $[162;166)$ | $[166;170)$ |\n|---|---|---|---|---|---|\n| Số học sinh | 25 | 50 | 200 | 175 | 50 |\n\nMẫu số liệu ghép nhóm đã cho có tất cả bao nhiêu nhóm?&quot;,
+  &quot;difficulty&quot;: &quot;Nhận biết&quot;,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230102&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 1,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;multiple_choice\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: \&quot;IT12301\&quot;, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: \&quot;Nhận biết\&quot;, \&quot;question_text\&quot;: \&quot;Đo chiều cao (tính bằng cm) của 500 học sinh trong một trường THPT ta thu được kết quả như sau:\\n\\n| Chiều cao | $[150;154)$ | $[154;158)$ | $[158;162)$ | $[162;166)$ | $[166;170)$ |\\n|---|---|---|---|---|---|\\n| Số học sinh | 25 | 50 | 200 | 175 | 50 |\\n\\nMẫu số liệu ghép nhóm đã cho có tất cả bao nhiêu nhóm?\&quot;, \&quot;option_a\&quot;: \&quot;$5$\&quot;, \&quot;option_b\&quot;: \&quot;$6$\&quot;, \&quot;option_c\&quot;: \&quot;$7$\&quot;, \&quot;option_d\&quot;: \&quot;$4$\&quot;, \&quot;correct_answer\&quot;: \&quot;A\&quot;, \&quot;statements\&quot;: [], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: null, \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230102\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;option_a&quot;: &quot;$5$&quot;,
+  &quot;option_b&quot;: &quot;$6$&quot;,
+  &quot;option_c&quot;: &quot;$7$&quot;,
+  &quot;option_d&quot;: &quot;$4$&quot;,
+  &quot;correct_answer&quot;: &quot;A&quot;
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#3 ·  · page 1 · multiple_choice</div>
+          <h2>IT1230103</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">Thống kê điểm trung bình môn Toán của một số học sinh lớp 11 được cho ở bảng sau:
+
+| Khoảng điểm | $[6{,}5;7)$ | $[7;7{,}5)$ | $[7{,}5;8)$ | $[8;8{,}5)$ | $[8{,}5;9)$ | $[9;9{,}5)$ | $[9{,}5;10)$ |
+|---|---|---|---|---|---|---|---|
+| Tần số | 8 | 10 | 16 | 24 | 13 | 7 | 4 |
+
+Số trung bình của mẫu số liệu trên là:</div>
+        
+    <ol class="options" type="A">
+      <li>$9{,}12$</li>
+      <li>$5{,}87$</li>
+      <li>$7$</li>
+      <li>$8{,}12$</li>
+    </ol>
+    
+        
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer">D</div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: Thông hiểu</div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;multiple_choice&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: &quot;IT12301&quot;,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;Thống kê điểm trung bình môn Toán của một số học sinh lớp 11 được cho ở bảng sau:\n\n| Khoảng điểm | $[6{,}5;7)$ | $[7;7{,}5)$ | $[7{,}5;8)$ | $[8;8{,}5)$ | $[8{,}5;9)$ | $[9;9{,}5)$ | $[9{,}5;10)$ |\n|---|---|---|---|---|---|---|---|\n| Tần số | 8 | 10 | 16 | 24 | 13 | 7 | 4 |\n\nSố trung bình của mẫu số liệu trên là:&quot;,
+  &quot;difficulty&quot;: &quot;Thông hiểu&quot;,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230103&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 1,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;multiple_choice\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: \&quot;IT12301\&quot;, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: \&quot;Thông hiểu\&quot;, \&quot;question_text\&quot;: \&quot;Thống kê điểm trung bình môn Toán của một số học sinh lớp 11 được cho ở bảng sau:\\n\\n| Khoảng điểm | $[6{,}5;7)$ | $[7;7{,}5)$ | $[7{,}5;8)$ | $[8;8{,}5)$ | $[8{,}5;9)$ | $[9;9{,}5)$ | $[9{,}5;10)$ |\\n|---|---|---|---|---|---|---|---|\\n| Tần số | 8 | 10 | 16 | 24 | 13 | 7 | 4 |\\n\\nSố trung bình của mẫu số liệu trên là:\&quot;, \&quot;option_a\&quot;: \&quot;$9{,}12$\&quot;, \&quot;option_b\&quot;: \&quot;$5{,}87$\&quot;, \&quot;option_c\&quot;: \&quot;$7$\&quot;, \&quot;option_d\&quot;: \&quot;$8{,}12$\&quot;, \&quot;correct_answer\&quot;: \&quot;D\&quot;, \&quot;statements\&quot;: [], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: null, \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230103\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;option_a&quot;: &quot;$9{,}12$&quot;,
+  &quot;option_b&quot;: &quot;$5{,}87$&quot;,
+  &quot;option_c&quot;: &quot;$7$&quot;,
+  &quot;option_d&quot;: &quot;$8{,}12$&quot;,
+  &quot;correct_answer&quot;: &quot;D&quot;
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#4 ·  · page 1 · multiple_choice</div>
+          <h2>IT1230104</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">Đo chiều cao (tính bằng cm) của 500 học sinh trong một trường THPT ta thu được kết quả như sau:
+
+| Chiều cao | $[150;154)$ | $[154;158)$ | $[158;162)$ | $[162;166)$ | $[166;170)$ |
+|---|---|---|---|---|---|
+| Số học sinh | 25 | 50 | 200 | 175 | 50 |
+
+Nhóm chứa trung vị của mẫu số liệu trên là:</div>
+        
+    <ol class="options" type="A">
+      <li>$[166;170)$</li>
+      <li>$[154;158)$</li>
+      <li>$[162;166)$</li>
+      <li>$[158;162)$</li>
+    </ol>
+    
+        
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer">D</div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: Thông hiểu</div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;multiple_choice&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: &quot;IT12301&quot;,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;Đo chiều cao (tính bằng cm) của 500 học sinh trong một trường THPT ta thu được kết quả như sau:\n\n| Chiều cao | $[150;154)$ | $[154;158)$ | $[158;162)$ | $[162;166)$ | $[166;170)$ |\n|---|---|---|---|---|---|\n| Số học sinh | 25 | 50 | 200 | 175 | 50 |\n\nNhóm chứa trung vị của mẫu số liệu trên là:&quot;,
+  &quot;difficulty&quot;: &quot;Thông hiểu&quot;,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230104&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 1,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;multiple_choice\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: \&quot;IT12301\&quot;, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: \&quot;Thông hiểu\&quot;, \&quot;question_text\&quot;: \&quot;Đo chiều cao (tính bằng cm) của 500 học sinh trong một trường THPT ta thu được kết quả như sau:\\n\\n| Chiều cao | $[150;154)$ | $[154;158)$ | $[158;162)$ | $[162;166)$ | $[166;170)$ |\\n|---|---|---|---|---|---|\\n| Số học sinh | 25 | 50 | 200 | 175 | 50 |\\n\\nNhóm chứa trung vị của mẫu số liệu trên là:\&quot;, \&quot;option_a\&quot;: \&quot;$[166;170)$\&quot;, \&quot;option_b\&quot;: \&quot;$[154;158)$\&quot;, \&quot;option_c\&quot;: \&quot;$[162;166)$\&quot;, \&quot;option_d\&quot;: \&quot;$[158;162)$\&quot;, \&quot;correct_answer\&quot;: \&quot;D\&quot;, \&quot;statements\&quot;: [], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: null, \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230104\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;option_a&quot;: &quot;$[166;170)$&quot;,
+  &quot;option_b&quot;: &quot;$[154;158)$&quot;,
+  &quot;option_c&quot;: &quot;$[162;166)$&quot;,
+  &quot;option_d&quot;: &quot;$[158;162)$&quot;,
+  &quot;correct_answer&quot;: &quot;D&quot;
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#5 ·  · page 2 · multiple_choice</div>
+          <h2>IT1230105</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">[IT1230105] Khảo sát thời gian tập thể dục của một số học sinh khối 11 thu được mẫu số liệu ghép nhóm sau:
+
+| Thời gian (phút) | $[0;20)$ | $[20;40)$ | $[40;60)$ | $[60;80)$ | $[80;100)$ |
+|---|---|---|---|---|---|
+| Số học sinh | 5 | 9 | 12 | 10 | 6 |
+
+Nhóm chứa tứ phân vị thứ nhất của mẫu số liệu trên là:</div>
+        
+    <ol class="options" type="A">
+      <li>$[20;40)$</li>
+      <li>$[80;100)$</li>
+      <li>$[40;60)$</li>
+      <li>$[60;80)$</li>
+    </ol>
+    
+        <img class="visual-img" src="grouped_data_preview_assets/visual_05_page_2.png" alt="visual crop">
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer">A</div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: Thông hiểu</div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;multiple_choice&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Tứ phân vị - mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;[IT1230105] Khảo sát thời gian tập thể dục của một số học sinh khối 11 thu được mẫu số liệu ghép nhóm sau:\n\n| Thời gian (phút) | $[0;20)$ | $[20;40)$ | $[40;60)$ | $[60;80)$ | $[80;100)$ |\n|---|---|---|---|---|---|\n| Số học sinh | 5 | 9 | 12 | 10 | 6 |\n\nNhóm chứa tứ phân vị thứ nhất của mẫu số liệu trên là:&quot;,
+  &quot;difficulty&quot;: &quot;Thông hiểu&quot;,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230105&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 2,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;multiple_choice\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Tứ phân vị - mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: \&quot;Thông hiểu\&quot;, \&quot;question_text\&quot;: \&quot;[IT1230105] Khảo sát thời gian tập thể dục của một số học sinh khối 11 thu được mẫu số liệu ghép nhóm sau:\\n\\n| Thời gian (phút) | $[0;20)$ | $[20;40)$ | $[40;60)$ | $[60;80)$ | $[80;100)$ |\\n|---|---|---|---|---|---|\\n| Số học sinh | 5 | 9 | 12 | 10 | 6 |\\n\\nNhóm chứa tứ phân vị thứ nhất của mẫu số liệu trên là:\&quot;, \&quot;option_a\&quot;: \&quot;$[20;40)$\&quot;, \&quot;option_b\&quot;: \&quot;$[80;100)$\&quot;, \&quot;option_c\&quot;: \&quot;$[40;60)$\&quot;, \&quot;option_d\&quot;: \&quot;$[60;80)$\&quot;, \&quot;correct_answer\&quot;: \&quot;A\&quot;, \&quot;statements\&quot;: [], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: [0.13, 0.04, 0.87, 0.18], \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230105\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;option_a&quot;: &quot;$[20;40)$&quot;,
+  &quot;option_b&quot;: &quot;$[80;100)$&quot;,
+  &quot;option_c&quot;: &quot;$[40;60)$&quot;,
+  &quot;option_d&quot;: &quot;$[60;80)$&quot;,
+  &quot;correct_answer&quot;: &quot;A&quot;
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#6 ·  · page 2 · multiple_choice</div>
+          <h2>IT1230106</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">[IT1230106] Khảo sát thời gian tập thể dục của một số học sinh khối 11 thu được mẫu số liệu ghép nhóm sau:
+
+| Thời gian (phút) | $[0;20)$ | $[20;40)$ | $[40;60)$ | $[60;80)$ | $[80;100)$ |
+|---|---|---|---|---|---|
+| Số học sinh | 5 | 9 | 12 | 10 | 6 |
+
+Nhóm chứa mốt của mẫu số liệu trên là:</div>
+        
+    <ol class="options" type="A">
+      <li>$[20;40)$</li>
+      <li>$[80;100)$</li>
+      <li>$[40;60)$</li>
+      <li>$[60;80)$</li>
+    </ol>
+    
+        <img class="visual-img" src="grouped_data_preview_assets/visual_06_page_2.png" alt="visual crop">
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer">C</div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: Nhận biết</div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;multiple_choice&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Mốt - mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;[IT1230106] Khảo sát thời gian tập thể dục của một số học sinh khối 11 thu được mẫu số liệu ghép nhóm sau:\n\n| Thời gian (phút) | $[0;20)$ | $[20;40)$ | $[40;60)$ | $[60;80)$ | $[80;100)$ |\n|---|---|---|---|---|---|\n| Số học sinh | 5 | 9 | 12 | 10 | 6 |\n\nNhóm chứa mốt của mẫu số liệu trên là:&quot;,
+  &quot;difficulty&quot;: &quot;Nhận biết&quot;,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230106&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 2,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;multiple_choice\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Mốt - mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: \&quot;Nhận biết\&quot;, \&quot;question_text\&quot;: \&quot;[IT1230106] Khảo sát thời gian tập thể dục của một số học sinh khối 11 thu được mẫu số liệu ghép nhóm sau:\\n\\n| Thời gian (phút) | $[0;20)$ | $[20;40)$ | $[40;60)$ | $[60;80)$ | $[80;100)$ |\\n|---|---|---|---|---|---|\\n| Số học sinh | 5 | 9 | 12 | 10 | 6 |\\n\\nNhóm chứa mốt của mẫu số liệu trên là:\&quot;, \&quot;option_a\&quot;: \&quot;$[20;40)$\&quot;, \&quot;option_b\&quot;: \&quot;$[80;100)$\&quot;, \&quot;option_c\&quot;: \&quot;$[40;60)$\&quot;, \&quot;option_d\&quot;: \&quot;$[60;80)$\&quot;, \&quot;correct_answer\&quot;: \&quot;C\&quot;, \&quot;statements\&quot;: [], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: [0.13, 0.22, 0.87, 0.36], \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230106\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;option_a&quot;: &quot;$[20;40)$&quot;,
+  &quot;option_b&quot;: &quot;$[80;100)$&quot;,
+  &quot;option_c&quot;: &quot;$[40;60)$&quot;,
+  &quot;option_d&quot;: &quot;$[60;80)$&quot;,
+  &quot;correct_answer&quot;: &quot;C&quot;
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#7 ·  · page 2 · multiple_choice</div>
+          <h2>IT1230107</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">[IT1230107] Doanh thu bán hàng trong 20 ngày được lựa chọn ngẫu nhiên của một cửa hàng được ghi lại ở bảng sau (đơn vị: triệu đồng):
+
+| Doanh thu | $[5;7)$ | $[7;9)$ | $[9;11)$ | $[11;13)$ | $[13;15)$ |
+|---|---|---|---|---|---|
+| Số ngày | 2 | 7 | 7 | 3 | 1 |
+
+Tìm mốt của mẫu số liệu?</div>
+        
+    <ol class="options" type="A">
+      <li>$7$</li>
+      <li>$8$</li>
+      <li>$9$</li>
+      <li>$10$</li>
+    </ol>
+    
+        <img class="visual-img" src="grouped_data_preview_assets/visual_07_page_2.png" alt="visual crop">
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer">B</div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: Nhận biết</div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;multiple_choice&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Mốt - mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;[IT1230107] Doanh thu bán hàng trong 20 ngày được lựa chọn ngẫu nhiên của một cửa hàng được ghi lại ở bảng sau (đơn vị: triệu đồng):\n\n| Doanh thu | $[5;7)$ | $[7;9)$ | $[9;11)$ | $[11;13)$ | $[13;15)$ |\n|---|---|---|---|---|---|\n| Số ngày | 2 | 7 | 7 | 3 | 1 |\n\nTìm mốt của mẫu số liệu?&quot;,
+  &quot;difficulty&quot;: &quot;Nhận biết&quot;,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230107&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 2,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;multiple_choice\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Mốt - mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: \&quot;Nhận biết\&quot;, \&quot;question_text\&quot;: \&quot;[IT1230107] Doanh thu bán hàng trong 20 ngày được lựa chọn ngẫu nhiên của một cửa hàng được ghi lại ở bảng sau (đơn vị: triệu đồng):\\n\\n| Doanh thu | $[5;7)$ | $[7;9)$ | $[9;11)$ | $[11;13)$ | $[13;15)$ |\\n|---|---|---|---|---|---|\\n| Số ngày | 2 | 7 | 7 | 3 | 1 |\\n\\nTìm mốt của mẫu số liệu?\&quot;, \&quot;option_a\&quot;: \&quot;$7$\&quot;, \&quot;option_b\&quot;: \&quot;$8$\&quot;, \&quot;option_c\&quot;: \&quot;$9$\&quot;, \&quot;option_d\&quot;: \&quot;$10$\&quot;, \&quot;correct_answer\&quot;: \&quot;B\&quot;, \&quot;statements\&quot;: [], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: [0.13, 0.44, 0.87, 0.57], \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230107\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;option_a&quot;: &quot;$7$&quot;,
+  &quot;option_b&quot;: &quot;$8$&quot;,
+  &quot;option_c&quot;: &quot;$9$&quot;,
+  &quot;option_d&quot;: &quot;$10$&quot;,
+  &quot;correct_answer&quot;: &quot;B&quot;
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#8 ·  · page 2 · multiple_choice</div>
+          <h2>IT1230108</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">[IT1230108] Doanh thu bán hàng trong 20 ngày được lựa chọn ngẫu nhiên của một cửa hàng được ghi lại ở bảng sau (đơn vị: triệu đồng):
+
+| Doanh thu | $[5;7)$ | $[7;9)$ | $[9;11)$ | $[11;13)$ | $[13;15)$ |
+|---|---|---|---|---|---|
+| Số ngày | 2 | 7 | 7 | 3 | 1 |
+
+Tứ phân vị thứ ba của mẫu số liệu gần với giá trị nào trong các giá trị dưới đây?</div>
+        
+    <ol class="options" type="A">
+      <li>$10$</li>
+      <li>$8$</li>
+      <li>$11$</li>
+      <li>$9$</li>
+    </ol>
+    
+        <img class="visual-img" src="grouped_data_preview_assets/visual_08_page_2.png" alt="visual crop">
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer">A</div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: Thông hiểu</div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;multiple_choice&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Tứ phân vị - mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;[IT1230108] Doanh thu bán hàng trong 20 ngày được lựa chọn ngẫu nhiên của một cửa hàng được ghi lại ở bảng sau (đơn vị: triệu đồng):\n\n| Doanh thu | $[5;7)$ | $[7;9)$ | $[9;11)$ | $[11;13)$ | $[13;15)$ |\n|---|---|---|---|---|---|\n| Số ngày | 2 | 7 | 7 | 3 | 1 |\n\nTứ phân vị thứ ba của mẫu số liệu gần với giá trị nào trong các giá trị dưới đây?&quot;,
+  &quot;difficulty&quot;: &quot;Thông hiểu&quot;,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230108&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 2,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;multiple_choice\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Tứ phân vị - mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: \&quot;Thông hiểu\&quot;, \&quot;question_text\&quot;: \&quot;[IT1230108] Doanh thu bán hàng trong 20 ngày được lựa chọn ngẫu nhiên của một cửa hàng được ghi lại ở bảng sau (đơn vị: triệu đồng):\\n\\n| Doanh thu | $[5;7)$ | $[7;9)$ | $[9;11)$ | $[11;13)$ | $[13;15)$ |\\n|---|---|---|---|---|---|\\n| Số ngày | 2 | 7 | 7 | 3 | 1 |\\n\\nTứ phân vị thứ ba của mẫu số liệu gần với giá trị nào trong các giá trị dưới đây?\&quot;, \&quot;option_a\&quot;: \&quot;$10$\&quot;, \&quot;option_b\&quot;: \&quot;$8$\&quot;, \&quot;option_c\&quot;: \&quot;$11$\&quot;, \&quot;option_d\&quot;: \&quot;$9$\&quot;, \&quot;correct_answer\&quot;: \&quot;A\&quot;, \&quot;statements\&quot;: [], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: [0.13, 0.6, 0.87, 0.73], \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230108\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;option_a&quot;: &quot;$10$&quot;,
+  &quot;option_b&quot;: &quot;$8$&quot;,
+  &quot;option_c&quot;: &quot;$11$&quot;,
+  &quot;option_d&quot;: &quot;$9$&quot;,
+  &quot;correct_answer&quot;: &quot;A&quot;
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#9 ·  · page 2 · multiple_choice</div>
+          <h2>IT1230109</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">[IT1230109] Dưới đây là một mẫu số liệu cho ở dạng bảng tần số ghép nhóm:
+
+| Nhóm ghép | Tần số | Nhóm ghép | Tần số |
+|---|---|---|---|
+| $[62,5;67,5)$ | 4 | $[82,5;87,5)$ | 22 |
+| $[67,5;72,5)$ | 7 | $[87,5;92,5)$ | 5 |
+| $[72,5;77,5)$ | 10 | $[92,5;97,5)$ | 10 |
+| $[77,5;82,5)$ | 26 | $[97,5;102,5)$ | 16 |
+
+Mệnh đề nào đúng?</div>
+        
+    <ol class="options" type="A">
+      <li>$77,5 \leq M_e \leq 82,5$</li>
+      <li>$82,5 \leq M_e \leq 87,5$</li>
+      <li>$87,5 \leq M_e \leq 92,5$</li>
+      <li>$92,5 \leq M_e \leq 97,5$</li>
+    </ol>
+    
+        <img class="visual-img" src="grouped_data_preview_assets/visual_09_page_2.png" alt="visual crop">
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer">A</div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: Thông hiểu</div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;multiple_choice&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Trung vị - mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;[IT1230109] Dưới đây là một mẫu số liệu cho ở dạng bảng tần số ghép nhóm:\n\n| Nhóm ghép | Tần số | Nhóm ghép | Tần số |\n|---|---|---|---|\n| $[62,5;67,5)$ | 4 | $[82,5;87,5)$ | 22 |\n| $[67,5;72,5)$ | 7 | $[87,5;92,5)$ | 5 |\n| $[72,5;77,5)$ | 10 | $[92,5;97,5)$ | 10 |\n| $[77,5;82,5)$ | 26 | $[97,5;102,5)$ | 16 |\n\nMệnh đề nào đúng?&quot;,
+  &quot;difficulty&quot;: &quot;Thông hiểu&quot;,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230109&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 2,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;multiple_choice\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Trung vị - mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: \&quot;Thông hiểu\&quot;, \&quot;question_text\&quot;: \&quot;[IT1230109] Dưới đây là một mẫu số liệu cho ở dạng bảng tần số ghép nhóm:\\n\\n| Nhóm ghép | Tần số | Nhóm ghép | Tần số |\\n|---|---|---|---|\\n| $[62,5;67,5)$ | 4 | $[82,5;87,5)$ | 22 |\\n| $[67,5;72,5)$ | 7 | $[87,5;92,5)$ | 5 |\\n| $[72,5;77,5)$ | 10 | $[92,5;97,5)$ | 10 |\\n| $[77,5;82,5)$ | 26 | $[97,5;102,5)$ | 16 |\\n\\nMệnh đề nào đúng?\&quot;, \&quot;option_a\&quot;: \&quot;$77,5 \\\\leq M_e \\\\leq 82,5$\&quot;, \&quot;option_b\&quot;: \&quot;$82,5 \\\\leq M_e \\\\leq 87,5$\&quot;, \&quot;option_c\&quot;: \&quot;$87,5 \\\\leq M_e \\\\leq 92,5$\&quot;, \&quot;option_d\&quot;: \&quot;$92,5 \\\\leq M_e \\\\leq 97,5$\&quot;, \&quot;correct_answer\&quot;: \&quot;A\&quot;, \&quot;statements\&quot;: [], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: [0.13, 0.76, 0.87, 0.95], \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230109\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;option_a&quot;: &quot;$77,5 \\leq M_e \\leq 82,5$&quot;,
+  &quot;option_b&quot;: &quot;$82,5 \\leq M_e \\leq 87,5$&quot;,
+  &quot;option_c&quot;: &quot;$87,5 \\leq M_e \\leq 92,5$&quot;,
+  &quot;option_d&quot;: &quot;$92,5 \\leq M_e \\leq 97,5$&quot;,
+  &quot;correct_answer&quot;: &quot;A&quot;
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#10 ·  · page 3 · multiple_choice</div>
+          <h2>IT1230110</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">Một câu lạc bộ thể dục thể thao đã ghi lại số giờ các thành viên của mình sử dụng cơ sở vật chất của câu lạc bộ để tập luyện trong một tháng. Họ tổ chức dữ liệu thu được vào bảng:
+
+| Thời gian (giờ) | $[1;5)$ | $[5;9)$ | $[9;13)$ | $[13;17)$ | $[17;21)$ | $[21;25)$ |
+|---|---|---|---|---|---|---|
+| Tần số (Số người) | 10 | 14 | 31 | 2 | 5 | 23 |
+
+Trung bình các thành viên sử dụng cơ sở vật chất của câu lạc bộ để luyện tập trong bao nhiêu giờ?</div>
+        
+    <ol class="options" type="A">
+      <li>14,21</li>
+      <li>12,21</li>
+      <li>13,21</li>
+      <li>15,21</li>
+    </ol>
+    
+        
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer">C</div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: Thông hiểu</div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;multiple_choice&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Số trung bình của mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;Một câu lạc bộ thể dục thể thao đã ghi lại số giờ các thành viên của mình sử dụng cơ sở vật chất của câu lạc bộ để tập luyện trong một tháng. Họ tổ chức dữ liệu thu được vào bảng:\n\n| Thời gian (giờ) | $[1;5)$ | $[5;9)$ | $[9;13)$ | $[13;17)$ | $[17;21)$ | $[21;25)$ |\n|---|---|---|---|---|---|---|\n| Tần số (Số người) | 10 | 14 | 31 | 2 | 5 | 23 |\n\nTrung bình các thành viên sử dụng cơ sở vật chất của câu lạc bộ để luyện tập trong bao nhiêu giờ?&quot;,
+  &quot;difficulty&quot;: &quot;Thông hiểu&quot;,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230110&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 3,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;multiple_choice\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Số trung bình của mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: \&quot;Thông hiểu\&quot;, \&quot;question_text\&quot;: \&quot;Một câu lạc bộ thể dục thể thao đã ghi lại số giờ các thành viên của mình sử dụng cơ sở vật chất của câu lạc bộ để tập luyện trong một tháng. Họ tổ chức dữ liệu thu được vào bảng:\\n\\n| Thời gian (giờ) | $[1;5)$ | $[5;9)$ | $[9;13)$ | $[13;17)$ | $[17;21)$ | $[21;25)$ |\\n|---|---|---|---|---|---|---|\\n| Tần số (Số người) | 10 | 14 | 31 | 2 | 5 | 23 |\\n\\nTrung bình các thành viên sử dụng cơ sở vật chất của câu lạc bộ để luyện tập trong bao nhiêu giờ?\&quot;, \&quot;option_a\&quot;: \&quot;14,21\&quot;, \&quot;option_b\&quot;: \&quot;12,21\&quot;, \&quot;option_c\&quot;: \&quot;13,21\&quot;, \&quot;option_d\&quot;: \&quot;15,21\&quot;, \&quot;correct_answer\&quot;: \&quot;C\&quot;, \&quot;statements\&quot;: [], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: null, \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230110\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;option_a&quot;: &quot;14,21&quot;,
+  &quot;option_b&quot;: &quot;12,21&quot;,
+  &quot;option_c&quot;: &quot;13,21&quot;,
+  &quot;option_d&quot;: &quot;15,21&quot;,
+  &quot;correct_answer&quot;: &quot;C&quot;
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#11 ·  · page 3 · multiple_choice</div>
+          <h2>IT1230111</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">Cân nặng của một số lợn con mới sinh thuộc hai giống $A$ và $B$ được cho ở biểu đồ dưới đây (đơn vị: kg).
+
+Cân nặng trung bình của lợn giống A và giống B lần lượt là?</div>
+        
+    <ol class="options" type="A">
+      <li>$\overline{x}_A = 1{,}22;\, \overline{x}_B = 1{,}21$</li>
+      <li>$\overline{x}_A = 1{,}21;\, \overline{x}_B = 1{,}22$</li>
+      <li>$\overline{x}_A = \overline{x}_B = 1{,}21$</li>
+      <li>$\overline{x}_A = \overline{x}_B = 1{,}22$</li>
+    </ol>
+    
+        <img class="visual-img" src="grouped_data_preview_assets/visual_11_page_3.png" alt="visual crop">
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer">B</div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: Thông hiểu</div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;multiple_choice&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Số trung bình của mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;Cân nặng của một số lợn con mới sinh thuộc hai giống $A$ và $B$ được cho ở biểu đồ dưới đây (đơn vị: kg).\n\nCân nặng trung bình của lợn giống A và giống B lần lượt là?&quot;,
+  &quot;difficulty&quot;: &quot;Thông hiểu&quot;,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230111&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 3,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;multiple_choice\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Số trung bình của mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: \&quot;Thông hiểu\&quot;, \&quot;question_text\&quot;: \&quot;Cân nặng của một số lợn con mới sinh thuộc hai giống $A$ và $B$ được cho ở biểu đồ dưới đây (đơn vị: kg).\\n\\nCân nặng trung bình của lợn giống A và giống B lần lượt là?\&quot;, \&quot;option_a\&quot;: \&quot;$\\\\overline{x}_A = 1{,}22;\\\\, \\\\overline{x}_B = 1{,}21$\&quot;, \&quot;option_b\&quot;: \&quot;$\\\\overline{x}_A = 1{,}21;\\\\, \\\\overline{x}_B = 1{,}22$\&quot;, \&quot;option_c\&quot;: \&quot;$\\\\overline{x}_A = \\\\overline{x}_B = 1{,}21$\&quot;, \&quot;option_d\&quot;: \&quot;$\\\\overline{x}_A = \\\\overline{x}_B = 1{,}22$\&quot;, \&quot;correct_answer\&quot;: \&quot;B\&quot;, \&quot;statements\&quot;: [], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: [0.08, 0.32, 0.92, 0.62], \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230111\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;option_a&quot;: &quot;$\\overline{x}_A = 1{,}22;\\, \\overline{x}_B = 1{,}21$&quot;,
+  &quot;option_b&quot;: &quot;$\\overline{x}_A = 1{,}21;\\, \\overline{x}_B = 1{,}22$&quot;,
+  &quot;option_c&quot;: &quot;$\\overline{x}_A = \\overline{x}_B = 1{,}21$&quot;,
+  &quot;option_d&quot;: &quot;$\\overline{x}_A = \\overline{x}_B = 1{,}22$&quot;,
+  &quot;correct_answer&quot;: &quot;B&quot;
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#12 ·  · page 3 · multiple_choice</div>
+          <h2>IT1230112</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">Người ta tiến hành phỏng vấn 40 người về một mẫu áo khoác. Người điều tra yêu cầu cho điểm mẫu áo đó theo thang điểm là 100. Kết quả được trình bày trong bảng ghép nhóm sau:
+
+| Nhóm | $[50;60)$ | $[60;70)$ | $[70;80)$ | $[80;90)$ | $[90;100)$ | |
+|---|---|---|---|---|---|---|
+| Tần số | 4 | 5 | 23 | 6 | 2 | $N=40$ |
+
+Tứ phân vị của mẫu số liệu ghép nhóm trên (làm tròn đến hàng đơn vị) là?</div>
+        
+    <ol class="options" type="A">
+      <li>$Q_1 \approx 71;\, Q_2 \approx 76;\, Q_3 \approx 78$</li>
+      <li>$Q_1 \approx 71;\, Q_2 \approx 75;\, Q_3 \approx 78$</li>
+      <li>$Q_1 \approx 70;\, Q_2 \approx 76;\, Q_3 \approx 79$</li>
+      <li>$Q_1 \approx 70;\, Q_2 \approx 75;\, Q_3 \approx 79$</li>
+    </ol>
+    
+        
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer">B</div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: Vận dụng</div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;multiple_choice&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Tứ phân vị của mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;Người ta tiến hành phỏng vấn 40 người về một mẫu áo khoác. Người điều tra yêu cầu cho điểm mẫu áo đó theo thang điểm là 100. Kết quả được trình bày trong bảng ghép nhóm sau:\n\n| Nhóm | $[50;60)$ | $[60;70)$ | $[70;80)$ | $[80;90)$ | $[90;100)$ | |\n|---|---|---|---|---|---|---|\n| Tần số | 4 | 5 | 23 | 6 | 2 | $N=40$ |\n\nTứ phân vị của mẫu số liệu ghép nhóm trên (làm tròn đến hàng đơn vị) là?&quot;,
+  &quot;difficulty&quot;: &quot;Vận dụng&quot;,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230112&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 3,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;multiple_choice\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Tứ phân vị của mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: \&quot;Vận dụng\&quot;, \&quot;question_text\&quot;: \&quot;Người ta tiến hành phỏng vấn 40 người về một mẫu áo khoác. Người điều tra yêu cầu cho điểm mẫu áo đó theo thang điểm là 100. Kết quả được trình bày trong bảng ghép nhóm sau:\\n\\n| Nhóm | $[50;60)$ | $[60;70)$ | $[70;80)$ | $[80;90)$ | $[90;100)$ | |\\n|---|---|---|---|---|---|---|\\n| Tần số | 4 | 5 | 23 | 6 | 2 | $N=40$ |\\n\\nTứ phân vị của mẫu số liệu ghép nhóm trên (làm tròn đến hàng đơn vị) là?\&quot;, \&quot;option_a\&quot;: \&quot;$Q_1 \\\\approx 71;\\\\, Q_2 \\\\approx 76;\\\\, Q_3 \\\\approx 78$\&quot;, \&quot;option_b\&quot;: \&quot;$Q_1 \\\\approx 71;\\\\, Q_2 \\\\approx 75;\\\\, Q_3 \\\\approx 78$\&quot;, \&quot;option_c\&quot;: \&quot;$Q_1 \\\\approx 70;\\\\, Q_2 \\\\approx 76;\\\\, Q_3 \\\\approx 79$\&quot;, \&quot;option_d\&quot;: \&quot;$Q_1 \\\\approx 70;\\\\, Q_2 \\\\approx 75;\\\\, Q_3 \\\\approx 79$\&quot;, \&quot;correct_answer\&quot;: \&quot;B\&quot;, \&quot;statements\&quot;: [], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: null, \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230112\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;option_a&quot;: &quot;$Q_1 \\approx 71;\\, Q_2 \\approx 76;\\, Q_3 \\approx 78$&quot;,
+  &quot;option_b&quot;: &quot;$Q_1 \\approx 71;\\, Q_2 \\approx 75;\\, Q_3 \\approx 78$&quot;,
+  &quot;option_c&quot;: &quot;$Q_1 \\approx 70;\\, Q_2 \\approx 76;\\, Q_3 \\approx 79$&quot;,
+  &quot;option_d&quot;: &quot;$Q_1 \\approx 70;\\, Q_2 \\approx 75;\\, Q_3 \\approx 79$&quot;,
+  &quot;correct_answer&quot;: &quot;B&quot;
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#13 ·  · page 4 · true_false</div>
+          <h2>IT1230113</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">[IT1230113] Kết quả đo chiều cao của 200 cây keo 3 năm tuổi ở một nông trường được biểu diễn ở biểu đồ dưới đây (biểu đồ cột với các nhóm $[8,5; 8,8)$, $[8,8; 9,1)$, $[9,1; 9,4)$, $[9,4; 9,7)$, $[9,7; 10)$ có số cây lần lượt là 20, 35, 60, 55, 30). Xét tính đúng sai của các khẳng định sau.</div>
+        
+        <img class="visual-img" src="grouped_data_preview_assets/visual_13_page_4.png" alt="visual crop">
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer"><span class="muted">Chua co</span></div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: </div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;true_false&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;[IT1230113] Kết quả đo chiều cao của 200 cây keo 3 năm tuổi ở một nông trường được biểu diễn ở biểu đồ dưới đây (biểu đồ cột với các nhóm $[8,5; 8,8)$, $[8,8; 9,1)$, $[9,1; 9,4)$, $[9,4; 9,7)$, $[9,7; 10)$ có số cây lần lượt là 20, 35, 60, 55, 30). Xét tính đúng sai của các khẳng định sau.&quot;,
+  &quot;difficulty&quot;: null,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230113&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 4,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;true_false\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: null, \&quot;question_text\&quot;: \&quot;[IT1230113] Kết quả đo chiều cao của 200 cây keo 3 năm tuổi ở một nông trường được biểu diễn ở biểu đồ dưới đây (biểu đồ cột với các nhóm $[8,5; 8,8)$, $[8,8; 9,1)$, $[9,1; 9,4)$, $[9,4; 9,7)$, $[9,7; 10)$ có số cây lần lượt là 20, 35, 60, 55, 30). Xét tính đúng sai của các khẳng định sau.\&quot;, \&quot;option_a\&quot;: null, \&quot;option_b\&quot;: null, \&quot;option_c\&quot;: null, \&quot;option_d\&quot;: null, \&quot;correct_answer\&quot;: null, \&quot;statements\&quot;: [{\&quot;label\&quot;: \&quot;a\&quot;, \&quot;text\&quot;: \&quot;Số cây keo có chiều cao thấp hơn $9,1\\\\,m$ chiếm $27,5\\\\%$ tổng số cây trong mẫu số liệu trên.\&quot;, \&quot;answer\&quot;: true}, {\&quot;label\&quot;: \&quot;b\&quot;, \&quot;text\&quot;: \&quot;Mỗi cây keo trong mẫu số liệu ghép nhóm trên cao trung bình $9,31\\\\,m$.\&quot;, \&quot;answer\&quot;: null}, {\&quot;label\&quot;: \&quot;c\&quot;, \&quot;text\&quot;: \&quot;Mốt của mẫu số liệu trên thuộc vào nhóm $[9,4; 9,7)$.\&quot;, \&quot;answer\&quot;: false}, {\&quot;label\&quot;: \&quot;d\&quot;, \&quot;text\&quot;: \&quot;Chiều cao trung bình của những cây keo trong mẫu số liệu trên bằng $9,4\\\\,m$.\&quot;, \&quot;answer\&quot;: null}], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: [0.15, 0.12, 0.88, 0.42], \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230113\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;statements&quot;: &quot;[{\&quot;label\&quot;: \&quot;a\&quot;, \&quot;text\&quot;: \&quot;Số cây keo có chiều cao thấp hơn $9,1\\\\,m$ chiếm $27,5\\\\%$ tổng số cây trong mẫu số liệu trên.\&quot;, \&quot;answer\&quot;: true}, {\&quot;label\&quot;: \&quot;b\&quot;, \&quot;text\&quot;: \&quot;Mỗi cây keo trong mẫu số liệu ghép nhóm trên cao trung bình $9,31\\\\,m$.\&quot;, \&quot;answer\&quot;: null}, {\&quot;label\&quot;: \&quot;c\&quot;, \&quot;text\&quot;: \&quot;Mốt của mẫu số liệu trên thuộc vào nhóm $[9,4; 9,7)$.\&quot;, \&quot;answer\&quot;: false}, {\&quot;label\&quot;: \&quot;d\&quot;, \&quot;text\&quot;: \&quot;Chiều cao trung bình của những cây keo trong mẫu số liệu trên bằng $9,4\\\\,m$.\&quot;, \&quot;answer\&quot;: null}]&quot;
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#14 ·  · page 4 · true_false</div>
+          <h2>IT1230114</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">[IT1230114] Chiều cao của hai loài hoa được một người thống kê theo biểu đồ sau (biểu đồ cột đôi Loài A và Loài B với các nhóm $[100; 200)$, $[200; 300)$, $[300; 400)$, $[400; 500)$ có số cây Loài A lần lượt là 20, 35, 14, 10 và Loài B lần lượt là 18, 30, 20, 15). Xét tính đúng sai của các khẳng định sau.</div>
+        
+        <img class="visual-img" src="grouped_data_preview_assets/visual_14_page_4.png" alt="visual crop">
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer"><span class="muted">Chua co</span></div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: </div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;true_false&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;[IT1230114] Chiều cao của hai loài hoa được một người thống kê theo biểu đồ sau (biểu đồ cột đôi Loài A và Loài B với các nhóm $[100; 200)$, $[200; 300)$, $[300; 400)$, $[400; 500)$ có số cây Loài A lần lượt là 20, 35, 14, 10 và Loài B lần lượt là 18, 30, 20, 15). Xét tính đúng sai của các khẳng định sau.&quot;,
+  &quot;difficulty&quot;: null,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230114&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 4,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;true_false\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: null, \&quot;question_text\&quot;: \&quot;[IT1230114] Chiều cao của hai loài hoa được một người thống kê theo biểu đồ sau (biểu đồ cột đôi Loài A và Loài B với các nhóm $[100; 200)$, $[200; 300)$, $[300; 400)$, $[400; 500)$ có số cây Loài A lần lượt là 20, 35, 14, 10 và Loài B lần lượt là 18, 30, 20, 15). Xét tính đúng sai của các khẳng định sau.\&quot;, \&quot;option_a\&quot;: null, \&quot;option_b\&quot;: null, \&quot;option_c\&quot;: null, \&quot;option_d\&quot;: null, \&quot;correct_answer\&quot;: null, \&quot;statements\&quot;: [], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: [0.05, 0.6, 0.92, 0.92], \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230114\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;statements&quot;: &quot;[]&quot;
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#15 ·  · page 5 · true_false</div>
+          <h2>IT1230115</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">Tổng số lượng mưa trong tháng 8 đo được tại một trạm quan trắc đặt tại Vũng Tàu từ năm 2002 đến năm 2020 được ghi lại như dưới đây (đơn vị: mm):
+121,8 | 158,3 | 334,9 | 200,9 | 165,6 | 161,5 | 194,3 | 220,7 | 189,8 | 243,2
+165,9 | 165,9 | 134 | 173 | 169 | 189 | 254 | 168 | 255
+
+Có bảng tần số ghép nhóm theo mẫu sau:
+| Tổng lượng mưa trong tháng 8 (mm) | $[120;175)$ | $[175;230)$ | $[230;285)$ | $[285;340)$ |
+| Số năm | | | | |
+
+Xét tính đúng sai của các khẳng định sau:</div>
+        
+        <img class="visual-img" src="grouped_data_preview_assets/visual_15_page_5.png" alt="visual crop">
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer"><span class="muted">Chua co</span></div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: </div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;true_false&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;Tổng số lượng mưa trong tháng 8 đo được tại một trạm quan trắc đặt tại Vũng Tàu từ năm 2002 đến năm 2020 được ghi lại như dưới đây (đơn vị: mm):\n121,8 | 158,3 | 334,9 | 200,9 | 165,6 | 161,5 | 194,3 | 220,7 | 189,8 | 243,2\n165,9 | 165,9 | 134 | 173 | 169 | 189 | 254 | 168 | 255\n\nCó bảng tần số ghép nhóm theo mẫu sau:\n| Tổng lượng mưa trong tháng 8 (mm) | $[120;175)$ | $[175;230)$ | $[230;285)$ | $[285;340)$ |\n| Số năm | | | | |\n\nXét tính đúng sai của các khẳng định sau:&quot;,
+  &quot;difficulty&quot;: null,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230115&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 5,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;true_false\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: null, \&quot;question_text\&quot;: \&quot;Tổng số lượng mưa trong tháng 8 đo được tại một trạm quan trắc đặt tại Vũng Tàu từ năm 2002 đến năm 2020 được ghi lại như dưới đây (đơn vị: mm):\\n121,8 | 158,3 | 334,9 | 200,9 | 165,6 | 161,5 | 194,3 | 220,7 | 189,8 | 243,2\\n165,9 | 165,9 | 134 | 173 | 169 | 189 | 254 | 168 | 255\\n\\nCó bảng tần số ghép nhóm theo mẫu sau:\\n| Tổng lượng mưa trong tháng 8 (mm) | $[120;175)$ | $[175;230)$ | $[230;285)$ | $[285;340)$ |\\n| Số năm | | | | |\\n\\nXét tính đúng sai của các khẳng định sau:\&quot;, \&quot;option_a\&quot;: null, \&quot;option_b\&quot;: null, \&quot;option_c\&quot;: null, \&quot;option_d\&quot;: null, \&quot;correct_answer\&quot;: null, \&quot;statements\&quot;: [{\&quot;label\&quot;: \&quot;a\&quot;, \&quot;text\&quot;: \&quot;Tần số của nhóm $[120;175)$ bằng 10.\&quot;, \&quot;answer\&quot;: true}, {\&quot;label\&quot;: \&quot;b\&quot;, \&quot;text\&quot;: \&quot;Trung bình mỗi năm trong tháng 8 tổng số lượng mưa bằng $188{,}03$ mm (làm tròn kết quả tới hàng phần trăm).\&quot;, \&quot;answer\&quot;: null}, {\&quot;label\&quot;: \&quot;c\&quot;, \&quot;text\&quot;: \&quot;Tứ phân vị thứ nhất của mẫu số liệu trên bằng $146{,}15$ mm (Làm tròn kết quả tới hàng phần trăm).\&quot;, \&quot;answer\&quot;: null}, {\&quot;label\&quot;: \&quot;d\&quot;, \&quot;text\&quot;: \&quot;Tứ phân vị thứ ba của mẫu số liệu trên bằng $221{,}75$ mm (Làm tròn kết quả tới hàng phần trăm).\&quot;, \&quot;answer\&quot;: null}], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: [0.05, 0.18, 0.95, 0.55], \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230115\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;statements&quot;: &quot;[{\&quot;label\&quot;: \&quot;a\&quot;, \&quot;text\&quot;: \&quot;Tần số của nhóm $[120;175)$ bằng 10.\&quot;, \&quot;answer\&quot;: true}, {\&quot;label\&quot;: \&quot;b\&quot;, \&quot;text\&quot;: \&quot;Trung bình mỗi năm trong tháng 8 tổng số lượng mưa bằng $188{,}03$ mm (làm tròn kết quả tới hàng phần trăm).\&quot;, \&quot;answer\&quot;: null}, {\&quot;label\&quot;: \&quot;c\&quot;, \&quot;text\&quot;: \&quot;Tứ phân vị thứ nhất của mẫu số liệu trên bằng $146{,}15$ mm (Làm tròn kết quả tới hàng phần trăm).\&quot;, \&quot;answer\&quot;: null}, {\&quot;label\&quot;: \&quot;d\&quot;, \&quot;text\&quot;: \&quot;Tứ phân vị thứ ba của mẫu số liệu trên bằng $221{,}75$ mm (Làm tròn kết quả tới hàng phần trăm).\&quot;, \&quot;answer\&quot;: null}]&quot;
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#16 ·  · page 5 · true_false</div>
+          <h2>IT1230116</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">Cho mẫu số liệu ghép nhóm về thời gian (phút) đi từ nhà đến trường của các học sinh như sau:
+| Thời gian | $[15;20)$ | $[20;25)$ | $[25;30)$ | $[30;35)$ | $[35;40)$ | $[40;45)$ | $[45;50)$ |
+| Số học sinh | 6 | 14 | 25 | 37 | 21 | 13 | 9 |
+
+Xét tính đúng sai của các khẳng định sau:</div>
+        
+        <img class="visual-img" src="grouped_data_preview_assets/visual_16_page_5.png" alt="visual crop">
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer"><span class="muted">Chua co</span></div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: </div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;true_false&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;Cho mẫu số liệu ghép nhóm về thời gian (phút) đi từ nhà đến trường của các học sinh như sau:\n| Thời gian | $[15;20)$ | $[20;25)$ | $[25;30)$ | $[30;35)$ | $[35;40)$ | $[40;45)$ | $[45;50)$ |\n| Số học sinh | 6 | 14 | 25 | 37 | 21 | 13 | 9 |\n\nXét tính đúng sai của các khẳng định sau:&quot;,
+  &quot;difficulty&quot;: null,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230116&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 5,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;true_false\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: null, \&quot;question_text\&quot;: \&quot;Cho mẫu số liệu ghép nhóm về thời gian (phút) đi từ nhà đến trường của các học sinh như sau:\\n| Thời gian | $[15;20)$ | $[20;25)$ | $[25;30)$ | $[30;35)$ | $[35;40)$ | $[40;45)$ | $[45;50)$ |\\n| Số học sinh | 6 | 14 | 25 | 37 | 21 | 13 | 9 |\\n\\nXét tính đúng sai của các khẳng định sau:\&quot;, \&quot;option_a\&quot;: null, \&quot;option_b\&quot;: null, \&quot;option_c\&quot;: null, \&quot;option_d\&quot;: null, \&quot;correct_answer\&quot;: null, \&quot;statements\&quot;: [], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: [0.05, 0.78, 0.95, 1.0], \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230116\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;statements&quot;: &quot;[]&quot;
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#17 ·  · page 6 · true_false</div>
+          <h2>IT1230116 (trang trước)</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">Xét tính đúng sai của các khẳng định sau (liên quan đến mẫu số liệu về thời gian học sinh đi đến trường).</div>
+        
+        
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer"><span class="muted">Chua co</span></div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: </div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;true_false&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;Xét tính đúng sai của các khẳng định sau (liên quan đến mẫu số liệu về thời gian học sinh đi đến trường).&quot;,
+  &quot;difficulty&quot;: null,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230116 (trang trước)&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 6,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;true_false\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: null, \&quot;question_text\&quot;: \&quot;Xét tính đúng sai của các khẳng định sau (liên quan đến mẫu số liệu về thời gian học sinh đi đến trường).\&quot;, \&quot;option_a\&quot;: null, \&quot;option_b\&quot;: null, \&quot;option_c\&quot;: null, \&quot;option_d\&quot;: null, \&quot;correct_answer\&quot;: null, \&quot;statements\&quot;: [{\&quot;label\&quot;: \&quot;a\&quot;, \&quot;text\&quot;: \&quot;Cỡ mẫu của mẫu số liệu trên bằng $125$.\&quot;, \&quot;answer\&quot;: null}, {\&quot;label\&quot;: \&quot;b\&quot;, \&quot;text\&quot;: \&quot;Thời gian học sinh đi đến trường mất dưới $27{,}25$ phút chiếm $25\\\\%$.\&quot;, \&quot;answer\&quot;: null}, {\&quot;label\&quot;: \&quot;c\&quot;, \&quot;text\&quot;: \&quot;Thời gian học sinh đi đến trường mất dưới $32{,}36$ phút chiếm $50\\\\%$.\&quot;, \&quot;answer\&quot;: null}, {\&quot;label\&quot;: \&quot;d\&quot;, \&quot;text\&quot;: \&quot;Thời gian học sinh đi đến trường mất dưới $37{,}79$ phút chiếm $75\\\\%$.\&quot;, \&quot;answer\&quot;: null}], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: null, \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230116 (trang trước)\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;statements&quot;: &quot;[{\&quot;label\&quot;: \&quot;a\&quot;, \&quot;text\&quot;: \&quot;Cỡ mẫu của mẫu số liệu trên bằng $125$.\&quot;, \&quot;answer\&quot;: null}, {\&quot;label\&quot;: \&quot;b\&quot;, \&quot;text\&quot;: \&quot;Thời gian học sinh đi đến trường mất dưới $27{,}25$ phút chiếm $25\\\\%$.\&quot;, \&quot;answer\&quot;: null}, {\&quot;label\&quot;: \&quot;c\&quot;, \&quot;text\&quot;: \&quot;Thời gian học sinh đi đến trường mất dưới $32{,}36$ phút chiếm $50\\\\%$.\&quot;, \&quot;answer\&quot;: null}, {\&quot;label\&quot;: \&quot;d\&quot;, \&quot;text\&quot;: \&quot;Thời gian học sinh đi đến trường mất dưới $37{,}79$ phút chiếm $75\\\\%$.\&quot;, \&quot;answer\&quot;: null}]&quot;
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#18 ·  · page 6 · short_answer</div>
+          <h2>IT1230117</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">[IT1230117] Điều tra về chiều cao của học sinh khối lớp 11 của trường THPT A, ta được mẫu số liệu sau:
+
+| Chiều cao $(cm)$ | Số học sinh |
+|---|---|
+| $[150;152)$ | 20 |
+| $[152;154)$ | 35 |
+| $[154;156)$ | 45 |
+| $[156;158)$ | 60 |
+| $[158;160)$ | 30 |
+| $[160;162)$ | 15 |
+
+Tần số của nhóm $[158;160)$ bằng bao nhiêu?</div>
+        
+        <img class="visual-img" src="grouped_data_preview_assets/visual_18_page_6.png" alt="visual crop">
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer">30</div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: </div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;short_answer&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;[IT1230117] Điều tra về chiều cao của học sinh khối lớp 11 của trường THPT A, ta được mẫu số liệu sau:\n\n| Chiều cao $(cm)$ | Số học sinh |\n|---|---|\n| $[150;152)$ | 20 |\n| $[152;154)$ | 35 |\n| $[154;156)$ | 45 |\n| $[156;158)$ | 60 |\n| $[158;160)$ | 30 |\n| $[160;162)$ | 15 |\n\nTần số của nhóm $[158;160)$ bằng bao nhiêu?&quot;,
+  &quot;difficulty&quot;: null,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230117&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 6,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;short_answer\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: null, \&quot;question_text\&quot;: \&quot;[IT1230117] Điều tra về chiều cao của học sinh khối lớp 11 của trường THPT A, ta được mẫu số liệu sau:\\n\\n| Chiều cao $(cm)$ | Số học sinh |\\n|---|---|\\n| $[150;152)$ | 20 |\\n| $[152;154)$ | 35 |\\n| $[154;156)$ | 45 |\\n| $[156;158)$ | 60 |\\n| $[158;160)$ | 30 |\\n| $[160;162)$ | 15 |\\n\\nTần số của nhóm $[158;160)$ bằng bao nhiêu?\&quot;, \&quot;option_a\&quot;: null, \&quot;option_b\&quot;: null, \&quot;option_c\&quot;: null, \&quot;option_d\&quot;: null, \&quot;correct_answer\&quot;: null, \&quot;statements\&quot;: [], \&quot;numeric_answer\&quot;: 30, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: [0.28, 0.18, 0.72, 0.55], \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230117\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;numeric_answer&quot;: 30
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#19 ·  · page 6 · short_answer</div>
+          <h2>IT1230118</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">[IT1230118] Kết quả khảo sát cân nặng của 25 quả cam ở lô hàng $A$ được cho ở bảng sau:
+
+| Cân nặng $(g)$ | $[150;155)$ | $[155;160)$ | $[160;165)$ | $[165;170)$ | $[170;175)$ |
+|---|---|---|---|---|---|
+| Số quả cam ở lô hàng A | 1 | 3 | 7 | 10 | 4 |
+
+Số trung bình của mẫu số liệu ghép nhóm trên xấp xỉ bằng? (Làm tròn kết quả tới hàng đơn vị)</div>
+        
+        <img class="visual-img" src="grouped_data_preview_assets/visual_19_page_6.png" alt="visual crop">
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer"><span class="muted">Chua co</span></div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: </div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;short_answer&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Số trung bình mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;[IT1230118] Kết quả khảo sát cân nặng của 25 quả cam ở lô hàng $A$ được cho ở bảng sau:\n\n| Cân nặng $(g)$ | $[150;155)$ | $[155;160)$ | $[160;165)$ | $[165;170)$ | $[170;175)$ |\n|---|---|---|---|---|---|\n| Số quả cam ở lô hàng A | 1 | 3 | 7 | 10 | 4 |\n\nSố trung bình của mẫu số liệu ghép nhóm trên xấp xỉ bằng? (Làm tròn kết quả tới hàng đơn vị)&quot;,
+  &quot;difficulty&quot;: null,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230118&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 6,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;short_answer\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Số trung bình mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: null, \&quot;question_text\&quot;: \&quot;[IT1230118] Kết quả khảo sát cân nặng của 25 quả cam ở lô hàng $A$ được cho ở bảng sau:\\n\\n| Cân nặng $(g)$ | $[150;155)$ | $[155;160)$ | $[160;165)$ | $[165;170)$ | $[170;175)$ |\\n|---|---|---|---|---|---|\\n| Số quả cam ở lô hàng A | 1 | 3 | 7 | 10 | 4 |\\n\\nSố trung bình của mẫu số liệu ghép nhóm trên xấp xỉ bằng? (Làm tròn kết quả tới hàng đơn vị)\&quot;, \&quot;option_a\&quot;: null, \&quot;option_b\&quot;: null, \&quot;option_c\&quot;: null, \&quot;option_d\&quot;: null, \&quot;correct_answer\&quot;: null, \&quot;statements\&quot;: [], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: [0.03, 0.72, 0.97, 0.85], \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230118\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;numeric_answer&quot;: null
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#20 ·  · page 7 · short_answer</div>
+          <h2>IT1230119</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">[IT1230119] Thời gian (phút) truy cập Internet mỗi buổi tối của một số học sinh được cho trong bảng sau:
+
+| Thời gian (phút) | $[9{,}5;12{,}5)$ | $[12{,}5;15{,}5)$ | $[15{,}5;18{,}5)$ | $[18{,}5;21{,}5)$ | $[21{,}5;24{,}5)$ |
+|---|---|---|---|---|---|
+| Số học sinh | 3 | 12 | 15 | 24 | 2 |
+
+Tính trung vị của mẫu số liệu ghép nhóm này.</div>
+        
+        <img class="visual-img" src="grouped_data_preview_assets/visual_20_page_7.png" alt="visual crop">
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer"><span class="muted">Chua co</span></div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: Thông hiểu</div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;short_answer&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Trung vị của mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;[IT1230119] Thời gian (phút) truy cập Internet mỗi buổi tối của một số học sinh được cho trong bảng sau:\n\n| Thời gian (phút) | $[9{,}5;12{,}5)$ | $[12{,}5;15{,}5)$ | $[15{,}5;18{,}5)$ | $[18{,}5;21{,}5)$ | $[21{,}5;24{,}5)$ |\n|---|---|---|---|---|---|\n| Số học sinh | 3 | 12 | 15 | 24 | 2 |\n\nTính trung vị của mẫu số liệu ghép nhóm này.&quot;,
+  &quot;difficulty&quot;: &quot;Thông hiểu&quot;,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230119&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 7,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;short_answer\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Trung vị của mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: \&quot;Thông hiểu\&quot;, \&quot;question_text\&quot;: \&quot;[IT1230119] Thời gian (phút) truy cập Internet mỗi buổi tối của một số học sinh được cho trong bảng sau:\\n\\n| Thời gian (phút) | $[9{,}5;12{,}5)$ | $[12{,}5;15{,}5)$ | $[15{,}5;18{,}5)$ | $[18{,}5;21{,}5)$ | $[21{,}5;24{,}5)$ |\\n|---|---|---|---|---|---|\\n| Số học sinh | 3 | 12 | 15 | 24 | 2 |\\n\\nTính trung vị của mẫu số liệu ghép nhóm này.\&quot;, \&quot;option_a\&quot;: null, \&quot;option_b\&quot;: null, \&quot;option_c\&quot;: null, \&quot;option_d\&quot;: null, \&quot;correct_answer\&quot;: null, \&quot;statements\&quot;: [], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: [0.05, 0.07, 0.95, 0.22], \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230119\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;numeric_answer&quot;: null
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#21 ·  · page 7 · short_answer</div>
+          <h2>IT1230120</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">[IT1230120] Cho mẫu số liệu ghép nhóm về chiều cao của 25 cây dừa giống như sau:
+
+| Chiều cao $(cm)$ | $[0;10)$ | $[10;20)$ | $[20;30)$ | $[30;40)$ | $[40;50)$ |
+|---|---|---|---|---|---|
+| Số cây | 4 | 6 | 7 | 5 | 3 |
+
+Mốt của mẫu số liệu ghép nhóm này là? (Làm tròn kết quả tới hàng phần trăm)</div>
+        
+        <img class="visual-img" src="grouped_data_preview_assets/visual_21_page_7.png" alt="visual crop">
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer"><span class="muted">Chua co</span></div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: Thông hiểu</div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;short_answer&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Mốt của mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;[IT1230120] Cho mẫu số liệu ghép nhóm về chiều cao của 25 cây dừa giống như sau:\n\n| Chiều cao $(cm)$ | $[0;10)$ | $[10;20)$ | $[20;30)$ | $[30;40)$ | $[40;50)$ |\n|---|---|---|---|---|---|\n| Số cây | 4 | 6 | 7 | 5 | 3 |\n\nMốt của mẫu số liệu ghép nhóm này là? (Làm tròn kết quả tới hàng phần trăm)&quot;,
+  &quot;difficulty&quot;: &quot;Thông hiểu&quot;,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230120&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 7,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;short_answer\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Mốt của mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: \&quot;Thông hiểu\&quot;, \&quot;question_text\&quot;: \&quot;[IT1230120] Cho mẫu số liệu ghép nhóm về chiều cao của 25 cây dừa giống như sau:\\n\\n| Chiều cao $(cm)$ | $[0;10)$ | $[10;20)$ | $[20;30)$ | $[30;40)$ | $[40;50)$ |\\n|---|---|---|---|---|---|\\n| Số cây | 4 | 6 | 7 | 5 | 3 |\\n\\nMốt của mẫu số liệu ghép nhóm này là? (Làm tròn kết quả tới hàng phần trăm)\&quot;, \&quot;option_a\&quot;: null, \&quot;option_b\&quot;: null, \&quot;option_c\&quot;: null, \&quot;option_d\&quot;: null, \&quot;correct_answer\&quot;: null, \&quot;statements\&quot;: [], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: [0.05, 0.3, 0.95, 0.45], \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230120\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;numeric_answer&quot;: null
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#22 ·  · page 7 · short_answer</div>
+          <h2>IT1230121</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">[IT1230121] Nghiên cứu thời gian chạy 01 vòng sân trường 300 m của 41 học sinh lớp 11 A trường THPT được giáo viên bộ môn Thể dục ghi lại, có kết quả sau:
+
+| Thời gian | $[40;45)$ | $[45;50)$ | $[50;55)$ | $[55;60)$ | $[60;65)$ |
+|---|---|---|---|---|---|
+| Số học sinh | 5 | 8 | 13 | 9 | 6 |
+
+Hãy tìm tứ phân vị thứ nhất của mẫu số liệu ghép nhóm trên. (Làm tròn kết quả đến hàng phần trăm).</div>
+        
+        <img class="visual-img" src="grouped_data_preview_assets/visual_22_page_7.png" alt="visual crop">
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer"><span class="muted">Chua co</span></div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: Thông hiểu</div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;short_answer&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Tứ phân vị của mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;[IT1230121] Nghiên cứu thời gian chạy 01 vòng sân trường 300 m của 41 học sinh lớp 11 A trường THPT được giáo viên bộ môn Thể dục ghi lại, có kết quả sau:\n\n| Thời gian | $[40;45)$ | $[45;50)$ | $[50;55)$ | $[55;60)$ | $[60;65)$ |\n|---|---|---|---|---|---|\n| Số học sinh | 5 | 8 | 13 | 9 | 6 |\n\nHãy tìm tứ phân vị thứ nhất của mẫu số liệu ghép nhóm trên. (Làm tròn kết quả đến hàng phần trăm).&quot;,
+  &quot;difficulty&quot;: &quot;Thông hiểu&quot;,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230121&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 7,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;short_answer\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Tứ phân vị của mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: \&quot;Thông hiểu\&quot;, \&quot;question_text\&quot;: \&quot;[IT1230121] Nghiên cứu thời gian chạy 01 vòng sân trường 300 m của 41 học sinh lớp 11 A trường THPT được giáo viên bộ môn Thể dục ghi lại, có kết quả sau:\\n\\n| Thời gian | $[40;45)$ | $[45;50)$ | $[50;55)$ | $[55;60)$ | $[60;65)$ |\\n|---|---|---|---|---|---|\\n| Số học sinh | 5 | 8 | 13 | 9 | 6 |\\n\\nHãy tìm tứ phân vị thứ nhất của mẫu số liệu ghép nhóm trên. (Làm tròn kết quả đến hàng phần trăm).\&quot;, \&quot;option_a\&quot;: null, \&quot;option_b\&quot;: null, \&quot;option_c\&quot;: null, \&quot;option_d\&quot;: null, \&quot;correct_answer\&quot;: null, \&quot;statements\&quot;: [], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: [0.05, 0.53, 0.95, 0.68], \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230121\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;numeric_answer&quot;: null
+}</pre>
+      </details>
+    </article>
+    
+
+    <article class="card visual">
+      <header>
+        <div>
+          <div class="eyebrow">#23 ·  · page 7 · short_answer</div>
+          <h2>IT1230122</h2>
+        </div>
+        <span class="badge warn">Needs visual</span>
+      </header>
+      <section>
+        <h3>De bai</h3>
+        <div class="question">[IT1230122] Kết quả thu thập điểm số môn Toán của 25 học sinh khi tham gia kì thi học sinh giỏi toán 11. (thang điểm 20) cho ta bảng tần số ghép nhóm sau:
+
+| Nhóm | $[0;4)$ | $[4;8)$ | $[8;12)$ | $[12;16)$ | $[16;20)$ |
+|---|---|---|---|---|---|
+| Số học sinh | 1 | 7 | 12 | 3 | 2 |
+
+Tìm tứ phân vị thứ ba của bảng mẫu số liệu ghép nhóm trên. (Làm tròn kết quả tới hàng phần trăm).</div>
+        
+        <img class="visual-img" src="grouped_data_preview_assets/visual_23_page_7.png" alt="visual crop">
+      </section>
+      <section class="grid">
+        <div>
+          <h3>Dap an ingest</h3>
+          <div class="answer"><span class="muted">Chua co</span></div>
+        </div>
+        <div>
+          <h3>Metadata</h3>
+          <div class="meta-line">Topic: Thống kê</div>
+          <div class="meta-line">Difficulty: Thông hiểu</div>
+          <div class="meta-line">Visual: bang_so_lieu</div>
+          <div class="meta-line">File: Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf</div>
+        </div>
+      </section>
+      <details>
+        <summary>Raw row</summary>
+        <pre>{
+  &quot;raw_document_id&quot;: &quot;dry-run&quot;,
+  &quot;question_type&quot;: &quot;short_answer&quot;,
+  &quot;topic&quot;: &quot;Thống kê&quot;,
+  &quot;subtopic&quot;: &quot;Tứ phân vị của mẫu số liệu ghép nhóm&quot;,
+  &quot;chapter&quot;: null,
+  &quot;grade&quot;: 12,
+  &quot;part&quot;: null,
+  &quot;question_text&quot;: &quot;[IT1230122] Kết quả thu thập điểm số môn Toán của 25 học sinh khi tham gia kì thi học sinh giỏi toán 11. (thang điểm 20) cho ta bảng tần số ghép nhóm sau:\n\n| Nhóm | $[0;4)$ | $[4;8)$ | $[8;12)$ | $[12;16)$ | $[16;20)$ |\n|---|---|---|---|---|---|\n| Số học sinh | 1 | 7 | 12 | 3 | 2 |\n\nTìm tứ phân vị thứ ba của bảng mẫu số liệu ghép nhóm trên. (Làm tròn kết quả tới hàng phần trăm).&quot;,
+  &quot;difficulty&quot;: &quot;Thông hiểu&quot;,
+  &quot;needs_visual&quot;: true,
+  &quot;visual_type&quot;: &quot;bang_so_lieu&quot;,
+  &quot;source_hint&quot;: &quot;IT1230122&quot;,
+  &quot;source_file&quot;: &quot;Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf&quot;,
+  &quot;page_number&quot;: 7,
+  &quot;explanation&quot;: null,
+  &quot;answer_source&quot;: &quot;original&quot;,
+  &quot;needs_review&quot;: true,
+  &quot;has_image&quot;: false,
+  &quot;image_url&quot;: null,
+  &quot;visual_image_url&quot;: null,
+  &quot;raw_text&quot;: &quot;{\&quot;type\&quot;: \&quot;short_answer\&quot;, \&quot;part\&quot;: null, \&quot;topic\&quot;: \&quot;Thống kê\&quot;, \&quot;subtopic\&quot;: \&quot;Tứ phân vị của mẫu số liệu ghép nhóm\&quot;, \&quot;chapter\&quot;: null, \&quot;grade\&quot;: 12, \&quot;difficulty\&quot;: \&quot;Thông hiểu\&quot;, \&quot;question_text\&quot;: \&quot;[IT1230122] Kết quả thu thập điểm số môn Toán của 25 học sinh khi tham gia kì thi học sinh giỏi toán 11. (thang điểm 20) cho ta bảng tần số ghép nhóm sau:\\n\\n| Nhóm | $[0;4)$ | $[4;8)$ | $[8;12)$ | $[12;16)$ | $[16;20)$ |\\n|---|---|---|---|---|---|\\n| Số học sinh | 1 | 7 | 12 | 3 | 2 |\\n\\nTìm tứ phân vị thứ ba của bảng mẫu số liệu ghép nhóm trên. (Làm tròn kết quả tới hàng phần trăm).\&quot;, \&quot;option_a\&quot;: null, \&quot;option_b\&quot;: null, \&quot;option_c\&quot;: null, \&quot;option_d\&quot;: null, \&quot;correct_answer\&quot;: null, \&quot;statements\&quot;: [], \&quot;numeric_answer\&quot;: null, \&quot;needs_visual\&quot;: true, \&quot;visual_type\&quot;: \&quot;bang_so_lieu\&quot;, \&quot;visual_bbox\&quot;: [0.05, 0.75, 0.95, 0.9], \&quot;explanation\&quot;: null, \&quot;source_hint\&quot;: \&quot;IT1230122\&quot;}&quot;,
+  &quot;is_published&quot;: false,
+  &quot;numeric_answer&quot;: null
+}</pre>
+      </details>
+    </article>
+    
+  </main>
+</body>
+</html>

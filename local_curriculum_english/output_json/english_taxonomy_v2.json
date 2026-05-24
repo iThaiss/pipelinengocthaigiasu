@@ -1,0 +1,1018 @@
+{
+  "generated_at": "2026-05-24T01:21:46",
+  "subject": "english",
+  "version": "english_taxonomy_v2",
+  "design_notes": {
+    "core_exam": "THPT_2025_CORE",
+    "supplement_exams": [
+      "HSA_ENGLISH",
+      "SPT_ENGLISH"
+    ],
+    "principle": "Knowledge is shared across exams; exam-specific formats and blueprints are metadata.",
+    "learning_support_note": "Vocabulary/structure tables after exams are learning support, not exam question formats."
+  },
+  "knowledge_topics": [
+    {
+      "id": 1,
+      "topic_code": "E2G",
+      "topic_title": "Grammar Foundation",
+      "topic_order": 1
+    },
+    {
+      "id": 2,
+      "topic_code": "E2V",
+      "topic_title": "Verb System",
+      "topic_order": 2
+    },
+    {
+      "id": 3,
+      "topic_code": "E2S",
+      "topic_title": "Sentence and Clause Structures",
+      "topic_order": 3
+    },
+    {
+      "id": 4,
+      "topic_code": "E2X",
+      "topic_title": "Vocabulary and Lexical Resources",
+      "topic_order": 4
+    },
+    {
+      "id": 5,
+      "topic_code": "E2R",
+      "topic_title": "Reading Skills",
+      "topic_order": 5
+    },
+    {
+      "id": 6,
+      "topic_code": "E2C",
+      "topic_title": "Cloze and Text Completion",
+      "topic_order": 6
+    },
+    {
+      "id": 7,
+      "topic_code": "E2O",
+      "topic_title": "Ordering and Discourse",
+      "topic_order": 7
+    },
+    {
+      "id": 8,
+      "topic_code": "E2W",
+      "topic_title": "Writing",
+      "topic_order": 8
+    },
+    {
+      "id": 9,
+      "topic_code": "E2F",
+      "topic_title": "Functional Communication",
+      "topic_order": 9
+    },
+    {
+      "id": 10,
+      "topic_code": "E2M",
+      "topic_title": "Mixed Exam Skills",
+      "topic_order": 10
+    }
+  ],
+  "knowledge_subtopics": [
+    {
+      "id": 101,
+      "topic_id": 1,
+      "topic_code": "E2G",
+      "topic_title": "Grammar Foundation",
+      "subtopic_code": "E2G.01",
+      "subtopic_title": "Parts of Speech",
+      "subtopic_order": 1
+    },
+    {
+      "id": 102,
+      "topic_id": 1,
+      "topic_code": "E2G",
+      "topic_title": "Grammar Foundation",
+      "subtopic_code": "E2G.02",
+      "subtopic_title": "Articles and Determiners",
+      "subtopic_order": 2
+    },
+    {
+      "id": 103,
+      "topic_id": 1,
+      "topic_code": "E2G",
+      "topic_title": "Grammar Foundation",
+      "subtopic_code": "E2G.03",
+      "subtopic_title": "Pronouns and Quantifiers",
+      "subtopic_order": 3
+    },
+    {
+      "id": 104,
+      "topic_id": 1,
+      "topic_code": "E2G",
+      "topic_title": "Grammar Foundation",
+      "subtopic_code": "E2G.04",
+      "subtopic_title": "Prepositions",
+      "subtopic_order": 4
+    },
+    {
+      "id": 105,
+      "topic_id": 1,
+      "topic_code": "E2G",
+      "topic_title": "Grammar Foundation",
+      "subtopic_code": "E2G.05",
+      "subtopic_title": "Phrasal Verbs",
+      "subtopic_order": 5
+    },
+    {
+      "id": 106,
+      "topic_id": 1,
+      "topic_code": "E2G",
+      "topic_title": "Grammar Foundation",
+      "subtopic_code": "E2G.06",
+      "subtopic_title": "Comparisons",
+      "subtopic_order": 6
+    },
+    {
+      "id": 201,
+      "topic_id": 2,
+      "topic_code": "E2V",
+      "topic_title": "Verb System",
+      "subtopic_code": "E2V.01",
+      "subtopic_title": "Present Tenses",
+      "subtopic_order": 1
+    },
+    {
+      "id": 202,
+      "topic_id": 2,
+      "topic_code": "E2V",
+      "topic_title": "Verb System",
+      "subtopic_code": "E2V.02",
+      "subtopic_title": "Past Tenses",
+      "subtopic_order": 2
+    },
+    {
+      "id": 203,
+      "topic_id": 2,
+      "topic_code": "E2V",
+      "topic_title": "Verb System",
+      "subtopic_code": "E2V.03",
+      "subtopic_title": "Future Forms",
+      "subtopic_order": 3
+    },
+    {
+      "id": 204,
+      "topic_id": 2,
+      "topic_code": "E2V",
+      "topic_title": "Verb System",
+      "subtopic_code": "E2V.04",
+      "subtopic_title": "Sequence of Tenses",
+      "subtopic_order": 4
+    },
+    {
+      "id": 205,
+      "topic_id": 2,
+      "topic_code": "E2V",
+      "topic_title": "Verb System",
+      "subtopic_code": "E2V.05",
+      "subtopic_title": "Subject-Verb Agreement",
+      "subtopic_order": 5
+    },
+    {
+      "id": 206,
+      "topic_id": 2,
+      "topic_code": "E2V",
+      "topic_title": "Verb System",
+      "subtopic_code": "E2V.06",
+      "subtopic_title": "Modal Verbs",
+      "subtopic_order": 6
+    },
+    {
+      "id": 207,
+      "topic_id": 2,
+      "topic_code": "E2V",
+      "topic_title": "Verb System",
+      "subtopic_code": "E2V.07",
+      "subtopic_title": "Gerunds and Infinitives",
+      "subtopic_order": 7
+    },
+    {
+      "id": 208,
+      "topic_id": 2,
+      "topic_code": "E2V",
+      "topic_title": "Verb System",
+      "subtopic_code": "E2V.08",
+      "subtopic_title": "Participles",
+      "subtopic_order": 8
+    },
+    {
+      "id": 301,
+      "topic_id": 3,
+      "topic_code": "E2S",
+      "topic_title": "Sentence and Clause Structures",
+      "subtopic_code": "E2S.01",
+      "subtopic_title": "Passive Voice",
+      "subtopic_order": 1
+    },
+    {
+      "id": 302,
+      "topic_id": 3,
+      "topic_code": "E2S",
+      "topic_title": "Sentence and Clause Structures",
+      "subtopic_code": "E2S.02",
+      "subtopic_title": "Reported Speech",
+      "subtopic_order": 2
+    },
+    {
+      "id": 303,
+      "topic_id": 3,
+      "topic_code": "E2S",
+      "topic_title": "Sentence and Clause Structures",
+      "subtopic_code": "E2S.03",
+      "subtopic_title": "Conditionals and Wishes",
+      "subtopic_order": 3
+    },
+    {
+      "id": 304,
+      "topic_id": 3,
+      "topic_code": "E2S",
+      "topic_title": "Sentence and Clause Structures",
+      "subtopic_code": "E2S.04",
+      "subtopic_title": "Relative Clauses",
+      "subtopic_order": 4
+    },
+    {
+      "id": 305,
+      "topic_id": 3,
+      "topic_code": "E2S",
+      "topic_title": "Sentence and Clause Structures",
+      "subtopic_code": "E2S.05",
+      "subtopic_title": "Reduced Clauses",
+      "subtopic_order": 5
+    },
+    {
+      "id": 306,
+      "topic_id": 3,
+      "topic_code": "E2S",
+      "topic_title": "Sentence and Clause Structures",
+      "subtopic_code": "E2S.06",
+      "subtopic_title": "Conjunctions and Adverbial Clauses",
+      "subtopic_order": 6
+    },
+    {
+      "id": 307,
+      "topic_id": 3,
+      "topic_code": "E2S",
+      "topic_title": "Sentence and Clause Structures",
+      "subtopic_code": "E2S.07",
+      "subtopic_title": "Question Tags",
+      "subtopic_order": 7
+    },
+    {
+      "id": 308,
+      "topic_id": 3,
+      "topic_code": "E2S",
+      "topic_title": "Sentence and Clause Structures",
+      "subtopic_code": "E2S.08",
+      "subtopic_title": "Cleft Sentences and Emphasis",
+      "subtopic_order": 8
+    },
+    {
+      "id": 309,
+      "topic_id": 3,
+      "topic_code": "E2S",
+      "topic_title": "Sentence and Clause Structures",
+      "subtopic_code": "E2S.09",
+      "subtopic_title": "Inversion",
+      "subtopic_order": 9
+    },
+    {
+      "id": 310,
+      "topic_id": 3,
+      "topic_code": "E2S",
+      "topic_title": "Sentence and Clause Structures",
+      "subtopic_code": "E2S.10",
+      "subtopic_title": "Sentence Types",
+      "subtopic_order": 10
+    },
+    {
+      "id": 311,
+      "topic_id": 3,
+      "topic_code": "E2S",
+      "topic_title": "Sentence and Clause Structures",
+      "subtopic_code": "E2S.11",
+      "subtopic_title": "Parallelism and Apposition",
+      "subtopic_order": 11
+    },
+    {
+      "id": 401,
+      "topic_id": 4,
+      "topic_code": "E2X",
+      "topic_title": "Vocabulary and Lexical Resources",
+      "subtopic_code": "E2X.01",
+      "subtopic_title": "Word Formation",
+      "subtopic_order": 1
+    },
+    {
+      "id": 402,
+      "topic_id": 4,
+      "topic_code": "E2X",
+      "topic_title": "Vocabulary and Lexical Resources",
+      "subtopic_code": "E2X.02",
+      "subtopic_title": "Word Order",
+      "subtopic_order": 2
+    },
+    {
+      "id": 403,
+      "topic_id": 4,
+      "topic_code": "E2X",
+      "topic_title": "Vocabulary and Lexical Resources",
+      "subtopic_code": "E2X.03",
+      "subtopic_title": "Collocations",
+      "subtopic_order": 3
+    },
+    {
+      "id": 404,
+      "topic_id": 4,
+      "topic_code": "E2X",
+      "topic_title": "Vocabulary and Lexical Resources",
+      "subtopic_code": "E2X.04",
+      "subtopic_title": "Fixed Expressions and Phrasal Patterns",
+      "subtopic_order": 4
+    },
+    {
+      "id": 405,
+      "topic_id": 4,
+      "topic_code": "E2X",
+      "topic_title": "Vocabulary and Lexical Resources",
+      "subtopic_code": "E2X.05",
+      "subtopic_title": "Synonyms and Antonyms",
+      "subtopic_order": 5
+    },
+    {
+      "id": 406,
+      "topic_id": 4,
+      "topic_code": "E2X",
+      "topic_title": "Vocabulary and Lexical Resources",
+      "subtopic_code": "E2X.06",
+      "subtopic_title": "Vocabulary in Context",
+      "subtopic_order": 6
+    },
+    {
+      "id": 407,
+      "topic_id": 4,
+      "topic_code": "E2X",
+      "topic_title": "Vocabulary and Lexical Resources",
+      "subtopic_code": "E2X.07",
+      "subtopic_title": "Topic Vocabulary",
+      "subtopic_order": 7
+    },
+    {
+      "id": 408,
+      "topic_id": 4,
+      "topic_code": "E2X",
+      "topic_title": "Vocabulary and Lexical Resources",
+      "subtopic_code": "E2X.08",
+      "subtopic_title": "Semantic Fields",
+      "subtopic_order": 8
+    },
+    {
+      "id": 501,
+      "topic_id": 5,
+      "topic_code": "E2R",
+      "topic_title": "Reading Skills",
+      "subtopic_code": "E2R.01",
+      "subtopic_title": "Main Idea and Title",
+      "subtopic_order": 1
+    },
+    {
+      "id": 502,
+      "topic_id": 5,
+      "topic_code": "E2R",
+      "topic_title": "Reading Skills",
+      "subtopic_code": "E2R.02",
+      "subtopic_title": "Detail and Not-Mentioned Questions",
+      "subtopic_order": 2
+    },
+    {
+      "id": 503,
+      "topic_id": 5,
+      "topic_code": "E2R",
+      "topic_title": "Reading Skills",
+      "subtopic_code": "E2R.03",
+      "subtopic_title": "Reference Questions",
+      "subtopic_order": 3
+    },
+    {
+      "id": 504,
+      "topic_id": 5,
+      "topic_code": "E2R",
+      "topic_title": "Reading Skills",
+      "subtopic_code": "E2R.04",
+      "subtopic_title": "Vocabulary in Reading Context",
+      "subtopic_order": 4
+    },
+    {
+      "id": 505,
+      "topic_id": 5,
+      "topic_code": "E2R",
+      "topic_title": "Reading Skills",
+      "subtopic_code": "E2R.05",
+      "subtopic_title": "Inference Questions",
+      "subtopic_order": 5
+    },
+    {
+      "id": 506,
+      "topic_id": 5,
+      "topic_code": "E2R",
+      "topic_title": "Reading Skills",
+      "subtopic_code": "E2R.06",
+      "subtopic_title": "Paragraph Location and Sentence Insertion",
+      "subtopic_order": 6
+    },
+    {
+      "id": 507,
+      "topic_id": 5,
+      "topic_code": "E2R",
+      "topic_title": "Reading Skills",
+      "subtopic_code": "E2R.07",
+      "subtopic_title": "Paraphrase Questions",
+      "subtopic_order": 7
+    },
+    {
+      "id": 508,
+      "topic_id": 5,
+      "topic_code": "E2R",
+      "topic_title": "Reading Skills",
+      "subtopic_code": "E2R.08",
+      "subtopic_title": "Summary Questions",
+      "subtopic_order": 8
+    },
+    {
+      "id": 509,
+      "topic_id": 5,
+      "topic_code": "E2R",
+      "topic_title": "Reading Skills",
+      "subtopic_code": "E2R.09",
+      "subtopic_title": "Author Purpose, Tone, and Attitude",
+      "subtopic_order": 9
+    },
+    {
+      "id": 601,
+      "topic_id": 6,
+      "topic_code": "E2C",
+      "topic_title": "Cloze and Text Completion",
+      "subtopic_code": "E2C.01",
+      "subtopic_title": "Grammar Cloze",
+      "subtopic_order": 1
+    },
+    {
+      "id": 602,
+      "topic_id": 6,
+      "topic_code": "E2C",
+      "topic_title": "Cloze and Text Completion",
+      "subtopic_code": "E2C.02",
+      "subtopic_title": "Vocabulary Cloze",
+      "subtopic_order": 2
+    },
+    {
+      "id": 603,
+      "topic_id": 6,
+      "topic_code": "E2C",
+      "topic_title": "Cloze and Text Completion",
+      "subtopic_code": "E2C.03",
+      "subtopic_title": "Advertisement and Notice Cloze",
+      "subtopic_order": 3
+    },
+    {
+      "id": 604,
+      "topic_id": 6,
+      "topic_code": "E2C",
+      "topic_title": "Cloze and Text Completion",
+      "subtopic_code": "E2C.04",
+      "subtopic_title": "Press Release Cloze",
+      "subtopic_order": 4
+    },
+    {
+      "id": 605,
+      "topic_id": 6,
+      "topic_code": "E2C",
+      "topic_title": "Cloze and Text Completion",
+      "subtopic_code": "E2C.05",
+      "subtopic_title": "Long Passage Cloze",
+      "subtopic_order": 5
+    },
+    {
+      "id": 606,
+      "topic_id": 6,
+      "topic_code": "E2C",
+      "topic_title": "Cloze and Text Completion",
+      "subtopic_code": "E2C.06",
+      "subtopic_title": "Discourse Text Completion",
+      "subtopic_order": 6
+    },
+    {
+      "id": 701,
+      "topic_id": 7,
+      "topic_code": "E2O",
+      "topic_title": "Ordering and Discourse",
+      "subtopic_code": "E2O.01",
+      "subtopic_title": "Dialogue Ordering",
+      "subtopic_order": 1
+    },
+    {
+      "id": 702,
+      "topic_id": 7,
+      "topic_code": "E2O",
+      "topic_title": "Ordering and Discourse",
+      "subtopic_code": "E2O.02",
+      "subtopic_title": "Paragraph Ordering",
+      "subtopic_order": 2
+    },
+    {
+      "id": 703,
+      "topic_id": 7,
+      "topic_code": "E2O",
+      "topic_title": "Ordering and Discourse",
+      "subtopic_code": "E2O.03",
+      "subtopic_title": "Email and Letter Ordering",
+      "subtopic_order": 3
+    },
+    {
+      "id": 704,
+      "topic_id": 7,
+      "topic_code": "E2O",
+      "topic_title": "Ordering and Discourse",
+      "subtopic_code": "E2O.04",
+      "subtopic_title": "Sentence Coherence",
+      "subtopic_order": 4
+    },
+    {
+      "id": 801,
+      "topic_id": 8,
+      "topic_code": "E2W",
+      "topic_title": "Writing",
+      "subtopic_code": "E2W.01",
+      "subtopic_title": "Sentence Transformation",
+      "subtopic_order": 1
+    },
+    {
+      "id": 802,
+      "topic_id": 8,
+      "topic_code": "E2W",
+      "topic_title": "Writing",
+      "subtopic_code": "E2W.02",
+      "subtopic_title": "Sentence Combination",
+      "subtopic_order": 2
+    },
+    {
+      "id": 803,
+      "topic_id": 8,
+      "topic_code": "E2W",
+      "topic_title": "Writing",
+      "subtopic_code": "E2W.03",
+      "subtopic_title": "Paragraph Writing",
+      "subtopic_order": 3
+    },
+    {
+      "id": 804,
+      "topic_id": 8,
+      "topic_code": "E2W",
+      "topic_title": "Writing",
+      "subtopic_code": "E2W.04",
+      "subtopic_title": "Opinion and Argument Writing",
+      "subtopic_order": 4
+    },
+    {
+      "id": 901,
+      "topic_id": 9,
+      "topic_code": "E2F",
+      "topic_title": "Functional Communication",
+      "subtopic_code": "E2F.01",
+      "subtopic_title": "Dialogue Completion",
+      "subtopic_order": 1
+    },
+    {
+      "id": 902,
+      "topic_id": 9,
+      "topic_code": "E2F",
+      "topic_title": "Functional Communication",
+      "subtopic_code": "E2F.02",
+      "subtopic_title": "Agreement, Disagreement, and Suggestions",
+      "subtopic_order": 2
+    },
+    {
+      "id": 903,
+      "topic_id": 9,
+      "topic_code": "E2F",
+      "topic_title": "Functional Communication",
+      "subtopic_code": "E2F.03",
+      "subtopic_title": "Requests, Offers, and Invitations",
+      "subtopic_order": 3
+    },
+    {
+      "id": 1001,
+      "topic_id": 10,
+      "topic_code": "E2M",
+      "topic_title": "Mixed Exam Skills",
+      "subtopic_code": "E2M.01",
+      "subtopic_title": "HSA Logical Problem Solving",
+      "subtopic_order": 1
+    },
+    {
+      "id": 1002,
+      "topic_id": 10,
+      "topic_code": "E2M",
+      "topic_title": "Mixed Exam Skills",
+      "subtopic_code": "E2M.02",
+      "subtopic_title": "DGNL/SPT Mixed Use of English",
+      "subtopic_order": 2
+    },
+    {
+      "id": 1003,
+      "topic_id": 10,
+      "topic_code": "E2M",
+      "topic_title": "Mixed Exam Skills",
+      "subtopic_code": "E2M.03",
+      "subtopic_title": "VIP90 Weekly Mixed Review",
+      "subtopic_order": 3
+    },
+    {
+      "id": 1099,
+      "topic_id": 10,
+      "topic_code": "E2M",
+      "topic_title": "Mixed Exam Skills",
+      "subtopic_code": "E2M.99",
+      "subtopic_title": "Needs Review or Mixed",
+      "subtopic_order": 4
+    }
+  ],
+  "question_formats": [
+    {
+      "format_code": "thpt_press_release_cloze",
+      "format_title": "THPT press-release cloze",
+      "default_knowledge_subtopics": [
+        "E2C.04",
+        "E2C.01",
+        "E2C.02",
+        "E2X.03",
+        "E2X.04"
+      ]
+    },
+    {
+      "format_code": "thpt_advertisement_cloze",
+      "format_title": "THPT advertisement cloze",
+      "default_knowledge_subtopics": [
+        "E2C.03",
+        "E2C.01",
+        "E2C.02",
+        "E2X.04"
+      ]
+    },
+    {
+      "format_code": "thpt_arrangement_exchange",
+      "format_title": "THPT exchange/dialogue arrangement",
+      "default_knowledge_subtopics": [
+        "E2O.01",
+        "E2F.01"
+      ]
+    },
+    {
+      "format_code": "thpt_arrangement_text",
+      "format_title": "THPT paragraph/email/text arrangement",
+      "default_knowledge_subtopics": [
+        "E2O.02",
+        "E2O.03",
+        "E2O.04"
+      ]
+    },
+    {
+      "format_code": "thpt_text_completion",
+      "format_title": "THPT discourse text completion",
+      "default_knowledge_subtopics": [
+        "E2C.06",
+        "E2S.06",
+        "E2O.04"
+      ]
+    },
+    {
+      "format_code": "thpt_reading_passage",
+      "format_title": "THPT reading passage questions",
+      "default_knowledge_subtopics": [
+        "E2R.02",
+        "E2R.03",
+        "E2R.04",
+        "E2R.05",
+        "E2R.06",
+        "E2R.07",
+        "E2R.08"
+      ]
+    },
+    {
+      "format_code": "hsa_sentence_completion",
+      "format_title": "HSA sentence completion",
+      "default_knowledge_subtopics": [
+        "E2G.01",
+        "E2V.04",
+        "E2S.03",
+        "E2X.06"
+      ]
+    },
+    {
+      "format_code": "hsa_synonym",
+      "format_title": "HSA synonym question",
+      "default_knowledge_subtopics": [
+        "E2X.05",
+        "E2X.06"
+      ]
+    },
+    {
+      "format_code": "hsa_antonym",
+      "format_title": "HSA antonym question",
+      "default_knowledge_subtopics": [
+        "E2X.05",
+        "E2X.06"
+      ]
+    },
+    {
+      "format_code": "hsa_dialogue_completion",
+      "format_title": "HSA dialogue completion",
+      "default_knowledge_subtopics": [
+        "E2F.01",
+        "E2F.02",
+        "E2F.03"
+      ]
+    },
+    {
+      "format_code": "hsa_dialogue_arrangement",
+      "format_title": "HSA dialogue arrangement",
+      "default_knowledge_subtopics": [
+        "E2O.01",
+        "E2O.04"
+      ]
+    },
+    {
+      "format_code": "hsa_sentence_rewriting",
+      "format_title": "HSA sentence rewriting",
+      "default_knowledge_subtopics": [
+        "E2W.01",
+        "E2S.06",
+        "E2S.03"
+      ]
+    },
+    {
+      "format_code": "hsa_sentence_combination",
+      "format_title": "HSA sentence combination",
+      "default_knowledge_subtopics": [
+        "E2W.02",
+        "E2S.06",
+        "E2S.05"
+      ]
+    },
+    {
+      "format_code": "hsa_cloze_text",
+      "format_title": "HSA cloze text",
+      "default_knowledge_subtopics": [
+        "E2C.05",
+        "E2C.01",
+        "E2C.02"
+      ]
+    },
+    {
+      "format_code": "hsa_reading_comprehension",
+      "format_title": "HSA reading comprehension",
+      "default_knowledge_subtopics": [
+        "E2R.02",
+        "E2R.03",
+        "E2R.04",
+        "E2R.05",
+        "E2R.08"
+      ]
+    },
+    {
+      "format_code": "hsa_logical_problem_solving",
+      "format_title": "HSA logical problem solving",
+      "default_knowledge_subtopics": [
+        "E2M.01"
+      ]
+    },
+    {
+      "format_code": "spt_use_of_english",
+      "format_title": "SPT Use of English",
+      "default_knowledge_subtopics": [
+        "E2G.01",
+        "E2V.04",
+        "E2X.06",
+        "E2S.06"
+      ]
+    },
+    {
+      "format_code": "spt_cloze",
+      "format_title": "SPT cloze",
+      "default_knowledge_subtopics": [
+        "E2C.05",
+        "E2C.01",
+        "E2C.02"
+      ]
+    },
+    {
+      "format_code": "spt_arrangement",
+      "format_title": "SPT arrangement",
+      "default_knowledge_subtopics": [
+        "E2O.01",
+        "E2O.02",
+        "E2O.04"
+      ]
+    },
+    {
+      "format_code": "spt_reading",
+      "format_title": "SPT reading",
+      "default_knowledge_subtopics": [
+        "E2R.02",
+        "E2R.03",
+        "E2R.04",
+        "E2R.05",
+        "E2R.09"
+      ]
+    },
+    {
+      "format_code": "spt_word_formation",
+      "format_title": "SPT word formation",
+      "default_knowledge_subtopics": [
+        "E2X.01"
+      ]
+    },
+    {
+      "format_code": "spt_paragraph_writing",
+      "format_title": "SPT paragraph writing",
+      "default_knowledge_subtopics": [
+        "E2W.03",
+        "E2W.04"
+      ]
+    }
+  ],
+  "exam_blueprints": [
+    {
+      "exam_profile": "THPT_2025_CORE",
+      "priority": "core",
+      "duration_minutes": 50,
+      "question_count": 40,
+      "sections": [
+        {
+          "range": "1-6",
+          "section": "press_release_cloze",
+          "question_format": "thpt_press_release_cloze",
+          "group_type": "cloze_passage"
+        },
+        {
+          "range": "7-12",
+          "section": "advertisement_cloze",
+          "question_format": "thpt_advertisement_cloze",
+          "group_type": "advertisement_cloze"
+        },
+        {
+          "range": "13-17",
+          "section": "arrangement",
+          "question_format": "thpt_arrangement_text",
+          "group_type": "ordering"
+        },
+        {
+          "range": "18-22",
+          "section": "text_completion",
+          "question_format": "thpt_text_completion",
+          "group_type": "text_completion"
+        },
+        {
+          "range": "23-30",
+          "section": "reading_passage_1",
+          "question_format": "thpt_reading_passage",
+          "group_type": "reading_passage"
+        },
+        {
+          "range": "31-40",
+          "section": "reading_passage_2",
+          "question_format": "thpt_reading_passage",
+          "group_type": "reading_passage"
+        }
+      ]
+    },
+    {
+      "exam_profile": "HSA_ENGLISH",
+      "priority": "supplement",
+      "duration_minutes": 60,
+      "question_count": 50,
+      "sections": [
+        {
+          "range": "1-10",
+          "section": "sentence_completion",
+          "question_format": "hsa_sentence_completion",
+          "group_type": "independent_questions"
+        },
+        {
+          "range": "11-12",
+          "section": "synonyms",
+          "question_format": "hsa_synonym",
+          "group_type": "independent_questions"
+        },
+        {
+          "range": "13-14",
+          "section": "antonyms",
+          "question_format": "hsa_antonym",
+          "group_type": "independent_questions"
+        },
+        {
+          "range": "15-18",
+          "section": "dialogue_completion",
+          "question_format": "hsa_dialogue_completion",
+          "group_type": "dialogue"
+        },
+        {
+          "range": "19-22",
+          "section": "dialogue_arrangement",
+          "question_format": "hsa_dialogue_arrangement",
+          "group_type": "ordering"
+        },
+        {
+          "range": "23-26",
+          "section": "sentence_rewriting",
+          "question_format": "hsa_sentence_rewriting",
+          "group_type": "independent_questions"
+        },
+        {
+          "range": "27-30",
+          "section": "sentence_combination",
+          "question_format": "hsa_sentence_combination",
+          "group_type": "independent_questions"
+        },
+        {
+          "range": "31-35",
+          "section": "cloze_text",
+          "question_format": "hsa_cloze_text",
+          "group_type": "cloze_passage"
+        },
+        {
+          "range": "36-45",
+          "section": "reading_comprehension",
+          "question_format": "hsa_reading_comprehension",
+          "group_type": "reading_passage"
+        },
+        {
+          "range": "46-50",
+          "section": "logical_problem_solving",
+          "question_format": "hsa_logical_problem_solving",
+          "group_type": "logic_problem"
+        }
+      ]
+    },
+    {
+      "exam_profile": "SPT_ENGLISH",
+      "priority": "supplement",
+      "duration_minutes": 60,
+      "sections": [
+        {
+          "range": "1-5",
+          "section": "use_of_english",
+          "question_format": "spt_use_of_english",
+          "group_type": "independent_questions"
+        },
+        {
+          "range": "6-17",
+          "section": "cloze_and_arrangement",
+          "question_format": "spt_cloze",
+          "group_type": "cloze_passage"
+        },
+        {
+          "range": "19-28",
+          "section": "reading",
+          "question_format": "spt_reading",
+          "group_type": "reading_passage"
+        },
+        {
+          "range": "wf1-wf4",
+          "section": "word_formation",
+          "question_format": "spt_word_formation",
+          "group_type": "word_formation_text"
+        },
+        {
+          "range": "writing",
+          "section": "paragraph_writing",
+          "question_format": "spt_paragraph_writing",
+          "group_type": "writing_prompt"
+        }
+      ]
+    }
+  ],
+  "learning_support_types": [
+    {
+      "support_type": "vocabulary_table",
+      "description": "Post-exam vocabulary list for study support, not an exam question format."
+    },
+    {
+      "support_type": "structure_table",
+      "description": "Post-exam structure/fixed-expression list for study support, not an exam question format."
+    },
+    {
+      "support_type": "answer_key",
+      "description": "Answer key section."
+    },
+    {
+      "support_type": "explanation",
+      "description": "Solution/explanation section."
+    }
+  ]
+}

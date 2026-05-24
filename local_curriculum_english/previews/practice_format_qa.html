@@ -1,0 +1,1314 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><title>Practice Format QA</title>
+<style>
+body{font-family:Arial,sans-serif;font-size:13px;line-height:1.45;padding:20px;color:#222}
+h1{margin-top:0} h2{border-top:3px solid #222;padding-top:14px;margin-top:28px} h3{margin-bottom:8px}
+.summary,.stats,.explain{background:#f2f2f2;border:1px solid #ddd;padding:10px;margin:10px 0} .explain{background:#eef6ff} .code{font-family:monospace;color:#555;margin-top:-8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:10px}
+.qcard{border:1px solid #ccc;padding:10px;background:#fff}
+.rejected .qcard{background:#fff9f1;border-color:#e0b36a}
+.file{font-size:11px;color:#666;margin-bottom:4px;word-break:break-all}
+.qtext{margin:8px 0;font-weight:500} .opts{color:#333;margin:6px 0} .muted{font-size:11px;color:#666} .bad{color:#9a4b00;font-size:12px;margin-top:6px}
+.passage{background:#f8f8f8;border-left:3px solid #999;padding:8px;margin:6px 0}
+.empty{color:#777;font-style:italic}
+</style></head><body><h1>Practice Format QA</h1><div class="summary">Cách đọc: mỗi mục bên dưới là một dạng câu hỏi. <b>Câu sạch giữ lại</b> là câu đủ đề/context/options để đưa vào database và AI solve. <b>Câu bị loại</b> là câu scan ra nhưng thiếu dữ liệu, không đưa vào database chính.<br>Câu sạch: <b>9837</b> | Câu bị loại: <b>1014</b> | Số dạng câu hỏi: <b>13</b> | Passage groups: <b>1288</b></div>
+    <section>
+      <h2>Trái nghĩa</h2>
+      <div class="code">format_code: hsa_antonym</div>
+      <div class="explain"><b>Format này nên trông như thế nào:</b> Câu hỏi phải có từ/cụm từ cần tìm trái nghĩa, kèm options.</div>
+      <div class="stats">
+        <b>Kết luận nhanh</b>: OK để solve<br>
+        <b>Câu sạch giữ lại</b>: 30 &nbsp; <b>Câu bị loại</b>: 0 &nbsp; <b>Câu có passage</b>: 0<br>
+        <b>Subtopic được gắn nhiều nhất</b>: E2X.05:30<br>
+        <b>Lý do loại nhiều nhất</b>: none<br>
+        <b>File đóng góp nhiều nhất</b>: 1 10.pdf:30
+      </div>
+      <h3>Câu sạch mẫu (đây là câu sẽ vào database chính)</h3>
+      <div class="grid">
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1 10.pdf</div>
+      <div><b>Câu 1</b> <span class="muted">format=hsa_antonym | subtopic=E2X.05 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Minh: How was your holiday? John: __________</div>
+      <div class="opts">A. I don’t recall. | B. I stayed at the hotel. | C. It should be fine. | D. It was really fun!</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1 10.pdf</div>
+      <div><b>Câu 2</b> <span class="muted">format=hsa_antonym | subtopic=E2X.05 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Alex: I’m so tired after a long day at work. Mia: __________</div>
+      <div class="opts">A. Just hit the sack! | B. Just hit the bag! | C. Just hit the mat! | D. Just hit the box!</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1 10.pdf</div>
+      <div><b>Câu 3</b> <span class="muted">format=hsa_antonym | subtopic=E2X.05 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Lisa: Congratulations on winning the competition! Emma: __________</div>
+      <div class="opts">A. I knew I would. | B. It was just okay. | C. Thank you so much! | D. I don’t think I deserve it.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1 10.pdf</div>
+      <div><b>Câu 4</b> <span class="muted">format=hsa_antonym | subtopic=E2X.05 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Jimmy: How are you finding the new study schedule I suggested for you? Lucy: __________</div>
+      <div class="opts">A. I appreciate it because it helps me feel less overwhelmed during exam season. | B. It’s really helpful, although I barely use any of the resources provided. | C. It’s a good plan, but I think we will still reduce our study workload. | D. I prefer something less structured, as I already enjoy my free time.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1 10.pdf</div>
+      <div><b>Câu 5</b> <span class="muted">format=hsa_antonym | subtopic=E2X.05 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Nick: Did you enjoy your trip? Mike: __________</div>
+      <div class="opts">A. I might forget. | B. Yes, it was amazing! | C. It could have been better. | D. I wasn’t really there.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1 10.pdf</div>
+      <div><b>Câu 6</b> <span class="muted">format=hsa_antonym | subtopic=E2X.05 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Oliver: He finally paid me back! Grace: __________</div>
+      <div class="opts">A. Better late than later. | B. Better late than sooner. | C. Better late than never. | D. Better late than early.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    </div>
+      <h3>Câu bị loại mẫu (không đưa vào database chính)</h3>
+      <div class="grid rejected"><div class='empty'>No rejected samples</div></div>
+    </section>
+    
+    <section>
+      <h2>Đọc điền khuyết đoạn văn</h2>
+      <div class="code">format_code: hsa_cloze_text</div>
+      <div class="explain"><b>Format này nên trông như thế nào:</b> Phải có passage/context chứa các blank và các câu hỏi bên dưới.</div>
+      <div class="stats">
+        <b>Kết luận nhanh</b>: OK để solve<br>
+        <b>Câu sạch giữ lại</b>: 1975 &nbsp; <b>Câu bị loại</b>: 235 &nbsp; <b>Câu có passage</b>: 1975<br>
+        <b>Subtopic được gắn nhiều nhất</b>: E2C.05:1765, E2C.01:60, E2C.02:60, E2C.06:60, E2X.04:30<br>
+        <b>Lý do loại nhiều nhất</b>: missing_or_short_question_text:179, missing_options:55, missing_or_short_question_text; missing_options:1<br>
+        <b>File đóng góp nhiều nhất</b>: E2C.01.json:60, E2C.02.json:60, E2C.06.json:60, 01 VIDEO Chủ đề 1 _ Family and Relationships (1) (1).pdf:30, 01 VIDEO Chủ đề 1 _ Family and Relationships (1).pdf:30
+      </div>
+      <h3>Câu sạch mẫu (đây là câu sẽ vào database chính)</h3>
+      <div class="grid">
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐIỀN KHUYẾT/Bài 12. Đọc điền khuyết thông tin (Buổi 11) (1).pdf</div>
+      <div><b>Câu 1</b> <span class="muted">format=hsa_cloze_text | subtopic=E2C.05 | đủ để AI giải=True</span></div>
+      <details><summary>Passage (1686 chars)</summary><div class='passage'>Read the following passage and mark the letter A, B, C or D to indicate the correct option that best fits each of the numbered blanks from 1 to 5. Artificial intelligence prompting has rapidly become a crucial skill in an era where AI tools are increasingly embedded in education, business, and creative work. (1) _______, effective prompting now demands a more deliberate and strategic approach. Users must learn to frame their requests clearly, specify constraints, and anticipate how the system interprets language in order to obtain accurate and relevant outputs. At its core, prompting is not merely about giving instructions but about shaping a dialogue between humans and machines. A well-designed prompt provides context, defines the task, and (2) ______. Poorly constructed prompts, by contrast, can lead to vague, misleading, or overly generic responses, (3) _______. This gap between the system’s potential and the user’s outcome often reflects differences in prompting skill rather than technological limitations. As AI tools are increasingly used to draft texts, analyse data, and support decision-making, prompting literacy is emerging as a form of digital competence. It requires critical thinking, linguistic precision, and an awareness of bias and assumptions embedded in both the prompt and the response. Moreover, overreliance on formulaic prompts can produce homogenised content, ...</div></details>
+      <div class="qtext">Read the following passage and mark the letter A, B, C or D to indicate the correct option that best fits each of the numbered blanks from 1 to 5. Artificial intelligence prompting has rapidly become a crucial skill in an era where AI tools are increasingly embedded in education, business, and creative work. (1) _______, effective prompting now demands a more deliberate and strategic approach. Users must learn to frame their requests clearly, specify constraints, and anticipate how the system interprets language in order to obtain accurate and relevant outputs. At its core, prompting is not merely about giving instructions but about shaping a dialogue between humans and machines. A well-desi</div>
+      <div class="opts">A. While early interactions with AI systems often relied on simple commands | B. As the reliability of early interactions with AI systems was simple commands | C. Whereas AI systems, whose early interactions simplified commands, were reliable | D. Though simplified commands were often relied on in interactions with early AI systems</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐIỀN KHUYẾT/Bài 12. Đọc điền khuyết thông tin (Buổi 11) (1).pdf</div>
+      <div><b>Câu 2</b> <span class="muted">format=hsa_cloze_text | subtopic=E2C.05 | đủ để AI giải=True</span></div>
+      <details><summary>Passage (1686 chars)</summary><div class='passage'>Read the following passage and mark the letter A, B, C or D to indicate the correct option that best fits each of the numbered blanks from 1 to 5. Artificial intelligence prompting has rapidly become a crucial skill in an era where AI tools are increasingly embedded in education, business, and creative work. (1) _______, effective prompting now demands a more deliberate and strategic approach. Users must learn to frame their requests clearly, specify constraints, and anticipate how the system interprets language in order to obtain accurate and relevant outputs. At its core, prompting is not merely about giving instructions but about shaping a dialogue between humans and machines. A well-designed prompt provides context, defines the task, and (2) ______. Poorly constructed prompts, by contrast, can lead to vague, misleading, or overly generic responses, (3) _______. This gap between the system’s potential and the user’s outcome often reflects differences in prompting skill rather than technological limitations. As AI tools are increasingly used to draft texts, analyse data, and support decision-making, prompting literacy is emerging as a form of digital competence. It requires critical thinking, linguistic precision, and an awareness of bias and assumptions embedded in both the prompt and the response. Moreover, overreliance on formulaic prompts can produce homogenised content, ...</div></details>
+      <div class="qtext">Read the following passage and mark the letter A, B, C or D to indicate the correct option that best fits each of the numbered blanks from 1 to 5. Artificial intelligence prompting has rapidly become a crucial skill in an era where AI tools are increasingly embedded in education, business, and creative work. (1) _______, effective prompting now demands a more deliberate and strategic approach. Users must learn to frame their requests clearly, specify constraints, and anticipate how the system interprets language in order to obtain accurate and relevant outputs. At its core, prompting is not merely about giving instructions but about shaping a dialogue between humans and machines. A well-desi</div>
+      <div class="opts">A. whose signal of the desired level of depth or creativity | B. signalling the desired level of depth or creativity | C. when it is the signal of the desired level of depth or creativity | D. signals the desired level of depth or creativity</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐIỀN KHUYẾT/Bài 12. Đọc điền khuyết thông tin (Buổi 11) (1).pdf</div>
+      <div><b>Câu 3</b> <span class="muted">format=hsa_cloze_text | subtopic=E2C.05 | đủ để AI giải=True</span></div>
+      <details><summary>Passage (1686 chars)</summary><div class='passage'>Read the following passage and mark the letter A, B, C or D to indicate the correct option that best fits each of the numbered blanks from 1 to 5. Artificial intelligence prompting has rapidly become a crucial skill in an era where AI tools are increasingly embedded in education, business, and creative work. (1) _______, effective prompting now demands a more deliberate and strategic approach. Users must learn to frame their requests clearly, specify constraints, and anticipate how the system interprets language in order to obtain accurate and relevant outputs. At its core, prompting is not merely about giving instructions but about shaping a dialogue between humans and machines. A well-designed prompt provides context, defines the task, and (2) ______. Poorly constructed prompts, by contrast, can lead to vague, misleading, or overly generic responses, (3) _______. This gap between the system’s potential and the user’s outcome often reflects differences in prompting skill rather than technological limitations. As AI tools are increasingly used to draft texts, analyse data, and support decision-making, prompting literacy is emerging as a form of digital competence. It requires critical thinking, linguistic precision, and an awareness of bias and assumptions embedded in both the prompt and the response. Moreover, overreliance on formulaic prompts can produce homogenised content, ...</div></details>
+      <div class="qtext">Read the following passage and mark the letter A, B, C or D to indicate the correct option that best fits each of the numbered blanks from 1 to 5. Artificial intelligence prompting has rapidly become a crucial skill in an era where AI tools are increasingly embedded in education, business, and creative work. (1) _______, effective prompting now demands a more deliberate and strategic approach. Users must learn to frame their requests clearly, specify constraints, and anticipate how the system interprets language in order to obtain accurate and relevant outputs. At its core, prompting is not merely about giving instructions but about shaping a dialogue between humans and machines. A well-desi</div>
+      <div class="opts">A. provided that the AI model underlying the system is of high capability | B. without the underlying AI model being highly capable | C. even when the underlying AI model is highly capable | D. due to the high capability of the AI model underlying the system</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐIỀN KHUYẾT/Bài 12. Đọc điền khuyết thông tin (Buổi 11) (1).pdf</div>
+      <div><b>Câu 4</b> <span class="muted">format=hsa_cloze_text | subtopic=E2C.05 | đủ để AI giải=True</span></div>
+      <details><summary>Passage (1686 chars)</summary><div class='passage'>Read the following passage and mark the letter A, B, C or D to indicate the correct option that best fits each of the numbered blanks from 1 to 5. Artificial intelligence prompting has rapidly become a crucial skill in an era where AI tools are increasingly embedded in education, business, and creative work. (1) _______, effective prompting now demands a more deliberate and strategic approach. Users must learn to frame their requests clearly, specify constraints, and anticipate how the system interprets language in order to obtain accurate and relevant outputs. At its core, prompting is not merely about giving instructions but about shaping a dialogue between humans and machines. A well-designed prompt provides context, defines the task, and (2) ______. Poorly constructed prompts, by contrast, can lead to vague, misleading, or overly generic responses, (3) _______. This gap between the system’s potential and the user’s outcome often reflects differences in prompting skill rather than technological limitations. As AI tools are increasingly used to draft texts, analyse data, and support decision-making, prompting literacy is emerging as a form of digital competence. It requires critical thinking, linguistic precision, and an awareness of bias and assumptions embedded in both the prompt and the response. Moreover, overreliance on formulaic prompts can produce homogenised content, ...</div></details>
+      <div class="qtext">Read the following passage and mark the letter A, B, C or D to indicate the correct option that best fits each of the numbered blanks from 1 to 5. Artificial intelligence prompting has rapidly become a crucial skill in an era where AI tools are increasingly embedded in education, business, and creative work. (1) _______, effective prompting now demands a more deliberate and strategic approach. Users must learn to frame their requests clearly, specify constraints, and anticipate how the system interprets language in order to obtain accurate and relevant outputs. At its core, prompting is not merely about giving instructions but about shaping a dialogue between humans and machines. A well-desi</div>
+      <div class="opts">A. concerns are raised about originality and intellectual engagement | B. raising concerns about originality and intellectual engagement | C. raised concerns about originality and intellectual engagement | D. it raises concerns about originality and intellectual engagement</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐIỀN KHUYẾT/Bài 12. Đọc điền khuyết thông tin (Buổi 11) (1).pdf</div>
+      <div><b>Câu 5</b> <span class="muted">format=hsa_cloze_text | subtopic=E2C.05 | đủ để AI giải=True</span></div>
+      <details><summary>Passage (1686 chars)</summary><div class='passage'>Read the following passage and mark the letter A, B, C or D to indicate the correct option that best fits each of the numbered blanks from 1 to 5. Artificial intelligence prompting has rapidly become a crucial skill in an era where AI tools are increasingly embedded in education, business, and creative work. (1) _______, effective prompting now demands a more deliberate and strategic approach. Users must learn to frame their requests clearly, specify constraints, and anticipate how the system interprets language in order to obtain accurate and relevant outputs. At its core, prompting is not merely about giving instructions but about shaping a dialogue between humans and machines. A well-designed prompt provides context, defines the task, and (2) ______. Poorly constructed prompts, by contrast, can lead to vague, misleading, or overly generic responses, (3) _______. This gap between the system’s potential and the user’s outcome often reflects differences in prompting skill rather than technological limitations. As AI tools are increasingly used to draft texts, analyse data, and support decision-making, prompting literacy is emerging as a form of digital competence. It requires critical thinking, linguistic precision, and an awareness of bias and assumptions embedded in both the prompt and the response. Moreover, overreliance on formulaic prompts can produce homogenised content, ...</div></details>
+      <div class="qtext">Read the following passage and mark the letter A, B, C or D to indicate the correct option that best fits each of the numbered blanks from 1 to 5. Artificial intelligence prompting has rapidly become a crucial skill in an era where AI tools are increasingly embedded in education, business, and creative work. (1) _______, effective prompting now demands a more deliberate and strategic approach. Users must learn to frame their requests clearly, specify constraints, and anticipate how the system interprets language in order to obtain accurate and relevant outputs. At its core, prompting is not merely about giving instructions but about shaping a dialogue between humans and machines. A well-desi</div>
+      <div class="opts">A. human judgement remains central in an increasingly automated knowledge landscape | B. the centre of human judgement in an automated knowledge landscape is increasing | C. an increase in automated knowledge landscape remains central to human judgement | D. the central human judgement becomes automated as the knowledge landscape increases</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐIỀN KHUYẾT/Bài 12. Đọc điền khuyết thông tin (Buổi 11) (1).pdf</div>
+      <div><b>Câu 6</b> <span class="muted">format=hsa_cloze_text | subtopic=E2C.05 | đủ để AI giải=True</span></div>
+      <details><summary>Passage (1865 chars)</summary><div class='passage'>Read the following passage and mark the letter A, B, C or D to indicate the correct option that best fits each of the numbered blanks from 6 to 10. Much of the music we listen to today is a mixture of styles from various countries and time periods. A lot of music (6) _______ heard in many different countries around the world. Traditional, or folk, music is collected over decades, if not centuries. Since music can tell us a lot about different cultures through its lyrics, melodies, and the instruments used, researchers and music fans see it as an essential part of history. They fear that traditional and older types of music are slowly disappearing, partly because they are less likely to be written down or recorded, or because the format in which they are recorded is no longer in use. Also, (7) ______, so once older generations pass away, the music may die out with them. There is a growing effort to preserve music in its many forms. Some researchers create field recordings - recordings made outside of a recording studio - to capture live performances. For example, in the early 1900s, social scientist Frances Densmore made recordings of Native American songs that had been sung for many generations but were in danger of being forgotten. Researchers also transcribe old music by listening to old recordings - sometimes the only one of its kind left. (8) _______. Collecting music is an...</div></details>
+      <div class="qtext">Read the following passage and mark the letter A, B, C or D to indicate the correct option that best fits each of the numbered blanks from 6 to 10. Much of the music we listen to today is a mixture of styles from various countries and time periods. A lot of music (6) _______ heard in many different countries around the world. Traditional, or folk, music is collected over decades, if not centuries. Since music can tell us a lot about different cultures through its lyrics, melodies, and the instruments used, researchers and music fans see it as an essential part of history. They fear that traditional and older types of music are slowly disappearing, partly because they are less likely to be wr</div>
+      <div class="opts">A. rooted in older traditional songs | B. when its roots are in older traditional songs | C. whose roots are in older traditional songs | D. has roots in older traditional songs</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      
+    </div>
+    </div>
+      <h3>Câu bị loại mẫu (không đưa vào database chính)</h3>
+      <div class="grid rejected">
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1.25 928587576-1740930767841-covumaiphuongphattriennanglucxulibaidocd.pdf</div>
+      <div><b>Câu 6</b> <span class="muted">format=hsa_cloze_text | subtopic=E2C.05 | đủ để AI giải=False</span></div>
+      <details><summary>Passage (1347 chars)</summary><div class='passage'>KÌ THI ĐGNL - ĐẠI HỌC QUỐC GIA HÀ NỘI PHÁT TRIỂN NĂNG LỰC XỬ LÍ BÀI ĐỌC ĐIỀN KHUYẾT TRONG ĐỀ THI ĐGNL (BUỔI 1) Luyện thi Đánh giá năng lực môn Tiếng Anh Read the passage below and choose A, B, C or D to fill in each blank. Inspirational Figures in History History is filled with (1) _______ who have left an indelible mark on humanity. Among these, Martin Luther King Jr. stands out as a beacon of hope and courage. His tireless fight for civil rights in the United States has inspired millions around the world. (2) _______ is his unwavering commitment to nonviolent resistance, which showed people that change can be achieved without (3) _______ to violence. King&#x27;s “I Have a Dream” speech remains a powerful reminder of the importance of equality and justice in society. Another example of an inspirational figure is Marie Curie, whose groundbreaking work in science paved the way for future generations. (4) _______ as a woman in a male-dominated field, she persevered and became the first person to win two Nobel Prizes. Her discovery of radioactivity not only revolutionised science but also opened up possibilities for advancements in medicine. She is a testament to the power of resilience and determination. Both figures have demonstrated that when you (5) ________ up for your beliefs and push boundaries, you can inspire lasting change.</div></details>
+      <div class="qtext"></div>
+      <div class="opts">A. custom | B. tradition | C. viewpoint | D. culture</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1.25 928587576-1740930767841-covumaiphuongphattriennanglucxulibaidocd.pdf</div>
+      <div><b>Câu 7</b> <span class="muted">format=hsa_cloze_text | subtopic=E2C.05 | đủ để AI giải=False</span></div>
+      <details><summary>Passage (1347 chars)</summary><div class='passage'>KÌ THI ĐGNL - ĐẠI HỌC QUỐC GIA HÀ NỘI PHÁT TRIỂN NĂNG LỰC XỬ LÍ BÀI ĐỌC ĐIỀN KHUYẾT TRONG ĐỀ THI ĐGNL (BUỔI 1) Luyện thi Đánh giá năng lực môn Tiếng Anh Read the passage below and choose A, B, C or D to fill in each blank. Inspirational Figures in History History is filled with (1) _______ who have left an indelible mark on humanity. Among these, Martin Luther King Jr. stands out as a beacon of hope and courage. His tireless fight for civil rights in the United States has inspired millions around the world. (2) _______ is his unwavering commitment to nonviolent resistance, which showed people that change can be achieved without (3) _______ to violence. King&#x27;s “I Have a Dream” speech remains a powerful reminder of the importance of equality and justice in society. Another example of an inspirational figure is Marie Curie, whose groundbreaking work in science paved the way for future generations. (4) _______ as a woman in a male-dominated field, she persevered and became the first person to win two Nobel Prizes. Her discovery of radioactivity not only revolutionised science but also opened up possibilities for advancements in medicine. She is a testament to the power of resilience and determination. Both figures have demonstrated that when you (5) ________ up for your beliefs and push boundaries, you can inspire lasting change.</div></details>
+      <div class="qtext"></div>
+      <div class="opts">A. the differences in views and lifestyles | B. the preservation of native languages | C. the dominance of major languages | D. the respect for other cultures</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1.25 928587576-1740930767841-covumaiphuongphattriennanglucxulibaidocd.pdf</div>
+      <div><b>Câu 11</b> <span class="muted">format=hsa_cloze_text | subtopic=E2C.05 | đủ để AI giải=False</span></div>
+      <details><summary>Passage (1347 chars)</summary><div class='passage'>KÌ THI ĐGNL - ĐẠI HỌC QUỐC GIA HÀ NỘI PHÁT TRIỂN NĂNG LỰC XỬ LÍ BÀI ĐỌC ĐIỀN KHUYẾT TRONG ĐỀ THI ĐGNL (BUỔI 1) Luyện thi Đánh giá năng lực môn Tiếng Anh Read the passage below and choose A, B, C or D to fill in each blank. Inspirational Figures in History History is filled with (1) _______ who have left an indelible mark on humanity. Among these, Martin Luther King Jr. stands out as a beacon of hope and courage. His tireless fight for civil rights in the United States has inspired millions around the world. (2) _______ is his unwavering commitment to nonviolent resistance, which showed people that change can be achieved without (3) _______ to violence. King&#x27;s “I Have a Dream” speech remains a powerful reminder of the importance of equality and justice in society. Another example of an inspirational figure is Marie Curie, whose groundbreaking work in science paved the way for future generations. (4) _______ as a woman in a male-dominated field, she persevered and became the first person to win two Nobel Prizes. Her discovery of radioactivity not only revolutionised science but also opened up possibilities for advancements in medicine. She is a testament to the power of resilience and determination. Both figures have demonstrated that when you (5) ________ up for your beliefs and push boundaries, you can inspire lasting change.</div></details>
+      <div class="qtext"></div>
+      <div class="opts">A. are clean and green energy sources | B. that are continuously replenished | C. become major energy sources | D. they are free and unlimited</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1.25 928587576-1740930767841-covumaiphuongphattriennanglucxulibaidocd.pdf</div>
+      <div><b>Câu 12</b> <span class="muted">format=hsa_cloze_text | subtopic=E2C.05 | đủ để AI giải=False</span></div>
+      <details><summary>Passage (1347 chars)</summary><div class='passage'>KÌ THI ĐGNL - ĐẠI HỌC QUỐC GIA HÀ NỘI PHÁT TRIỂN NĂNG LỰC XỬ LÍ BÀI ĐỌC ĐIỀN KHUYẾT TRONG ĐỀ THI ĐGNL (BUỔI 1) Luyện thi Đánh giá năng lực môn Tiếng Anh Read the passage below and choose A, B, C or D to fill in each blank. Inspirational Figures in History History is filled with (1) _______ who have left an indelible mark on humanity. Among these, Martin Luther King Jr. stands out as a beacon of hope and courage. His tireless fight for civil rights in the United States has inspired millions around the world. (2) _______ is his unwavering commitment to nonviolent resistance, which showed people that change can be achieved without (3) _______ to violence. King&#x27;s “I Have a Dream” speech remains a powerful reminder of the importance of equality and justice in society. Another example of an inspirational figure is Marie Curie, whose groundbreaking work in science paved the way for future generations. (4) _______ as a woman in a male-dominated field, she persevered and became the first person to win two Nobel Prizes. Her discovery of radioactivity not only revolutionised science but also opened up possibilities for advancements in medicine. She is a testament to the power of resilience and determination. Both figures have demonstrated that when you (5) ________ up for your beliefs and push boundaries, you can inspire lasting change.</div></details>
+      <div class="qtext"></div>
+      <div class="opts">A. abilities | B. opportunities | C. impacts | D. benefits</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1.25 928587576-1740930767841-covumaiphuongphattriennanglucxulibaidocd.pdf</div>
+      <div><b>Câu 13</b> <span class="muted">format=hsa_cloze_text | subtopic=E2C.05 | đủ để AI giải=False</span></div>
+      <details><summary>Passage (1347 chars)</summary><div class='passage'>KÌ THI ĐGNL - ĐẠI HỌC QUỐC GIA HÀ NỘI PHÁT TRIỂN NĂNG LỰC XỬ LÍ BÀI ĐỌC ĐIỀN KHUYẾT TRONG ĐỀ THI ĐGNL (BUỔI 1) Luyện thi Đánh giá năng lực môn Tiếng Anh Read the passage below and choose A, B, C or D to fill in each blank. Inspirational Figures in History History is filled with (1) _______ who have left an indelible mark on humanity. Among these, Martin Luther King Jr. stands out as a beacon of hope and courage. His tireless fight for civil rights in the United States has inspired millions around the world. (2) _______ is his unwavering commitment to nonviolent resistance, which showed people that change can be achieved without (3) _______ to violence. King&#x27;s “I Have a Dream” speech remains a powerful reminder of the importance of equality and justice in society. Another example of an inspirational figure is Marie Curie, whose groundbreaking work in science paved the way for future generations. (4) _______ as a woman in a male-dominated field, she persevered and became the first person to win two Nobel Prizes. Her discovery of radioactivity not only revolutionised science but also opened up possibilities for advancements in medicine. She is a testament to the power of resilience and determination. Both figures have demonstrated that when you (5) ________ up for your beliefs and push boundaries, you can inspire lasting change.</div></details>
+      <div class="qtext"></div>
+      <div class="opts">A. brings | B. talks | C. works | D. comes</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1.25 928587576-1740930767841-covumaiphuongphattriennanglucxulibaidocd.pdf</div>
+      <div><b>Câu 14</b> <span class="muted">format=hsa_cloze_text | subtopic=E2C.05 | đủ để AI giải=False</span></div>
+      <details><summary>Passage (1347 chars)</summary><div class='passage'>KÌ THI ĐGNL - ĐẠI HỌC QUỐC GIA HÀ NỘI PHÁT TRIỂN NĂNG LỰC XỬ LÍ BÀI ĐỌC ĐIỀN KHUYẾT TRONG ĐỀ THI ĐGNL (BUỔI 1) Luyện thi Đánh giá năng lực môn Tiếng Anh Read the passage below and choose A, B, C or D to fill in each blank. Inspirational Figures in History History is filled with (1) _______ who have left an indelible mark on humanity. Among these, Martin Luther King Jr. stands out as a beacon of hope and courage. His tireless fight for civil rights in the United States has inspired millions around the world. (2) _______ is his unwavering commitment to nonviolent resistance, which showed people that change can be achieved without (3) _______ to violence. King&#x27;s “I Have a Dream” speech remains a powerful reminder of the importance of equality and justice in society. Another example of an inspirational figure is Marie Curie, whose groundbreaking work in science paved the way for future generations. (4) _______ as a woman in a male-dominated field, she persevered and became the first person to win two Nobel Prizes. Her discovery of radioactivity not only revolutionised science but also opened up possibilities for advancements in medicine. She is a testament to the power of resilience and determination. Both figures have demonstrated that when you (5) ________ up for your beliefs and push boundaries, you can inspire lasting change.</div></details>
+      <div class="qtext"></div>
+      <div class="opts">A. install | B. installed | C. to install | D. installing</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    </div>
+    </section>
+    
+    <section>
+      <h2>Sắp xếp hội thoại</h2>
+      <div class="code">format_code: hsa_dialogue_arrangement</div>
+      <div class="explain"><b>Format này nên trông như thế nào:</b> Question text phải chứa các phát ngôn a/b/c..., options là thứ tự sắp xếp.</div>
+      <div class="stats">
+        <b>Kết luận nhanh</b>: OK để solve<br>
+        <b>Câu sạch giữ lại</b>: 178 &nbsp; <b>Câu bị loại</b>: 0 &nbsp; <b>Câu có passage</b>: 0<br>
+        <b>Subtopic được gắn nhiều nhất</b>: E2O.01:120, E2O.02:30, E2W.03:20, E2G.02:8<br>
+        <b>Lý do loại nhiều nhất</b>: none<br>
+        <b>File đóng góp nhiều nhất</b>: Bài 2 Luyện tập sắp xếp đoạn hội thoại.pdf:30, Bài 8. Luyện tập tổng hợp dạng bài sắp xếp lá thư - đoạn hội thoại - đoạn văn (Buổi 1).pdf:20, 1 7.pdf:20, 1 8.pdf:20, 1 9.pdf:20
+      </div>
+      <h3>Câu sạch mẫu (đây là câu sẽ vào database chính)</h3>
+      <div class="grid">
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/SẮP XẾP/Bài 2 Luyện tập sắp xếp đoạn hội thoại.pdf</div>
+      <div><b>Câu 1</b> <span class="muted">format=hsa_dialogue_arrangement | subtopic=E2O.02 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">a. Emma: Same here! I’ve been staying up late every night just to keep up. b. Liam: We should make a study plan. Maybe it&#x27;ll help us stay on track. c. Liam: I have three assignments due this week. I don’t know how I’ll finish them all!</div>
+      <div class="opts">A. c – a – b | B. b – a – c | C. a – c – b | D. b – c – a</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/SẮP XẾP/Bài 2 Luyện tập sắp xếp đoạn hội thoại.pdf</div>
+      <div><b>Câu 2</b> <span class="muted">format=hsa_dialogue_arrangement | subtopic=E2O.02 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">a. Jake: I might take a short trip, but mostly I just want to relax. b. Jake: I can&#x27;t wait for summer break! Do you have any plans? c. Sophie: My family is going to the beach for a week. What about you?</div>
+      <div class="opts">A. c – a – b | B. a – c – b | C. a – b – c | D. b – c – a</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/SẮP XẾP/Bài 2 Luyện tập sắp xếp đoạn hội thoại.pdf</div>
+      <div><b>Câu 3</b> <span class="muted">format=hsa_dialogue_arrangement | subtopic=E2O.02 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">a. Noah: I know the feeling! I had to do the dishes and mop the floor today. b. Ava: I spent the whole morning cleaning my room. It was such a mess! c. Ava: Chores are tiring, but at least the house looks nice afterwards.</div>
+      <div class="opts">A. c – a – b | B. a – c – b | C. b – a – c | D. c – b – a</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/SẮP XẾP/Bài 2 Luyện tập sắp xếp đoạn hội thoại.pdf</div>
+      <div><b>Câu 4</b> <span class="muted">format=hsa_dialogue_arrangement | subtopic=E2O.02 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">a. Olivia: I’ve started jogging every morning. It makes me feel so energised! b. Olivia: Staying healthy is all about small daily habits. c. Ethan: That’s great! I’ve been trying to eat more vegetables and drink more water.</div>
+      <div class="opts">A. b – a – c | B. a – c – b | C. b – c – a | D. c – b – a</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/SẮP XẾP/Bài 2 Luyện tập sắp xếp đoạn hội thoại.pdf</div>
+      <div><b>Câu 5</b> <span class="muted">format=hsa_dialogue_arrangement | subtopic=E2O.02 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">a. Mia: It’s a mystery thriller - full of unexpected twists! I’ll lend it to you. b. Mia: I just finished an incredible novel! You’d love it. c. Ben: What makes it so good?</div>
+      <div class="opts">A. b – c – a | B. c – a – b | C. a – c – b | D. a – b – c</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/SẮP XẾP/Bài 2 Luyện tập sắp xếp đoạn hội thoại.pdf</div>
+      <div><b>Câu 6</b> <span class="muted">format=hsa_dialogue_arrangement | subtopic=E2O.02 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">a. Lucy: I think it’s great! It’s an important life skill. b. Ryan: I can’t believe our school is making swimming a mandatory subject now. c. Ryan: Maybe, but I can barely stay afloat!</div>
+      <div class="opts">A. b – c – a | B. a – c – b | C. c – a – b | D. b – a – c</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    </div>
+      <h3>Câu bị loại mẫu (không đưa vào database chính)</h3>
+      <div class="grid rejected"><div class='empty'>No rejected samples</div></div>
+    </section>
+    
+    <section>
+      <h2>Hoàn thành hội thoại</h2>
+      <div class="code">format_code: hsa_dialogue_completion</div>
+      <div class="explain"><b>Format này nên trông như thế nào:</b> Phải có hội thoại/context và options để hoàn thành.</div>
+      <div class="stats">
+        <b>Kết luận nhanh</b>: OK để solve<br>
+        <b>Câu sạch giữ lại</b>: 180 &nbsp; <b>Câu bị loại</b>: 0 &nbsp; <b>Câu có passage</b>: 0<br>
+        <b>Subtopic được gắn nhiều nhất</b>: E2F.01:60, E2F.02:60, E2F.03:60<br>
+        <b>Lý do loại nhiều nhất</b>: none<br>
+        <b>File đóng góp nhiều nhất</b>: E2F.02.json:60, E2F.03.json:60, 1.14 106818352-1741507142224-covumaiphuongthionline_hoanthanhdoanhoit.pdf:30, 1.16 280901108-1741507154338-covumaiphuongthionline_hoanthanhdoanhoit.pdf:30
+      </div>
+      <h3>Câu sạch mẫu (đây là câu sẽ vào database chính)</h3>
+      <div class="grid">
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1.14 106818352-1741507142224-covumaiphuongthionline_hoanthanhdoanhoit.pdf</div>
+      <div><b>Câu 1</b> <span class="muted">format=hsa_dialogue_completion | subtopic=E2F.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">David: Did you have fun at the party last night? Emma: ___________</div>
+      <div class="opts">A. Yes, it was a blast! | B. I don’t know how to party. | C. The party is tomorrow. | D. I didn’t stay at home.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1.14 106818352-1741507142224-covumaiphuongthionline_hoanthanhdoanhoit.pdf</div>
+      <div><b>Câu 2</b> <span class="muted">format=hsa_dialogue_completion | subtopic=E2F.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Lisa: Thank you so much for helping me with my homework. Tom: ___________</div>
+      <div class="opts">A. I need your help. | B. You’re welcome! | C. That’s interesting. | D. I don’t think so.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1.14 106818352-1741507142224-covumaiphuongthionline_hoanthanhdoanhoit.pdf</div>
+      <div><b>Câu 3</b> <span class="muted">format=hsa_dialogue_completion | subtopic=E2F.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Lisa: What kind of music do you like? Jake: ___________</div>
+      <div class="opts">A. I prefer reading books. | B. I haven’t listened to music. | C. I love pop music! | D. It was a sad song.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1.14 106818352-1741507142224-covumaiphuongthionline_hoanthanhdoanhoit.pdf</div>
+      <div><b>Câu 4</b> <span class="muted">format=hsa_dialogue_completion | subtopic=E2F.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Alex: Do you need any help with your project, or would you rather work on it alone? Jamie: ___________</div>
+      <div class="opts">A. I really appreciate your offer, but I think I need to figure it out myself first. | B. I haven’t even started yet, so I don’t know what to guide you. | C. Not only do I love working in teams, but I also enjoy being independent. | D. It has been a long project and I haven&#x27;t got the answer for you yet.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1.14 106818352-1741507142224-covumaiphuongthionline_hoanthanhdoanhoit.pdf</div>
+      <div><b>Câu 5</b> <span class="muted">format=hsa_dialogue_completion | subtopic=E2F.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Mike: I’ve never cooked Italian food before, but I’d like to try. Emma: Go for it! ___________</div>
+      <div class="opts">A. Give it a rain. | B. Give it a miss. | C. Give it a run. | D. Give it a shot.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1.14 106818352-1741507142224-covumaiphuongthionline_hoanthanhdoanhoit.pdf</div>
+      <div><b>Câu 6</b> <span class="muted">format=hsa_dialogue_completion | subtopic=E2F.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Mike: I’m really sorry for being late. Emma: ___________</div>
+      <div class="opts">A. That’s a great idea! | B. Don’t worry about it. | C. See you later! | D. You are welcome.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    </div>
+      <h3>Câu bị loại mẫu (không đưa vào database chính)</h3>
+      <div class="grid rejected"><div class='empty'>No rejected samples</div></div>
+    </section>
+    
+    <section>
+      <h2>Câu lẻ điền/chọn đáp án (grammar/vocab)</h2>
+      <div class="code">format_code: hsa_sentence_completion</div>
+      <div class="explain"><b>Format này nên trông như thế nào:</b> Mỗi câu phải có đề/stem và options. Không cần passage.</div>
+      <div class="stats">
+        <b>Kết luận nhanh</b>: OK để solve<br>
+        <b>Câu sạch giữ lại</b>: 3913 &nbsp; <b>Câu bị loại</b>: 30 &nbsp; <b>Câu có passage</b>: 0<br>
+        <b>Subtopic được gắn nhiều nhất</b>: E2X.07:450, E2M.01:326, E2G.02:189, E2R.02:184, E2X.08:180, E2S.02:178, E2S.01:156, E2G.04:154<br>
+        <b>Lý do loại nhiều nhất</b>: missing_options:16, missing_or_short_question_text:14<br>
+        <b>File đóng góp nhiều nhất</b>: 7 maotu4.pdf:99, E2V.05.json:60, E2X.02.json:60, E2M.02.json:60, E2M.03.json:60
+      </div>
+      <h3>Câu sạch mẫu (đây là câu sẽ vào database chính)</h3>
+      <div class="grid">
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf</div>
+      <div><b>Câu 1</b> <span class="muted">format=hsa_sentence_completion | subtopic=E2X.03 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">1. When people move to a city, local authorities must work harder to (1) __________ the demand for housing, jobs, and public services. They also need to (2) __________ improvements to infrastructure, such as roads, schools, and hospitals, to ensure a better quality of life. In addition, city planners should (3) __________ measures to manage traffic, protect the environment, and maintain safety as it continues to grow.</div>
+      <div class="opts">A. go | B. give | C. meet | D. take</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf</div>
+      <div><b>Câu 2</b> <span class="muted">format=hsa_sentence_completion | subtopic=E2X.03 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">1. When people move to a city, local authorities must work harder to (1) __________ the demand for housing, jobs, and public services. They also need to (2) __________ improvements to infrastructure, such as roads, schools, and hospitals, to ensure a better quality of life. In addition, city planners should (3) __________ measures to manage traffic, protect the environment, and maintain safety as it continues to grow.</div>
+      <div class="opts">A. make | B. get | C. put | D. bring</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf</div>
+      <div><b>Câu 3</b> <span class="muted">format=hsa_sentence_completion | subtopic=E2X.03 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">1. When people move to a city, local authorities must work harder to (1) __________ the demand for housing, jobs, and public services. They also need to (2) __________ improvements to infrastructure, such as roads, schools, and hospitals, to ensure a better quality of life. In addition, city planners should (3) __________ measures to manage traffic, protect the environment, and maintain safety as it continues to grow.</div>
+      <div class="opts">A. put | B. do | C. wear | D. take</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf</div>
+      <div><b>Câu 4</b> <span class="muted">format=hsa_sentence_completion | subtopic=E2X.03 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">2. When you (4) __________ part in a discussion, it’s normal for people to have different opinions. However, try to express your ideas respectfully and avoid (5) __________ an argument with others. Disagreement doesn’t have to lead to conflict if everyone listens carefully. Also, never (6) __________ the blame on someone just because they think differently – focus on understanding and finding common ground instead.</div>
+      <div class="opts">A. make | B. put | C. take | D. lay</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf</div>
+      <div><b>Câu 5</b> <span class="muted">format=hsa_sentence_completion | subtopic=E2X.03 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">2. When you (4) __________ part in a discussion, it’s normal for people to have different opinions. However, try to express your ideas respectfully and avoid (5) __________ an argument with others. Disagreement doesn’t have to lead to conflict if everyone listens carefully. Also, never (6) __________ the blame on someone just because they think differently – focus on understanding and finding common ground instead.</div>
+      <div class="opts">A. leaving | B. taking | C. putting | D. having</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf</div>
+      <div><b>Câu 6</b> <span class="muted">format=hsa_sentence_completion | subtopic=E2X.03 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">2. When you (4) __________ part in a discussion, it’s normal for people to have different opinions. However, try to express your ideas respectfully and avoid (5) __________ an argument with others. Disagreement doesn’t have to lead to conflict if everyone listens carefully. Also, never (6) __________ the blame on someone just because they think differently – focus on understanding and finding common ground instead.</div>
+      <div class="opts">A. lay | B. take | C. keep | D. drive</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      
+    </div>
+    </div>
+      <h3>Câu bị loại mẫu (không đưa vào database chính)</h3>
+      <div class="grid rejected">
+    <div class="qcard">
+      <div class='file'>MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 12 - ĐẠI TỪ VÀ LƯỢNG TỪ/Thi Online Cụm từ chỉ số lượng (Đề số 01).pdf</div>
+      <div><b>Câu 26</b> <span class="muted">format=hsa_sentence_completion | subtopic=E2G.03 | đủ để AI giải=False</span></div>
+      
+      <div class="qtext"></div>
+      <div class="opts">A. minority | B. plenty | C. handful | D. quantity</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 12 - ĐẠI TỪ VÀ LƯỢNG TỪ/Thi Online Cụm từ chỉ số lượng (Đề số 01).pdf</div>
+      <div><b>Câu 27</b> <span class="muted">format=hsa_sentence_completion | subtopic=E2G.03 | đủ để AI giải=False</span></div>
+      
+      <div class="qtext"></div>
+      <div class="opts">A. couple | B. lack | C. degree | D. majority</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 12 - ĐẠI TỪ VÀ LƯỢNG TỪ/Thi Online Cụm từ chỉ số lượng (Đề số 01).pdf</div>
+      <div><b>Câu 28</b> <span class="muted">format=hsa_sentence_completion | subtopic=E2G.03 | đủ để AI giải=False</span></div>
+      
+      <div class="qtext"></div>
+      <div class="opts">A. deal | B. variety | C. piece | D. lack</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 12 - ĐẠI TỪ VÀ LƯỢNG TỪ/Thi Online Cụm từ chỉ số lượng (Đề số 01).pdf</div>
+      <div><b>Câu 29</b> <span class="muted">format=hsa_sentence_completion | subtopic=E2G.03 | đủ để AI giải=False</span></div>
+      
+      <div class="qtext"></div>
+      <div class="opts">A. couple | B. amount | C. level | D. piece</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 12 - ĐẠI TỪ VÀ LƯỢNG TỪ/Thi Online Cụm từ chỉ số lượng (Đề số 01).pdf</div>
+      <div><b>Câu 30</b> <span class="muted">format=hsa_sentence_completion | subtopic=E2G.03 | đủ để AI giải=False</span></div>
+      
+      <div class="qtext"></div>
+      <div class="opts">A. lack | B. proportion | C. level | D. volume</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 16 - CÁC DẠNG MỆNH ĐỀ/Thi Online Các loại câu trong tiếng Anh (Đề số 01).pdf</div>
+      <div><b>Câu 11</b> <span class="muted">format=hsa_sentence_completion | subtopic=E2S.10 | đủ để AI giải=False</span></div>
+      
+      <div class="qtext"></div>
+      <div class="opts">A. essential for the survival of all living beings on Earth | B. that is essential for the survival of all living beings on Earth | C. is essential for the survival of all living beings on Earth | D. it is essential for the survival of all living beings on Earth</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    </div>
+    </section>
+    
+    <section>
+      <h2>Viết lại câu</h2>
+      <div class="code">format_code: hsa_sentence_rewriting</div>
+      <div class="explain"><b>Format này nên trông như thế nào:</b> Phải có câu gốc/yêu cầu viết lại. Có thể không có passage.</div>
+      <div class="stats">
+        <b>Kết luận nhanh</b>: OK để solve<br>
+        <b>Câu sạch giữ lại</b>: 382 &nbsp; <b>Câu bị loại</b>: 0 &nbsp; <b>Câu có passage</b>: 0<br>
+        <b>Subtopic được gắn nhiều nhất</b>: E2W.02:120, E2S.01:83, E2S.02:70, E2W.01:60, E2S.03:20, E2S.08:15, E2S.09:10, E2V.06:2<br>
+        <b>Lý do loại nhiều nhất</b>: none<br>
+        <b>File đóng góp nhiều nhất</b>: 7 caubidong4.pdf:44, 1.23 38458984-1740716609202-covumaiphuongphuongphapvakinanggiaiquyetc.pdf:30, E2W.01.json:30, Thi Online Câu hỏi Viết lại câu và ghép câu nâng cao (Đề số 01).pdf:20, Thi Online Câu hỏi Viết lại câu và ghép câu nâng cao (Đề số 02).pdf:20
+      </div>
+      <h3>Câu sạch mẫu (đây là câu sẽ vào database chính)</h3>
+      <div class="grid">
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1.23 38458984-1740716609202-covumaiphuongphuongphapvakinanggiaiquyetc.pdf</div>
+      <div><b>Câu 1</b> <span class="muted">format=hsa_sentence_rewriting | subtopic=E2W.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Students have to complete their assignments before the deadline.</div>
+      <div class="opts">A. Students are advised to complete their assignments before the deadline. | B. Students are allowed to complete their assignments beyond the deadline. | C. Students are expected to complete their assignments after the deadline. | D. Students are required to complete their assignments before the deadline.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1.23 38458984-1740716609202-covumaiphuongphuongphapvakinanggiaiquyetc.pdf</div>
+      <div><b>Câu 2</b> <span class="muted">format=hsa_sentence_rewriting | subtopic=E2W.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">The results of their teamwork led to a successful project completion.</div>
+      <div class="opts">A. Their teamwork resulted in the successful completion of the project. | B. They learned the importance of collaboration from the project outcome. | C. The project’s success inspired them to keep working together. | D. In spite of teamwork, they gained good results in the project completion.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1.23 38458984-1740716609202-covumaiphuongphuongphapvakinanggiaiquyetc.pdf</div>
+      <div><b>Câu 3</b> <span class="muted">format=hsa_sentence_rewriting | subtopic=E2W.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Tom found a lost wallet on the street. He sent it to the police station.</div>
+      <div class="opts">A. Finding a lost wallet on the street, Tom sent it to the police station. | B. To find a lost wallet on the street, Tom sent it to the police station. | C. Being found a lost wallet by Tom, he sent it to the police station. | D. Found a lost wallet on the street, Tom sent it to the police station.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1.23 38458984-1740716609202-covumaiphuongphuongphapvakinanggiaiquyetc.pdf</div>
+      <div><b>Câu 4</b> <span class="muted">format=hsa_sentence_rewriting | subtopic=E2W.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">The weather was too cold for the kids to go swimming.</div>
+      <div class="opts">A. The weather was so cold that the kids couldn’t swim. | B. The weather was warm enough for the kids to go swimming. | C. It was such a warm day that the kids went swimming. | D. The weather was too warm for the kids to go swimming.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1.23 38458984-1740716609202-covumaiphuongphuongphapvakinanggiaiquyetc.pdf</div>
+      <div><b>Câu 5</b> <span class="muted">format=hsa_sentence_rewriting | subtopic=E2W.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">She can either walk to work or take a taxi. She prefers the first option.</div>
+      <div class="opts">A. She’ll walk to work, so there’s no need to take a taxi. | B. She will try walking to work before considering taking a taxi. | C. She would rather walk to work than take a taxi. | D. She decides to walk to work without taking a taxi.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1.23 38458984-1740716609202-covumaiphuongphuongphapvakinanggiaiquyetc.pdf</div>
+      <div><b>Câu 6</b> <span class="muted">format=hsa_sentence_rewriting | subtopic=E2W.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">The storm was intense. Many trees were knocked down.</div>
+      <div class="opts">A. The intensity of the storm caused death to many trees. | B. Because the storm was intense, many trees were knocked down. | C. Many trees were cut down as a result of the storm. | D. The storm was so weak, but it knocked down many trees.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    </div>
+      <h3>Câu bị loại mẫu (không đưa vào database chính)</h3>
+      <div class="grid rejected"><div class='empty'>No rejected samples</div></div>
+    </section>
+    
+    <section>
+      <h2>Đồng nghĩa</h2>
+      <div class="code">format_code: hsa_synonym</div>
+      <div class="explain"><b>Format này nên trông như thế nào:</b> Câu hỏi phải có từ/cụm từ cần tìm nghĩa, kèm options.</div>
+      <div class="stats">
+        <b>Kết luận nhanh</b>: OK để solve<br>
+        <b>Câu sạch giữ lại</b>: 350 &nbsp; <b>Câu bị loại</b>: 0 &nbsp; <b>Câu có passage</b>: 0<br>
+        <b>Subtopic được gắn nhiều nhất</b>: E2X.06:180, E2X.05:150, E2S.10:20<br>
+        <b>Lý do loại nhiều nhất</b>: none<br>
+        <b>File đóng góp nhiều nhất</b>: Hạ gục câu hỏi Đồng nghĩa - Trái nghĩa theo ngữ cảnh (Buổi 1).pdf:30, Hạ gục câu hỏi Đồng nghĩa - Trái nghĩa theo ngữ cảnh (Buổi 2).pdf:30, Hạ gục câu hỏi Đồng nghĩa - Trái nghĩa theo ngữ cảnh (Buổi 3).pdf:30, Hạ gục câu hỏi Đồng nghĩa - Trái nghĩa theo ngữ cảnh (Buổi 4).pdf:30, Thi Online Hạ gục câu hỏi Đồng nghĩa - Trái nghĩa theo ngữ cảnh (Buổi 1).pdf:30
+      </div>
+      <h3>Câu sạch mẫu (đây là câu sẽ vào database chính)</h3>
+      <div class="grid">
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỒNG NGHĨA - TRÁI NGHĨA THEO NGỮ CẢNH/Hạ gục câu hỏi Đồng nghĩa - Trái nghĩa theo ngữ cảnh (Buổi 1).pdf</div>
+      <div><b>Câu 1</b> <span class="muted">format=hsa_synonym | subtopic=E2X.06 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">The word guide in the text is opposite in meaning to .</div>
+      <div class="opts">A. prepare | B. neglect | C. focus | D. remind</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỒNG NGHĨA - TRÁI NGHĨA THEO NGỮ CẢNH/Hạ gục câu hỏi Đồng nghĩa - Trái nghĩa theo ngữ cảnh (Buổi 1).pdf</div>
+      <div><b>Câu 2</b> <span class="muted">format=hsa_synonym | subtopic=E2X.06 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">The word resentment in the text is closest in meaning to .</div>
+      <div class="opts">A. discussion | B. hardship | C. frustration | D. competition</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỒNG NGHĨA - TRÁI NGHĨA THEO NGỮ CẢNH/Hạ gục câu hỏi Đồng nghĩa - Trái nghĩa theo ngữ cảnh (Buổi 1).pdf</div>
+      <div><b>Câu 3</b> <span class="muted">format=hsa_synonym | subtopic=E2X.06 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">The word strengthen in the text is opposite in meaning to .</div>
+      <div class="opts">A. maintain | B. oppose | C. weaken | D. disapprove</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỒNG NGHĨA - TRÁI NGHĨA THEO NGỮ CẢNH/Hạ gục câu hỏi Đồng nghĩa - Trái nghĩa theo ngữ cảnh (Buổi 1).pdf</div>
+      <div><b>Câu 4</b> <span class="muted">format=hsa_synonym | subtopic=E2X.06 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">The word precisely in the text is closest in meaning to .</div>
+      <div class="opts">A. manually | B. traditionally | C. pleasantly | D. accurately</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỒNG NGHĨA - TRÁI NGHĨA THEO NGỮ CẢNH/Hạ gục câu hỏi Đồng nghĩa - Trái nghĩa theo ngữ cảnh (Buổi 1).pdf</div>
+      <div><b>Câu 5</b> <span class="muted">format=hsa_synonym | subtopic=E2X.06 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">The word progress in the text can be best replaced by .</div>
+      <div class="opts">A. advancement | B. awareness | C. situation | D. condition</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỒNG NGHĨA - TRÁI NGHĨA THEO NGỮ CẢNH/Hạ gục câu hỏi Đồng nghĩa - Trái nghĩa theo ngữ cảnh (Buổi 1).pdf</div>
+      <div><b>Câu 6</b> <span class="muted">format=hsa_synonym | subtopic=E2X.06 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">The word benefit in the text is opposite in meaning to .</div>
+      <div class="opts">A. bore | B. harm | C. change | D. force</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    </div>
+      <h3>Câu bị loại mẫu (không đưa vào database chính)</h3>
+      <div class="grid rejected"><div class='empty'>No rejected samples</div></div>
+    </section>
+    
+    <section>
+      <h2>Viết đoạn văn</h2>
+      <div class="code">format_code: spt_paragraph_writing</div>
+      <div class="explain"><b>Format này nên trông như thế nào:</b> Phải có prompt viết đoạn. Thường không có options.</div>
+      <div class="stats">
+        <b>Kết luận nhanh</b>: OK để solve<br>
+        <b>Câu sạch giữ lại</b>: 220 &nbsp; <b>Câu bị loại</b>: 0 &nbsp; <b>Câu có passage</b>: 0<br>
+        <b>Subtopic được gắn nhiều nhất</b>: E2W.04:60, E2S.01:50, E2G.02:30, E2M.01:20, E2V.01:20, E2V.02:20, E2S.08:20<br>
+        <b>Lý do loại nhiều nhất</b>: none<br>
+        <b>File đóng góp nhiều nhất</b>: E2W.04.json:60, 4 chuyende5_thionline_cauchudong-caubidongbuoiso02.pdf:30, 8 chuyende9_thionline_maotu-buoi3.pdf:30, Thi Online Phát triển năng lực xử lí câu hỏi Tư duy logic và giải quyết vấn đề (Buổi 2).pdf:20, Thi Online_ Thì Hiện tại hoàn thành - Hiện tại hoàn thành tiếp diễn (Đề số 01).pdf:20
+      </div>
+      <h3>Câu sạch mẫu (đây là câu sẽ vào database chính)</h3>
+      <div class="grid">
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/Thi Online Phát triển năng lực xử lí câu hỏi Tư duy logic và giải quyết vấn đề (Buổi 2).pdf</div>
+      <div><b>Câu 1</b> <span class="muted">format=spt_paragraph_writing | subtopic=E2M.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">You are at a bookstore looking for a good novel to read, but you are overwhelmed by the huge selection of books on the shelves. You notice a store employee nearby and decide to ask for their opinion. What would you say in this situation?</div>
+      <div class="opts">A. I don’t know what I want. Maybe I should just leave without buying anything. | B. Just give me any book you think people usually buy a lot. | C. Could you recommend a great novel for me? I’m not sure what to pick. | D. Can you guess which book I would like without asking me any questions?</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/Thi Online Phát triển năng lực xử lí câu hỏi Tư duy logic và giải quyết vấn đề (Buổi 2).pdf</div>
+      <div><b>Câu 2</b> <span class="muted">format=spt_paragraph_writing | subtopic=E2M.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">A teacher is giving feedback to a student about their recent assignment. What would be the best response from the student? Teacher: Your essay had some great ideas, but you need to improve the structure. Student: _______</div>
+      <div class="opts">A. Thanks for the comments! I’ll work on improving my writing next time. | B. That’s not fair! My essay was perfect, and I don’t need to change anything. | C. I don’t really care about structure. The content should be enough. | D. Maybe you just didn’t understand my writing style. Let me explain it to you.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/Thi Online Phát triển năng lực xử lí câu hỏi Tư duy logic và giải quyết vấn đề (Buổi 2).pdf</div>
+      <div><b>Câu 3</b> <span class="muted">format=spt_paragraph_writing | subtopic=E2M.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">One morning, you wake up and see a thick layer of frost on your car’s windshield, even though it did not snow. What is the most likely reason?</div>
+      <div class="opts">A. The car’s battery was weak, which caused frost to form on the glass. | B. The windshield is broken, allowing ice to form inside the car. | C. There was hidden snow in the air that settled on the windshield. | D. The moisture in the air froze on the cold surface of the windshield.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/Thi Online Phát triển năng lực xử lí câu hỏi Tư duy logic và giải quyết vấn đề (Buổi 2).pdf</div>
+      <div><b>Câu 4</b> <span class="muted">format=spt_paragraph_writing | subtopic=E2M.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">You are visiting a new city and want to try the best local food. You are at a restaurant and see a local customer sitting at the table next to you. You decide to ask them for a recommendation. What would you say?</div>
+      <div class="opts">A. I’ll order something randomly. It doesn’t really matter what I get. | B. Just tell me what you are eating so I can order the same thing as you. | C. Excuse me, could you recommend a local dish that I should try here? | D. This menu is confusing. Can you just choose something for me?</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/Thi Online Phát triển năng lực xử lí câu hỏi Tư duy logic và giải quyết vấn đề (Buổi 2).pdf</div>
+      <div><b>Câu 5</b> <span class="muted">format=spt_paragraph_writing | subtopic=E2M.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Which situation best illustrates &quot;complacency&quot;, where someone becomes overly satisfied with their achievements and stops making further effort?</div>
+      <div class="opts">A. Nick receives a promotion at work, stops learning new skills, and assumes his past success guarantees | B. Nick wins an academic award, feels motivated to achieve even more, and continues striving for | C. Nick successfully completes a marathon, trains even harder for the next race, and aims to improve his | D. Nick develops a new product, carefully considers customer feedback, and makes continuous</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/Thi Online Phát triển năng lực xử lí câu hỏi Tư duy logic và giải quyết vấn đề (Buổi 2).pdf</div>
+      <div><b>Câu 6</b> <span class="muted">format=spt_paragraph_writing | subtopic=E2M.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Emma is asking her classmate Ben about borrowing his notes for an important lecture. What would be the best response from Ben? Emma: Hey Ben, I missed the lecture yesterday. Can I borrow your notes? Ben: _______</div>
+      <div class="opts">A. You should have attended class instead of asking me for help. | B. No, I don’t like sharing my notes with anyone, even my friends. | C. Of course! I’ll send you a copy so you can review them. | D. I don’t think my notes will help you, so there’s no point.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    </div>
+      <h3>Câu bị loại mẫu (không đưa vào database chính)</h3>
+      <div class="grid rejected"><div class='empty'>No rejected samples</div></div>
+    </section>
+    
+    <section>
+      <h2>Từ loại / cấu tạo từ</h2>
+      <div class="code">format_code: spt_word_formation</div>
+      <div class="explain"><b>Format này nên trông như thế nào:</b> Mỗi câu cần stem rõ; options có thể là từ/cụm từ hoặc dạng biến đổi từ.</div>
+      <div class="stats">
+        <b>Kết luận nhanh</b>: OK để solve<br>
+        <b>Câu sạch giữ lại</b>: 838 &nbsp; <b>Câu bị loại</b>: 32 &nbsp; <b>Câu có passage</b>: 0<br>
+        <b>Subtopic được gắn nhiều nhất</b>: E2X.01:691, E2S.06:81, E2G.01:66<br>
+        <b>Lý do loại nhiều nhất</b>: missing_or_short_question_text:32<br>
+        <b>File đóng góp nhiều nhất</b>: 21 trangtu2.pdf:47, 17 tinhtu4 (1).pdf:42, 17 tinhtu4.pdf:42, Chuyên đề 10_Thi Online_ Phương pháp học Từ loại (Đề số 01).pdf:30, Chuyên đề 10_Thi Online_ Phương pháp học Từ loại (Đề số 02).pdf:30
+      </div>
+      <h3>Câu sạch mẫu (đây là câu sẽ vào database chính)</h3>
+      <div class="grid">
+    <div class="qcard">
+      <div class='file'>MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 10 - CẤU TẠO TỪ, TỪ LOẠI/17 tinhtu4 (1).pdf</div>
+      <div><b>Câu 1</b> <span class="muted">format=spt_word_formation | subtopic=E2X.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">It was _________ that she passed the exam. Everyone had thought that she failed.</div>
+      <div class="opts">A. surprising | B. surprised | C. surprisingly | D. surprisedly</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 10 - CẤU TẠO TỪ, TỪ LOẠI/17 tinhtu4 (1).pdf</div>
+      <div><b>Câu 2</b> <span class="muted">format=spt_word_formation | subtopic=E2X.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Jane is ______ because her job is ______</div>
+      <div class="opts">A. bored/bored | B. boring/bored | C. boring/boring | D. bored/boring</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 10 - CẤU TẠO TỪ, TỪ LOẠI/17 tinhtu4 (1).pdf</div>
+      <div><b>Câu 3</b> <span class="muted">format=spt_word_formation | subtopic=E2X.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">I don’t like this coffee because it tastes very ______</div>
+      <div class="opts">A. strength | B. strong | C. strongly | D. strengthly</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 10 - CẤU TẠO TỪ, TỪ LOẠI/17 tinhtu4 (1).pdf</div>
+      <div><b>Câu 4</b> <span class="muted">format=spt_word_formation | subtopic=E2X.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Because of the lights, the city seemed ______ from the way that I had remembered it.</div>
+      <div class="opts">A. different | B. differently | C. to different | D. to be differently</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 10 - CẤU TẠO TỪ, TỪ LOẠI/17 tinhtu4 (1).pdf</div>
+      <div><b>Câu 5</b> <span class="muted">format=spt_word_formation | subtopic=E2X.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">He is one of the most _______ people I have ever met.</div>
+      <div class="opts">A. bored | B. bore | C. boring | D. boredom</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 10 - CẤU TẠO TỪ, TỪ LOẠI/17 tinhtu4 (1).pdf</div>
+      <div><b>Câu 6</b> <span class="muted">format=spt_word_formation | subtopic=E2X.01 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">That film was so __________ that I was completely attracted.</div>
+      <div class="opts">A. interestingly | B. interesting | C. interest | D. interested.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    </div>
+      <h3>Câu bị loại mẫu (không đưa vào database chính)</h3>
+      <div class="grid rejected">
+    <div class="qcard">
+      <div class='file'>MP/NGỮ PHÁP ỨNG DỤNG/CHUYÊN ĐỀ 1 - TỪ LOẠI/02 Thi Online_ Danh từ.pdf</div>
+      <div><b>Câu 1</b> <span class="muted">format=spt_word_formation | subtopic=E2G.01 | đủ để AI giải=False</span></div>
+      
+      <div class="qtext"></div>
+      <div class="opts">A. preventive | B. prevention | C. preventable | D. preventative</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/NGỮ PHÁP ỨNG DỤNG/CHUYÊN ĐỀ 1 - TỪ LOẠI/02 Thi Online_ Danh từ.pdf</div>
+      <div><b>Câu 2</b> <span class="muted">format=spt_word_formation | subtopic=E2G.01 | đủ để AI giải=False</span></div>
+      
+      <div class="qtext"></div>
+      <div class="opts">A. employed | B. unemployed | C. employable | D. employment</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/NGỮ PHÁP ỨNG DỤNG/CHUYÊN ĐỀ 1 - TỪ LOẠI/02 Thi Online_ Danh từ.pdf</div>
+      <div><b>Câu 3</b> <span class="muted">format=spt_word_formation | subtopic=E2G.01 | đủ để AI giải=False</span></div>
+      
+      <div class="qtext"></div>
+      <div class="opts">A. instructive | B. instructively | C. instructor | D. instruct</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/NGỮ PHÁP ỨNG DỤNG/CHUYÊN ĐỀ 1 - TỪ LOẠI/02 Thi Online_ Danh từ.pdf</div>
+      <div><b>Câu 4</b> <span class="muted">format=spt_word_formation | subtopic=E2G.01 | đủ để AI giải=False</span></div>
+      
+      <div class="qtext"></div>
+      <div class="opts">A. dependent | B. depend | C. dependence | D. dependently</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/NGỮ PHÁP ỨNG DỤNG/CHUYÊN ĐỀ 1 - TỪ LOẠI/02 Thi Online_ Danh từ.pdf</div>
+      <div><b>Câu 5</b> <span class="muted">format=spt_word_formation | subtopic=E2G.01 | đủ để AI giải=False</span></div>
+      
+      <div class="qtext"></div>
+      <div class="opts">A. carefulness | B. carefully | C. careless | D. careful</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/NGỮ PHÁP ỨNG DỤNG/CHUYÊN ĐỀ 1 - TỪ LOẠI/02 Thi Online_ Danh từ.pdf</div>
+      <div><b>Câu 6</b> <span class="muted">format=spt_word_formation | subtopic=E2G.01 | đủ để AI giải=False</span></div>
+      
+      <div class="qtext"></div>
+      <div class="opts">A. computer screen | B. screens computer</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    </div>
+    </section>
+    
+    <section>
+      <h2>thpt_advertisement_cloze</h2>
+      <div class="code">format_code: thpt_advertisement_cloze</div>
+      <div class="explain"><b>Format này nên trông như thế nào:</b> Kiểm tra câu hỏi có đủ đề, options/context và gắn đúng taxonomy hay không.</div>
+      <div class="stats">
+        <b>Kết luận nhanh</b>: Cần xem kỹ<br>
+        <b>Câu sạch giữ lại</b>: 59 &nbsp; <b>Câu bị loại</b>: 70 &nbsp; <b>Câu có passage</b>: 59<br>
+        <b>Subtopic được gắn nhiều nhất</b>: E2C.03:59<br>
+        <b>Lý do loại nhiều nhất</b>: missing_or_short_question_text:70<br>
+        <b>File đóng góp nhiều nhất</b>: E2C.03.json:14, Bài 11 Đọc điền thông tin thông báo quảng cáo tờ rơi (Buổi 11).pdf:12, Bài 12 Đọc điền thông tin thông báo quảng cáo tờ rơi (Buổi 12).pdf:12, Bài 13 Đọc điền thông tin thông báoquảng cáo tờ rơi (Buổi 13).pdf:12, Bài 3. Phương pháp xử lí dạng bài Đọc điền thông tin quảng cáo thông báo (Buổi 3).pdf:6
+      </div>
+      <h3>Câu sạch mẫu (đây là câu sẽ vào database chính)</h3>
+      <div class="grid">
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC ĐIỀN BÀI QUẢNG CÁO, THÔNG BÁO/Bài 2. Phương pháp xử lí dạng bài Đọc điền thông tin quảng cáo thông báo (Buổi 2).pdf</div>
+      <div><b>Câu 1</b> <span class="muted">format=thpt_advertisement_cloze | subtopic=E2C.03 | đủ để AI giải=True</span></div>
+      <details><summary>Passage (619 chars)</summary><div class='passage'>COMBO PRO 3M ĐỌC ĐIỀN THÔNG TIN THÔNG BÁO/ QUẢNG CÁO (BUỔI 2) các dạng câu hỏi trong đề thi Read the following advertisement and mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 1 to 3. Improve Your Writing Skills with Our Online Classes! • Learn (1) _____ the comfort of your home. • Flexible schedules to fit your lifestyle. • Experienced instructors (2) _____ your journey. • Affordable tuition fees. • Engaging lessons for (3) _____ levels. Don&#x27;t miss the opportunity to enhance your writing skills! Enrol in our online classes today!</div></details>
+      <div class="qtext">COMBO PRO 3M ĐỌC ĐIỀN THÔNG TIN THÔNG BÁO/ QUẢNG CÁO (BUỔI 2) các dạng câu hỏi trong đề thi Read the following advertisement and mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 1 to 3. Improve Your Writing Skills with Our Online Classes! • Learn (1) _____ the comfort of your home. • Flexible schedules to fit your lifestyle. • Experienced instructors (2) _____ your journey. • Affordable tuition fees. • Engaging lessons for (3) _____ levels. Don&#x27;t miss the opportunity to enhance your writing skills! Enrol in our online classes today!</div>
+      <div class="opts">A. in | B. from | C. to | D. within</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC ĐIỀN BÀI QUẢNG CÁO, THÔNG BÁO/Bài 2. Phương pháp xử lí dạng bài Đọc điền thông tin quảng cáo thông báo (Buổi 2).pdf</div>
+      <div><b>Câu 2</b> <span class="muted">format=thpt_advertisement_cloze | subtopic=E2C.03 | đủ để AI giải=True</span></div>
+      <details><summary>Passage (619 chars)</summary><div class='passage'>COMBO PRO 3M ĐỌC ĐIỀN THÔNG TIN THÔNG BÁO/ QUẢNG CÁO (BUỔI 2) các dạng câu hỏi trong đề thi Read the following advertisement and mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 1 to 3. Improve Your Writing Skills with Our Online Classes! • Learn (1) _____ the comfort of your home. • Flexible schedules to fit your lifestyle. • Experienced instructors (2) _____ your journey. • Affordable tuition fees. • Engaging lessons for (3) _____ levels. Don&#x27;t miss the opportunity to enhance your writing skills! Enrol in our online classes today!</div></details>
+      <div class="qtext">COMBO PRO 3M ĐỌC ĐIỀN THÔNG TIN THÔNG BÁO/ QUẢNG CÁO (BUỔI 2) các dạng câu hỏi trong đề thi Read the following advertisement and mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 1 to 3. Improve Your Writing Skills with Our Online Classes! • Learn (1) _____ the comfort of your home. • Flexible schedules to fit your lifestyle. • Experienced instructors (2) _____ your journey. • Affordable tuition fees. • Engaging lessons for (3) _____ levels. Don&#x27;t miss the opportunity to enhance your writing skills! Enrol in our online classes today!</div>
+      <div class="opts">A. guiding | B. guide | C. guided | D. to guide</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC ĐIỀN BÀI QUẢNG CÁO, THÔNG BÁO/Bài 2. Phương pháp xử lí dạng bài Đọc điền thông tin quảng cáo thông báo (Buổi 2).pdf</div>
+      <div><b>Câu 3</b> <span class="muted">format=thpt_advertisement_cloze | subtopic=E2C.03 | đủ để AI giải=True</span></div>
+      <details><summary>Passage (619 chars)</summary><div class='passage'>COMBO PRO 3M ĐỌC ĐIỀN THÔNG TIN THÔNG BÁO/ QUẢNG CÁO (BUỔI 2) các dạng câu hỏi trong đề thi Read the following advertisement and mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 1 to 3. Improve Your Writing Skills with Our Online Classes! • Learn (1) _____ the comfort of your home. • Flexible schedules to fit your lifestyle. • Experienced instructors (2) _____ your journey. • Affordable tuition fees. • Engaging lessons for (3) _____ levels. Don&#x27;t miss the opportunity to enhance your writing skills! Enrol in our online classes today!</div></details>
+      <div class="qtext">COMBO PRO 3M ĐỌC ĐIỀN THÔNG TIN THÔNG BÁO/ QUẢNG CÁO (BUỔI 2) các dạng câu hỏi trong đề thi Read the following advertisement and mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 1 to 3. Improve Your Writing Skills with Our Online Classes! • Learn (1) _____ the comfort of your home. • Flexible schedules to fit your lifestyle. • Experienced instructors (2) _____ your journey. • Affordable tuition fees. • Engaging lessons for (3) _____ levels. Don&#x27;t miss the opportunity to enhance your writing skills! Enrol in our online classes today!</div>
+      <div class="opts">A. each | B. much | C. all | D. another</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC ĐIỀN BÀI QUẢNG CÁO, THÔNG BÁO/Bài 3. Phương pháp xử lí dạng bài Đọc điền thông tin quảng cáo thông báo (Buổi 3).pdf</div>
+      <div><b>Câu 1</b> <span class="muted">format=thpt_advertisement_cloze | subtopic=E2C.03 | đủ để AI giải=True</span></div>
+      <details><summary>Passage (574 chars)</summary><div class='passage'>ĐỌC ĐIỀN THÔNG TIN THÔNG BÁO/ QUẢNG CÁO (BUỔI 3) các dạng câu hỏi trong đề thi Read the following school announcement and mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 1 to 3. Year-End Party Announcement • Date: Friday, June 3rd • Time: 6:00 PM • Venue: School Gym Get ready (1) _____ a night of fun! If you (2) ______, delicious snacks will be enjoyed, and great memories will be made. Remember (3) _____ your casual clothes and bring friends! Let&#x27;s celebrate the end of the year together!</div></details>
+      <div class="qtext">ĐỌC ĐIỀN THÔNG TIN THÔNG BÁO/ QUẢNG CÁO (BUỔI 3) các dạng câu hỏi trong đề thi Read the following school announcement and mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 1 to 3. Year-End Party Announcement • Date: Friday, June 3rd • Time: 6:00 PM • Venue: School Gym Get ready (1) _____ a night of fun! If you (2) ______, delicious snacks will be enjoyed, and great memories will be made. Remember (3) _____ your casual clothes and bring friends! Let&#x27;s celebrate the end of the year together!</div>
+      <div class="opts">A. with | B. for | C. to | D. on</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC ĐIỀN BÀI QUẢNG CÁO, THÔNG BÁO/Bài 3. Phương pháp xử lí dạng bài Đọc điền thông tin quảng cáo thông báo (Buổi 3).pdf</div>
+      <div><b>Câu 2</b> <span class="muted">format=thpt_advertisement_cloze | subtopic=E2C.03 | đủ để AI giải=True</span></div>
+      <details><summary>Passage (574 chars)</summary><div class='passage'>ĐỌC ĐIỀN THÔNG TIN THÔNG BÁO/ QUẢNG CÁO (BUỔI 3) các dạng câu hỏi trong đề thi Read the following school announcement and mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 1 to 3. Year-End Party Announcement • Date: Friday, June 3rd • Time: 6:00 PM • Venue: School Gym Get ready (1) _____ a night of fun! If you (2) ______, delicious snacks will be enjoyed, and great memories will be made. Remember (3) _____ your casual clothes and bring friends! Let&#x27;s celebrate the end of the year together!</div></details>
+      <div class="qtext">ĐỌC ĐIỀN THÔNG TIN THÔNG BÁO/ QUẢNG CÁO (BUỔI 3) các dạng câu hỏi trong đề thi Read the following school announcement and mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 1 to 3. Year-End Party Announcement • Date: Friday, June 3rd • Time: 6:00 PM • Venue: School Gym Get ready (1) _____ a night of fun! If you (2) ______, delicious snacks will be enjoyed, and great memories will be made. Remember (3) _____ your casual clothes and bring friends! Let&#x27;s celebrate the end of the year together!</div>
+      <div class="opts">A. attended | B. had attended | C. will attend | D. attend</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC ĐIỀN BÀI QUẢNG CÁO, THÔNG BÁO/Bài 3. Phương pháp xử lí dạng bài Đọc điền thông tin quảng cáo thông báo (Buổi 3).pdf</div>
+      <div><b>Câu 3</b> <span class="muted">format=thpt_advertisement_cloze | subtopic=E2C.03 | đủ để AI giải=True</span></div>
+      <details><summary>Passage (574 chars)</summary><div class='passage'>ĐỌC ĐIỀN THÔNG TIN THÔNG BÁO/ QUẢNG CÁO (BUỔI 3) các dạng câu hỏi trong đề thi Read the following school announcement and mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 1 to 3. Year-End Party Announcement • Date: Friday, June 3rd • Time: 6:00 PM • Venue: School Gym Get ready (1) _____ a night of fun! If you (2) ______, delicious snacks will be enjoyed, and great memories will be made. Remember (3) _____ your casual clothes and bring friends! Let&#x27;s celebrate the end of the year together!</div></details>
+      <div class="qtext">ĐỌC ĐIỀN THÔNG TIN THÔNG BÁO/ QUẢNG CÁO (BUỔI 3) các dạng câu hỏi trong đề thi Read the following school announcement and mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 1 to 3. Year-End Party Announcement • Date: Friday, June 3rd • Time: 6:00 PM • Venue: School Gym Get ready (1) _____ a night of fun! If you (2) ______, delicious snacks will be enjoyed, and great memories will be made. Remember (3) _____ your casual clothes and bring friends! Let&#x27;s celebrate the end of the year together!</div>
+      <div class="opts">A. to wear | B. wear | C. to wearing | D. wearing</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      
+    </div>
+    </div>
+      <h3>Câu bị loại mẫu (không đưa vào database chính)</h3>
+      <div class="grid rejected">
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC ĐIỀN BÀI QUẢNG CÁO, THÔNG BÁO/Bài 2. Phương pháp xử lí dạng bài Đọc điền thông tin quảng cáo thông báo (Buổi 2).pdf</div>
+      <div><b>Câu 4</b> <span class="muted">format=thpt_advertisement_cloze | subtopic=E2C.03 | đủ để AI giải=False</span></div>
+      <details><summary>Passage (280 chars)</summary><div class='passage'>Discover the Magic of Hoi An Ancient Town! • Explore historic streets (4) _____ with colourful lanterns. • Visit ancient temples. • Experience traditional Vietnamese culture. • Enjoy (5) _____ local cuisine. • Reserve your spot now! Start your (6) _____ journey with us to Hoi An!</div></details>
+      <div class="qtext"></div>
+      <div class="opts">A. filling | B. filled | C. fill | D. to fill</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC ĐIỀN BÀI QUẢNG CÁO, THÔNG BÁO/Bài 2. Phương pháp xử lí dạng bài Đọc điền thông tin quảng cáo thông báo (Buổi 2).pdf</div>
+      <div><b>Câu 5</b> <span class="muted">format=thpt_advertisement_cloze | subtopic=E2C.03 | đủ để AI giải=False</span></div>
+      <details><summary>Passage (280 chars)</summary><div class='passage'>Discover the Magic of Hoi An Ancient Town! • Explore historic streets (4) _____ with colourful lanterns. • Visit ancient temples. • Experience traditional Vietnamese culture. • Enjoy (5) _____ local cuisine. • Reserve your spot now! Start your (6) _____ journey with us to Hoi An!</div></details>
+      <div class="qtext"></div>
+      <div class="opts">A. delicious | B. difficult | C. complete | D. excited</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC ĐIỀN BÀI QUẢNG CÁO, THÔNG BÁO/Bài 2. Phương pháp xử lí dạng bài Đọc điền thông tin quảng cáo thông báo (Buổi 2).pdf</div>
+      <div><b>Câu 6</b> <span class="muted">format=thpt_advertisement_cloze | subtopic=E2C.03 | đủ để AI giải=False</span></div>
+      <details><summary>Passage (280 chars)</summary><div class='passage'>Discover the Magic of Hoi An Ancient Town! • Explore historic streets (4) _____ with colourful lanterns. • Visit ancient temples. • Experience traditional Vietnamese culture. • Enjoy (5) _____ local cuisine. • Reserve your spot now! Start your (6) _____ journey with us to Hoi An!</div></details>
+      <div class="qtext"></div>
+      <div class="opts">A. memory | B. memorise | C. memorable | D. memorably</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC ĐIỀN BÀI QUẢNG CÁO, THÔNG BÁO/Bài 2. Phương pháp xử lí dạng bài Đọc điền thông tin quảng cáo thông báo (Buổi 2).pdf</div>
+      <div><b>Câu 7</b> <span class="muted">format=thpt_advertisement_cloze | subtopic=E2C.03 | đủ để AI giải=False</span></div>
+      <details><summary>Passage (280 chars)</summary><div class='passage'>Discover the Magic of Hoi An Ancient Town! • Explore historic streets (4) _____ with colourful lanterns. • Visit ancient temples. • Experience traditional Vietnamese culture. • Enjoy (5) _____ local cuisine. • Reserve your spot now! Start your (6) _____ journey with us to Hoi An!</div></details>
+      <div class="qtext"></div>
+      <div class="opts">A. invite | B. have invited | C. will invite | D. are invited</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC ĐIỀN BÀI QUẢNG CÁO, THÔNG BÁO/Bài 2. Phương pháp xử lí dạng bài Đọc điền thông tin quảng cáo thông báo (Buổi 2).pdf</div>
+      <div><b>Câu 8</b> <span class="muted">format=thpt_advertisement_cloze | subtopic=E2C.03 | đủ để AI giải=False</span></div>
+      <details><summary>Passage (280 chars)</summary><div class='passage'>Discover the Magic of Hoi An Ancient Town! • Explore historic streets (4) _____ with colourful lanterns. • Visit ancient temples. • Experience traditional Vietnamese culture. • Enjoy (5) _____ local cuisine. • Reserve your spot now! Start your (6) _____ journey with us to Hoi An!</div></details>
+      <div class="qtext"></div>
+      <div class="opts">A. decided | B. increased | C. provided | D. discovered</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC ĐIỀN BÀI QUẢNG CÁO, THÔNG BÁO/Bài 2. Phương pháp xử lí dạng bài Đọc điền thông tin quảng cáo thông báo (Buổi 2).pdf</div>
+      <div><b>Câu 9</b> <span class="muted">format=thpt_advertisement_cloze | subtopic=E2C.03 | đủ để AI giải=False</span></div>
+      <details><summary>Passage (280 chars)</summary><div class='passage'>Discover the Magic of Hoi An Ancient Town! • Explore historic streets (4) _____ with colourful lanterns. • Visit ancient temples. • Experience traditional Vietnamese culture. • Enjoy (5) _____ local cuisine. • Reserve your spot now! Start your (6) _____ journey with us to Hoi An!</div></details>
+      <div class="qtext"></div>
+      <div class="opts">A. Should | B. Had | C. Do | D. Were</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer; regex_fallback_missing_question_text</div>
+      <div class='bad'>Lý do bị loại: missing_or_short_question_text</div>
+    </div>
+    </div>
+    </section>
+    
+    <section>
+      <h2>Sắp xếp đoạn/thư/email</h2>
+      <div class="code">format_code: thpt_arrangement_text</div>
+      <div class="explain"><b>Format này nên trông như thế nào:</b> Question text phải chứa các câu/đoạn cần sắp xếp, options là thứ tự.</div>
+      <div class="stats">
+        <b>Kết luận nhanh</b>: OK để solve<br>
+        <b>Câu sạch giữ lại</b>: 773 &nbsp; <b>Câu bị loại</b>: 0 &nbsp; <b>Câu có passage</b>: 0<br>
+        <b>Subtopic được gắn nhiều nhất</b>: E2G.04:191, E2W.03:93, E2O.03:60, E2O.02:60, E2O.04:60, E2S.06:59, E2G.05:57, E2V.07:38<br>
+        <b>Lý do loại nhiều nhất</b>: none<br>
+        <b>File đóng góp nhiều nhất</b>: E2O.04.json:60, E2O.03.json:40, 1.22 511997477-1739234775937-covumaiphuongphuongphapvakinanggiaiquyet.pdf:30, Thi online Lý thuyết - Giới từ và Cụm giới từ (Đề số 1).pdf:30, Thi online Lý thuyết - Giới từ và Cụm giới từ (Đề số 2).pdf:30
+      </div>
+      <h3>Câu sạch mẫu (đây là câu sẽ vào database chính)</h3>
+      <div class="grid">
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/SẮP XẾP/Bài 3 Luyện tập sắp xếp lá thư (Buổi 1).pdf</div>
+      <div><b>Câu 1</b> <span class="muted">format=thpt_arrangement_text | subtopic=E2O.03 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Dear Alex, a. Let’s talk about it when we meet - I’d love to hear your thoughts on it too! b. It was also a nice change from what I usually read, so I appreciate the recommendation. c. It was such a great read, and I really enjoyed the storyline. d. Thanks so much for the book you gave me last week! e. I haven’t read anything by this author before, but now I want to check out more of their books. Write back soon. Chris</div>
+      <div class="opts">A. e – b – d – a – c | B. b – e – a – c – d | C. a – e – b – c – d | D. d – c – e – b – a</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/SẮP XẾP/Bài 3 Luyện tập sắp xếp lá thư (Buổi 1).pdf</div>
+      <div><b>Câu 2</b> <span class="muted">format=thpt_arrangement_text | subtopic=E2O.03 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Hi Emily, a. It’s been a while since we last caught up, so this would be a great chance to hang out. b. I’m planning a small party this Saturday, and I’d love for you to come! c. It wouldn’t be the same without you, so let me know if you’re free. d. There will be music, good food, and a few of our friends will be there too. e. By the way, if you have a favourite song, I’ll add it to the playlist! Hope to see you then. Max</div>
+      <div class="opts">A. a – c – e – d – b | B. b – a – d – c – e | C. a – d – b – c – e | D. b – d – e – c – a</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/SẮP XẾP/Bài 3 Luyện tập sắp xếp lá thư (Buổi 1).pdf</div>
+      <div><b>Câu 3</b> <span class="muted">format=thpt_arrangement_text | subtopic=E2O.03 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Hi Jake, a. I should have thought more before speaking, and I understand if you need some time. b. You’re a great friend, and I’d hate for this to come between us. c. I just wanted to say I’m really sorry about yesterday. d. Let me know when you’re ready to talk - I’d really like to make things right. e. I didn’t mean to upset you, and I feel bad about how things turned out. Take care, Suzy</div>
+      <div class="opts">A. c – e – a – b – d | B. b – e – d – a – c | C. d – b – a – e – c | D. e – a – d – b – c</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/SẮP XẾP/Bài 3 Luyện tập sắp xếp lá thư (Buổi 1).pdf</div>
+      <div><b>Câu 4</b> <span class="muted">format=thpt_arrangement_text | subtopic=E2O.03 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Hi Mia, a. Let me know what you think - it would really mean a lot! b. Since you’re great at research, I thought you might have some good tips on finding reliable sources. c. I’m working on a school project, and I could really use your help. d. The topic is a bit tricky, and I don’t want to miss any important details. e. If you’re free this week, maybe we could go over it together? Looking forward to your reply. Susan</div>
+      <div class="opts">A. e – d – b – a – c | B. b – d – c – a – e | C. c – b – d – e – a | D. a – b – c – e – d</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/SẮP XẾP/Bài 3 Luyện tập sắp xếp lá thư (Buổi 1).pdf</div>
+      <div><b>Câu 5</b> <span class="muted">format=thpt_arrangement_text | subtopic=E2O.03 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Hi Lucas, a. Some really amazing bands will be performing, and all the proceeds go to a great cause. b. Let me know if you’re interested - I can help you get a ticket! c. I already got my ticket, and it would be awesome if you could come along too. d. There’s a charity concert happening this Friday, and I think you’d love it! e. We haven’t been to a concert together in ages, so this would be a fun way to catch up. Hope to hear from you soon. Mitchell</div>
+      <div class="opts">A. e – c – b – a – d | B. d – a – c – e – b | C. c – d – e – b – a | D. a – e – b – c – d</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/SẮP XẾP/Bài 3 Luyện tập sắp xếp lá thư (Buổi 1).pdf</div>
+      <div><b>Câu 6</b> <span class="muted">format=thpt_arrangement_text | subtopic=E2O.03 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Hi Sam, a. I just heard the great news - congratulations on winning the writing competition! b. We should celebrate soon - maybe a coffee catch-up this weekend? c. I’d love to read your winning piece when you have time to share it. d. I knew you had a talent for storytelling, and it’s amazing to see you get the recognition you deserve. e. Let me know when you’re free! Talk soon. Ha</div>
+      <div class="opts">A. c – d – e – a – b | B. a – d – c – b – e | C. e – a – c – d – b | D. b – d – c – a – e</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    </div>
+      <h3>Câu bị loại mẫu (không đưa vào database chính)</h3>
+      <div class="grid rejected"><div class='empty'>No rejected samples</div></div>
+    </section>
+    
+    <section>
+      <h2>thpt_press_release_cloze</h2>
+      <div class="code">format_code: thpt_press_release_cloze</div>
+      <div class="explain"><b>Format này nên trông như thế nào:</b> Kiểm tra câu hỏi có đủ đề, options/context và gắn đúng taxonomy hay không.</div>
+      <div class="stats">
+        <b>Kết luận nhanh</b>: OK để solve<br>
+        <b>Câu sạch giữ lại</b>: 60 &nbsp; <b>Câu bị loại</b>: 0 &nbsp; <b>Câu có passage</b>: 60<br>
+        <b>Subtopic được gắn nhiều nhất</b>: E2C.04:60<br>
+        <b>Lý do loại nhiều nhất</b>: none<br>
+        <b>File đóng góp nhiều nhất</b>: E2C.04.json:60
+      </div>
+      <h3>Câu sạch mẫu (đây là câu sẽ vào database chính)</h3>
+      <div class="grid">
+    <div class="qcard">
+      <div class='file'>generated_backfill/E2C.04.json</div>
+      <div><b>Câu 1</b> <span class="muted">format=thpt_press_release_cloze | subtopic=E2C.04 | đủ để AI giải=True</span></div>
+      <details><summary>Passage (173 chars)</summary><div class='passage'>A school notice says that students should register early for the workshop because places are (1) _____. The event will help learners practise press release cloze in context.</div></details>
+      <div class="qtext">Choose the best option for blank (1).</div>
+      <div class="opts">A. limited | B. limit | C. limiting | D. limitless</div>
+      <div class="muted">đáp án=A | nguồn đáp án=ai_solved | ghi chú=generated_backfill_minimum_coverage</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>generated_backfill/E2C.04.json</div>
+      <div><b>Câu 2</b> <span class="muted">format=thpt_press_release_cloze | subtopic=E2C.04 | đủ để AI giải=True</span></div>
+      <details><summary>Passage (173 chars)</summary><div class='passage'>A school notice says that students should register early for the workshop because places are (1) _____. The event will help learners practise press release cloze in context.</div></details>
+      <div class="qtext">Choose the best option for blank (1).</div>
+      <div class="opts">A. limited | B. limit | C. limiting | D. limitless</div>
+      <div class="muted">đáp án=A | nguồn đáp án=ai_solved | ghi chú=generated_backfill_minimum_coverage</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>generated_backfill/E2C.04.json</div>
+      <div><b>Câu 3</b> <span class="muted">format=thpt_press_release_cloze | subtopic=E2C.04 | đủ để AI giải=True</span></div>
+      <details><summary>Passage (173 chars)</summary><div class='passage'>A school notice says that students should register early for the workshop because places are (1) _____. The event will help learners practise press release cloze in context.</div></details>
+      <div class="qtext">Choose the best option for blank (1).</div>
+      <div class="opts">A. limited | B. limit | C. limiting | D. limitless</div>
+      <div class="muted">đáp án=A | nguồn đáp án=ai_solved | ghi chú=generated_backfill_minimum_coverage</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>generated_backfill/E2C.04.json</div>
+      <div><b>Câu 4</b> <span class="muted">format=thpt_press_release_cloze | subtopic=E2C.04 | đủ để AI giải=True</span></div>
+      <details><summary>Passage (173 chars)</summary><div class='passage'>A school notice says that students should register early for the workshop because places are (1) _____. The event will help learners practise press release cloze in context.</div></details>
+      <div class="qtext">Choose the best option for blank (1).</div>
+      <div class="opts">A. limited | B. limit | C. limiting | D. limitless</div>
+      <div class="muted">đáp án=A | nguồn đáp án=ai_solved | ghi chú=generated_backfill_minimum_coverage</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>generated_backfill/E2C.04.json</div>
+      <div><b>Câu 5</b> <span class="muted">format=thpt_press_release_cloze | subtopic=E2C.04 | đủ để AI giải=True</span></div>
+      <details><summary>Passage (173 chars)</summary><div class='passage'>A school notice says that students should register early for the workshop because places are (1) _____. The event will help learners practise press release cloze in context.</div></details>
+      <div class="qtext">Choose the best option for blank (1).</div>
+      <div class="opts">A. limited | B. limit | C. limiting | D. limitless</div>
+      <div class="muted">đáp án=A | nguồn đáp án=ai_solved | ghi chú=generated_backfill_minimum_coverage</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>generated_backfill/E2C.04.json</div>
+      <div><b>Câu 6</b> <span class="muted">format=thpt_press_release_cloze | subtopic=E2C.04 | đủ để AI giải=True</span></div>
+      <details><summary>Passage (173 chars)</summary><div class='passage'>A school notice says that students should register early for the workshop because places are (1) _____. The event will help learners practise press release cloze in context.</div></details>
+      <div class="qtext">Choose the best option for blank (1).</div>
+      <div class="opts">A. limited | B. limit | C. limiting | D. limitless</div>
+      <div class="muted">đáp án=A | nguồn đáp án=ai_solved | ghi chú=generated_backfill_minimum_coverage</div>
+      
+    </div>
+    </div>
+      <h3>Câu bị loại mẫu (không đưa vào database chính)</h3>
+      <div class="grid rejected"><div class='empty'>No rejected samples</div></div>
+    </section>
+    
+    <section>
+      <h2>Đọc hiểu có passage</h2>
+      <div class="code">format_code: thpt_reading_passage</div>
+      <div class="explain"><b>Format này nên trông như thế nào:</b> Phải có passage và nhiều câu hỏi dùng chung passage_id.</div>
+      <div class="stats">
+        <b>Kết luận nhanh</b>: OK để solve<br>
+        <b>Câu sạch giữ lại</b>: 879 &nbsp; <b>Câu bị loại</b>: 647 &nbsp; <b>Câu có passage</b>: 854<br>
+        <b>Subtopic được gắn nhiều nhất</b>: E2R.02:263, E2R.08:128, E2R.05:86, E2R.04:76, E2R.06:72, E2R.07:71, E2R.03:66, E2R.01:60<br>
+        <b>Lý do loại nhiều nhất</b>: missing_required_context:536, missing_options:108, missing_or_short_question_text; missing_options:3<br>
+        <b>File đóng góp nhiều nhất</b>: E2R.01.json:60, E2R.09.json:57, 9_nangcapvontuvung-chude_technologyandmassmediabuoi1.pdf:30, 11_nangcapvontuvung-chude_theworldofworkbuoi1.pdf:30, 10_nangcapvontuvung-chude_technologyandmassmediabuoi2.pdf:29
+      </div>
+      <h3>Câu sạch mẫu (đây là câu sẽ vào database chính)</h3>
+      <div class="grid">
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách làm câu hỏi paraphrasing trong bài đọc (Đề số 01).pdf</div>
+      <div><b>Câu 1</b> <span class="muted">format=thpt_reading_passage | subtopic=E2R.07 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">She achieved her goal after years of hard work.</div>
+      <div class="opts">A. She met her objective despite not working for years. | B. She reached her target after putting in years of effort.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách làm câu hỏi paraphrasing trong bài đọc (Đề số 01).pdf</div>
+      <div><b>Câu 2</b> <span class="muted">format=thpt_reading_passage | subtopic=E2R.07 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">The team worked hard to complete the project on time.</div>
+      <div class="opts">A. The team put in effort but still managed to finish the project in time. | B. The team made great efforts to finish the project on schedule.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách làm câu hỏi paraphrasing trong bài đọc (Đề số 01).pdf</div>
+      <div><b>Câu 3</b> <span class="muted">format=thpt_reading_passage | subtopic=E2R.07 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">His kindness left a deep impression on everyone.</div>
+      <div class="opts">A. Everyone was deeply impressed by his kind actions. | B. His impression of everyone was ruined because of his kindness.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách làm câu hỏi paraphrasing trong bài đọc (Đề số 01).pdf</div>
+      <div><b>Câu 4</b> <span class="muted">format=thpt_reading_passage | subtopic=E2R.07 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">They designed the policy to reduce traffic jams in the city.</div>
+      <div class="opts">A. The policy was aimed at alleviating traffic congestion in the city. | B. The policy is changed to help decrease the number of vehicles across the city.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách làm câu hỏi paraphrasing trong bài đọc (Đề số 01).pdf</div>
+      <div><b>Câu 5</b> <span class="muted">format=thpt_reading_passage | subtopic=E2R.07 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">The weather was bad, so the flight was delayed.</div>
+      <div class="opts">A. The weather remained unfavourable, but the flight departed on time. | B. As the weather conditions were poor, the flight was postponed.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách làm câu hỏi paraphrasing trong bài đọc (Đề số 01).pdf</div>
+      <div><b>Câu 6</b> <span class="muted">format=thpt_reading_passage | subtopic=E2R.07 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">She quickly tackled the problem despite its complexity.</div>
+      <div class="opts">A. She resolved the issue rapidly even though it was complicated. | B. She dealt with the problem hastily but ignored its complicated nature.</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
+      
+    </div>
+    </div>
+      <h3>Câu bị loại mẫu (không đưa vào database chính)</h3>
+      <div class="grid rejected">
+    <div class="qcard">
+      <div class='file'>MP/NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN/1_nangcapvontuvung-chude_giaoducbuoi1.pdf</div>
+      <div><b>Câu 1</b> <span class="muted">format=thpt_reading_passage | subtopic=E2R.02 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Laptops are excellent learning ______; we can store information, take notes and write essays.</div>
+      <div class="opts">A. utensils | B. gadgets | C. engines | D. tools</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      <div class='bad'>Lý do bị loại: missing_required_context</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN/1_nangcapvontuvung-chude_giaoducbuoi1.pdf</div>
+      <div><b>Câu 2</b> <span class="muted">format=thpt_reading_passage | subtopic=E2R.02 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">Students are encouraged to take _______ of Chat GPT to do assignments.</div>
+      <div class="opts">A. opportunity | B. chance | C. advantage | D. duty</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      <div class='bad'>Lý do bị loại: missing_required_context</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN/1_nangcapvontuvung-chude_giaoducbuoi1.pdf</div>
+      <div><b>Câu 3</b> <span class="muted">format=thpt_reading_passage | subtopic=E2R.02 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">His academic performance has improved significantly since he changed his learning ________.</div>
+      <div class="opts">A. target | B. ambition | C. strategy | D. attention</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      <div class='bad'>Lý do bị loại: missing_required_context</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN/1_nangcapvontuvung-chude_giaoducbuoi1.pdf</div>
+      <div><b>Câu 4</b> <span class="muted">format=thpt_reading_passage | subtopic=E2R.02 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">In ______ classrooms, we can receive instant support from teachers and classmates.</div>
+      <div class="opts">A. face-to-face | B. immediate | C. imaginary | D. worthy</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      <div class='bad'>Lý do bị loại: missing_required_context</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN/1_nangcapvontuvung-chude_giaoducbuoi1.pdf</div>
+      <div><b>Câu 5</b> <span class="muted">format=thpt_reading_passage | subtopic=E2R.02 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">It’s advisable for students to _______ lessons before class.</div>
+      <div class="opts">A. revise | B. prepare | C. decide | D. employ</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      <div class='bad'>Lý do bị loại: missing_required_context</div>
+    </div>
+    
+    <div class="qcard">
+      <div class='file'>MP/NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN/1_nangcapvontuvung-chude_giaoducbuoi1.pdf</div>
+      <div><b>Câu 6</b> <span class="muted">format=thpt_reading_passage | subtopic=E2R.02 | đủ để AI giải=True</span></div>
+      
+      <div class="qtext">More students could attend university if tuition fees were more _______.</div>
+      <div class="opts">A. worthy | B. available | C. practical | D. reasonable</div>
+      <div class="muted">đáp án= | nguồn đáp án=missing | ghi chú=regex_fallback_missing_answer</div>
+      <div class='bad'>Lý do bị loại: missing_required_context</div>
+    </div>
+    </div>
+    </section>
+    </body></html>

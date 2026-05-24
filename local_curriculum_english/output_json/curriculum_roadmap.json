@@ -1,0 +1,174 @@
+{
+  "title": "Local Curriculum Roadmap",
+  "summary": "Roadmap tổng hợp local, gom các bài tương đương bằng title/concept similarity và giữ thứ tự folder làm chuẩn.",
+  "source_profiles": [
+    {
+      "source": "MP",
+      "teaching_style": "kết hợp cung cấp các phương pháp làm nhanh; hiệu quả để các em cải thiện nhanh nhất điểm số.; Em nên học thật kĩ LIVE (hoặc bài giảng sau LIVE lưu lại) để nắm kĩ kiến thức, phương pháp nhằm",
+      "strengths": [],
+      "weaknesses_or_gaps": [
+        "AI analysis unavailable; this is a local text/folder fallback."
+      ]
+    }
+  ],
+  "roadmap_units": [
+    {
+      "order": 1,
+      "canonical_title": "01 VIDEO Chủ đề 1 _ Family and Relationships (1)",
+      "program_area": "NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "MP",
+          "source_order": 1,
+          "lesson_title": "01 VIDEO Chủ đề 1 _ Family and Relationships (1)",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "AI analysis unavailable; this is a local text/folder fallback."
+      ]
+    },
+    {
+      "order": 2,
+      "canonical_title": "02 Bài thi online chủ đề 1_ Family and Relationships (1)",
+      "program_area": "NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "MP",
+          "source_order": 2,
+          "lesson_title": "02 Bài thi online chủ đề 1_ Family and Relationships (1)",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "AI analysis unavailable; this is a local text/folder fallback."
+      ]
+    },
+    {
+      "order": 3,
+      "canonical_title": "1_nangcapvontuvung-chude_giaoducbuoi1",
+      "program_area": "NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "MP",
+          "source_order": 3,
+          "lesson_title": "1_nangcapvontuvung-chude_giaoducbuoi1",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "AI analysis unavailable; this is a local text/folder fallback."
+      ]
+    },
+    {
+      "order": 4,
+      "canonical_title": "2 chudegiaoducbuoi1",
+      "program_area": "NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU",
+      "phase": "Nền tảng",
+      "source_lessons": [
+        {
+          "source": "MP",
+          "source_order": 4,
+          "lesson_title": "2 chudegiaoducbuoi1",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "AI analysis unavailable; this is a local text/folder fallback."
+      ]
+    },
+    {
+      "order": 5,
+      "canonical_title": "[VIP 90.2026.Tuần 1] Tài liệu đầy đủ Tuần 1 (Tài liệu buổi học & Bài thi Online)",
+      "program_area": "VIP90",
+      "phase": "Kết hợp",
+      "source_lessons": [
+        {
+          "source": "MP",
+          "source_order": 5,
+          "lesson_title": "[VIP 90.2026.Tuần 1] Tài liệu đầy đủ Tuần 1 (Tài liệu buổi học & Bài thi Online)",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [
+        "kết hợp cung cấp các phương pháp làm nhanh; hiệu quả để các em cải thiện nhanh nhất điểm số.",
+        "Em nên học thật kĩ LIVE (hoặc bài giảng sau LIVE lưu lại) để nắm kĩ kiến thức, phương pháp nhằm"
+      ],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "AI analysis unavailable; this is a local text/folder fallback."
+      ]
+    },
+    {
+      "order": 6,
+      "canonical_title": "Bảng từ Bài thi trước buổi học Dành trọn điểm câu hỏi Từ loại và Trật tự từ (Buổi 1)",
+      "program_area": "VIP90",
+      "phase": "Kết hợp",
+      "source_lessons": [
+        {
+          "source": "MP",
+          "source_order": 6,
+          "lesson_title": "Bảng từ Bài thi trước buổi học Dành trọn điểm câu hỏi Từ loại và Trật tự từ (Buổi 1)",
+          "role": "core"
+        }
+      ],
+      "learning_goals": [],
+      "prerequisites": [],
+      "teaching_strategy": [],
+      "application_types": [],
+      "recommended_sequence_note": "Giữ vị trí theo thứ tự nguồn gốc; bài từ nguồn khác được ghép nếu trùng chủ đề.",
+      "best_source_notes": [],
+      "gaps_to_fill": [
+        "AI analysis unavailable; this is a local text/folder fallback."
+      ]
+    }
+  ],
+  "global_gaps": [
+    "AI synthesis failed: Connection error.",
+    "Một số bài cùng chủ đề nhưng tên quá khác nhau có thể chưa được merge hoàn hảo.",
+    "Các file scan text ít ký tự cần kiểm tra lại nếu PDF chủ yếu là ảnh."
+  ],
+  "next_actions": [
+    "Review preview HTML và chỉnh ngưỡng merge nếu thấy bài bị gom sai.",
+    "Thêm MAPSTUDY/NGTIENDAT vào input_sources rồi chạy lại manifest, scan, synthesize."
+  ],
+  "_meta": {
+    "generated_at": "2026-05-19T17:42:56",
+    "ai_status": "fallback_ai_error",
+    "model": "cc/claude-sonnet-4-6",
+    "subject": "english",
+    "scan_file": "D:\\Projects\\pipeline\\local_curriculum_english\\output_json\\curriculum_scan.json",
+    "lesson_count": 6
+  }
+}

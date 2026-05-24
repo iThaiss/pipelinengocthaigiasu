@@ -1,0 +1,92 @@
+[
+  {
+    "ordinal": 1,
+    "code": "1230101",
+    "source_file": "Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf",
+    "parser": "native",
+    "question_html": "<p>Tìm hiểu thời gian xem Tivi trong tuần trước (đơn vị: giờ) của một số học sinh thu<br>được kết quả sau:<br>Thời gian (giờ)<br>[0;5)</p>\n<p>[5;10)</p>\n<p>[10;15)</p>\n<p>[15;20)</p>\n<p>[20;25)</p>\n<p>Số học sinh<br>8<br>16<br>4<br>2<br>2</p>\n<p>Giá trị đại diện của nhóm [20;25) là</p>\n<p>A. 22,5 .<br>B. 23 .<br>C. 20 .<br>D. 5 .</p>",
+    "question_text": "Tìm hiểu thời gian xem Tivi trong tuần trước (đơn vị: giờ) của một số học sinh thu được kết quả sau: Thời gian (giờ) [0;5) [5;10) [10;15) [15;20) [20;25) Số học sinh 8 16 4 2 2 Giá trị đại diện của nhóm [20;25) là A. 22,5 . B. 23 . C. 20 . D. 5 .",
+    "raw_block": "Tìm hiểu thời gian xem Tivi trong tuần trước (đơn vị: giờ) của một số học sinh thu\nđược kết quả sau:\nThời gian (giờ)\n[0;5)\n\n[5;10)\n\n[10;15)\n\n[15;20)\n\n[20;25)\n\nSố học sinh\n8\n16\n4\n2\n2\n\nGiá trị đại diện của nhóm [20;25) là\n\nA. 22,5 .\nB. 23 .\nC. 20 .\nD. 5 ."
+  },
+  {
+    "ordinal": 2,
+    "code": "1230102",
+    "source_file": "Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf",
+    "parser": "native",
+    "question_html": "<p>Đo chiều cao (tính bằng cm ) của 500 học sinh trong một trường THPT ta thu được kết<br>quả như sau :<br>Chiều cao<br>[150;154)</p>\n<p>[154;158)</p>\n<p>[158;162)</p>\n<p>[162;166)</p>\n<p>[166;170)</p>\n<p>Số học sinh<br>25<br>50<br>200<br>175<br>50</p>\n<p>Mẫu số liệu ghép nhóm đã cho có tất cả bao nhiêu nhóm?</p>\n<p>A. 5 .<br>B. 6 .<br>C. 7 .<br>D. 4 .</p>",
+    "question_text": "Đo chiều cao (tính bằng cm ) của 500 học sinh trong một trường THPT ta thu được kết quả như sau : Chiều cao [150;154) [154;158) [158;162) [162;166) [166;170) Số học sinh 25 50 200 175 50 Mẫu số liệu ghép nhóm đã cho có tất cả bao nhiêu nhóm? A. 5 . B. 6 . C. 7 . D. 4 .",
+    "raw_block": "Đo chiều cao (tính bằng cm ) của 500 học sinh trong một trường THPT ta thu được kết\nquả như sau :\nChiều cao\n[150;154)\n\n[154;158)\n\n[158;162)\n\n[162;166)\n\n[166;170)\n\nSố học sinh\n25\n50\n200\n175\n50\n\nMẫu số liệu ghép nhóm đã cho có tất cả bao nhiêu nhóm?\n\nA. 5 .\nB. 6 .\nC. 7 .\nD. 4 ."
+  },
+  {
+    "ordinal": 3,
+    "code": "1230103",
+    "source_file": "Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf",
+    "parser": "native",
+    "question_html": "<p>Thống kê điểm trung bình môn Toán của một số hoc sinh lớp 11 được cho ở bảng sau:<br>Khoảng điểm<br>[6,5;7)</p>\n<p>[7;7,5)</p>\n<p>[7,5;8)</p>\n<p>[8;8,5)</p>\n<p>[8,5;9)</p>\n<p>[9;9,5)</p>\n<p>[9,5;10)</p>\n<p>Tần số<br>8<br>10<br>16<br>24<br>13<br>7<br>4</p>\n<p>Số trung bình của mẫu số liệu trên là:</p>\n<p>A. 9,12 .<br>B. 5,87 .<br>C. 7 .<br>D. 8,12 .</p>",
+    "question_text": "Thống kê điểm trung bình môn Toán của một số hoc sinh lớp 11 được cho ở bảng sau: Khoảng điểm [6,5;7) [7;7,5) [7,5;8) [8;8,5) [8,5;9) [9;9,5) [9,5;10) Tần số 8 10 16 24 13 7 4 Số trung bình của mẫu số liệu trên là: A. 9,12 . B. 5,87 . C. 7 . D. 8,12 .",
+    "raw_block": "Thống kê điểm trung bình môn Toán của một số hoc sinh lớp 11 được cho ở bảng sau:\nKhoảng điểm\n[6,5;7)\n\n[7;7,5)\n\n[7,5;8)\n\n[8;8,5)\n\n[8,5;9)\n\n[9;9,5)\n\n[9,5;10)\n\nTần số\n8\n10\n16\n24\n13\n7\n4\n\nSố trung bình của mẫu số liệu trên là:\n\nA. 9,12 .\nB. 5,87 .\nC. 7 .\nD. 8,12 ."
+  },
+  {
+    "ordinal": 4,
+    "code": "1230104",
+    "source_file": "Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf",
+    "parser": "native",
+    "question_html": "<p>Đo chiều cao (tính bằng cm ) của 500 học sinh trong một trường THPT ta thu được kết<br>quả như sau:<br>Chiều cao<br>[150;154)</p>\n<p>[154;158)</p>\n<p>[158;162)</p>\n<p>[162;166)</p>\n<p>[166;170)</p>\n<p>Số học sinh<br>25<br>50<br>200<br>175<br>50<br>Nhóm chứa trung vị của mẫu số liệu trên là:</p>\n<p>A.<br>[166;170)</p>\n<p>B.<br>[154;158)</p>\n<p>C.<br>[162;166)</p>\n<p>D.<br>[158;162)</p>",
+    "question_text": "Đo chiều cao (tính bằng cm ) của 500 học sinh trong một trường THPT ta thu được kết quả như sau: Chiều cao [150;154) [154;158) [158;162) [162;166) [166;170) Số học sinh 25 50 200 175 50 Nhóm chứa trung vị của mẫu số liệu trên là: A. [166;170) B. [154;158) C. [162;166) D. [158;162)",
+    "raw_block": "Đo chiều cao (tính bằng cm ) của 500 học sinh trong một trường THPT ta thu được kết\nquả như sau:\nChiều cao\n[150;154)\n\n[154;158)\n\n[158;162)\n\n[162;166)\n\n[166;170)\n\nSố học sinh\n25\n50\n200\n175\n50\nNhóm chứa trung vị của mẫu số liệu trên là:\n\nA.\n[166;170)\n\nB.\n[154;158)\n\nC.\n[162;166)\n\nD.\n[158;162)"
+  },
+  {
+    "ordinal": 5,
+    "code": "1230105",
+    "source_file": "Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf",
+    "parser": "native",
+    "question_html": "<p>Khảo sát thời gian tập thể dục của một số học sinh khối 11 thu được mẫu số liệu ghép<br>nhóm sau:<br>Thời gian (phút)<br>[0;20)</p>\n<p>[20;40)</p>\n<p>[40;60)</p>\n<p>[60;80)</p>\n<p>[80;100)</p>\n<p>Số học sinh<br>5<br>9<br>12<br>10<br>6<br>Nhóm chứa tứ phân vị thứ nhất của mẫu số liệu trên là:</p>\n<p>A.<br>[20;40)<br>.<br>B.<br>[80;100)<br>,<br>C.<br>[40;60)<br>.<br>D.<br>[60;80)<br>.</p>",
+    "question_text": "Khảo sát thời gian tập thể dục của một số học sinh khối 11 thu được mẫu số liệu ghép nhóm sau: Thời gian (phút) [0;20) [20;40) [40;60) [60;80) [80;100) Số học sinh 5 9 12 10 6 Nhóm chứa tứ phân vị thứ nhất của mẫu số liệu trên là: A. [20;40) . B. [80;100) , C. [40;60) . D. [60;80) .",
+    "raw_block": "Khảo sát thời gian tập thể dục của một số học sinh khối 11 thu được mẫu số liệu ghép\nnhóm sau:\nThời gian (phút)\n[0;20)\n\n[20;40)\n\n[40;60)\n\n[60;80)\n\n[80;100)\n\nSố học sinh\n5\n9\n12\n10\n6\nNhóm chứa tứ phân vị thứ nhất của mẫu số liệu trên là:\n\nA.\n[20;40)\n.\nB.\n[80;100)\n,\nC.\n[40;60)\n.\nD.\n[60;80)\n."
+  },
+  {
+    "ordinal": 6,
+    "code": "1230106",
+    "source_file": "Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf",
+    "parser": "native",
+    "question_html": "<p>Khảo sát thời gian tập thể dục của một số học sinh khối 11 thu được mẫu số liệu ghép<br>nhóm sau:<br>Thời gian (phút)<br>[0;20)</p>\n<p>[20;40)</p>\n<p>[40;60)</p>\n<p>[60;80)</p>\n<p>[80;100)</p>\n<p>Số học sinh<br>5<br>9<br>12<br>10<br>6<br>Nhóm chứa mốt của mẫu số liệu trên là:</p>\n<p>A.<br>[20;40)<br>.<br>B.<br>[80;100)<br>,<br>C.<br>[40;60)<br>.<br>D.<br>[60;80)<br>.</p>",
+    "question_text": "Khảo sát thời gian tập thể dục của một số học sinh khối 11 thu được mẫu số liệu ghép nhóm sau: Thời gian (phút) [0;20) [20;40) [40;60) [60;80) [80;100) Số học sinh 5 9 12 10 6 Nhóm chứa mốt của mẫu số liệu trên là: A. [20;40) . B. [80;100) , C. [40;60) . D. [60;80) .",
+    "raw_block": "Khảo sát thời gian tập thể dục của một số học sinh khối 11 thu được mẫu số liệu ghép\nnhóm sau:\nThời gian (phút)\n[0;20)\n\n[20;40)\n\n[40;60)\n\n[60;80)\n\n[80;100)\n\nSố học sinh\n5\n9\n12\n10\n6\nNhóm chứa mốt của mẫu số liệu trên là:\n\nA.\n[20;40)\n.\nB.\n[80;100)\n,\nC.\n[40;60)\n.\nD.\n[60;80)\n."
+  },
+  {
+    "ordinal": 7,
+    "code": "1230107",
+    "source_file": "Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf",
+    "parser": "native",
+    "question_html": "<p>Doanh thu bán hàng trong 20 ngày được lựa chọn ngẫu nhiên của một của hàng được<br>ghi lại ở bảng sau (đơn vị: triệu đồng):<br>Doanh thu<br>[5;7)</p>\n<p>[7;9)</p>\n<p>[9;11)</p>\n<p>[11;13)</p>\n<p>[13;15)</p>\n<p>Số ngày<br>2<br>7<br>7<br>3<br>1<br>Tìm mốt của mẫu số liệu?</p>\n<p>A. 7 .<br>B. 8 .<br>C. 9 .<br>D. 10 .</p>",
+    "question_text": "Doanh thu bán hàng trong 20 ngày được lựa chọn ngẫu nhiên của một của hàng được ghi lại ở bảng sau (đơn vị: triệu đồng): Doanh thu [5;7) [7;9) [9;11) [11;13) [13;15) Số ngày 2 7 7 3 1 Tìm mốt của mẫu số liệu? A. 7 . B. 8 . C. 9 . D. 10 .",
+    "raw_block": "Doanh thu bán hàng trong 20 ngày được lựa chọn ngẫu nhiên của một của hàng được\nghi lại ở bảng sau (đơn vị: triệu đồng):\nDoanh thu\n[5;7)\n\n[7;9)\n\n[9;11)\n\n[11;13)\n\n[13;15)\n\nSố ngày\n2\n7\n7\n3\n1\nTìm mốt của mẫu số liệu?\n\nA. 7 .\nB. 8 .\nC. 9 .\nD. 10 ."
+  },
+  {
+    "ordinal": 8,
+    "code": "1230108",
+    "source_file": "Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf",
+    "parser": "native",
+    "question_html": "<p>Doanh thu bán hàng trong 20 ngày được lựa chọn ngẫu nhiên của một của hàng được<br>ghi lại ở bảng sau (đơn vị: triệu đồng):<br>Doanh thu<br>[5;7)</p>\n<p>[7;9)</p>\n<p>[9;11)</p>\n<p>[11;13)</p>\n<p>[13;15)</p>\n<p>Số ngày<br>2<br>7<br>7<br>3<br>1<br>Tứ phân vị thứ ba của mẫu số liệu gần với giá trị nào trong các giá trị dưới đây?</p>\n<p>A. 10 .<br>B. 8 .<br>C. 11 .<br>D. 9 .</p>",
+    "question_text": "Doanh thu bán hàng trong 20 ngày được lựa chọn ngẫu nhiên của một của hàng được ghi lại ở bảng sau (đơn vị: triệu đồng): Doanh thu [5;7) [7;9) [9;11) [11;13) [13;15) Số ngày 2 7 7 3 1 Tứ phân vị thứ ba của mẫu số liệu gần với giá trị nào trong các giá trị dưới đây? A. 10 . B. 8 . C. 11 . D. 9 .",
+    "raw_block": "Doanh thu bán hàng trong 20 ngày được lựa chọn ngẫu nhiên của một của hàng được\nghi lại ở bảng sau (đơn vị: triệu đồng):\nDoanh thu\n[5;7)\n\n[7;9)\n\n[9;11)\n\n[11;13)\n\n[13;15)\n\nSố ngày\n2\n7\n7\n3\n1\nTứ phân vị thứ ba của mẫu số liệu gần với giá trị nào trong các giá trị dưới đây?\n\nA. 10 .\nB. 8 .\nC. 11 .\nD. 9 ."
+  },
+  {
+    "ordinal": 9,
+    "code": "1230109",
+    "source_file": "Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf",
+    "parser": "native",
+    "question_html": "<p>Dưới đây là một mẫu số liệu cho ở dạng bảng tần số ghép nhóm:<br>Nhóm ghép<br>Tần số<br>Nhóm ghép<br>Tần số<br>[62,5;67,5)<br>4<br>[82,5;87,5)<br>22<br>[67,5;72,5)<br>7<br>[87,5;92,5)<br>5<br>[72,5;77,5)<br>10<br>[92,5;97,5)<br>10<br>[77,5;82,5)<br>26<br>[97,5;102,5)<br>16<br>Mệnh đề nào đúng?</p>\n<p>A.<br>e<br>M<br>77,5<br>82,5<br>≤<br>≤</p>\n<p>B.<br>e<br>M<br>82,5<br>87,5<br>≤<br>≤</p>\n<p>C.<br>e<br>M<br>87,5<br>92,5<br>≤<br>≤</p>\n<p>D.<br>e<br>M<br>92,5<br>97,5<br>≤<br>≤</p>",
+    "question_text": "Dưới đây là một mẫu số liệu cho ở dạng bảng tần số ghép nhóm: Nhóm ghép Tần số Nhóm ghép Tần số [62,5;67,5) 4 [82,5;87,5) 22 [67,5;72,5) 7 [87,5;92,5) 5 [72,5;77,5) 10 [92,5;97,5) 10 [77,5;82,5) 26 [97,5;102,5) 16 Mệnh đề nào đúng? A. e M 77,5 82,5 ≤ ≤ B. e M 82,5 87,5 ≤ ≤ C. e M 87,5 92,5 ≤ ≤ D. e M 92,5 97,5 ≤ ≤",
+    "raw_block": "Dưới đây là một mẫu số liệu cho ở dạng bảng tần số ghép nhóm:\nNhóm ghép\nTần số\nNhóm ghép\nTần số\n[62,5;67,5)\n4\n[82,5;87,5)\n22\n[67,5;72,5)\n7\n[87,5;92,5)\n5\n[72,5;77,5)\n10\n[92,5;97,5)\n10\n[77,5;82,5)\n26\n[97,5;102,5)\n16\nMệnh đề nào đúng?\n\nA.\ne\nM\n77,5\n82,5\n≤\n≤\n\nB.\ne\nM\n82,5\n87,5\n≤\n≤\n\nC.\ne\nM\n87,5\n92,5\n≤\n≤\n\nD.\ne\nM\n92,5\n97,5\n≤\n≤"
+  },
+  {
+    "ordinal": 10,
+    "code": "1230110",
+    "source_file": "Bài 1 - Test khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf",
+    "parser": "native",
+    "question_html": "<p>Một câu lạc bộ thể dục thể thao đã ghi lại số giờ các thành viên của mình sử dụng cơ<br>sở vật chất của câu lạc bộ để tập luyện trong một tháng. Họ tổ chức dữ liệu thu được vào bảng:<br>Thời gian<br>(giờ)<br>[1;5)</p>\n<p>[5;9)</p>\n<p>[9;13)</p>\n<p>[13;17)</p>\n<p>[17;21)</p>\n<p>[21;25)</p>\n<p>Tần số (Số<br>người)<br>10<br>14<br>31<br>2<br>5<br>23</p>\n<p>Trung bình các thành viên sử dụng cơ sở vật chất của câu lạc bộ để luyện tập trong bao nhiêu giờ?</p>\n<p>A. 14,21<br>B. 12,21<br>C. 13,21<br>D. 15,21</p>",
+    "question_text": "Một câu lạc bộ thể dục thể thao đã ghi lại số giờ các thành viên của mình sử dụng cơ sở vật chất của câu lạc bộ để tập luyện trong một tháng. Họ tổ chức dữ liệu thu được vào bảng: Thời gian (giờ) [1;5) [5;9) [9;13) [13;17) [17;21) [21;25) Tần số (Số người) 10 14 31 2 5 23 Trung bình các thành viên sử dụng cơ sở vật chất của câu lạc bộ để luyện tập trong bao nhiêu giờ? A. 14,21 B. 12,21 C. 13,21 D. 15,21",
+    "raw_block": "Một câu lạc bộ thể dục thể thao đã ghi lại số giờ các thành viên của mình sử dụng cơ\nsở vật chất của câu lạc bộ để tập luyện trong một tháng. Họ tổ chức dữ liệu thu được vào bảng:\nThời gian\n(giờ)\n[1;5)\n\n[5;9)\n\n[9;13)\n\n[13;17)\n\n[17;21)\n\n[21;25)\n\nTần số (Số\nngười)\n10\n14\n31\n2\n5\n23\n\nTrung bình các thành viên sử dụng cơ sở vật chất của câu lạc bộ để luyện tập trong bao nhiêu giờ?\n\nA. 14,21\nB. 12,21\nC. 13,21\nD. 15,21"
+  }
+]

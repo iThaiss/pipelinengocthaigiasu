@@ -1,0 +1,1265 @@
+{
+  "generated_at": "2026-05-19T16:02:41",
+  "topics": [
+    {
+      "id": 1,
+      "topic_code": "01",
+      "topic_title": "Kiến thức tiền đề",
+      "topic_order": 1
+    },
+    {
+      "id": 2,
+      "topic_code": "02",
+      "topic_title": "Ứng dụng đạo hàm và khảo sát hàm số",
+      "topic_order": 2
+    },
+    {
+      "id": 3,
+      "topic_code": "03",
+      "topic_title": "Ứng dụng đạo hàm thực tế",
+      "topic_order": 3
+    },
+    {
+      "id": 4,
+      "topic_code": "04",
+      "topic_title": "Nguyên hàm và tích phân",
+      "topic_order": 4
+    },
+    {
+      "id": 5,
+      "topic_code": "05",
+      "topic_title": "Vectơ và tọa độ Oxyz nền tảng",
+      "topic_order": 5
+    },
+    {
+      "id": 6,
+      "topic_code": "06",
+      "topic_title": "Phương trình và hình học Oxyz",
+      "topic_order": 6
+    },
+    {
+      "id": 7,
+      "topic_code": "07",
+      "topic_title": "Thống kê & mẫu số liệu ghép nhóm",
+      "topic_order": 7
+    },
+    {
+      "id": 8,
+      "topic_code": "08",
+      "topic_title": "Xác suất có điều kiện",
+      "topic_order": 8
+    },
+    {
+      "id": 9,
+      "topic_code": "09",
+      "topic_title": "Kiến thức lớp 10",
+      "topic_order": 9
+    },
+    {
+      "id": 10,
+      "topic_code": "10",
+      "topic_title": "Kiến thức lớp 11",
+      "topic_order": 10
+    }
+  ],
+  "subtopics": [
+    {
+      "id": 18,
+      "topic_id": 1,
+      "subtopic_code": "01.01",
+      "subtopic_title": "Giới hạn hàm số khi x → a",
+      "display_title": "Giới hạn hàm số khi x → a",
+      "subtopic_order": 1,
+      "source_unit_id": 18,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 19,
+      "topic_id": 1,
+      "subtopic_code": "01.02",
+      "subtopic_title": "Giới hạn của hàm số khi x → ∞",
+      "display_title": "Giới hạn của hàm số khi x → ∞",
+      "subtopic_order": 2,
+      "source_unit_id": 19,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 20,
+      "topic_id": 1,
+      "subtopic_code": "01.03",
+      "subtopic_title": "Hàm số liên tục",
+      "display_title": "Hàm số liên tục",
+      "subtopic_order": 3,
+      "source_unit_id": 20,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 21,
+      "topic_id": 1,
+      "subtopic_code": "01.04",
+      "subtopic_title": "Đạo hàm và các quy tắc tính đạo hàm",
+      "display_title": "Đạo hàm và các quy tắc tính đạo hàm",
+      "subtopic_order": 4,
+      "source_unit_id": 21,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 22,
+      "topic_id": 1,
+      "subtopic_code": "01.05",
+      "subtopic_title": "Phương trình, bất phương trình đạo hàm",
+      "display_title": "Phương trình, bất phương trình đạo hàm",
+      "subtopic_order": 5,
+      "source_unit_id": 22,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 1,
+      "topic_id": 2,
+      "subtopic_code": "02.01",
+      "subtopic_title": "Sự đồng biến, nghịch biến của hàm số",
+      "display_title": "Sự đồng biến, nghịch biến của hàm số",
+      "subtopic_order": 1,
+      "source_unit_id": 1,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 2,
+      "topic_id": 2,
+      "subtopic_code": "02.02",
+      "subtopic_title": "Cực trị của hàm số",
+      "display_title": "Cực trị của hàm số",
+      "subtopic_order": 2,
+      "source_unit_id": 2,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 3,
+      "topic_id": 2,
+      "subtopic_code": "02.03",
+      "subtopic_title": "Giá trị lớn nhất – giá trị nhỏ nhất của hàm số",
+      "display_title": "Giá trị lớn nhất – giá trị nhỏ nhất của hàm số",
+      "subtopic_order": 3,
+      "source_unit_id": 3,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 4,
+      "topic_id": 2,
+      "subtopic_code": "02.04",
+      "subtopic_title": "Đường tiệm cận của đồ thị hàm số",
+      "display_title": "Đường tiệm cận của đồ thị hàm số",
+      "subtopic_order": 4,
+      "source_unit_id": 4,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 5,
+      "topic_id": 2,
+      "subtopic_code": "02.05",
+      "subtopic_title": "Khảo sát sự biến thiên và vẽ đồ thị hàm số",
+      "display_title": "Khảo sát sự biến thiên và vẽ đồ thị hàm số",
+      "subtopic_order": 5,
+      "source_unit_id": 5,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 50,
+      "topic_id": 2,
+      "subtopic_code": "02.06",
+      "subtopic_title": "Đơn điệu, cực trị, GTLN-GTNN của hàm lượng giác, mũ và logarit",
+      "display_title": "Đơn điệu, cực trị, GTLN-GTNN của hàm lượng giác, mũ và logarit",
+      "subtopic_order": 6,
+      "source_unit_id": 50,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 51,
+      "topic_id": 2,
+      "subtopic_code": "02.07",
+      "subtopic_title": "Tiệm cận xiên của đồ thị hàm số",
+      "display_title": "Tiệm cận xiên của đồ thị hàm số",
+      "subtopic_order": 7,
+      "source_unit_id": 51,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 52,
+      "topic_id": 2,
+      "subtopic_code": "02.08",
+      "subtopic_title": "Khảo sát đồ thị hàm phân thức bậc hai",
+      "display_title": "Khảo sát đồ thị hàm phân thức bậc hai",
+      "subtopic_order": 8,
+      "source_unit_id": 52,
+      "phase": "Kết hợp",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 6,
+      "topic_id": 3,
+      "subtopic_code": "03.01",
+      "subtopic_title": "Ứng dụng đạo hàm giải quyết một số vấn đề liên quan đến thực tiễn",
+      "display_title": "Ứng dụng đạo hàm giải quyết một số vấn đề liên quan đến thực tiễn",
+      "subtopic_order": 1,
+      "source_unit_id": 6,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 45,
+      "topic_id": 3,
+      "subtopic_code": "03.02",
+      "subtopic_title": "Toán thực tế về hàm doanh thu, lợi nhuận, tối ưu chi phí",
+      "display_title": "Toán thực tế về hàm doanh thu, lợi nhuận, tối ưu chi phí",
+      "subtopic_order": 2,
+      "source_unit_id": 45,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 46,
+      "topic_id": 3,
+      "subtopic_code": "03.03",
+      "subtopic_title": "Toán thực tế liên quan đến tốc độ thay đổi của một đại lượng",
+      "display_title": "Toán thực tế liên quan đến tốc độ thay đổi của một đại lượng",
+      "subtopic_order": 3,
+      "source_unit_id": 46,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 47,
+      "topic_id": 3,
+      "subtopic_code": "03.04",
+      "subtopic_title": "Toán thực tế ứng dụng của khảo sát đồ thị hàm số",
+      "display_title": "Toán thực tế ứng dụng của khảo sát đồ thị hàm số",
+      "subtopic_order": 4,
+      "source_unit_id": 47,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 48,
+      "topic_id": 3,
+      "subtopic_code": "03.05",
+      "subtopic_title": "Toán thực tế tối ưu diện tích, thể tích vật thể",
+      "display_title": "Toán thực tế tối ưu diện tích, thể tích vật thể",
+      "subtopic_order": 5,
+      "source_unit_id": 48,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 49,
+      "topic_id": 3,
+      "subtopic_code": "03.06",
+      "subtopic_title": "Toán thực tế liên quan đến quãng đường ngắn nhất, thời gian ngắn nhất",
+      "display_title": "Toán thực tế liên quan đến quãng đường ngắn nhất, thời gian ngắn nhất",
+      "subtopic_order": 6,
+      "source_unit_id": 49,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 53,
+      "topic_id": 3,
+      "subtopic_code": "03.07",
+      "subtopic_title": "Toán kinh tế ứng dụng đạo hàm",
+      "display_title": "Toán kinh tế ứng dụng đạo hàm",
+      "subtopic_order": 7,
+      "source_unit_id": 53,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 54,
+      "topic_id": 3,
+      "subtopic_code": "03.08",
+      "subtopic_title": "Toán hình học không gian ứng dụng đạo hàm",
+      "display_title": "Toán hình học không gian ứng dụng đạo hàm",
+      "subtopic_order": 8,
+      "source_unit_id": 54,
+      "phase": "Kết hợp",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 7,
+      "topic_id": 4,
+      "subtopic_code": "04.01",
+      "subtopic_title": "Nguyên hàm và tính chất của nguyên hàm",
+      "display_title": "Nguyên hàm và tính chất của nguyên hàm",
+      "subtopic_order": 1,
+      "source_unit_id": 7,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 8,
+      "topic_id": 4,
+      "subtopic_code": "04.02",
+      "subtopic_title": "Tích phân và tính chất của tích phân",
+      "display_title": "Tích phân và tính chất của tích phân",
+      "subtopic_order": 2,
+      "source_unit_id": 8,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 9,
+      "topic_id": 4,
+      "subtopic_code": "04.03",
+      "subtopic_title": "Ứng dụng của tích phân vào tính diện tích hình phẳng",
+      "display_title": "Ứng dụng của tích phân vào tính diện tích hình phẳng",
+      "subtopic_order": 3,
+      "source_unit_id": 9,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 10,
+      "topic_id": 4,
+      "subtopic_code": "04.04",
+      "subtopic_title": "Ứng dụng của tích phân vào tính thể tích vật thể",
+      "display_title": "Ứng dụng của tích phân vào tính thể tích vật thể",
+      "subtopic_order": 4,
+      "source_unit_id": 10,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 27,
+      "topic_id": 4,
+      "subtopic_code": "04.05",
+      "subtopic_title": "Nguyên hàm – Tích phân hàm phân thức hữu tỉ",
+      "display_title": "Nguyên hàm – Tích phân hàm phân thức hữu tỉ",
+      "subtopic_order": 5,
+      "source_unit_id": 27,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 28,
+      "topic_id": 4,
+      "subtopic_code": "04.06",
+      "subtopic_title": "Tính tích phân nhờ ý nghĩa hình học",
+      "display_title": "Tính tích phân nhờ ý nghĩa hình học",
+      "subtopic_order": 6,
+      "source_unit_id": 28,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 29,
+      "topic_id": 4,
+      "subtopic_code": "04.07",
+      "subtopic_title": "Ứng dụng thực tế của nguyên hàm, tích phân vào bài toán tốc độ thay đổi của một đại lượng",
+      "display_title": "Ứng dụng thực tế của nguyên hàm, tích phân vào bài toán tốc độ thay đổi của một đại lượng",
+      "subtopic_order": 7,
+      "source_unit_id": 29,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 30,
+      "topic_id": 4,
+      "subtopic_code": "04.08",
+      "subtopic_title": "Ứng dụng của nguyên hàm, tích phân vào mô hình bài toán chuyển động",
+      "display_title": "Ứng dụng của nguyên hàm, tích phân vào mô hình bài toán chuyển động",
+      "subtopic_order": 8,
+      "source_unit_id": 30,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 31,
+      "topic_id": 4,
+      "subtopic_code": "04.09",
+      "subtopic_title": "Ứng dụng của tích phân vào tính diện tích hình phẳng trong thực tế",
+      "display_title": "Ứng dụng của tích phân vào tính diện tích hình phẳng trong thực tế",
+      "subtopic_order": 9,
+      "source_unit_id": 31,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 32,
+      "topic_id": 4,
+      "subtopic_code": "04.10",
+      "subtopic_title": "Ứng dụng của tích phân vào tính thể tích vật thể trong thực tế",
+      "display_title": "Ứng dụng của tích phân vào tính thể tích vật thể trong thực tế",
+      "subtopic_order": 10,
+      "source_unit_id": 32,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 33,
+      "topic_id": 4,
+      "subtopic_code": "04.11",
+      "subtopic_title": "Nguyên hàm hàm lượng giác và các hàm đặc biệt",
+      "display_title": "Nguyên hàm hàm lượng giác và các hàm đặc biệt",
+      "subtopic_order": 11,
+      "source_unit_id": 33,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 34,
+      "topic_id": 4,
+      "subtopic_code": "04.12",
+      "subtopic_title": "Nguyên hàm cho bởi nhiều công thức",
+      "display_title": "Nguyên hàm cho bởi nhiều công thức",
+      "subtopic_order": 12,
+      "source_unit_id": 34,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 11,
+      "topic_id": 5,
+      "subtopic_code": "05.01",
+      "subtopic_title": "Vectơ và các phép toán vectơ trong không gian",
+      "display_title": "Vectơ và các phép toán vectơ trong không gian",
+      "subtopic_order": 1,
+      "source_unit_id": 11,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 12,
+      "topic_id": 5,
+      "subtopic_code": "05.02",
+      "subtopic_title": "Hệ trục tọa độ trong không gian",
+      "display_title": "Hệ trục tọa độ trong không gian",
+      "subtopic_order": 2,
+      "source_unit_id": 12,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 13,
+      "topic_id": 5,
+      "subtopic_code": "05.03",
+      "subtopic_title": "Biểu thức tọa độ của các phép toán vectơ",
+      "display_title": "Biểu thức tọa độ của các phép toán vectơ",
+      "subtopic_order": 3,
+      "source_unit_id": 13,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 42,
+      "topic_id": 5,
+      "subtopic_code": "05.04",
+      "subtopic_title": "Ứng dụng thực tế của vectơ trong không gian",
+      "display_title": "Ứng dụng thực tế của vectơ trong không gian",
+      "subtopic_order": 4,
+      "source_unit_id": 42,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 55,
+      "topic_id": 5,
+      "subtopic_code": "05.05",
+      "subtopic_title": "Tích có hướng và ứng dụng",
+      "display_title": "Tích có hướng và ứng dụng",
+      "subtopic_order": 5,
+      "source_unit_id": 55,
+      "phase": "Kết hợp",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 58,
+      "topic_id": 5,
+      "subtopic_code": "05.06",
+      "subtopic_title": "Tâm tỉ cự",
+      "display_title": "Tâm tỉ cự",
+      "subtopic_order": 6,
+      "source_unit_id": 58,
+      "phase": "Kết hợp",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 14,
+      "topic_id": 6,
+      "subtopic_code": "06.01",
+      "subtopic_title": "Phương trình mặt phẳng",
+      "display_title": "Phương trình mặt phẳng",
+      "subtopic_order": 1,
+      "source_unit_id": 14,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 15,
+      "topic_id": 6,
+      "subtopic_code": "06.02",
+      "subtopic_title": "Phương trình đường thẳng",
+      "display_title": "Phương trình đường thẳng",
+      "subtopic_order": 2,
+      "source_unit_id": 15,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 16,
+      "topic_id": 6,
+      "subtopic_code": "06.03",
+      "subtopic_title": "Các công thức tính góc trong không gian",
+      "display_title": "Các công thức tính góc trong không gian",
+      "subtopic_order": 3,
+      "source_unit_id": 16,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 17,
+      "topic_id": 6,
+      "subtopic_code": "06.04",
+      "subtopic_title": "Phương trình mặt cầu",
+      "display_title": "Phương trình mặt cầu",
+      "subtopic_order": 4,
+      "source_unit_id": 17,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 35,
+      "topic_id": 6,
+      "subtopic_code": "06.05",
+      "subtopic_title": "Phương pháp tham số hóa",
+      "display_title": "Phương pháp tham số hóa",
+      "subtopic_order": 5,
+      "source_unit_id": 35,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 36,
+      "topic_id": 6,
+      "subtopic_code": "06.06",
+      "subtopic_title": "Các bài toán liên quan đến tìm hình chiếu vuông góc, đối xứng",
+      "display_title": "Các bài toán liên quan đến tìm hình chiếu vuông góc, đối xứng",
+      "subtopic_order": 6,
+      "source_unit_id": 36,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 37,
+      "topic_id": 6,
+      "subtopic_code": "06.07",
+      "subtopic_title": "Viết phương trình đường thẳng, mặt phẳng liên quan đến góc, khoảng cách",
+      "display_title": "Viết phương trình đường thẳng, mặt phẳng liên quan đến góc, khoảng cách",
+      "subtopic_order": 7,
+      "source_unit_id": 37,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 38,
+      "topic_id": 6,
+      "subtopic_code": "06.08",
+      "subtopic_title": "Phương pháp gắn hệ trục tọa độ Oxyz vào hình học không gian",
+      "display_title": "Phương pháp gắn hệ trục tọa độ Oxyz vào hình học không gian",
+      "subtopic_order": 8,
+      "source_unit_id": 38,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 39,
+      "topic_id": 6,
+      "subtopic_code": "06.09",
+      "subtopic_title": "Ứng dụng thực tế của phương trình mặt phẳng trong không gian",
+      "display_title": "Ứng dụng thực tế của phương trình mặt phẳng trong không gian",
+      "subtopic_order": 9,
+      "source_unit_id": 39,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 40,
+      "topic_id": 6,
+      "subtopic_code": "06.10",
+      "subtopic_title": "Nâng cao về phương trình mặt cầu, vị trí tương đối giữa mặt cầu và mặt phẳng, đường thẳng",
+      "display_title": "Nâng cao về phương trình mặt cầu, vị trí tương đối giữa mặt cầu và mặt phẳng, đường thẳng",
+      "subtopic_order": 10,
+      "source_unit_id": 40,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 41,
+      "topic_id": 6,
+      "subtopic_code": "06.11",
+      "subtopic_title": "Một số mô hình cực trị Oxyz",
+      "display_title": "Một số mô hình cực trị Oxyz",
+      "subtopic_order": 11,
+      "source_unit_id": 41,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 56,
+      "topic_id": 6,
+      "subtopic_code": "06.12",
+      "subtopic_title": "Góc, khoảng cách và vị trí tương đối của đường thẳng",
+      "display_title": "Góc, khoảng cách và vị trí tương đối của đường thẳng",
+      "subtopic_order": 12,
+      "source_unit_id": 56,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 57,
+      "topic_id": 6,
+      "subtopic_code": "06.13",
+      "subtopic_title": "Toán thực tế Oxyz với phương trình đường thẳng",
+      "display_title": "Toán thực tế Oxyz với phương trình đường thẳng",
+      "subtopic_order": 13,
+      "source_unit_id": 57,
+      "phase": "Kết hợp",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 23,
+      "topic_id": 7,
+      "subtopic_code": "07.01",
+      "subtopic_title": "Khoảng biến thiên và khoảng tứ phân vị của mẫu số liệu ghép nhóm",
+      "display_title": "Khoảng biến thiên và khoảng tứ phân vị của mẫu số liệu ghép nhóm",
+      "subtopic_order": 1,
+      "source_unit_id": 23,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 24,
+      "topic_id": 7,
+      "subtopic_code": "07.02",
+      "subtopic_title": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm",
+      "display_title": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm",
+      "subtopic_order": 2,
+      "source_unit_id": 24,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 25,
+      "topic_id": 8,
+      "subtopic_code": "08.01",
+      "subtopic_title": "Xác suất có điều kiện và công thức nhân xác suất",
+      "display_title": "Xác suất có điều kiện và công thức nhân xác suất",
+      "subtopic_order": 1,
+      "source_unit_id": 25,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 26,
+      "topic_id": 8,
+      "subtopic_code": "08.02",
+      "subtopic_title": "Công thức xác suất toàn phần và công thức Bayes",
+      "display_title": "Công thức xác suất toàn phần và công thức Bayes",
+      "subtopic_order": 2,
+      "source_unit_id": 26,
+      "phase": "Nền tảng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 43,
+      "topic_id": 8,
+      "subtopic_code": "08.03",
+      "subtopic_title": "Tính xác suất bằng công thức nhân tổng quát",
+      "display_title": "Tính xác suất bằng công thức nhân tổng quát",
+      "subtopic_order": 3,
+      "source_unit_id": 43,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 44,
+      "topic_id": 8,
+      "subtopic_code": "08.04",
+      "subtopic_title": "Sử dụng sơ đồ cây cho bài toán xác suất nâng cao",
+      "display_title": "Sử dụng sơ đồ cây cho bài toán xác suất nâng cao",
+      "subtopic_order": 4,
+      "source_unit_id": 44,
+      "phase": "Vận dụng",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 59,
+      "topic_id": 8,
+      "subtopic_code": "08.05",
+      "subtopic_title": "Công thức Bayes",
+      "display_title": "Công thức Bayes",
+      "subtopic_order": 5,
+      "source_unit_id": 59,
+      "phase": "Kết hợp",
+      "is_out_of_roadmap": 0
+    },
+    {
+      "id": 9001,
+      "topic_id": 9,
+      "subtopic_code": "09.01",
+      "subtopic_title": "Bất phương trình và quy hoạch tuyến tính",
+      "display_title": "Bất phương trình và quy hoạch tuyến tính",
+      "subtopic_order": 1,
+      "source_unit_id": null,
+      "phase": "Lớp 10",
+      "is_out_of_roadmap": 1
+    },
+    {
+      "id": 9002,
+      "topic_id": 9,
+      "subtopic_code": "09.02",
+      "subtopic_title": "Hình học không gian nền tảng",
+      "display_title": "Hình học không gian nền tảng",
+      "subtopic_order": 2,
+      "source_unit_id": null,
+      "phase": "Lớp 10",
+      "is_out_of_roadmap": 1
+    },
+    {
+      "id": 9003,
+      "topic_id": 9,
+      "subtopic_code": "09.03",
+      "subtopic_title": "Thống kê và xác suất lớp 10",
+      "display_title": "Thống kê và xác suất lớp 10",
+      "subtopic_order": 3,
+      "source_unit_id": null,
+      "phase": "Lớp 10",
+      "is_out_of_roadmap": 1
+    },
+    {
+      "id": 9004,
+      "topic_id": 9,
+      "subtopic_code": "09.99",
+      "subtopic_title": "Kiến thức lớp 10 khác",
+      "display_title": "Kiến thức lớp 10 khác",
+      "subtopic_order": 4,
+      "source_unit_id": null,
+      "phase": "Lớp 10",
+      "is_out_of_roadmap": 1
+    },
+    {
+      "id": 10001,
+      "topic_id": 10,
+      "subtopic_code": "10.01",
+      "subtopic_title": "Dãy số, cấp số cộng và cấp số nhân",
+      "display_title": "Dãy số, cấp số cộng và cấp số nhân",
+      "subtopic_order": 1,
+      "source_unit_id": null,
+      "phase": "Lớp 11",
+      "is_out_of_roadmap": 1
+    },
+    {
+      "id": 10002,
+      "topic_id": 10,
+      "subtopic_code": "10.02",
+      "subtopic_title": "Lượng giác và phương trình lượng giác",
+      "display_title": "Lượng giác và phương trình lượng giác",
+      "subtopic_order": 2,
+      "source_unit_id": null,
+      "phase": "Lớp 11",
+      "is_out_of_roadmap": 1
+    },
+    {
+      "id": 10003,
+      "topic_id": 10,
+      "subtopic_code": "10.03",
+      "subtopic_title": "Hàm số mũ, logarit và phương trình mũ-logarit",
+      "display_title": "Hàm số mũ, logarit và phương trình mũ-logarit",
+      "subtopic_order": 3,
+      "source_unit_id": null,
+      "phase": "Lớp 11",
+      "is_out_of_roadmap": 1
+    },
+    {
+      "id": 10004,
+      "topic_id": 10,
+      "subtopic_code": "10.04",
+      "subtopic_title": "Giới hạn và đạo hàm lớp 11",
+      "display_title": "Giới hạn và đạo hàm lớp 11",
+      "subtopic_order": 4,
+      "source_unit_id": null,
+      "phase": "Lớp 11",
+      "is_out_of_roadmap": 1
+    },
+    {
+      "id": 10005,
+      "topic_id": 10,
+      "subtopic_code": "10.99",
+      "subtopic_title": "Kiến thức lớp 11 khác",
+      "display_title": "Kiến thức lớp 11 khác",
+      "subtopic_order": 5,
+      "source_unit_id": null,
+      "phase": "Lớp 11",
+      "is_out_of_roadmap": 1
+    }
+  ],
+  "question_summary": [
+    {
+      "canonical_topic_code": "01",
+      "canonical_topic_title": "Kiến thức tiền đề",
+      "canonical_subtopic_code": "01.01",
+      "canonical_subtopic_title": "Giới hạn hàm số khi x → a",
+      "question_count": 7,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "01",
+      "canonical_topic_title": "Kiến thức tiền đề",
+      "canonical_subtopic_code": "01.04",
+      "canonical_subtopic_title": "Đạo hàm và các quy tắc tính đạo hàm",
+      "question_count": 1,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "02",
+      "canonical_topic_title": "Ứng dụng đạo hàm và khảo sát hàm số",
+      "canonical_subtopic_code": "02.01",
+      "canonical_subtopic_title": "Sự đồng biến, nghịch biến của hàm số",
+      "question_count": 351,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "02",
+      "canonical_topic_title": "Ứng dụng đạo hàm và khảo sát hàm số",
+      "canonical_subtopic_code": "02.02",
+      "canonical_subtopic_title": "Cực trị của hàm số",
+      "question_count": 503,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "02",
+      "canonical_topic_title": "Ứng dụng đạo hàm và khảo sát hàm số",
+      "canonical_subtopic_code": "02.03",
+      "canonical_subtopic_title": "Giá trị lớn nhất – giá trị nhỏ nhất của hàm số",
+      "question_count": 361,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "02",
+      "canonical_topic_title": "Ứng dụng đạo hàm và khảo sát hàm số",
+      "canonical_subtopic_code": "02.04",
+      "canonical_subtopic_title": "Đường tiệm cận của đồ thị hàm số",
+      "question_count": 265,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "02",
+      "canonical_topic_title": "Ứng dụng đạo hàm và khảo sát hàm số",
+      "canonical_subtopic_code": "02.05",
+      "canonical_subtopic_title": "Khảo sát sự biến thiên và vẽ đồ thị hàm số",
+      "question_count": 447,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "02",
+      "canonical_topic_title": "Ứng dụng đạo hàm và khảo sát hàm số",
+      "canonical_subtopic_code": "02.06",
+      "canonical_subtopic_title": "Đơn điệu, cực trị, GTLN-GTNN của hàm lượng giác, mũ và logarit",
+      "question_count": 31,
+      "needs_review_count": 1
+    },
+    {
+      "canonical_topic_code": "02",
+      "canonical_topic_title": "Ứng dụng đạo hàm và khảo sát hàm số",
+      "canonical_subtopic_code": "02.07",
+      "canonical_subtopic_title": "Tiệm cận xiên của đồ thị hàm số",
+      "question_count": 1,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "02",
+      "canonical_topic_title": "Ứng dụng đạo hàm và khảo sát hàm số",
+      "canonical_subtopic_code": "02.08",
+      "canonical_subtopic_title": "Khảo sát đồ thị hàm phân thức bậc hai",
+      "question_count": 2,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "03",
+      "canonical_topic_title": "Ứng dụng đạo hàm thực tế",
+      "canonical_subtopic_code": "03.01",
+      "canonical_subtopic_title": "Ứng dụng đạo hàm giải quyết một số vấn đề liên quan đến thực tiễn",
+      "question_count": 10,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "03",
+      "canonical_topic_title": "Ứng dụng đạo hàm thực tế",
+      "canonical_subtopic_code": "03.02",
+      "canonical_subtopic_title": "Toán thực tế về hàm doanh thu, lợi nhuận, tối ưu chi phí",
+      "question_count": 9,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "03",
+      "canonical_topic_title": "Ứng dụng đạo hàm thực tế",
+      "canonical_subtopic_code": "03.03",
+      "canonical_subtopic_title": "Toán thực tế liên quan đến tốc độ thay đổi của một đại lượng",
+      "question_count": 26,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "03",
+      "canonical_topic_title": "Ứng dụng đạo hàm thực tế",
+      "canonical_subtopic_code": "03.04",
+      "canonical_subtopic_title": "Toán thực tế ứng dụng của khảo sát đồ thị hàm số",
+      "question_count": 10,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "03",
+      "canonical_topic_title": "Ứng dụng đạo hàm thực tế",
+      "canonical_subtopic_code": "03.05",
+      "canonical_subtopic_title": "Toán thực tế tối ưu diện tích, thể tích vật thể",
+      "question_count": 34,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "03",
+      "canonical_topic_title": "Ứng dụng đạo hàm thực tế",
+      "canonical_subtopic_code": "03.07",
+      "canonical_subtopic_title": "Toán kinh tế ứng dụng đạo hàm",
+      "question_count": 15,
+      "needs_review_count": 15
+    },
+    {
+      "canonical_topic_code": "03",
+      "canonical_topic_title": "Ứng dụng đạo hàm thực tế",
+      "canonical_subtopic_code": "03.08",
+      "canonical_subtopic_title": "Toán hình học không gian ứng dụng đạo hàm",
+      "question_count": 1,
+      "needs_review_count": 1
+    },
+    {
+      "canonical_topic_code": "04",
+      "canonical_topic_title": "Nguyên hàm và tích phân",
+      "canonical_subtopic_code": "04.01",
+      "canonical_subtopic_title": "Nguyên hàm và tính chất của nguyên hàm",
+      "question_count": 541,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "04",
+      "canonical_topic_title": "Nguyên hàm và tích phân",
+      "canonical_subtopic_code": "04.02",
+      "canonical_subtopic_title": "Tích phân và tính chất của tích phân",
+      "question_count": 87,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "04",
+      "canonical_topic_title": "Nguyên hàm và tích phân",
+      "canonical_subtopic_code": "04.03",
+      "canonical_subtopic_title": "Ứng dụng của tích phân vào tính diện tích hình phẳng",
+      "question_count": 51,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "04",
+      "canonical_topic_title": "Nguyên hàm và tích phân",
+      "canonical_subtopic_code": "04.04",
+      "canonical_subtopic_title": "Ứng dụng của tích phân vào tính thể tích vật thể",
+      "question_count": 69,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "04",
+      "canonical_topic_title": "Nguyên hàm và tích phân",
+      "canonical_subtopic_code": "04.06",
+      "canonical_subtopic_title": "Tính tích phân nhờ ý nghĩa hình học",
+      "question_count": 4,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "04",
+      "canonical_topic_title": "Nguyên hàm và tích phân",
+      "canonical_subtopic_code": "04.07",
+      "canonical_subtopic_title": "Ứng dụng thực tế của nguyên hàm, tích phân vào bài toán tốc độ thay đổi của một đại lượng",
+      "question_count": 2,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "04",
+      "canonical_topic_title": "Nguyên hàm và tích phân",
+      "canonical_subtopic_code": "04.08",
+      "canonical_subtopic_title": "Ứng dụng của nguyên hàm, tích phân vào mô hình bài toán chuyển động",
+      "question_count": 21,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "04",
+      "canonical_topic_title": "Nguyên hàm và tích phân",
+      "canonical_subtopic_code": "04.09",
+      "canonical_subtopic_title": "Ứng dụng của tích phân vào tính diện tích hình phẳng trong thực tế",
+      "question_count": 1,
+      "needs_review_count": 1
+    },
+    {
+      "canonical_topic_code": "04",
+      "canonical_topic_title": "Nguyên hàm và tích phân",
+      "canonical_subtopic_code": "04.10",
+      "canonical_subtopic_title": "Ứng dụng của tích phân vào tính thể tích vật thể trong thực tế",
+      "question_count": 1,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "04",
+      "canonical_topic_title": "Nguyên hàm và tích phân",
+      "canonical_subtopic_code": "04.12",
+      "canonical_subtopic_title": "Nguyên hàm cho bởi nhiều công thức",
+      "question_count": 22,
+      "needs_review_count": 22
+    },
+    {
+      "canonical_topic_code": "05",
+      "canonical_topic_title": "Vectơ và tọa độ Oxyz nền tảng",
+      "canonical_subtopic_code": "05.01",
+      "canonical_subtopic_title": "Vectơ và các phép toán vectơ trong không gian",
+      "question_count": 265,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "05",
+      "canonical_topic_title": "Vectơ và tọa độ Oxyz nền tảng",
+      "canonical_subtopic_code": "05.02",
+      "canonical_subtopic_title": "Hệ trục tọa độ trong không gian",
+      "question_count": 63,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "05",
+      "canonical_topic_title": "Vectơ và tọa độ Oxyz nền tảng",
+      "canonical_subtopic_code": "05.03",
+      "canonical_subtopic_title": "Biểu thức tọa độ của các phép toán vectơ",
+      "question_count": 499,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "05",
+      "canonical_topic_title": "Vectơ và tọa độ Oxyz nền tảng",
+      "canonical_subtopic_code": "05.05",
+      "canonical_subtopic_title": "Tích có hướng và ứng dụng",
+      "question_count": 5,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "06",
+      "canonical_topic_title": "Phương trình và hình học Oxyz",
+      "canonical_subtopic_code": "06.01",
+      "canonical_subtopic_title": "Phương trình mặt phẳng",
+      "question_count": 521,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "06",
+      "canonical_topic_title": "Phương trình và hình học Oxyz",
+      "canonical_subtopic_code": "06.02",
+      "canonical_subtopic_title": "Phương trình đường thẳng",
+      "question_count": 259,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "06",
+      "canonical_topic_title": "Phương trình và hình học Oxyz",
+      "canonical_subtopic_code": "06.03",
+      "canonical_subtopic_title": "Các công thức tính góc trong không gian",
+      "question_count": 1,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "06",
+      "canonical_topic_title": "Phương trình và hình học Oxyz",
+      "canonical_subtopic_code": "06.04",
+      "canonical_subtopic_title": "Phương trình mặt cầu",
+      "question_count": 262,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "06",
+      "canonical_topic_title": "Phương trình và hình học Oxyz",
+      "canonical_subtopic_code": "06.05",
+      "canonical_subtopic_title": "Phương pháp tham số hóa",
+      "question_count": 5,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "06",
+      "canonical_topic_title": "Phương trình và hình học Oxyz",
+      "canonical_subtopic_code": "06.06",
+      "canonical_subtopic_title": "Các bài toán liên quan đến tìm hình chiếu vuông góc, đối xứng",
+      "question_count": 48,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "06",
+      "canonical_topic_title": "Phương trình và hình học Oxyz",
+      "canonical_subtopic_code": "06.07",
+      "canonical_subtopic_title": "Viết phương trình đường thẳng, mặt phẳng liên quan đến góc, khoảng cách",
+      "question_count": 20,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "06",
+      "canonical_topic_title": "Phương trình và hình học Oxyz",
+      "canonical_subtopic_code": "06.08",
+      "canonical_subtopic_title": "Phương pháp gắn hệ trục tọa độ Oxyz vào hình học không gian",
+      "question_count": 75,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "06",
+      "canonical_topic_title": "Phương trình và hình học Oxyz",
+      "canonical_subtopic_code": "06.09",
+      "canonical_subtopic_title": "Ứng dụng thực tế của phương trình mặt phẳng trong không gian",
+      "question_count": 3,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "06",
+      "canonical_topic_title": "Phương trình và hình học Oxyz",
+      "canonical_subtopic_code": "06.11",
+      "canonical_subtopic_title": "Một số mô hình cực trị Oxyz",
+      "question_count": 10,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "06",
+      "canonical_topic_title": "Phương trình và hình học Oxyz",
+      "canonical_subtopic_code": "06.12",
+      "canonical_subtopic_title": "Góc, khoảng cách và vị trí tương đối của đường thẳng",
+      "question_count": 11,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "06",
+      "canonical_topic_title": "Phương trình và hình học Oxyz",
+      "canonical_subtopic_code": "06.13",
+      "canonical_subtopic_title": "Toán thực tế Oxyz với phương trình đường thẳng",
+      "question_count": 5,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "07",
+      "canonical_topic_title": "Thống kê & mẫu số liệu ghép nhóm",
+      "canonical_subtopic_code": "07.01",
+      "canonical_subtopic_title": "Khoảng biến thiên và khoảng tứ phân vị của mẫu số liệu ghép nhóm",
+      "question_count": 173,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "07",
+      "canonical_topic_title": "Thống kê & mẫu số liệu ghép nhóm",
+      "canonical_subtopic_code": "07.02",
+      "canonical_subtopic_title": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm",
+      "question_count": 101,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "08",
+      "canonical_topic_title": "Xác suất có điều kiện",
+      "canonical_subtopic_code": "08.01",
+      "canonical_subtopic_title": "Xác suất có điều kiện và công thức nhân xác suất",
+      "question_count": 493,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "08",
+      "canonical_topic_title": "Xác suất có điều kiện",
+      "canonical_subtopic_code": "08.02",
+      "canonical_subtopic_title": "Công thức xác suất toàn phần và công thức Bayes",
+      "question_count": 91,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "08",
+      "canonical_topic_title": "Xác suất có điều kiện",
+      "canonical_subtopic_code": "08.03",
+      "canonical_subtopic_title": "Tính xác suất bằng công thức nhân tổng quát",
+      "question_count": 1,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "08",
+      "canonical_topic_title": "Xác suất có điều kiện",
+      "canonical_subtopic_code": "08.04",
+      "canonical_subtopic_title": "Sử dụng sơ đồ cây cho bài toán xác suất nâng cao",
+      "question_count": 27,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "08",
+      "canonical_topic_title": "Xác suất có điều kiện",
+      "canonical_subtopic_code": "08.05",
+      "canonical_subtopic_title": "Công thức Bayes",
+      "question_count": 117,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "09",
+      "canonical_topic_title": "Kiến thức lớp 10",
+      "canonical_subtopic_code": "09.01",
+      "canonical_subtopic_title": "Bất phương trình và quy hoạch tuyến tính",
+      "question_count": 5,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "09",
+      "canonical_topic_title": "Kiến thức lớp 10",
+      "canonical_subtopic_code": "09.02",
+      "canonical_subtopic_title": "Hình học không gian nền tảng",
+      "question_count": 22,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "09",
+      "canonical_topic_title": "Kiến thức lớp 10",
+      "canonical_subtopic_code": "09.03",
+      "canonical_subtopic_title": "Thống kê và xác suất lớp 10",
+      "question_count": 1,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "10",
+      "canonical_topic_title": "Kiến thức lớp 11",
+      "canonical_subtopic_code": "10.01",
+      "canonical_subtopic_title": "Dãy số, cấp số cộng và cấp số nhân",
+      "question_count": 34,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "10",
+      "canonical_topic_title": "Kiến thức lớp 11",
+      "canonical_subtopic_code": "10.02",
+      "canonical_subtopic_title": "Lượng giác và phương trình lượng giác",
+      "question_count": 9,
+      "needs_review_count": 0
+    },
+    {
+      "canonical_topic_code": "10",
+      "canonical_topic_title": "Kiến thức lớp 11",
+      "canonical_subtopic_code": "10.03",
+      "canonical_subtopic_title": "Hàm số mũ, logarit và phương trình mũ-logarit",
+      "question_count": 76,
+      "needs_review_count": 0
+    }
+  ]
+}

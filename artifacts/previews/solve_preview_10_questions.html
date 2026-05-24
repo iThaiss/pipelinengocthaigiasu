@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Solve Preview</title>
+  <script>
+    window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f7f9;
+      --text: #172033;
+      --muted: #637083;
+      --line: #d9dee7;
+      --card: #ffffff;
+      --ok: #0f7b4f;
+      --warn: #9a6200;
+      --bad: #b3261e;
+      --skip: #667085;
+      --accent: #2457c5;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, Segoe UI, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 28px 20px 56px; }
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: flex-end;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 18px;
+      margin-bottom: 20px;
+    }
+    h1 { margin: 0 0 6px; font-size: 30px; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; }
+    .stats { display: grid; grid-template-columns: repeat(4, minmax(90px, 1fr)); gap: 8px; min-width: 420px; }
+    .stat { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+    .stat strong { display: block; font-size: 22px; }
+    .stat span { color: var(--muted); font-size: 12px; text-transform: uppercase; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-left: 5px solid var(--accent);
+      border-radius: 8px;
+      padding: 18px;
+      margin: 14px 0;
+    }
+    .card.skipped { border-left-color: var(--skip); }
+    .card.failed { border-left-color: var(--bad); }
+    .card.review { border-left-color: var(--warn); }
+    .card header { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+    .eyebrow { color: var(--muted); font-size: 12px; text-transform: uppercase; }
+    h2 { margin: 2px 0 0; font-size: 16px; overflow-wrap: anywhere; }
+    h3 { margin: 18px 0 8px; font-size: 13px; text-transform: uppercase; color: var(--muted); }
+    .question-text, .explanation { font-size: 16px; }
+    .options { margin: 10px 0 0 22px; padding: 0; }
+    .options li { padding: 3px 0 3px 4px; }
+    .answer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .answer { font-size: 22px; font-weight: 700; color: var(--accent); }
+    .muted { color: var(--muted); }
+    .badge { border-radius: 999px; padding: 6px 10px; color: white; font-size: 12px; font-weight: 700; white-space: nowrap; }
+    .badge.solved { background: var(--ok); }
+    .badge.review { background: var(--warn); }
+    .badge.skipped { background: var(--skip); }
+    .badge.failed { background: var(--bad); }
+    details { margin-top: 16px; }
+    summary { cursor: pointer; color: var(--accent); font-weight: 600; }
+    .raw { white-space: pre-wrap; background: #f0f3f8; border: 1px solid var(--line); border-radius: 8px; padding: 12px; overflow: auto; }
+    .error-text { color: var(--bad); }
+    @media (max-width: 760px) {
+      .topbar { display: block; }
+      .stats { min-width: 0; grid-template-columns: repeat(2, 1fr); margin-top: 14px; }
+      .answer-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="topbar">
+      <div>
+        <h1>Solve Preview</h1>
+        <div class="meta">Generated 2026-05-18 01:41:22 · model cc/claude-sonnet-4-6 · endpoint http://localhost:20128</div>
+        <div class="meta">File: solve_preview_10_questions.html</div>
+      </div>
+      <div class="stats">
+        <div class="stat"><strong>2</strong><span>Solved</span></div>
+        <div class="stat"><strong>0</strong><span>Review</span></div>
+        <div class="stat"><strong>8</strong><span>Skipped</span></div>
+        <div class="stat"><strong>0</strong><span>Failed</span></div>
+      </div>
+    </div>
+    
+    <article class="card skipped">
+      <header>
+        <div>
+          <div class="eyebrow">#1 · short_answer</div>
+          <h2>385d0f09-c82b-475c-badb-27db2e38ed87</h2>
+        </div>
+        <span class="badge skipped">Skipped</span>
+      </header>
+
+      <section>
+        <h3>De bai</h3>
+        
+      <div class="question-text">Câu 17:</div>
+      
+    
+      </section>
+
+      <section class="answer-grid">
+        <div>
+          <h3>Dap an</h3>
+          <div class="answer"></div>
+        </div>
+        <div>
+          <h3>Nguon</h3>
+          <div class="muted"></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Loi giai</h3>
+        <div class="explanation"><span class="muted">Khong co loi giai.</span></div>
+      </section>
+
+      <section><h3>Loi</h3><pre class="raw error-text">Thieu noi dung de bai/options trong question_text va raw_text.</pre></section>
+
+      <details>
+        <summary>Prompt gui model</summary>
+        <pre class="raw"></pre>
+      </details>
+    </article>
+    
+
+    <article class="card skipped">
+      <header>
+        <div>
+          <div class="eyebrow">#2 · short_answer</div>
+          <h2>408a18b4-7b67-45af-a9af-92301c0fcce9</h2>
+        </div>
+        <span class="badge skipped">Skipped</span>
+      </header>
+
+      <section>
+        <h3>De bai</h3>
+        
+      <div class="question-text">Câu 19:</div>
+      
+    
+      </section>
+
+      <section class="answer-grid">
+        <div>
+          <h3>Dap an</h3>
+          <div class="answer"></div>
+        </div>
+        <div>
+          <h3>Nguon</h3>
+          <div class="muted"></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Loi giai</h3>
+        <div class="explanation"><span class="muted">Khong co loi giai.</span></div>
+      </section>
+
+      <section><h3>Loi</h3><pre class="raw error-text">Thieu noi dung de bai/options trong question_text va raw_text.</pre></section>
+
+      <details>
+        <summary>Prompt gui model</summary>
+        <pre class="raw"></pre>
+      </details>
+    </article>
+    
+
+    <article class="card skipped">
+      <header>
+        <div>
+          <div class="eyebrow">#3 · multiple_choice</div>
+          <h2>d6226b1e-0e5e-4674-9ffe-b0f6bceeb3f2</h2>
+        </div>
+        <span class="badge skipped">Skipped</span>
+      </header>
+
+      <section>
+        <h3>De bai</h3>
+        
+      <div class="question-text">Câu 5</div>
+      
+        <ol class="options" type="A">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ol>
+        
+    
+      </section>
+
+      <section class="answer-grid">
+        <div>
+          <h3>Dap an</h3>
+          <div class="answer"></div>
+        </div>
+        <div>
+          <h3>Nguon</h3>
+          <div class="muted"></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Loi giai</h3>
+        <div class="explanation"><span class="muted">Khong co loi giai.</span></div>
+      </section>
+
+      <section><h3>Loi</h3><pre class="raw error-text">Thieu noi dung de bai/options trong question_text va raw_text.</pre></section>
+
+      <details>
+        <summary>Prompt gui model</summary>
+        <pre class="raw"></pre>
+      </details>
+    </article>
+    
+
+    <article class="card skipped">
+      <header>
+        <div>
+          <div class="eyebrow">#4 · multiple_choice</div>
+          <h2>98f05e62-7ad7-4d23-ade6-d93a18808e87</h2>
+        </div>
+        <span class="badge skipped">Skipped</span>
+      </header>
+
+      <section>
+        <h3>De bai</h3>
+        
+      <div class="question-text">Câu 6</div>
+      
+        <ol class="options" type="A">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ol>
+        
+    
+      </section>
+
+      <section class="answer-grid">
+        <div>
+          <h3>Dap an</h3>
+          <div class="answer"></div>
+        </div>
+        <div>
+          <h3>Nguon</h3>
+          <div class="muted"></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Loi giai</h3>
+        <div class="explanation"><span class="muted">Khong co loi giai.</span></div>
+      </section>
+
+      <section><h3>Loi</h3><pre class="raw error-text">Thieu noi dung de bai/options trong question_text va raw_text.</pre></section>
+
+      <details>
+        <summary>Prompt gui model</summary>
+        <pre class="raw"></pre>
+      </details>
+    </article>
+    
+
+    <article class="card skipped">
+      <header>
+        <div>
+          <div class="eyebrow">#5 · short_answer</div>
+          <h2>493acd5e-3baa-4e30-b5f1-fe22ab3366bf</h2>
+        </div>
+        <span class="badge skipped">Skipped</span>
+      </header>
+
+      <section>
+        <h3>De bai</h3>
+        
+      <div class="question-text">Câu 18:</div>
+      
+    
+      </section>
+
+      <section class="answer-grid">
+        <div>
+          <h3>Dap an</h3>
+          <div class="answer"></div>
+        </div>
+        <div>
+          <h3>Nguon</h3>
+          <div class="muted"></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Loi giai</h3>
+        <div class="explanation"><span class="muted">Khong co loi giai.</span></div>
+      </section>
+
+      <section><h3>Loi</h3><pre class="raw error-text">Thieu noi dung de bai/options trong question_text va raw_text.</pre></section>
+
+      <details>
+        <summary>Prompt gui model</summary>
+        <pre class="raw"></pre>
+      </details>
+    </article>
+    
+
+    <article class="card skipped">
+      <header>
+        <div>
+          <div class="eyebrow">#6 · multiple_choice</div>
+          <h2>437ad8b2-0cbd-4aa2-90a6-a8674b41fcea</h2>
+        </div>
+        <span class="badge skipped">Skipped</span>
+      </header>
+
+      <section>
+        <h3>De bai</h3>
+        
+      <div class="question-text">Câu 6</div>
+      
+        <ol class="options" type="A">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ol>
+        
+    
+      </section>
+
+      <section class="answer-grid">
+        <div>
+          <h3>Dap an</h3>
+          <div class="answer"></div>
+        </div>
+        <div>
+          <h3>Nguon</h3>
+          <div class="muted"></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Loi giai</h3>
+        <div class="explanation"><span class="muted">Khong co loi giai.</span></div>
+      </section>
+
+      <section><h3>Loi</h3><pre class="raw error-text">Thieu noi dung de bai/options trong question_text va raw_text.</pre></section>
+
+      <details>
+        <summary>Prompt gui model</summary>
+        <pre class="raw"></pre>
+      </details>
+    </article>
+    
+
+    <article class="card solved">
+      <header>
+        <div>
+          <div class="eyebrow">#7 · multiple_choice</div>
+          <h2>f57d22f0-4078-48e7-9449-7e7befdb4535</h2>
+        </div>
+        <span class="badge solved">Solved</span>
+      </header>
+
+      <section>
+        <h3>De bai</h3>
+        
+      <div class="question-text">Trong không gian $Oxyz$, hình chiếu vuông góc của điểm $A(1;2;5)$ lên trục $Ox$ có tọa độ là</div>
+      
+        <ol class="options" type="A">
+          <li>$(0;2;0)$</li>
+          <li>$(0;0;5)$</li>
+          <li>$(1;0;0)$</li>
+          <li>$(0;2;5)$</li>
+        </ol>
+        
+    
+      </section>
+
+      <section class="answer-grid">
+        <div>
+          <h3>Dap an</h3>
+          <div class="answer">C</div>
+        </div>
+        <div>
+          <h3>Nguon</h3>
+          <div class="muted">claude_ai</div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Loi giai</h3>
+        <div class="explanation">Hình chiếu vuông góc của điểm $A(1;2;5)$ lên trục $Ox$ là điểm trên $Ox$ có cùng hoành độ với $A$, tức là điểm $(1;0;0)$.</div>
+      </section>
+
+      
+
+      <details>
+        <summary>Prompt gui model</summary>
+        <pre class="raw">DE:
+Trong không gian $Oxyz$, hình chiếu vuông góc của điểm $A(1;2;5)$ lên trục $Ox$ có tọa độ là
+
+LỰA CHỌN:
+A. $(0;2;0)$
+B. $(0;0;5)$
+C. $(1;0;0)$
+D. $(0;2;5)$
+
+LUA CHON:
+A. $(0;2;0)$
+B. $(0;0;5)$
+C. $(1;0;0)$
+D. $(0;2;5)$</pre>
+      </details>
+    </article>
+    
+
+    <article class="card solved">
+      <header>
+        <div>
+          <div class="eyebrow">#8 · multiple_choice</div>
+          <h2>da9a953c-61f0-4a41-ad5c-58bfa7a82de5</h2>
+        </div>
+        <span class="badge solved">Solved</span>
+      </header>
+
+      <section>
+        <h3>De bai</h3>
+        
+      <div class="question-text">[IT1220208] Cho tứ diện $ABCD$ và điểm $G$ thỏa mãn $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}+\overrightarrow{GD}=\vec{0}$ ($G$ là trọng tâm của tứ diện). Gọi $G_0$ là giao điểm của $GA$ và mp $(BCD)$. Trong các khẳng định sau, khẳng định nào đúng?</div>
+      
+        <ol class="options" type="A">
+          <li>$\overrightarrow{GA}=-2\overrightarrow{G_0G}$.</li>
+          <li>$\overrightarrow{GA}=4\overrightarrow{G_0G}$.</li>
+          <li>$\overrightarrow{GA}=3\overrightarrow{G_0G}$.</li>
+          <li>$\overrightarrow{GA}=2\overrightarrow{G_0G}$.</li>
+        </ol>
+        
+    
+      </section>
+
+      <section class="answer-grid">
+        <div>
+          <h3>Dap an</h3>
+          <div class="answer">C</div>
+        </div>
+        <div>
+          <h3>Nguon</h3>
+          <div class="muted">claude_ai</div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Loi giai</h3>
+        <div class="explanation">Gọi $G_1$ là trọng tâm tam giác $BCD$. Từ $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}+\overrightarrow{GD}=\vec{0}$ suy ra $\overrightarrow{GA}=-(\overrightarrow{GB}+\overrightarrow{GC}+\overrightarrow{GD})=-3\overrightarrow{GG_1}$. Vì $G_1$ là trọng tâm $\triangle BCD$ nên $G_1\in(BCD)$, và $A,G,G_1$ thẳng hàng, do đó $G_0=G_1$. Suy ra $\overrightarrow{GA}=-3\overrightarrow{GG_0}=3\overrightarrow{G_0G}$.</div>
+      </section>
+
+      
+
+      <details>
+        <summary>Prompt gui model</summary>
+        <pre class="raw">DE:
+[IT1220208] Cho tứ diện $ABCD$ và điểm $G$ thỏa mãn $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}+\overrightarrow{GD}=\vec{0}$ ($G$ là trọng tâm của tứ diện). Gọi $G_0$ là giao điểm của $GA$ và mp $(BCD)$. Trong các khẳng định sau, khẳng định nào đúng?
+
+LUA CHON:
+A. $\overrightarrow{GA}=-2\overrightarrow{G_0G}$.
+B. $\overrightarrow{GA}=4\overrightarrow{G_0G}$.
+C. $\overrightarrow{GA}=3\overrightarrow{G_0G}$.
+D. $\overrightarrow{GA}=2\overrightarrow{G_0G}$.</pre>
+      </details>
+    </article>
+    
+
+    <article class="card skipped">
+      <header>
+        <div>
+          <div class="eyebrow">#9 · short_answer</div>
+          <h2>30581ece-dc19-43a2-9c57-eab6a4c867f6</h2>
+        </div>
+        <span class="badge skipped">Skipped</span>
+      </header>
+
+      <section>
+        <h3>De bai</h3>
+        
+      <div class="question-text">Câu 20:</div>
+      
+    
+      </section>
+
+      <section class="answer-grid">
+        <div>
+          <h3>Dap an</h3>
+          <div class="answer"></div>
+        </div>
+        <div>
+          <h3>Nguon</h3>
+          <div class="muted"></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Loi giai</h3>
+        <div class="explanation"><span class="muted">Khong co loi giai.</span></div>
+      </section>
+
+      <section><h3>Loi</h3><pre class="raw error-text">Thieu noi dung de bai/options trong question_text va raw_text.</pre></section>
+
+      <details>
+        <summary>Prompt gui model</summary>
+        <pre class="raw"></pre>
+      </details>
+    </article>
+    
+
+    <article class="card skipped">
+      <header>
+        <div>
+          <div class="eyebrow">#10 · short_answer</div>
+          <h2>85c33eb2-91de-4daa-b049-1c568f4f520a</h2>
+        </div>
+        <span class="badge skipped">Skipped</span>
+      </header>
+
+      <section>
+        <h3>De bai</h3>
+        
+      <div class="question-text">Câu 22:</div>
+      
+    
+      </section>
+
+      <section class="answer-grid">
+        <div>
+          <h3>Dap an</h3>
+          <div class="answer"></div>
+        </div>
+        <div>
+          <h3>Nguon</h3>
+          <div class="muted"></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Loi giai</h3>
+        <div class="explanation"><span class="muted">Khong co loi giai.</span></div>
+      </section>
+
+      <section><h3>Loi</h3><pre class="raw error-text">Thieu noi dung de bai/options trong question_text va raw_text.</pre></section>
+
+      <details>
+        <summary>Prompt gui model</summary>
+        <pre class="raw"></pre>
+      </details>
+    </article>
+    
+  </main>
+</body>
+</html>

@@ -1,0 +1,332 @@
+{
+  "material_id": "week_01_session_01",
+  "generated_at": "2026-05-24T20:57:04",
+  "week": 1,
+  "session_no": 1,
+  "context": {
+    "week": 1,
+    "phase": "Chẩn đoán và bù nền đạo hàm - vectơ",
+    "session_no": 1,
+    "track": "Đại - Giải tích - Xác suất",
+    "lesson_focus": "Đạo hàm và các quy tắc tính đạo hàm cần dùng cho khảo sát hàm số.",
+    "canonical_unit_ids": [
+      21
+    ],
+    "canonical_units": [
+      {
+        "id": 21,
+        "title": "Đạo hàm và các quy tắc tính đạo hàm",
+        "learning_goals": [],
+        "prerequisites": [],
+        "application_types": [],
+        "gaps_to_fill": [
+          "Nội dung tài liệu không hiển thị - chỉ có watermark từ fanpage",
+          "Không thể trích xuất thông tin chi tiết về cấu trúc dạy học",
+          "Không thể xác định các phương pháp dạy học cụ thể",
+          "Không thể xác định các dạng câu hỏi và ví dụ"
+        ]
+      }
+    ],
+    "pre_class_video": {
+      "video_id": "MATH-FOUNDATION-S1-U21",
+      "title": "Đạo hàm và các quy tắc tính đạo hàm cần dùng cho khảo sát hàm số.",
+      "access_policy": "partial_free",
+      "free_segment_minutes": "5-7",
+      "target_total_minutes": "12-18",
+      "free_segment": [
+        "hook học để làm dạng gì",
+        "lý thuyết cốt lõi",
+        "dấu hiệu nhận diện dạng"
+      ],
+      "locked_segment": [
+        "ví dụ mẫu có lời giải",
+        "lỗi sai thường gặp",
+        "hướng dẫn bài tập trước buổi"
+      ],
+      "learning_principles": [
+        "worked_examples",
+        "cognitive_load_control"
+      ]
+    },
+    "pre_class_exercise": {
+      "question_count": 5,
+      "max_difficulty": "Thông hiểu",
+      "purpose": "kiểm tra đã xem video và kích hoạt nhớ lại trước buổi học",
+      "access_policy": "locked_full_quiz_and_solution",
+      "free_preview": "xem được yêu cầu bài tập, khóa phần làm đầy đủ và lời giải",
+      "feedback_timing": "trước live class để giáo viên biết lỗi nền"
+    },
+    "live_class_plan": {
+      "duration_minutes": 90,
+      "segments": [
+        {
+          "minutes": 10,
+          "activity": "kiểm tra nhanh từ video trước buổi"
+        },
+        {
+          "minutes": 15,
+          "activity": "dạy lại ngắn phần lý thuyết hay sai"
+        },
+        {
+          "minutes": 30,
+          "activity": "dạy 1 dạng chính bằng worked example"
+        },
+        {
+          "minutes": 25,
+          "activity": "luyện có kiểm soát, tăng tới mức vận dụng"
+        },
+        {
+          "minutes": 10,
+          "activity": "mini check và chốt lỗi"
+        }
+      ],
+      "max_difficulty": "Vận dụng",
+      "cognitive_load_rule": "1 dạng chính + tối đa 1 dạng phụ"
+    },
+    "post_class_homework": {
+      "question_count": "12-18",
+      "max_difficulty": "Vận dụng",
+      "advanced": 0,
+      "mix": [
+        "nhận biết",
+        "thông hiểu",
+        "vận dụng"
+      ],
+      "purpose": "củng cố sau buổi học và tạo dữ liệu lỗi cho buổi sau"
+    },
+    "retrieval_review": [
+      {
+        "lag": "1_week",
+        "task": "3 câu gọi lại kiến thức Đại/Giải tích/Xác suất gần nhất"
+      }
+    ],
+    "sample_questions": []
+  },
+  "theory_pack": {
+    "title_note": "Chương 0 - Theme 4: Đạo hàm và các quy tắc tính đạo hàm (dùng cho khảo sát hàm số)",
+    "learning_outcomes": [
+      "Nhớ và áp dụng đúng bảng công thức đạo hàm các hàm cơ bản: hằng số, lũy thừa, căn thức, hàm lượng giác",
+      "Tính đạo hàm bằng 4 quy tắc: tổng, hiệu, tích, thương",
+      "Nhận diện và tính đạo hàm hàm hợp $y = f(g(x))$ theo công thức $y'_x = g'(x) \\cdot f'(g(x))$",
+      "Tránh các lỗi sai phổ biến khi tính đạo hàm tích và thương"
+    ],
+    "formula_table": [
+      {
+        "y": "$c$ (hằng số)",
+        "dy": "$(c)' = 0$",
+        "note": "Đạo hàm hằng số luôn bằng 0"
+      },
+      {
+        "y": "$x$",
+        "dy": "$(x)' = 1$",
+        "note": ""
+      },
+      {
+        "y": "$x^n$ ($n \\in \\mathbb{N}, n > 1$)",
+        "dy": "$(x^n)' = n \\cdot x^{n-1}$",
+        "note": "Giảm số mũ đi 1, nhân hệ số bằng số mũ cũ"
+      },
+      {
+        "y": "$\\sqrt{x}$",
+        "dy": "$(\\sqrt{x})' = \\dfrac{1}{2\\sqrt{x}}$",
+        "note": "Điều kiện $x > 0$"
+      },
+      {
+        "y": "$\\dfrac{1}{x}$",
+        "dy": "$\\left(\\dfrac{1}{x}\\right)' = -\\dfrac{1}{x^2}$",
+        "note": "Điều kiện $x \\neq 0$"
+      },
+      {
+        "y": "$\\sin x$",
+        "dy": "$(\\sin x)' = \\cos x$",
+        "note": ""
+      },
+      {
+        "y": "$\\cos x$",
+        "dy": "$(\\cos x)' = -\\sin x$",
+        "note": "Chú ý dấu âm"
+      },
+      {
+        "y": "$\\tan x$",
+        "dy": "$(\\tan x)' = \\dfrac{1}{\\cos^2 x} = \\tan^2 x + 1$",
+        "note": "Điều kiện $x \\neq \\dfrac{\\pi}{2} + k\\pi$"
+      },
+      {
+        "y": "$\\cot x$",
+        "dy": "$(\\cot x)' = -\\dfrac{1}{\\sin^2 x} = -(1 + \\cot^2 x)$",
+        "note": "Điều kiện $x \\neq k\\pi$"
+      }
+    ],
+    "rule_boxes": [
+      {
+        "number": 1,
+        "title": "Quy tắc tổng và hiệu",
+        "statement": "$(u + v)' = u' + v'$ và $(u - v)' = u' - v'$",
+        "note": "Đạo hàm từng số hạng rồi cộng hoặc trừ lại. Áp dụng được cho nhiều số hạng.",
+        "example": "$(x^3 + 3x^2 + 2)' = 3x^2 + 6x + 0 = 3x^2 + 6x$"
+      },
+      {
+        "number": 2,
+        "title": "Quy tắc nhân với hằng số",
+        "statement": "$(k \\cdot u)' = k \\cdot u'$ với $k$ là hằng số",
+        "note": "Hằng số $k$ giữ nguyên, chỉ lấy đạo hàm của $u$.",
+        "example": "$(3x^4)' = 3 \\cdot 4x^3 = 12x^3$"
+      },
+      {
+        "number": 3,
+        "title": "Quy tắc tích",
+        "statement": "$(u \\cdot v)' = u'v + uv'$",
+        "note": "Đạo hàm hàm đầu nhân hàm sau, cộng hàm đầu nhân đạo hàm hàm sau. Mở rộng 3 nhân tử: $(uvz)' = u'vz + uv'z + uvz'$.",
+        "example": "$(x^3 \\cdot \\sqrt{x})' = 3x^2 \\cdot \\sqrt{x} + x^3 \\cdot \\dfrac{1}{2\\sqrt{x}}$"
+      },
+      {
+        "number": 4,
+        "title": "Quy tắc thương",
+        "statement": "$\\left(\\dfrac{u}{v}\\right)' = \\dfrac{u'v - uv'}{v^2}$ với $v \\neq 0$",
+        "note": "Tử: đạo hàm tử nhân mẫu trừ tử nhân đạo hàm mẫu. Mẫu: bình phương mẫu. Trường hợp đặc biệt: $\\left(\\dfrac{ax+b}{cx+d}\\right)' = \\dfrac{ad - bc}{(cx+d)^2}$.",
+        "example": "$\\left(\\dfrac{x+2}{2x-1}\\right)' = \\dfrac{1 \\cdot (2x-1) - (x+2) \\cdot 2}{(2x-1)^2} = \\dfrac{-5}{(2x-1)^2}$"
+      },
+      {
+        "number": 5,
+        "title": "Quy tắc đạo hàm hàm hợp",
+        "statement": "$\\{f(g(x))\\}' = g'(x) \\cdot f'(g(x))$",
+        "note": "Lấy đạo hàm hàm ngoài (giữ nguyên hàm trong), nhân với đạo hàm hàm trong. Gọi $u = g(x)$ thì $y'_x = y'_u \\cdot u'_x$.",
+        "example": "$(\\sqrt{x^2+1})' = \\dfrac{(x^2+1)'}{2\\sqrt{x^2+1}} = \\dfrac{2x}{2\\sqrt{x^2+1}} = \\dfrac{x}{\\sqrt{x^2+1}}$"
+      }
+    ],
+    "worked_examples": [
+      {
+        "number": 1,
+        "problem": "Tìm đạo hàm của hàm số $y = x^2 - x^4 + \\sqrt{x}$.",
+        "solution_steps": [
+          "Bước 1: Nhận dạng - đây là tổng/hiệu các hàm cơ bản, dùng quy tắc tổng hiệu.",
+          "Bước 2: Lấy đạo hàm từng số hạng: $(x^2)' = 2x$; $(x^4)' = 4x^3$; $(\\sqrt{x})' = \\dfrac{1}{2\\sqrt{x}}$.",
+          "Bước 3: Ghép lại: $y' = 2x - 4x^3 + \\dfrac{1}{2\\sqrt{x}}$."
+        ],
+        "answer": "$y' = 2x - 4x^3 + \\dfrac{1}{2\\sqrt{x}}$"
+      },
+      {
+        "number": 2,
+        "problem": "Tìm đạo hàm của hàm số $y = x^3(\\sqrt{x} - x^5)$.",
+        "solution_steps": [
+          "Bước 1: Nhận dạng - đây là tích hai hàm $u = x^3$ và $v = \\sqrt{x} - x^5$, dùng quy tắc tích $(uv)' = u'v + uv'$.",
+          "Bước 2: Tính $u' = (x^3)' = 3x^2$ và $v' = (\\sqrt{x} - x^5)' = \\dfrac{1}{2\\sqrt{x}} - 5x^4$.",
+          "Bước 3: Áp dụng công thức: $y' = 3x^2(\\sqrt{x} - x^5) + x^3\\left(\\dfrac{1}{2\\sqrt{x}} - 5x^4\\right)$.",
+          "Bước 4: Khai triển: $y' = 3x^2\\sqrt{x} - 3x^7 + \\dfrac{x^3}{2\\sqrt{x}} - 5x^7$.",
+          "Bước 5: Thu gọn: $y' = 3x^2\\sqrt{x} + \\dfrac{x^3}{2\\sqrt{x}} - 8x^7$."
+        ],
+        "answer": "$y' = 3x^2\\sqrt{x} + \\dfrac{x^3}{2\\sqrt{x}} - 8x^7$"
+      },
+      {
+        "number": 3,
+        "problem": "Tính đạo hàm của hàm số $y = \\dfrac{\\sqrt{x}}{x+1}$.",
+        "solution_steps": [
+          "Bước 1: Nhận dạng - đây là thương $u = \\sqrt{x}$, $v = x+1$, dùng quy tắc thương.",
+          "Bước 2: Tính $u' = \\dfrac{1}{2\\sqrt{x}}$ và $v' = 1$.",
+          "Bước 3: Áp dụng công thức: $y' = \\dfrac{\\dfrac{1}{2\\sqrt{x}} \\cdot (x+1) - \\sqrt{x} \\cdot 1}{(x+1)^2}$.",
+          "Bước 4: Quy đồng tử số: $y' = \\dfrac{\\dfrac{x+1}{2\\sqrt{x}} - \\sqrt{x}}{(x+1)^2} = \\dfrac{x+1 - 2x}{2\\sqrt{x}(x+1)^2}$.",
+          "Bước 5: Thu gọn tử: $y' = \\dfrac{1-x}{2\\sqrt{x}(x+1)^2}$."
+        ],
+        "answer": "$y' = \\dfrac{1-x}{2\\sqrt{x}(x+1)^2}$"
+      },
+      {
+        "number": 4,
+        "problem": "Tính đạo hàm của $f(x) = (x-1)(2x+1)(x^2+1)$.",
+        "solution_steps": [
+          "Bước 1: Nhận dạng - tích ba nhân tử, dùng công thức mở rộng $(uvz)' = u'vz + uv'z + uvz'$.",
+          "Bước 2: Đặt $u = x-1$, $v = 2x+1$, $z = x^2+1$. Tính: $u'=1$, $v'=2$, $z'=2x$.",
+          "Bước 3: Áp dụng: $f'(x) = 1 \\cdot (2x+1)(x^2+1) + (x-1) \\cdot 2 \\cdot (x^2+1) + (x-1)(2x+1) \\cdot 2x$.",
+          "Bước 4: Khai triển và thu gọn từng nhóm rồi cộng lại.",
+          "Bước 5: Kết quả: $f'(x) = 8x^3 - 3x^2 + 2x - 1$."
+        ],
+        "answer": "$f'(x) = 8x^3 - 3x^2 + 2x - 1$"
+      },
+      {
+        "number": 5,
+        "problem": "Tính đạo hàm của hàm số $y = \\sqrt{x^2+1}$ (ví dụ hàm hợp).",
+        "solution_steps": [
+          "Bước 1: Nhận dạng hàm hợp - hàm ngoài $f(u) = \\sqrt{u}$, hàm trong $u = g(x) = x^2+1$.",
+          "Bước 2: Tính đạo hàm hàm trong: $u' = g'(x) = 2x$.",
+          "Bước 3: Tính đạo hàm hàm ngoài theo $u$: $f'(u) = \\dfrac{1}{2\\sqrt{u}}$.",
+          "Bước 4: Áp dụng công thức hàm hợp: $y' = g'(x) \\cdot f'(g(x)) = 2x \\cdot \\dfrac{1}{2\\sqrt{x^2+1}}$.",
+          "Bước 5: Rút gọn: $y' = \\dfrac{x}{\\sqrt{x^2+1}}$."
+        ],
+        "answer": "$y' = \\dfrac{x}{\\sqrt{x^2+1}}$"
+      }
+    ],
+    "remarks": [
+      {
+        "label": "Nhận xét 1 - Hằng số nhân hàm",
+        "content": "Nếu $k$ là hằng số thì $(ku)' = k \\cdot u'$. Hằng số không bị mất, chỉ lấy đạo hàm phần hàm số."
+      },
+      {
+        "label": "Nhận xét 2 - Công thức nhanh hàm phân thức bậc nhất",
+        "content": "Với $y = \\dfrac{ax+b}{cx+d}$ ($ad - bc \\neq 0$, $c \\neq 0$), ta có $y' = \\dfrac{ad-bc}{(cx+d)^2}$. Chỉ cần xác định $a, b, c, d$ rồi thay vào, không cần khai triển dài."
+      },
+      {
+        "label": "Nhận xét 3 - Đạo hàm tan và cot",
+        "content": "$(\\tan x)' = \\dfrac{1}{\\cos^2 x} = \\tan^2 x + 1$ và $(\\cot x)' = -\\dfrac{1}{\\sin^2 x} = -(1 + \\cot^2 x)$. Hai dạng viết tương đương nhau, dùng tùy bài."
+      },
+      {
+        "label": "Nhận xét 4 - Hàm hợp",
+        "content": "Khi gặp biểu thức dạng $f(g(x))$ (hàm của hàm), luôn xác định rõ hàm ngoài và hàm trong trước khi tính đạo hàm."
+      }
+    ],
+    "common_mistakes": [
+      {
+        "mistake": "Tính đạo hàm hằng số ra kết quả khác 0, ví dụ $(2)' = 2$ hoặc $(2)' = 1$.",
+        "correction": "Đạo hàm của bất kỳ hằng số nào cũng bằng $0$: $(c)' = 0$."
+      },
+      {
+        "mistake": "Áp dụng sai quy tắc tích: viết $(uv)' = u' \\cdot v'$ (nhân đạo hàm hai vế).",
+        "correction": "Công thức đúng là $(uv)' = u'v + uv'$, không phải nhân đạo hàm hai hàm với nhau."
+      },
+      {
+        "mistake": "Viết sai thứ tự tử trong quy tắc thương: $\\left(\\dfrac{u}{v}\\right)' = \\dfrac{uv' - u'v}{v^2}$.",
+        "correction": "Thứ tự đúng là $\\left(\\dfrac{u}{v}\\right)' = \\dfrac{u'v - uv'}{v^2}$. Tử đầu là đạo hàm tử nhân mẫu."
+      },
+      {
+        "mistake": "Quên nhân đạo hàm hàm trong khi tính đạo hàm hàm hợp, ví dụ $(\\sqrt{x^2+1})' = \\dfrac{1}{2\\sqrt{x^2+1}}$.",
+        "correction": "Phải nhân thêm đạo hàm hàm trong: $(\\sqrt{x^2+1})' = \\dfrac{(x^2+1)'}{2\\sqrt{x^2+1}} = \\dfrac{2x}{2\\sqrt{x^2+1}} = \\dfrac{x}{\\sqrt{x^2+1}}$."
+      },
+      {
+        "mistake": "Nhầm dấu đạo hàm $\\cos x$: viết $(\\cos x)' = \\sin x$ (thiếu dấu âm).",
+        "correction": "$(\\cos x)' = -\\sin x$. Chỉ có $(\\sin x)' = \\cos x$ là dương."
+      }
+    ],
+    "solving_process": [
+      "Bước 1: Đọc kỹ hàm số, xác định dạng (tổng/hiệu, tích, thương, hàm hợp, hay kết hợp).",
+      "Bước 2: Chọn quy tắc phù hợp (1 trong 4 quy tắc hoặc hàm hợp); nếu phức tạp thì tách nhỏ.",
+      "Bước 3: Tính đạo hàm từng thành phần $u'$, $v'$ dựa vào bảng công thức cơ bản.",
+      "Bước 4: Ghép lại theo đúng công thức quy tắc đã chọn, chú ý dấu và thứ tự.",
+      "Bước 5: Rút gọn kết quả nếu có thể (quy đồng, thu gọn đồng dạng)."
+    ],
+    "pre_class_self_check": [
+      "$(x^5)' = ?$ Áp dụng công thức $(x^n)' = n \\cdot x^{n-1}$ với $n = 5$.",
+      "$(\\sqrt{x})' = ?$ và điều kiện xác định của đạo hàm này là gì?",
+      "Viết công thức quy tắc tích $(uv)'$ và quy tắc thương $\\left(\\dfrac{u}{v}\\right)'$.",
+      "$(\\sin x)' = ?$ và $(\\cos x)' = ?$ - chú ý dấu.",
+      "Nếu $y = \\sqrt{u}$ và $u = x^2 + 3$, hãy tính $y'_x$ theo quy tắc hàm hợp."
+    ]
+  },
+  "questions": {
+    "pre_class_exercise": [],
+    "in_class_practice": [],
+    "post_class_homework": []
+  },
+  "ai_metadata": {
+    "ai_generated": true,
+    "needs_human_review": true,
+    "model": "cc/claude-sonnet-4-6",
+    "base_url": "http://localhost:20128",
+    "prompt_hash": "037fc2acae1e",
+    "cache_path": "local_curriculum/cache/lesson_materials/theory_pack/week_01_session_01_037fc2acae1e.json",
+    "vision_status": "fresh",
+    "source_content_chars": 12142
+  },
+  "warnings": [
+    "Only 0/5 clean pre-class questions available",
+    "Only 0/10 clean in-class questions available",
+    "Only 0/12 clean homework questions available"
+  ]
+}

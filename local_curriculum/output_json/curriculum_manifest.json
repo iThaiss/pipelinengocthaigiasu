@@ -1,0 +1,2967 @@
+{
+  "generated_at": "2026-05-19T05:01:33",
+  "root": "D:\\Projects\\pipeline\\local_curriculum",
+  "input_root": "D:\\Projects\\pipeline\\local_curriculum\\input_sources",
+  "supported_extensions": [
+    ".pdf"
+  ],
+  "source_count": 2,
+  "file_count": 106,
+  "total_size_bytes": 485473510,
+  "sources": [
+    {
+      "source": "LB",
+      "file_count": 54,
+      "folder_count": 10,
+      "total_size_bytes": 186363351,
+      "folders": [
+        "STEP 1 - NỀN TẢNG/GIẢI TÍCH",
+        "STEP 1 - NỀN TẢNG/HÌNH HỌC",
+        "STEP 1 - NỀN TẢNG/KIẾN THỨC TIỀN ĐỀ ĐỂ HỌC TOÁN 12",
+        "STEP 1 - NỀN TẢNG/THÔNG KÊ, XÁC SUẤT",
+        "STEP 2 - VẬN DỤNG/NGUYÊN HÀM VÀ TÍCH PHÂN",
+        "STEP 2 - VẬN DỤNG/PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN",
+        "STEP 2 - VẬN DỤNG/THỐNG KÊ",
+        "STEP 2 - VẬN DỤNG/VÉCTƠ VÀ HỆ TRỤC TOẠ ĐỘ TRONG KHÔNG GIAN",
+        "STEP 2 - VẬN DỤNG/XÁC SUẤT CÓ ĐIỀU KIỆN",
+        "STEP 2 - VẬN DỤNG/ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ"
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "file_count": 52,
+      "folder_count": 6,
+      "total_size_bytes": 299110159,
+      "folders": [
+        "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+        "MẪU SỐ LIỆU GHÉP NHÓM",
+        "NGUYÊN HÀM, TÍCH PHÂN",
+        "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+        "VÉCTƠ TRONG KHÔNG GIAN",
+        "XÁC SUẤT CÓ ĐIỀU KIỆN"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "source": "LB",
+      "order": 1,
+      "relative_path": "STEP 1 - NỀN TẢNG/GIẢI TÍCH/Theme 1. Sự đồng biến, nghịch biến của hàm số.pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/GIẢI TÍCH",
+      "file_name": "Theme 1. Sự đồng biến, nghịch biến của hàm số.pdf",
+      "stem": "Theme 1. Sự đồng biến, nghịch biến của hàm số",
+      "extension": ".pdf",
+      "size_bytes": 6537816,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "GIẢI TÍCH",
+        "Theme 1. Sự đồng biến, nghịch biến của hàm số.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "giải tích",
+        "",
+        "theme ",
+        1,
+        ". sự đồng biến, nghịch biến của hàm số.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 2,
+      "relative_path": "STEP 1 - NỀN TẢNG/GIẢI TÍCH/Theme 2. Cực trị của hàm số.pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/GIẢI TÍCH",
+      "file_name": "Theme 2. Cực trị của hàm số.pdf",
+      "stem": "Theme 2. Cực trị của hàm số",
+      "extension": ".pdf",
+      "size_bytes": 6066211,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "GIẢI TÍCH",
+        "Theme 2. Cực trị của hàm số.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "giải tích",
+        "",
+        "theme ",
+        2,
+        ". cực trị của hàm số.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 3,
+      "relative_path": "STEP 1 - NỀN TẢNG/GIẢI TÍCH/Theme 3. Giá trị lớn nhất – giá trị nhỏ nhất của hàm số.pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/GIẢI TÍCH",
+      "file_name": "Theme 3. Giá trị lớn nhất – giá trị nhỏ nhất của hàm số.pdf",
+      "stem": "Theme 3. Giá trị lớn nhất – giá trị nhỏ nhất của hàm số",
+      "extension": ".pdf",
+      "size_bytes": 6916817,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "GIẢI TÍCH",
+        "Theme 3. Giá trị lớn nhất – giá trị nhỏ nhất của hàm số.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "giải tích",
+        "",
+        "theme ",
+        3,
+        ". giá trị lớn nhất – giá trị nhỏ nhất của hàm số.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 4,
+      "relative_path": "STEP 1 - NỀN TẢNG/GIẢI TÍCH/Theme 4. Đường tiệm cận của đồ thị hàm số.pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/GIẢI TÍCH",
+      "file_name": "Theme 4. Đường tiệm cận của đồ thị hàm số.pdf",
+      "stem": "Theme 4. Đường tiệm cận của đồ thị hàm số",
+      "extension": ".pdf",
+      "size_bytes": 8467681,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "GIẢI TÍCH",
+        "Theme 4. Đường tiệm cận của đồ thị hàm số.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "giải tích",
+        "",
+        "theme ",
+        4,
+        ". đường tiệm cận của đồ thị hàm số.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 5,
+      "relative_path": "STEP 1 - NỀN TẢNG/GIẢI TÍCH/Theme 5. Khảo sát sự biến thiên và vẽ đồ thị hàm số.pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/GIẢI TÍCH",
+      "file_name": "Theme 5. Khảo sát sự biến thiên và vẽ đồ thị hàm số.pdf",
+      "stem": "Theme 5. Khảo sát sự biến thiên và vẽ đồ thị hàm số",
+      "extension": ".pdf",
+      "size_bytes": 1826100,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "GIẢI TÍCH",
+        "Theme 5. Khảo sát sự biến thiên và vẽ đồ thị hàm số.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "giải tích",
+        "",
+        "theme ",
+        5,
+        ". khảo sát sự biến thiên và vẽ đồ thị hàm số.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 6,
+      "relative_path": "STEP 1 - NỀN TẢNG/GIẢI TÍCH/Theme 6. Ứng dụng đạo hàm giải quyết một số vấn đề liên quan đến thực tiễn.pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/GIẢI TÍCH",
+      "file_name": "Theme 6. Ứng dụng đạo hàm giải quyết một số vấn đề liên quan đến thực tiễn.pdf",
+      "stem": "Theme 6. Ứng dụng đạo hàm giải quyết một số vấn đề liên quan đến thực tiễn",
+      "extension": ".pdf",
+      "size_bytes": 8112172,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "GIẢI TÍCH",
+        "Theme 6. Ứng dụng đạo hàm giải quyết một số vấn đề liên quan đến thực tiễn.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "giải tích",
+        "",
+        "theme ",
+        6,
+        ". ứng dụng đạo hàm giải quyết một số vấn đề liên quan đến thực tiễn.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 7,
+      "relative_path": "STEP 1 - NỀN TẢNG/GIẢI TÍCH/Theme 7. Nguyên hàm và tính chất của nguyên hàm .pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/GIẢI TÍCH",
+      "file_name": "Theme 7. Nguyên hàm và tính chất của nguyên hàm .pdf",
+      "stem": "Theme 7. Nguyên hàm và tính chất của nguyên hàm ",
+      "extension": ".pdf",
+      "size_bytes": 6251006,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "GIẢI TÍCH",
+        "Theme 7. Nguyên hàm và tính chất của nguyên hàm .pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "giải tích",
+        "",
+        "theme ",
+        7,
+        ". nguyên hàm và tính chất của nguyên hàm .pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 8,
+      "relative_path": "STEP 1 - NỀN TẢNG/GIẢI TÍCH/Theme 8. Tích phân và tính chất của tích phân.pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/GIẢI TÍCH",
+      "file_name": "Theme 8. Tích phân và tính chất của tích phân.pdf",
+      "stem": "Theme 8. Tích phân và tính chất của tích phân",
+      "extension": ".pdf",
+      "size_bytes": 5004453,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "GIẢI TÍCH",
+        "Theme 8. Tích phân và tính chất của tích phân.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "giải tích",
+        "",
+        "theme ",
+        8,
+        ". tích phân và tính chất của tích phân.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 9,
+      "relative_path": "STEP 1 - NỀN TẢNG/GIẢI TÍCH/Theme 9. Ứng dụng của tích phân vào tính diện tích hình phẳng .pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/GIẢI TÍCH",
+      "file_name": "Theme 9. Ứng dụng của tích phân vào tính diện tích hình phẳng .pdf",
+      "stem": "Theme 9. Ứng dụng của tích phân vào tính diện tích hình phẳng ",
+      "extension": ".pdf",
+      "size_bytes": 7106860,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "GIẢI TÍCH",
+        "Theme 9. Ứng dụng của tích phân vào tính diện tích hình phẳng .pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "giải tích",
+        "",
+        "theme ",
+        9,
+        ". ứng dụng của tích phân vào tính diện tích hình phẳng .pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 10,
+      "relative_path": "STEP 1 - NỀN TẢNG/GIẢI TÍCH/Theme 10. Ứng dụng của tích phân vào tính thể tích vật thể .pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/GIẢI TÍCH",
+      "file_name": "Theme 10. Ứng dụng của tích phân vào tính thể tích vật thể .pdf",
+      "stem": "Theme 10. Ứng dụng của tích phân vào tính thể tích vật thể ",
+      "extension": ".pdf",
+      "size_bytes": 6654299,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "GIẢI TÍCH",
+        "Theme 10. Ứng dụng của tích phân vào tính thể tích vật thể .pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "giải tích",
+        "",
+        "theme ",
+        10,
+        ". ứng dụng của tích phân vào tính thể tích vật thể .pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 11,
+      "relative_path": "STEP 1 - NỀN TẢNG/HÌNH HỌC/Theme 11. Vectơ và các phép toán vectơ trong không gian .pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/HÌNH HỌC",
+      "file_name": "Theme 11. Vectơ và các phép toán vectơ trong không gian .pdf",
+      "stem": "Theme 11. Vectơ và các phép toán vectơ trong không gian ",
+      "extension": ".pdf",
+      "size_bytes": 7846946,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "HÌNH HỌC",
+        "Theme 11. Vectơ và các phép toán vectơ trong không gian .pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "hình học",
+        "",
+        "theme ",
+        11,
+        ". vectơ và các phép toán vectơ trong không gian .pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 12,
+      "relative_path": "STEP 1 - NỀN TẢNG/HÌNH HỌC/Theme 12. Hệ trục tọa độ trong không gian .pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/HÌNH HỌC",
+      "file_name": "Theme 12. Hệ trục tọa độ trong không gian .pdf",
+      "stem": "Theme 12. Hệ trục tọa độ trong không gian ",
+      "extension": ".pdf",
+      "size_bytes": 6819511,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "HÌNH HỌC",
+        "Theme 12. Hệ trục tọa độ trong không gian .pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "hình học",
+        "",
+        "theme ",
+        12,
+        ". hệ trục tọa độ trong không gian .pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 13,
+      "relative_path": "STEP 1 - NỀN TẢNG/HÌNH HỌC/Theme 13. Biểu thức tọa độ của các phép toán vectơ .pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/HÌNH HỌC",
+      "file_name": "Theme 13. Biểu thức tọa độ của các phép toán vectơ .pdf",
+      "stem": "Theme 13. Biểu thức tọa độ của các phép toán vectơ ",
+      "extension": ".pdf",
+      "size_bytes": 1118237,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "HÌNH HỌC",
+        "Theme 13. Biểu thức tọa độ của các phép toán vectơ .pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "hình học",
+        "",
+        "theme ",
+        13,
+        ". biểu thức tọa độ của các phép toán vectơ .pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 14,
+      "relative_path": "STEP 1 - NỀN TẢNG/HÌNH HỌC/Theme 14. Phương trình mặt phẳng .pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/HÌNH HỌC",
+      "file_name": "Theme 14. Phương trình mặt phẳng .pdf",
+      "stem": "Theme 14. Phương trình mặt phẳng ",
+      "extension": ".pdf",
+      "size_bytes": 7778334,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "HÌNH HỌC",
+        "Theme 14. Phương trình mặt phẳng .pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "hình học",
+        "",
+        "theme ",
+        14,
+        ". phương trình mặt phẳng .pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 15,
+      "relative_path": "STEP 1 - NỀN TẢNG/HÌNH HỌC/Theme 15. Phương trình đường thẳng.pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/HÌNH HỌC",
+      "file_name": "Theme 15. Phương trình đường thẳng.pdf",
+      "stem": "Theme 15. Phương trình đường thẳng",
+      "extension": ".pdf",
+      "size_bytes": 6780353,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "HÌNH HỌC",
+        "Theme 15. Phương trình đường thẳng.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "hình học",
+        "",
+        "theme ",
+        15,
+        ". phương trình đường thẳng.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 16,
+      "relative_path": "STEP 1 - NỀN TẢNG/HÌNH HỌC/Theme 16. Các công thức tính góc trong không gian .pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/HÌNH HỌC",
+      "file_name": "Theme 16. Các công thức tính góc trong không gian .pdf",
+      "stem": "Theme 16. Các công thức tính góc trong không gian ",
+      "extension": ".pdf",
+      "size_bytes": 5705602,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "HÌNH HỌC",
+        "Theme 16. Các công thức tính góc trong không gian .pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "hình học",
+        "",
+        "theme ",
+        16,
+        ". các công thức tính góc trong không gian .pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 17,
+      "relative_path": "STEP 1 - NỀN TẢNG/HÌNH HỌC/Theme 17. Phương trình mặt cầu .pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/HÌNH HỌC",
+      "file_name": "Theme 17. Phương trình mặt cầu .pdf",
+      "stem": "Theme 17. Phương trình mặt cầu ",
+      "extension": ".pdf",
+      "size_bytes": 6191123,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "HÌNH HỌC",
+        "Theme 17. Phương trình mặt cầu .pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "hình học",
+        "",
+        "theme ",
+        17,
+        ". phương trình mặt cầu .pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 18,
+      "relative_path": "STEP 1 - NỀN TẢNG/KIẾN THỨC TIỀN ĐỀ ĐỂ HỌC TOÁN 12/Theme 1. Giới hạn hàm số khi x → a.pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/KIẾN THỨC TIỀN ĐỀ ĐỂ HỌC TOÁN 12",
+      "file_name": "Theme 1. Giới hạn hàm số khi x → a.pdf",
+      "stem": "Theme 1. Giới hạn hàm số khi x → a",
+      "extension": ".pdf",
+      "size_bytes": 4448316,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "KIẾN THỨC TIỀN ĐỀ ĐỂ HỌC TOÁN 12",
+        "Theme 1. Giới hạn hàm số khi x → a.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "kiến thức tiền đề để học toán ",
+        12,
+        "",
+        "",
+        "theme ",
+        1,
+        ". giới hạn hàm số khi x → a.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 19,
+      "relative_path": "STEP 1 - NỀN TẢNG/KIẾN THỨC TIỀN ĐỀ ĐỂ HỌC TOÁN 12/Theme 2. Giới hạn của hàm số khi x → ∞.pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/KIẾN THỨC TIỀN ĐỀ ĐỂ HỌC TOÁN 12",
+      "file_name": "Theme 2. Giới hạn của hàm số khi x → ∞.pdf",
+      "stem": "Theme 2. Giới hạn của hàm số khi x → ∞",
+      "extension": ".pdf",
+      "size_bytes": 3257561,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "KIẾN THỨC TIỀN ĐỀ ĐỂ HỌC TOÁN 12",
+        "Theme 2. Giới hạn của hàm số khi x → ∞.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "kiến thức tiền đề để học toán ",
+        12,
+        "",
+        "",
+        "theme ",
+        2,
+        ". giới hạn của hàm số khi x → ∞.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 20,
+      "relative_path": "STEP 1 - NỀN TẢNG/KIẾN THỨC TIỀN ĐỀ ĐỂ HỌC TOÁN 12/Theme 3. Hàm số liên tục.pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/KIẾN THỨC TIỀN ĐỀ ĐỂ HỌC TOÁN 12",
+      "file_name": "Theme 3. Hàm số liên tục.pdf",
+      "stem": "Theme 3. Hàm số liên tục",
+      "extension": ".pdf",
+      "size_bytes": 2958054,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "KIẾN THỨC TIỀN ĐỀ ĐỂ HỌC TOÁN 12",
+        "Theme 3. Hàm số liên tục.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "kiến thức tiền đề để học toán ",
+        12,
+        "",
+        "",
+        "theme ",
+        3,
+        ". hàm số liên tục.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 21,
+      "relative_path": "STEP 1 - NỀN TẢNG/KIẾN THỨC TIỀN ĐỀ ĐỂ HỌC TOÁN 12/Theme 4. Đạo hàm và các quy tắc tính đạo hàm.pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/KIẾN THỨC TIỀN ĐỀ ĐỂ HỌC TOÁN 12",
+      "file_name": "Theme 4. Đạo hàm và các quy tắc tính đạo hàm.pdf",
+      "stem": "Theme 4. Đạo hàm và các quy tắc tính đạo hàm",
+      "extension": ".pdf",
+      "size_bytes": 7490615,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "KIẾN THỨC TIỀN ĐỀ ĐỂ HỌC TOÁN 12",
+        "Theme 4. Đạo hàm và các quy tắc tính đạo hàm.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "kiến thức tiền đề để học toán ",
+        12,
+        "",
+        "",
+        "theme ",
+        4,
+        ". đạo hàm và các quy tắc tính đạo hàm.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 22,
+      "relative_path": "STEP 1 - NỀN TẢNG/KIẾN THỨC TIỀN ĐỀ ĐỂ HỌC TOÁN 12/Theme 5. Phương trình, bất phương trình đạo hàm.pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/KIẾN THỨC TIỀN ĐỀ ĐỂ HỌC TOÁN 12",
+      "file_name": "Theme 5. Phương trình, bất phương trình đạo hàm.pdf",
+      "stem": "Theme 5. Phương trình, bất phương trình đạo hàm",
+      "extension": ".pdf",
+      "size_bytes": 1576730,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "KIẾN THỨC TIỀN ĐỀ ĐỂ HỌC TOÁN 12",
+        "Theme 5. Phương trình, bất phương trình đạo hàm.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "kiến thức tiền đề để học toán ",
+        12,
+        "",
+        "",
+        "theme ",
+        5,
+        ". phương trình, bất phương trình đạo hàm.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 23,
+      "relative_path": "STEP 1 - NỀN TẢNG/THÔNG KÊ, XÁC SUẤT/Theme 18. Khoảng biến thiên và khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/THÔNG KÊ, XÁC SUẤT",
+      "file_name": "Theme 18. Khoảng biến thiên và khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf",
+      "stem": "Theme 18. Khoảng biến thiên và khoảng tứ phân vị của mẫu số liệu ghép nhóm",
+      "extension": ".pdf",
+      "size_bytes": 9259527,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "THÔNG KÊ, XÁC SUẤT",
+        "Theme 18. Khoảng biến thiên và khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "thông kê, xác suất",
+        "",
+        "theme ",
+        18,
+        ". khoảng biến thiên và khoảng tứ phân vị của mẫu số liệu ghép nhóm.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 24,
+      "relative_path": "STEP 1 - NỀN TẢNG/THÔNG KÊ, XÁC SUẤT/Theme 19. Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm.pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/THÔNG KÊ, XÁC SUẤT",
+      "file_name": "Theme 19. Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm.pdf",
+      "stem": "Theme 19. Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm",
+      "extension": ".pdf",
+      "size_bytes": 10155078,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "THÔNG KÊ, XÁC SUẤT",
+        "Theme 19. Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "thông kê, xác suất",
+        "",
+        "theme ",
+        19,
+        ". phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 25,
+      "relative_path": "STEP 1 - NỀN TẢNG/THÔNG KÊ, XÁC SUẤT/Theme 20. Xác suất có điều kiện .pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/THÔNG KÊ, XÁC SUẤT",
+      "file_name": "Theme 20. Xác suất có điều kiện .pdf",
+      "stem": "Theme 20. Xác suất có điều kiện ",
+      "extension": ".pdf",
+      "size_bytes": 1152468,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "THÔNG KÊ, XÁC SUẤT",
+        "Theme 20. Xác suất có điều kiện .pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "thông kê, xác suất",
+        "",
+        "theme ",
+        20,
+        ". xác suất có điều kiện .pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 26,
+      "relative_path": "STEP 1 - NỀN TẢNG/THÔNG KÊ, XÁC SUẤT/Theme 21. Công thức xác suất toàn phần và công thức Bayes .pdf",
+      "folder_path": "STEP 1 - NỀN TẢNG/THÔNG KÊ, XÁC SUẤT",
+      "file_name": "Theme 21. Công thức xác suất toàn phần và công thức Bayes .pdf",
+      "stem": "Theme 21. Công thức xác suất toàn phần và công thức Bayes ",
+      "extension": ".pdf",
+      "size_bytes": 7106002,
+      "depth": 2,
+      "path_parts": [
+        "STEP 1 - NỀN TẢNG",
+        "THÔNG KÊ, XÁC SUẤT",
+        "Theme 21. Công thức xác suất toàn phần và công thức Bayes .pdf"
+      ],
+      "sort_key": [
+        "step ",
+        1,
+        " - nền tảng",
+        "",
+        "thông kê, xác suất",
+        "",
+        "theme ",
+        21,
+        ". công thức xác suất toàn phần và công thức bayes .pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 27,
+      "relative_path": "STEP 2 - VẬN DỤNG/NGUYÊN HÀM VÀ TÍCH PHÂN/[Ngọc Huyền LB] BON 2026-STEP 2-Theme 6.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/NGUYÊN HÀM VÀ TÍCH PHÂN",
+      "file_name": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 6.pdf",
+      "stem": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 6",
+      "extension": ".pdf",
+      "size_bytes": 1050929,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "NGUYÊN HÀM VÀ TÍCH PHÂN",
+        "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 6.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "nguyên hàm và tích phân",
+        "",
+        "[ngọc huyền lb] bon ",
+        2026,
+        "-step ",
+        2,
+        "-theme ",
+        6,
+        ".pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 28,
+      "relative_path": "STEP 2 - VẬN DỤNG/NGUYÊN HÀM VÀ TÍCH PHÂN/[Ngọc Huyền LB] BON 2026-STEP 2-Theme 9 (1).pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/NGUYÊN HÀM VÀ TÍCH PHÂN",
+      "file_name": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 9 (1).pdf",
+      "stem": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 9 (1)",
+      "extension": ".pdf",
+      "size_bytes": 1069350,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "NGUYÊN HÀM VÀ TÍCH PHÂN",
+        "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 9 (1).pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "nguyên hàm và tích phân",
+        "",
+        "[ngọc huyền lb] bon ",
+        2026,
+        "-step ",
+        2,
+        "-theme ",
+        9,
+        " (",
+        1,
+        ").pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 29,
+      "relative_path": "STEP 2 - VẬN DỤNG/NGUYÊN HÀM VÀ TÍCH PHÂN/[Ngọc Huyền LB] BON 2026-STEP 2-Theme 10 (1).pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/NGUYÊN HÀM VÀ TÍCH PHÂN",
+      "file_name": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 10 (1).pdf",
+      "stem": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 10 (1)",
+      "extension": ".pdf",
+      "size_bytes": 911884,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "NGUYÊN HÀM VÀ TÍCH PHÂN",
+        "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 10 (1).pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "nguyên hàm và tích phân",
+        "",
+        "[ngọc huyền lb] bon ",
+        2026,
+        "-step ",
+        2,
+        "-theme ",
+        10,
+        " (",
+        1,
+        ").pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 30,
+      "relative_path": "STEP 2 - VẬN DỤNG/NGUYÊN HÀM VÀ TÍCH PHÂN/[Ngọc Huyền LB] BON 2026-STEP 2-Theme 11.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/NGUYÊN HÀM VÀ TÍCH PHÂN",
+      "file_name": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 11.pdf",
+      "stem": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 11",
+      "extension": ".pdf",
+      "size_bytes": 984762,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "NGUYÊN HÀM VÀ TÍCH PHÂN",
+        "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 11.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "nguyên hàm và tích phân",
+        "",
+        "[ngọc huyền lb] bon ",
+        2026,
+        "-step ",
+        2,
+        "-theme ",
+        11,
+        ".pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 31,
+      "relative_path": "STEP 2 - VẬN DỤNG/NGUYÊN HÀM VÀ TÍCH PHÂN/[Ngọc Huyền LB] BON 2026-STEP 2-Theme 12.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/NGUYÊN HÀM VÀ TÍCH PHÂN",
+      "file_name": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 12.pdf",
+      "stem": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 12",
+      "extension": ".pdf",
+      "size_bytes": 1237788,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "NGUYÊN HÀM VÀ TÍCH PHÂN",
+        "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 12.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "nguyên hàm và tích phân",
+        "",
+        "[ngọc huyền lb] bon ",
+        2026,
+        "-step ",
+        2,
+        "-theme ",
+        12,
+        ".pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 32,
+      "relative_path": "STEP 2 - VẬN DỤNG/NGUYÊN HÀM VÀ TÍCH PHÂN/[Ngọc Huyền LB] BON 2026-STEP 2-Theme 13.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/NGUYÊN HÀM VÀ TÍCH PHÂN",
+      "file_name": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 13.pdf",
+      "stem": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 13",
+      "extension": ".pdf",
+      "size_bytes": 1513551,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "NGUYÊN HÀM VÀ TÍCH PHÂN",
+        "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 13.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "nguyên hàm và tích phân",
+        "",
+        "[ngọc huyền lb] bon ",
+        2026,
+        "-step ",
+        2,
+        "-theme ",
+        13,
+        ".pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 33,
+      "relative_path": "STEP 2 - VẬN DỤNG/NGUYÊN HÀM VÀ TÍCH PHÂN/Theme 7. Nguyên hàm hàm lượng giác nâng cao.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/NGUYÊN HÀM VÀ TÍCH PHÂN",
+      "file_name": "Theme 7. Nguyên hàm hàm lượng giác nâng cao.pdf",
+      "stem": "Theme 7. Nguyên hàm hàm lượng giác nâng cao",
+      "extension": ".pdf",
+      "size_bytes": 809722,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "NGUYÊN HÀM VÀ TÍCH PHÂN",
+        "Theme 7. Nguyên hàm hàm lượng giác nâng cao.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "nguyên hàm và tích phân",
+        "",
+        "theme ",
+        7,
+        ". nguyên hàm hàm lượng giác nâng cao.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 34,
+      "relative_path": "STEP 2 - VẬN DỤNG/NGUYÊN HÀM VÀ TÍCH PHÂN/Theme 8. Nguyên hàm cho bởi nhiều công thức.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/NGUYÊN HÀM VÀ TÍCH PHÂN",
+      "file_name": "Theme 8. Nguyên hàm cho bởi nhiều công thức.pdf",
+      "stem": "Theme 8. Nguyên hàm cho bởi nhiều công thức",
+      "extension": ".pdf",
+      "size_bytes": 788604,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "NGUYÊN HÀM VÀ TÍCH PHÂN",
+        "Theme 8. Nguyên hàm cho bởi nhiều công thức.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "nguyên hàm và tích phân",
+        "",
+        "theme ",
+        8,
+        ". nguyên hàm cho bởi nhiều công thức.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 35,
+      "relative_path": "STEP 2 - VẬN DỤNG/PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN/[Ngọc Huyền LB] BON 2026-STEP 2-Theme 16.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN",
+      "file_name": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 16.pdf",
+      "stem": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 16",
+      "extension": ".pdf",
+      "size_bytes": 1090440,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN",
+        "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 16.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "phương pháp toạ độ trong không gian",
+        "",
+        "[ngọc huyền lb] bon ",
+        2026,
+        "-step ",
+        2,
+        "-theme ",
+        16,
+        ".pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 36,
+      "relative_path": "STEP 2 - VẬN DỤNG/PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN/[Ngọc Huyền LB] BON 2026-STEP 2-Theme 17.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN",
+      "file_name": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 17.pdf",
+      "stem": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 17",
+      "extension": ".pdf",
+      "size_bytes": 1201933,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN",
+        "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 17.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "phương pháp toạ độ trong không gian",
+        "",
+        "[ngọc huyền lb] bon ",
+        2026,
+        "-step ",
+        2,
+        "-theme ",
+        17,
+        ".pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 37,
+      "relative_path": "STEP 2 - VẬN DỤNG/PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN/[Ngọc Huyền LB] BON 2026-STEP 2-Theme 18.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN",
+      "file_name": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 18.pdf",
+      "stem": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 18",
+      "extension": ".pdf",
+      "size_bytes": 1278965,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN",
+        "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 18.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "phương pháp toạ độ trong không gian",
+        "",
+        "[ngọc huyền lb] bon ",
+        2026,
+        "-step ",
+        2,
+        "-theme ",
+        18,
+        ".pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 38,
+      "relative_path": "STEP 2 - VẬN DỤNG/PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN/[Ngọc Huyền LB] BON 2026-STEP 2-Theme 19.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN",
+      "file_name": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 19.pdf",
+      "stem": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 19",
+      "extension": ".pdf",
+      "size_bytes": 1716291,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN",
+        "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 19.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "phương pháp toạ độ trong không gian",
+        "",
+        "[ngọc huyền lb] bon ",
+        2026,
+        "-step ",
+        2,
+        "-theme ",
+        19,
+        ".pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 39,
+      "relative_path": "STEP 2 - VẬN DỤNG/PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN/[Ngọc Huyền LB] BON 2026-STEP 2-Theme 20.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN",
+      "file_name": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 20.pdf",
+      "stem": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 20",
+      "extension": ".pdf",
+      "size_bytes": 1322781,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN",
+        "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 20.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "phương pháp toạ độ trong không gian",
+        "",
+        "[ngọc huyền lb] bon ",
+        2026,
+        "-step ",
+        2,
+        "-theme ",
+        20,
+        ".pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 40,
+      "relative_path": "STEP 2 - VẬN DỤNG/PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN/[Ngọc Huyền LB] BON 2026-STEP 2-Theme 21.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN",
+      "file_name": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 21.pdf",
+      "stem": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 21",
+      "extension": ".pdf",
+      "size_bytes": 1206804,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN",
+        "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 21.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "phương pháp toạ độ trong không gian",
+        "",
+        "[ngọc huyền lb] bon ",
+        2026,
+        "-step ",
+        2,
+        "-theme ",
+        21,
+        ".pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 41,
+      "relative_path": "STEP 2 - VẬN DỤNG/PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN/[Ngọc Huyền LB] BON 2026-STEP 2-Theme 22.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN",
+      "file_name": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 22.pdf",
+      "stem": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 22",
+      "extension": ".pdf",
+      "size_bytes": 1233305,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN",
+        "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 22.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "phương pháp toạ độ trong không gian",
+        "",
+        "[ngọc huyền lb] bon ",
+        2026,
+        "-step ",
+        2,
+        "-theme ",
+        22,
+        ".pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 42,
+      "relative_path": "STEP 2 - VẬN DỤNG/PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN/[Ngọc Huyền LB] BON 2026-STEP 2-Theme 24.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN",
+      "file_name": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 24.pdf",
+      "stem": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 24",
+      "extension": ".pdf",
+      "size_bytes": 1375476,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN",
+        "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 24.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "phương pháp toạ độ trong không gian",
+        "",
+        "[ngọc huyền lb] bon ",
+        2026,
+        "-step ",
+        2,
+        "-theme ",
+        24,
+        ".pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 43,
+      "relative_path": "STEP 2 - VẬN DỤNG/PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN/Theme 23. Một số mô hình cực trị Oxyz.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN",
+      "file_name": "Theme 23. Một số mô hình cực trị Oxyz.pdf",
+      "stem": "Theme 23. Một số mô hình cực trị Oxyz",
+      "extension": ".pdf",
+      "size_bytes": 1463306,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "PHƯƠNG PHÁP TOẠ ĐỘ TRONG KHÔNG GIAN",
+        "Theme 23. Một số mô hình cực trị Oxyz.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "phương pháp toạ độ trong không gian",
+        "",
+        "theme ",
+        23,
+        ". một số mô hình cực trị oxyz.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 44,
+      "relative_path": "STEP 2 - VẬN DỤNG/THỐNG KÊ/Theme 25. Các số đặc trưng đo độ phân tán của mẫu số liệu ghép nhóm.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/THỐNG KÊ",
+      "file_name": "Theme 25. Các số đặc trưng đo độ phân tán của mẫu số liệu ghép nhóm.pdf",
+      "stem": "Theme 25. Các số đặc trưng đo độ phân tán của mẫu số liệu ghép nhóm",
+      "extension": ".pdf",
+      "size_bytes": 1174419,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "THỐNG KÊ",
+        "Theme 25. Các số đặc trưng đo độ phân tán của mẫu số liệu ghép nhóm.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "thống kê",
+        "",
+        "theme ",
+        25,
+        ". các số đặc trưng đo độ phân tán của mẫu số liệu ghép nhóm.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 45,
+      "relative_path": "STEP 2 - VẬN DỤNG/VÉCTƠ VÀ HỆ TRỤC TOẠ ĐỘ TRONG KHÔNG GIAN/[Ngọc Huyền LB] BON 2026-STEP 2-Theme 14.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/VÉCTƠ VÀ HỆ TRỤC TOẠ ĐỘ TRONG KHÔNG GIAN",
+      "file_name": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 14.pdf",
+      "stem": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 14",
+      "extension": ".pdf",
+      "size_bytes": 1006736,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "VÉCTƠ VÀ HỆ TRỤC TOẠ ĐỘ TRONG KHÔNG GIAN",
+        "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 14.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "véctơ và hệ trục toạ độ trong không gian",
+        "",
+        "[ngọc huyền lb] bon ",
+        2026,
+        "-step ",
+        2,
+        "-theme ",
+        14,
+        ".pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 46,
+      "relative_path": "STEP 2 - VẬN DỤNG/VÉCTƠ VÀ HỆ TRỤC TOẠ ĐỘ TRONG KHÔNG GIAN/Theme 15. Ứng dụng thực tế của vectơ trong không gian.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/VÉCTƠ VÀ HỆ TRỤC TOẠ ĐỘ TRONG KHÔNG GIAN",
+      "file_name": "Theme 15. Ứng dụng thực tế của vectơ trong không gian.pdf",
+      "stem": "Theme 15. Ứng dụng thực tế của vectơ trong không gian",
+      "extension": ".pdf",
+      "size_bytes": 1593522,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "VÉCTƠ VÀ HỆ TRỤC TOẠ ĐỘ TRONG KHÔNG GIAN",
+        "Theme 15. Ứng dụng thực tế của vectơ trong không gian.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "véctơ và hệ trục toạ độ trong không gian",
+        "",
+        "theme ",
+        15,
+        ". ứng dụng thực tế của vectơ trong không gian.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 47,
+      "relative_path": "STEP 2 - VẬN DỤNG/XÁC SUẤT CÓ ĐIỀU KIỆN/Theme 26. Tính xác suất có điều kiện bằng bảng thống kê 2×2.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/XÁC SUẤT CÓ ĐIỀU KIỆN",
+      "file_name": "Theme 26. Tính xác suất có điều kiện bằng bảng thống kê 2×2.pdf",
+      "stem": "Theme 26. Tính xác suất có điều kiện bằng bảng thống kê 2×2",
+      "extension": ".pdf",
+      "size_bytes": 942932,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "XÁC SUẤT CÓ ĐIỀU KIỆN",
+        "Theme 26. Tính xác suất có điều kiện bằng bảng thống kê 2×2.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "xác suất có điều kiện",
+        "",
+        "theme ",
+        26,
+        ". tính xác suất có điều kiện bằng bảng thống kê ",
+        2,
+        "×",
+        2,
+        ".pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 48,
+      "relative_path": "STEP 2 - VẬN DỤNG/XÁC SUẤT CÓ ĐIỀU KIỆN/Theme 27. Tính xác suất bằng công thức nhân tổng quát.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/XÁC SUẤT CÓ ĐIỀU KIỆN",
+      "file_name": "Theme 27. Tính xác suất bằng công thức nhân tổng quát.pdf",
+      "stem": "Theme 27. Tính xác suất bằng công thức nhân tổng quát",
+      "extension": ".pdf",
+      "size_bytes": 902633,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "XÁC SUẤT CÓ ĐIỀU KIỆN",
+        "Theme 27. Tính xác suất bằng công thức nhân tổng quát.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "xác suất có điều kiện",
+        "",
+        "theme ",
+        27,
+        ". tính xác suất bằng công thức nhân tổng quát.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 49,
+      "relative_path": "STEP 2 - VẬN DỤNG/XÁC SUẤT CÓ ĐIỀU KIỆN/Theme 28. Sử dụng sơ đồ cây cho bài toán xác suất nâng cao.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/XÁC SUẤT CÓ ĐIỀU KIỆN",
+      "file_name": "Theme 28. Sử dụng sơ đồ cây cho bài toán xác suất nâng cao.pdf",
+      "stem": "Theme 28. Sử dụng sơ đồ cây cho bài toán xác suất nâng cao",
+      "extension": ".pdf",
+      "size_bytes": 1127662,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "XÁC SUẤT CÓ ĐIỀU KIỆN",
+        "Theme 28. Sử dụng sơ đồ cây cho bài toán xác suất nâng cao.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "xác suất có điều kiện",
+        "",
+        "theme ",
+        28,
+        ". sử dụng sơ đồ cây cho bài toán xác suất nâng cao.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 50,
+      "relative_path": "STEP 2 - VẬN DỤNG/ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ/[Ngọc Huyền LB] BON 2026-STEP 2-Theme 3.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+      "file_name": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 3.pdf",
+      "stem": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 3",
+      "extension": ".pdf",
+      "size_bytes": 1197810,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+        "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 3.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số",
+        "",
+        "[ngọc huyền lb] bon ",
+        2026,
+        "-step ",
+        2,
+        "-theme ",
+        3,
+        ".pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 51,
+      "relative_path": "STEP 2 - VẬN DỤNG/ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ/[Ngọc Huyền LB] BON 2026-STEP 2-Theme 4.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+      "file_name": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 4.pdf",
+      "stem": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 4",
+      "extension": ".pdf",
+      "size_bytes": 970324,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+        "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 4.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số",
+        "",
+        "[ngọc huyền lb] bon ",
+        2026,
+        "-step ",
+        2,
+        "-theme ",
+        4,
+        ".pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 52,
+      "relative_path": "STEP 2 - VẬN DỤNG/ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ/[Ngọc Huyền LB] BON 2026-STEP 2-Theme 5.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+      "file_name": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 5.pdf",
+      "stem": "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 5",
+      "extension": ".pdf",
+      "size_bytes": 1519862,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+        "[Ngọc Huyền LB] BON 2026-STEP 2-Theme 5.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số",
+        "",
+        "[ngọc huyền lb] bon ",
+        2026,
+        "-step ",
+        2,
+        "-theme ",
+        5,
+        ".pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 53,
+      "relative_path": "STEP 2 - VẬN DỤNG/ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ/Theme 1. Bài toán thực tế tối ưu diện tích, thể tích vật thể.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+      "file_name": "Theme 1. Bài toán thực tế tối ưu diện tích, thể tích vật thể.pdf",
+      "stem": "Theme 1. Bài toán thực tế tối ưu diện tích, thể tích vật thể",
+      "extension": ".pdf",
+      "size_bytes": 1467955,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+        "Theme 1. Bài toán thực tế tối ưu diện tích, thể tích vật thể.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số",
+        "",
+        "theme ",
+        1,
+        ". bài toán thực tế tối ưu diện tích, thể tích vật thể.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "LB",
+      "order": 54,
+      "relative_path": "STEP 2 - VẬN DỤNG/ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ/Theme 2. Bài toán thực tế liên quan đến quãng đường ngắn nhất, thời gian ngắn nhất.pdf",
+      "folder_path": "STEP 2 - VẬN DỤNG/ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+      "file_name": "Theme 2. Bài toán thực tế liên quan đến quãng đường ngắn nhất, thời gian ngắn nhất.pdf",
+      "stem": "Theme 2. Bài toán thực tế liên quan đến quãng đường ngắn nhất, thời gian ngắn nhất",
+      "extension": ".pdf",
+      "size_bytes": 1615733,
+      "depth": 2,
+      "path_parts": [
+        "STEP 2 - VẬN DỤNG",
+        "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+        "Theme 2. Bài toán thực tế liên quan đến quãng đường ngắn nhất, thời gian ngắn nhất.pdf"
+      ],
+      "sort_key": [
+        "step ",
+        2,
+        " - vận dụng",
+        "",
+        "ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số",
+        "",
+        "theme ",
+        2,
+        ". bài toán thực tế liên quan đến quãng đường ngắn nhất, thời gian ngắn nhất.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 1,
+      "relative_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM/01. Bài 1.1 Tính Đơn Điệu Của Hàm Số.pdf",
+      "folder_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+      "file_name": "01. Bài 1.1 Tính Đơn Điệu Của Hàm Số.pdf",
+      "stem": "01. Bài 1.1 Tính Đơn Điệu Của Hàm Số",
+      "extension": ".pdf",
+      "size_bytes": 698360,
+      "depth": 1,
+      "path_parts": [
+        "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+        "01. Bài 1.1 Tính Đơn Điệu Của Hàm Số.pdf"
+      ],
+      "sort_key": [
+        "hàm số và ứng dụng đạo hàm",
+        "",
+        "",
+        1,
+        ". bài ",
+        1,
+        ".",
+        1,
+        " tính đơn điệu của hàm số.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 2,
+      "relative_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM/02. Bài 1.1 Tính Đơn Điệu Của Hàm Số - ĐÚNG-SAI.pdf",
+      "folder_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+      "file_name": "02. Bài 1.1 Tính Đơn Điệu Của Hàm Số - ĐÚNG-SAI.pdf",
+      "stem": "02. Bài 1.1 Tính Đơn Điệu Của Hàm Số - ĐÚNG-SAI",
+      "extension": ".pdf",
+      "size_bytes": 1519068,
+      "depth": 1,
+      "path_parts": [
+        "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+        "02. Bài 1.1 Tính Đơn Điệu Của Hàm Số - ĐÚNG-SAI.pdf"
+      ],
+      "sort_key": [
+        "hàm số và ứng dụng đạo hàm",
+        "",
+        "",
+        2,
+        ". bài ",
+        1,
+        ".",
+        1,
+        " tính đơn điệu của hàm số - đúng-sai.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 3,
+      "relative_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM/03. BTVN - Tính Đơn Điệu từ hàm số, đồ thị, bảng biến thiên.pdf",
+      "folder_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+      "file_name": "03. BTVN - Tính Đơn Điệu từ hàm số, đồ thị, bảng biến thiên.pdf",
+      "stem": "03. BTVN - Tính Đơn Điệu từ hàm số, đồ thị, bảng biến thiên",
+      "extension": ".pdf",
+      "size_bytes": 914819,
+      "depth": 1,
+      "path_parts": [
+        "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+        "03. BTVN - Tính Đơn Điệu từ hàm số, đồ thị, bảng biến thiên.pdf"
+      ],
+      "sort_key": [
+        "hàm số và ứng dụng đạo hàm",
+        "",
+        "",
+        3,
+        ". btvn - tính đơn điệu từ hàm số, đồ thị, bảng biến thiên.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 4,
+      "relative_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM/04. Bài 1.2. Cực Trị Hàm Số.pdf",
+      "folder_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+      "file_name": "04. Bài 1.2. Cực Trị Hàm Số.pdf",
+      "stem": "04. Bài 1.2. Cực Trị Hàm Số",
+      "extension": ".pdf",
+      "size_bytes": 1025514,
+      "depth": 1,
+      "path_parts": [
+        "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+        "04. Bài 1.2. Cực Trị Hàm Số.pdf"
+      ],
+      "sort_key": [
+        "hàm số và ứng dụng đạo hàm",
+        "",
+        "",
+        4,
+        ". bài ",
+        1,
+        ".",
+        2,
+        ". cực trị hàm số.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 5,
+      "relative_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM/05. BTVN- Tìm Cực Trị qua hàm số, đồ thị, bảng biến thiên.pdf",
+      "folder_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+      "file_name": "05. BTVN- Tìm Cực Trị qua hàm số, đồ thị, bảng biến thiên.pdf",
+      "stem": "05. BTVN- Tìm Cực Trị qua hàm số, đồ thị, bảng biến thiên",
+      "extension": ".pdf",
+      "size_bytes": 696968,
+      "depth": 1,
+      "path_parts": [
+        "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+        "05. BTVN- Tìm Cực Trị qua hàm số, đồ thị, bảng biến thiên.pdf"
+      ],
+      "sort_key": [
+        "hàm số và ứng dụng đạo hàm",
+        "",
+        "",
+        5,
+        ". btvn- tìm cực trị qua hàm số, đồ thị, bảng biến thiên.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 6,
+      "relative_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM/06. Bài 2. Giá Trị Lớn Nhất - Giá Trị Nhỏ Nhất.pdf",
+      "folder_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+      "file_name": "06. Bài 2. Giá Trị Lớn Nhất - Giá Trị Nhỏ Nhất.pdf",
+      "stem": "06. Bài 2. Giá Trị Lớn Nhất - Giá Trị Nhỏ Nhất",
+      "extension": ".pdf",
+      "size_bytes": 849076,
+      "depth": 1,
+      "path_parts": [
+        "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+        "06. Bài 2. Giá Trị Lớn Nhất - Giá Trị Nhỏ Nhất.pdf"
+      ],
+      "sort_key": [
+        "hàm số và ứng dụng đạo hàm",
+        "",
+        "",
+        6,
+        ". bài ",
+        2,
+        ". giá trị lớn nhất - giá trị nhỏ nhất.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 7,
+      "relative_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM/08. Đơn Điệu, Cực Trị Maxmin Hàm Lượng Giác và Mũ Logarit.pdf",
+      "folder_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+      "file_name": "08. Đơn Điệu, Cực Trị Maxmin Hàm Lượng Giác và Mũ Logarit.pdf",
+      "stem": "08. Đơn Điệu, Cực Trị Maxmin Hàm Lượng Giác và Mũ Logarit",
+      "extension": ".pdf",
+      "size_bytes": 633486,
+      "depth": 1,
+      "path_parts": [
+        "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+        "08. Đơn Điệu, Cực Trị Maxmin Hàm Lượng Giác và Mũ Logarit.pdf"
+      ],
+      "sort_key": [
+        "hàm số và ứng dụng đạo hàm",
+        "",
+        "",
+        8,
+        ". đơn điệu, cực trị maxmin hàm lượng giác và mũ logarit.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 8,
+      "relative_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM/09. Bài 3.1 Đường Tiệm Cận Của ĐTHS - TCĐ,TCN.pdf",
+      "folder_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+      "file_name": "09. Bài 3.1 Đường Tiệm Cận Của ĐTHS - TCĐ,TCN.pdf",
+      "stem": "09. Bài 3.1 Đường Tiệm Cận Của ĐTHS - TCĐ,TCN",
+      "extension": ".pdf",
+      "size_bytes": 684834,
+      "depth": 1,
+      "path_parts": [
+        "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+        "09. Bài 3.1 Đường Tiệm Cận Của ĐTHS - TCĐ,TCN.pdf"
+      ],
+      "sort_key": [
+        "hàm số và ứng dụng đạo hàm",
+        "",
+        "",
+        9,
+        ". bài ",
+        3,
+        ".",
+        1,
+        " đường tiệm cận của đths - tcđ,tcn.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 9,
+      "relative_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM/11. Bài 3.2 Đường Tiệm Cận Của ĐTHS - Tiệm Cận Xiên.pdf",
+      "folder_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+      "file_name": "11. Bài 3.2 Đường Tiệm Cận Của ĐTHS - Tiệm Cận Xiên.pdf",
+      "stem": "11. Bài 3.2 Đường Tiệm Cận Của ĐTHS - Tiệm Cận Xiên",
+      "extension": ".pdf",
+      "size_bytes": 550331,
+      "depth": 1,
+      "path_parts": [
+        "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+        "11. Bài 3.2 Đường Tiệm Cận Của ĐTHS - Tiệm Cận Xiên.pdf"
+      ],
+      "sort_key": [
+        "hàm số và ứng dụng đạo hàm",
+        "",
+        "",
+        11,
+        ". bài ",
+        3,
+        ".",
+        2,
+        " đường tiệm cận của đths - tiệm cận xiên.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 10,
+      "relative_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM/13. Bài 4.1. Khảo Sát Đồ Thị Hàm Số_ Hàm Bậc Ba và Phân Thức Bậc Nhất.pdf",
+      "folder_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+      "file_name": "13. Bài 4.1. Khảo Sát Đồ Thị Hàm Số_ Hàm Bậc Ba và Phân Thức Bậc Nhất.pdf",
+      "stem": "13. Bài 4.1. Khảo Sát Đồ Thị Hàm Số_ Hàm Bậc Ba và Phân Thức Bậc Nhất",
+      "extension": ".pdf",
+      "size_bytes": 1006631,
+      "depth": 1,
+      "path_parts": [
+        "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+        "13. Bài 4.1. Khảo Sát Đồ Thị Hàm Số_ Hàm Bậc Ba và Phân Thức Bậc Nhất.pdf"
+      ],
+      "sort_key": [
+        "hàm số và ứng dụng đạo hàm",
+        "",
+        "",
+        13,
+        ". bài ",
+        4,
+        ".",
+        1,
+        ". khảo sát đồ thị hàm số_ hàm bậc ba và phân thức bậc nhất.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 11,
+      "relative_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM/15 Bài 4.2. Khảo Sát Đồ Thị Hàm Số Hàm Phân Thức Bậc Hai.pdf",
+      "folder_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+      "file_name": "15 Bài 4.2. Khảo Sát Đồ Thị Hàm Số Hàm Phân Thức Bậc Hai.pdf",
+      "stem": "15 Bài 4.2. Khảo Sát Đồ Thị Hàm Số Hàm Phân Thức Bậc Hai",
+      "extension": ".pdf",
+      "size_bytes": 8602600,
+      "depth": 1,
+      "path_parts": [
+        "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+        "15 Bài 4.2. Khảo Sát Đồ Thị Hàm Số Hàm Phân Thức Bậc Hai.pdf"
+      ],
+      "sort_key": [
+        "hàm số và ứng dụng đạo hàm",
+        "",
+        "",
+        15,
+        " bài ",
+        4,
+        ".",
+        2,
+        ". khảo sát đồ thị hàm số hàm phân thức bậc hai.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 12,
+      "relative_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM/16 BTVN - Khảo Sát Đồ Thị Hàm Số Hàm Phân Thức Bậc Hai.pdf",
+      "folder_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+      "file_name": "16 BTVN - Khảo Sát Đồ Thị Hàm Số Hàm Phân Thức Bậc Hai.pdf",
+      "stem": "16 BTVN - Khảo Sát Đồ Thị Hàm Số Hàm Phân Thức Bậc Hai",
+      "extension": ".pdf",
+      "size_bytes": 8609992,
+      "depth": 1,
+      "path_parts": [
+        "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+        "16 BTVN - Khảo Sát Đồ Thị Hàm Số Hàm Phân Thức Bậc Hai.pdf"
+      ],
+      "sort_key": [
+        "hàm số và ứng dụng đạo hàm",
+        "",
+        "",
+        16,
+        " btvn - khảo sát đồ thị hàm số hàm phân thức bậc hai.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 13,
+      "relative_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM/17 Bài 5.1 Ứng Dụng Đạo Hàm - Phần 1. Bài Toán Tốc Độ Thay Đổi Của 1 Đại Lượng.pdf",
+      "folder_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+      "file_name": "17 Bài 5.1 Ứng Dụng Đạo Hàm - Phần 1. Bài Toán Tốc Độ Thay Đổi Của 1 Đại Lượng.pdf",
+      "stem": "17 Bài 5.1 Ứng Dụng Đạo Hàm - Phần 1. Bài Toán Tốc Độ Thay Đổi Của 1 Đại Lượng",
+      "extension": ".pdf",
+      "size_bytes": 573484,
+      "depth": 1,
+      "path_parts": [
+        "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+        "17 Bài 5.1 Ứng Dụng Đạo Hàm - Phần 1. Bài Toán Tốc Độ Thay Đổi Của 1 Đại Lượng.pdf"
+      ],
+      "sort_key": [
+        "hàm số và ứng dụng đạo hàm",
+        "",
+        "",
+        17,
+        " bài ",
+        5,
+        ".",
+        1,
+        " ứng dụng đạo hàm - phần ",
+        1,
+        ". bài toán tốc độ thay đổi của ",
+        1,
+        " đại lượng.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 14,
+      "relative_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM/19 Bài 5.2 Ứng Dụng Đạo Hàm - Phần 2. Bài Toán Kinh Tế.pdf",
+      "folder_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+      "file_name": "19 Bài 5.2 Ứng Dụng Đạo Hàm - Phần 2. Bài Toán Kinh Tế.pdf",
+      "stem": "19 Bài 5.2 Ứng Dụng Đạo Hàm - Phần 2. Bài Toán Kinh Tế",
+      "extension": ".pdf",
+      "size_bytes": 10487448,
+      "depth": 1,
+      "path_parts": [
+        "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+        "19 Bài 5.2 Ứng Dụng Đạo Hàm - Phần 2. Bài Toán Kinh Tế.pdf"
+      ],
+      "sort_key": [
+        "hàm số và ứng dụng đạo hàm",
+        "",
+        "",
+        19,
+        " bài ",
+        5,
+        ".",
+        2,
+        " ứng dụng đạo hàm - phần ",
+        2,
+        ". bài toán kinh tế.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 15,
+      "relative_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM/Bài 5.3 Ứng Dụng Đạo Hàm - Phần 3. Bài Toán Chu Vi, Diện Tích - Quãng Đường.pdf",
+      "folder_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+      "file_name": "Bài 5.3 Ứng Dụng Đạo Hàm - Phần 3. Bài Toán Chu Vi, Diện Tích - Quãng Đường.pdf",
+      "stem": "Bài 5.3 Ứng Dụng Đạo Hàm - Phần 3. Bài Toán Chu Vi, Diện Tích - Quãng Đường",
+      "extension": ".pdf",
+      "size_bytes": 11130049,
+      "depth": 1,
+      "path_parts": [
+        "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+        "Bài 5.3 Ứng Dụng Đạo Hàm - Phần 3. Bài Toán Chu Vi, Diện Tích - Quãng Đường.pdf"
+      ],
+      "sort_key": [
+        "hàm số và ứng dụng đạo hàm",
+        "",
+        "bài ",
+        5,
+        ".",
+        3,
+        " ứng dụng đạo hàm - phần ",
+        3,
+        ". bài toán chu vi, diện tích - quãng đường.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 16,
+      "relative_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM/Bài 5.4 Ứng Dụng Đạo Hàm - Phần 4. Bài Toán Hình Học Không Gian.pdf",
+      "folder_path": "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+      "file_name": "Bài 5.4 Ứng Dụng Đạo Hàm - Phần 4. Bài Toán Hình Học Không Gian.pdf",
+      "stem": "Bài 5.4 Ứng Dụng Đạo Hàm - Phần 4. Bài Toán Hình Học Không Gian",
+      "extension": ".pdf",
+      "size_bytes": 10521279,
+      "depth": 1,
+      "path_parts": [
+        "HÀM SỐ VÀ ỨNG DỤNG ĐẠO HÀM",
+        "Bài 5.4 Ứng Dụng Đạo Hàm - Phần 4. Bài Toán Hình Học Không Gian.pdf"
+      ],
+      "sort_key": [
+        "hàm số và ứng dụng đạo hàm",
+        "",
+        "bài ",
+        5,
+        ".",
+        4,
+        " ứng dụng đạo hàm - phần ",
+        4,
+        ". bài toán hình học không gian.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 17,
+      "relative_path": "MẪU SỐ LIỆU GHÉP NHÓM/Bài 1. Khoảng Biến Thiên Và Khoảng Tứ Phân Vị.pdf",
+      "folder_path": "MẪU SỐ LIỆU GHÉP NHÓM",
+      "file_name": "Bài 1. Khoảng Biến Thiên Và Khoảng Tứ Phân Vị.pdf",
+      "stem": "Bài 1. Khoảng Biến Thiên Và Khoảng Tứ Phân Vị",
+      "extension": ".pdf",
+      "size_bytes": 9090779,
+      "depth": 1,
+      "path_parts": [
+        "MẪU SỐ LIỆU GHÉP NHÓM",
+        "Bài 1. Khoảng Biến Thiên Và Khoảng Tứ Phân Vị.pdf"
+      ],
+      "sort_key": [
+        "mẫu số liệu ghép nhóm",
+        "",
+        "bài ",
+        1,
+        ". khoảng biến thiên và khoảng tứ phân vị.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 18,
+      "relative_path": "MẪU SỐ LIỆU GHÉP NHÓM/Bài 2. Phương Sai Và Độ Lệch Chuẩn.pdf",
+      "folder_path": "MẪU SỐ LIỆU GHÉP NHÓM",
+      "file_name": "Bài 2. Phương Sai Và Độ Lệch Chuẩn.pdf",
+      "stem": "Bài 2. Phương Sai Và Độ Lệch Chuẩn",
+      "extension": ".pdf",
+      "size_bytes": 8140575,
+      "depth": 1,
+      "path_parts": [
+        "MẪU SỐ LIỆU GHÉP NHÓM",
+        "Bài 2. Phương Sai Và Độ Lệch Chuẩn.pdf"
+      ],
+      "sort_key": [
+        "mẫu số liệu ghép nhóm",
+        "",
+        "bài ",
+        2,
+        ". phương sai và độ lệch chuẩn.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 19,
+      "relative_path": "NGUYÊN HÀM, TÍCH PHÂN/Bài 1.1 Nguyên Hàm Cơ Bản.pdf",
+      "folder_path": "NGUYÊN HÀM, TÍCH PHÂN",
+      "file_name": "Bài 1.1 Nguyên Hàm Cơ Bản.pdf",
+      "stem": "Bài 1.1 Nguyên Hàm Cơ Bản",
+      "extension": ".pdf",
+      "size_bytes": 4602398,
+      "depth": 1,
+      "path_parts": [
+        "NGUYÊN HÀM, TÍCH PHÂN",
+        "Bài 1.1 Nguyên Hàm Cơ Bản.pdf"
+      ],
+      "sort_key": [
+        "nguyên hàm, tích phân",
+        "",
+        "bài ",
+        1,
+        ".",
+        1,
+        " nguyên hàm cơ bản.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 20,
+      "relative_path": "NGUYÊN HÀM, TÍCH PHÂN/Bài 1.2 Nguyên Hàm Của Các Hàm Đặc Biệt.pdf",
+      "folder_path": "NGUYÊN HÀM, TÍCH PHÂN",
+      "file_name": "Bài 1.2 Nguyên Hàm Của Các Hàm Đặc Biệt.pdf",
+      "stem": "Bài 1.2 Nguyên Hàm Của Các Hàm Đặc Biệt",
+      "extension": ".pdf",
+      "size_bytes": 3899494,
+      "depth": 1,
+      "path_parts": [
+        "NGUYÊN HÀM, TÍCH PHÂN",
+        "Bài 1.2 Nguyên Hàm Của Các Hàm Đặc Biệt.pdf"
+      ],
+      "sort_key": [
+        "nguyên hàm, tích phân",
+        "",
+        "bài ",
+        1,
+        ".",
+        2,
+        " nguyên hàm của các hàm đặc biệt.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 21,
+      "relative_path": "NGUYÊN HÀM, TÍCH PHÂN/Bài 1.3 Toán Thực Tế Nguyên Hàm.pdf",
+      "folder_path": "NGUYÊN HÀM, TÍCH PHÂN",
+      "file_name": "Bài 1.3 Toán Thực Tế Nguyên Hàm.pdf",
+      "stem": "Bài 1.3 Toán Thực Tế Nguyên Hàm",
+      "extension": ".pdf",
+      "size_bytes": 6555516,
+      "depth": 1,
+      "path_parts": [
+        "NGUYÊN HÀM, TÍCH PHÂN",
+        "Bài 1.3 Toán Thực Tế Nguyên Hàm.pdf"
+      ],
+      "sort_key": [
+        "nguyên hàm, tích phân",
+        "",
+        "bài ",
+        1,
+        ".",
+        3,
+        " toán thực tế nguyên hàm.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 22,
+      "relative_path": "NGUYÊN HÀM, TÍCH PHÂN/Bài 2.1 Tích Phân Cơ Bản.pdf",
+      "folder_path": "NGUYÊN HÀM, TÍCH PHÂN",
+      "file_name": "Bài 2.1 Tích Phân Cơ Bản.pdf",
+      "stem": "Bài 2.1 Tích Phân Cơ Bản",
+      "extension": ".pdf",
+      "size_bytes": 2746984,
+      "depth": 1,
+      "path_parts": [
+        "NGUYÊN HÀM, TÍCH PHÂN",
+        "Bài 2.1 Tích Phân Cơ Bản.pdf"
+      ],
+      "sort_key": [
+        "nguyên hàm, tích phân",
+        "",
+        "bài ",
+        2,
+        ".",
+        1,
+        " tích phân cơ bản.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 23,
+      "relative_path": "NGUYÊN HÀM, TÍCH PHÂN/Bài 2.2 Toán Thực Tế - Bài Toán Chuyển Động SVA.pdf",
+      "folder_path": "NGUYÊN HÀM, TÍCH PHÂN",
+      "file_name": "Bài 2.2 Toán Thực Tế - Bài Toán Chuyển Động SVA.pdf",
+      "stem": "Bài 2.2 Toán Thực Tế - Bài Toán Chuyển Động SVA",
+      "extension": ".pdf",
+      "size_bytes": 7281774,
+      "depth": 1,
+      "path_parts": [
+        "NGUYÊN HÀM, TÍCH PHÂN",
+        "Bài 2.2 Toán Thực Tế - Bài Toán Chuyển Động SVA.pdf"
+      ],
+      "sort_key": [
+        "nguyên hàm, tích phân",
+        "",
+        "bài ",
+        2,
+        ".",
+        2,
+        " toán thực tế - bài toán chuyển động sva.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 24,
+      "relative_path": "NGUYÊN HÀM, TÍCH PHÂN/Bài 3.1 Ứng Dụng Tích Phân Trong Hình Học - Tính Diện Tích.pdf",
+      "folder_path": "NGUYÊN HÀM, TÍCH PHÂN",
+      "file_name": "Bài 3.1 Ứng Dụng Tích Phân Trong Hình Học - Tính Diện Tích.pdf",
+      "stem": "Bài 3.1 Ứng Dụng Tích Phân Trong Hình Học - Tính Diện Tích",
+      "extension": ".pdf",
+      "size_bytes": 9605450,
+      "depth": 1,
+      "path_parts": [
+        "NGUYÊN HÀM, TÍCH PHÂN",
+        "Bài 3.1 Ứng Dụng Tích Phân Trong Hình Học - Tính Diện Tích.pdf"
+      ],
+      "sort_key": [
+        "nguyên hàm, tích phân",
+        "",
+        "bài ",
+        3,
+        ".",
+        1,
+        " ứng dụng tích phân trong hình học - tính diện tích.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 25,
+      "relative_path": "NGUYÊN HÀM, TÍCH PHÂN/Bài 3.2 Toán Thực Tế  - Tính Diện Tích Hình Phẳng.pdf",
+      "folder_path": "NGUYÊN HÀM, TÍCH PHÂN",
+      "file_name": "Bài 3.2 Toán Thực Tế  - Tính Diện Tích Hình Phẳng.pdf",
+      "stem": "Bài 3.2 Toán Thực Tế  - Tính Diện Tích Hình Phẳng",
+      "extension": ".pdf",
+      "size_bytes": 9343934,
+      "depth": 1,
+      "path_parts": [
+        "NGUYÊN HÀM, TÍCH PHÂN",
+        "Bài 3.2 Toán Thực Tế  - Tính Diện Tích Hình Phẳng.pdf"
+      ],
+      "sort_key": [
+        "nguyên hàm, tích phân",
+        "",
+        "bài ",
+        3,
+        ".",
+        2,
+        " toán thực tế  - tính diện tích hình phẳng.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 26,
+      "relative_path": "NGUYÊN HÀM, TÍCH PHÂN/Bài 3.3 Ứng Dụng Tích Phân Trong Hình Học - Tính Thể Tích.pdf",
+      "folder_path": "NGUYÊN HÀM, TÍCH PHÂN",
+      "file_name": "Bài 3.3 Ứng Dụng Tích Phân Trong Hình Học - Tính Thể Tích.pdf",
+      "stem": "Bài 3.3 Ứng Dụng Tích Phân Trong Hình Học - Tính Thể Tích",
+      "extension": ".pdf",
+      "size_bytes": 9960090,
+      "depth": 1,
+      "path_parts": [
+        "NGUYÊN HÀM, TÍCH PHÂN",
+        "Bài 3.3 Ứng Dụng Tích Phân Trong Hình Học - Tính Thể Tích.pdf"
+      ],
+      "sort_key": [
+        "nguyên hàm, tích phân",
+        "",
+        "bài ",
+        3,
+        ".",
+        3,
+        " ứng dụng tích phân trong hình học - tính thể tích.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 27,
+      "relative_path": "NGUYÊN HÀM, TÍCH PHÂN/Bài 3.4 Toán Thực Tế - Tính Thể Tích Vật Thể.pdf",
+      "folder_path": "NGUYÊN HÀM, TÍCH PHÂN",
+      "file_name": "Bài 3.4 Toán Thực Tế - Tính Thể Tích Vật Thể.pdf",
+      "stem": "Bài 3.4 Toán Thực Tế - Tính Thể Tích Vật Thể",
+      "extension": ".pdf",
+      "size_bytes": 10527876,
+      "depth": 1,
+      "path_parts": [
+        "NGUYÊN HÀM, TÍCH PHÂN",
+        "Bài 3.4 Toán Thực Tế - Tính Thể Tích Vật Thể.pdf"
+      ],
+      "sort_key": [
+        "nguyên hàm, tích phân",
+        "",
+        "bài ",
+        3,
+        ".",
+        4,
+        " toán thực tế - tính thể tích vật thể.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 28,
+      "relative_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU/_Bài 1.1 Phương Trình Mặt Phẳng - Buổi 1.  PT Tổng Quát.pdf",
+      "folder_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+      "file_name": "_Bài 1.1 Phương Trình Mặt Phẳng - Buổi 1.  PT Tổng Quát.pdf",
+      "stem": "_Bài 1.1 Phương Trình Mặt Phẳng - Buổi 1.  PT Tổng Quát",
+      "extension": ".pdf",
+      "size_bytes": 5917339,
+      "depth": 1,
+      "path_parts": [
+        "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+        "_Bài 1.1 Phương Trình Mặt Phẳng - Buổi 1.  PT Tổng Quát.pdf"
+      ],
+      "sort_key": [
+        "oxyz, phương trình mặt phẳng, đường thẳng, mặt cầu",
+        "",
+        "_bài ",
+        1,
+        ".",
+        1,
+        " phương trình mặt phẳng - buổi ",
+        1,
+        ".  pt tổng quát.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 29,
+      "relative_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU/Bài 0. Tích Có Hướng Và Ứng Dụng.pdf",
+      "folder_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+      "file_name": "Bài 0. Tích Có Hướng Và Ứng Dụng.pdf",
+      "stem": "Bài 0. Tích Có Hướng Và Ứng Dụng",
+      "extension": ".pdf",
+      "size_bytes": 4002278,
+      "depth": 1,
+      "path_parts": [
+        "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+        "Bài 0. Tích Có Hướng Và Ứng Dụng.pdf"
+      ],
+      "sort_key": [
+        "oxyz, phương trình mặt phẳng, đường thẳng, mặt cầu",
+        "",
+        "bài ",
+        0,
+        ". tích có hướng và ứng dụng.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 30,
+      "relative_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU/Bài 1.2 Phương Trình Mặt Phẳng - Buổi 2 - PT Mặt Chắn.pdf",
+      "folder_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+      "file_name": "Bài 1.2 Phương Trình Mặt Phẳng - Buổi 2 - PT Mặt Chắn.pdf",
+      "stem": "Bài 1.2 Phương Trình Mặt Phẳng - Buổi 2 - PT Mặt Chắn",
+      "extension": ".pdf",
+      "size_bytes": 6147649,
+      "depth": 1,
+      "path_parts": [
+        "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+        "Bài 1.2 Phương Trình Mặt Phẳng - Buổi 2 - PT Mặt Chắn.pdf"
+      ],
+      "sort_key": [
+        "oxyz, phương trình mặt phẳng, đường thẳng, mặt cầu",
+        "",
+        "bài ",
+        1,
+        ".",
+        2,
+        " phương trình mặt phẳng - buổi ",
+        2,
+        " - pt mặt chắn.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 31,
+      "relative_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU/Bài 1.3 Phương Trình Mặt Phẳng - Buổi 3. Vị Trí Tương Đối G.pdf",
+      "folder_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+      "file_name": "Bài 1.3 Phương Trình Mặt Phẳng - Buổi 3. Vị Trí Tương Đối G.pdf",
+      "stem": "Bài 1.3 Phương Trình Mặt Phẳng - Buổi 3. Vị Trí Tương Đối G",
+      "extension": ".pdf",
+      "size_bytes": 5341349,
+      "depth": 1,
+      "path_parts": [
+        "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+        "Bài 1.3 Phương Trình Mặt Phẳng - Buổi 3. Vị Trí Tương Đối G.pdf"
+      ],
+      "sort_key": [
+        "oxyz, phương trình mặt phẳng, đường thẳng, mặt cầu",
+        "",
+        "bài ",
+        1,
+        ".",
+        3,
+        " phương trình mặt phẳng - buổi ",
+        3,
+        ". vị trí tương đối g.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 32,
+      "relative_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU/Bài 2.1 Phương Trình Đường Thẳng - Buổi 1. PT Cơ Bản.pdf",
+      "folder_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+      "file_name": "Bài 2.1 Phương Trình Đường Thẳng - Buổi 1. PT Cơ Bản.pdf",
+      "stem": "Bài 2.1 Phương Trình Đường Thẳng - Buổi 1. PT Cơ Bản",
+      "extension": ".pdf",
+      "size_bytes": 9512980,
+      "depth": 1,
+      "path_parts": [
+        "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+        "Bài 2.1 Phương Trình Đường Thẳng - Buổi 1. PT Cơ Bản.pdf"
+      ],
+      "sort_key": [
+        "oxyz, phương trình mặt phẳng, đường thẳng, mặt cầu",
+        "",
+        "bài ",
+        2,
+        ".",
+        1,
+        " phương trình đường thẳng - buổi ",
+        1,
+        ". pt cơ bản.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 33,
+      "relative_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU/Bài 2.2 Phương Trình Đường Thẳng - Buổi 2. PT Nâng Cao.pdf",
+      "folder_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+      "file_name": "Bài 2.2 Phương Trình Đường Thẳng - Buổi 2. PT Nâng Cao.pdf",
+      "stem": "Bài 2.2 Phương Trình Đường Thẳng - Buổi 2. PT Nâng Cao",
+      "extension": ".pdf",
+      "size_bytes": 5394246,
+      "depth": 1,
+      "path_parts": [
+        "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+        "Bài 2.2 Phương Trình Đường Thẳng - Buổi 2. PT Nâng Cao.pdf"
+      ],
+      "sort_key": [
+        "oxyz, phương trình mặt phẳng, đường thẳng, mặt cầu",
+        "",
+        "bài ",
+        2,
+        ".",
+        2,
+        " phương trình đường thẳng - buổi ",
+        2,
+        ". pt nâng cao.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 34,
+      "relative_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU/Bài 2.3 Phương Trình Đường Thẳng - Buổi 3. Góc và Khoảng Cách, Vị Trí Tương Đối.pdf",
+      "folder_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+      "file_name": "Bài 2.3 Phương Trình Đường Thẳng - Buổi 3. Góc và Khoảng Cách, Vị Trí Tương Đối.pdf",
+      "stem": "Bài 2.3 Phương Trình Đường Thẳng - Buổi 3. Góc và Khoảng Cách, Vị Trí Tương Đối",
+      "extension": ".pdf",
+      "size_bytes": 7053764,
+      "depth": 1,
+      "path_parts": [
+        "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+        "Bài 2.3 Phương Trình Đường Thẳng - Buổi 3. Góc và Khoảng Cách, Vị Trí Tương Đối.pdf"
+      ],
+      "sort_key": [
+        "oxyz, phương trình mặt phẳng, đường thẳng, mặt cầu",
+        "",
+        "bài ",
+        2,
+        ".",
+        3,
+        " phương trình đường thẳng - buổi ",
+        3,
+        ". góc và khoảng cách, vị trí tương đối.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 35,
+      "relative_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU/Bài 2.4 Toán Thực Tế Oxyz_ Phương Trình Đường Thẳng .pdf",
+      "folder_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+      "file_name": "Bài 2.4 Toán Thực Tế Oxyz_ Phương Trình Đường Thẳng .pdf",
+      "stem": "Bài 2.4 Toán Thực Tế Oxyz_ Phương Trình Đường Thẳng ",
+      "extension": ".pdf",
+      "size_bytes": 6190166,
+      "depth": 1,
+      "path_parts": [
+        "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+        "Bài 2.4 Toán Thực Tế Oxyz_ Phương Trình Đường Thẳng .pdf"
+      ],
+      "sort_key": [
+        "oxyz, phương trình mặt phẳng, đường thẳng, mặt cầu",
+        "",
+        "bài ",
+        2,
+        ".",
+        4,
+        " toán thực tế oxyz_ phương trình đường thẳng .pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 36,
+      "relative_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU/Bài 2. Hệ Trục Tọa Độ Oxyz.pdf",
+      "folder_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+      "file_name": "Bài 2. Hệ Trục Tọa Độ Oxyz.pdf",
+      "stem": "Bài 2. Hệ Trục Tọa Độ Oxyz",
+      "extension": ".pdf",
+      "size_bytes": 6424248,
+      "depth": 1,
+      "path_parts": [
+        "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+        "Bài 2. Hệ Trục Tọa Độ Oxyz.pdf"
+      ],
+      "sort_key": [
+        "oxyz, phương trình mặt phẳng, đường thẳng, mặt cầu",
+        "",
+        "bài ",
+        2,
+        ". hệ trục tọa độ oxyz.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 37,
+      "relative_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU/Bài 3.1 Phương Trình Mặt Cầu - Buổi 1. Viết PT.pdf",
+      "folder_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+      "file_name": "Bài 3.1 Phương Trình Mặt Cầu - Buổi 1. Viết PT.pdf",
+      "stem": "Bài 3.1 Phương Trình Mặt Cầu - Buổi 1. Viết PT",
+      "extension": ".pdf",
+      "size_bytes": 5433985,
+      "depth": 1,
+      "path_parts": [
+        "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+        "Bài 3.1 Phương Trình Mặt Cầu - Buổi 1. Viết PT.pdf"
+      ],
+      "sort_key": [
+        "oxyz, phương trình mặt phẳng, đường thẳng, mặt cầu",
+        "",
+        "bài ",
+        3,
+        ".",
+        1,
+        " phương trình mặt cầu - buổi ",
+        1,
+        ". viết pt.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 38,
+      "relative_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU/Bài 3.2 Phương Trình Mặt Cầu - Vị Trí Tương Đối.pdf",
+      "folder_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+      "file_name": "Bài 3.2 Phương Trình Mặt Cầu - Vị Trí Tương Đối.pdf",
+      "stem": "Bài 3.2 Phương Trình Mặt Cầu - Vị Trí Tương Đối",
+      "extension": ".pdf",
+      "size_bytes": 6698142,
+      "depth": 1,
+      "path_parts": [
+        "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+        "Bài 3.2 Phương Trình Mặt Cầu - Vị Trí Tương Đối.pdf"
+      ],
+      "sort_key": [
+        "oxyz, phương trình mặt phẳng, đường thẳng, mặt cầu",
+        "",
+        "bài ",
+        3,
+        ".",
+        2,
+        " phương trình mặt cầu - vị trí tương đối.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 39,
+      "relative_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU/Bài 3. Các Phép Toán Trong Hệ Tọa Độ Oxyz.pdf",
+      "folder_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+      "file_name": "Bài 3. Các Phép Toán Trong Hệ Tọa Độ Oxyz.pdf",
+      "stem": "Bài 3. Các Phép Toán Trong Hệ Tọa Độ Oxyz",
+      "extension": ".pdf",
+      "size_bytes": 8830339,
+      "depth": 1,
+      "path_parts": [
+        "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+        "Bài 3. Các Phép Toán Trong Hệ Tọa Độ Oxyz.pdf"
+      ],
+      "sort_key": [
+        "oxyz, phương trình mặt phẳng, đường thẳng, mặt cầu",
+        "",
+        "bài ",
+        3,
+        ". các phép toán trong hệ tọa độ oxyz.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 40,
+      "relative_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU/Bài 4.1 Tìm Hình Chiếu, Điểm Đối Xứng.pdf",
+      "folder_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+      "file_name": "Bài 4.1 Tìm Hình Chiếu, Điểm Đối Xứng.pdf",
+      "stem": "Bài 4.1 Tìm Hình Chiếu, Điểm Đối Xứng",
+      "extension": ".pdf",
+      "size_bytes": 4926392,
+      "depth": 1,
+      "path_parts": [
+        "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+        "Bài 4.1 Tìm Hình Chiếu, Điểm Đối Xứng.pdf"
+      ],
+      "sort_key": [
+        "oxyz, phương trình mặt phẳng, đường thẳng, mặt cầu",
+        "",
+        "bài ",
+        4,
+        ".",
+        1,
+        " tìm hình chiếu, điểm đối xứng.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 41,
+      "relative_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU/Toán Thực Tế Oxyz_ Phương Trình Mặt Phẳng .pdf",
+      "folder_path": "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+      "file_name": "Toán Thực Tế Oxyz_ Phương Trình Mặt Phẳng .pdf",
+      "stem": "Toán Thực Tế Oxyz_ Phương Trình Mặt Phẳng ",
+      "extension": ".pdf",
+      "size_bytes": 9410306,
+      "depth": 1,
+      "path_parts": [
+        "OXYZ, PHƯƠNG TRÌNH MẶT PHẲNG, ĐƯỜNG THẲNG, MẶT CẦU",
+        "Toán Thực Tế Oxyz_ Phương Trình Mặt Phẳng .pdf"
+      ],
+      "sort_key": [
+        "oxyz, phương trình mặt phẳng, đường thẳng, mặt cầu",
+        "",
+        "toán thực tế oxyz_ phương trình mặt phẳng .pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 42,
+      "relative_path": "VÉCTƠ TRONG KHÔNG GIAN/Bài 1.1 Vecto Trong Không Gian.pdf",
+      "folder_path": "VÉCTƠ TRONG KHÔNG GIAN",
+      "file_name": "Bài 1.1 Vecto Trong Không Gian.pdf",
+      "stem": "Bài 1.1 Vecto Trong Không Gian",
+      "extension": ".pdf",
+      "size_bytes": 9206605,
+      "depth": 1,
+      "path_parts": [
+        "VÉCTƠ TRONG KHÔNG GIAN",
+        "Bài 1.1 Vecto Trong Không Gian.pdf"
+      ],
+      "sort_key": [
+        "véctơ trong không gian",
+        "",
+        "bài ",
+        1,
+        ".",
+        1,
+        " vecto trong không gian.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 43,
+      "relative_path": "VÉCTƠ TRONG KHÔNG GIAN/Bài 4.1. Toán Thực Tế Vecto - Dạng 1_ Tổng Hợp Lực.pdf",
+      "folder_path": "VÉCTƠ TRONG KHÔNG GIAN",
+      "file_name": "Bài 4.1. Toán Thực Tế Vecto - Dạng 1_ Tổng Hợp Lực.pdf",
+      "stem": "Bài 4.1. Toán Thực Tế Vecto - Dạng 1_ Tổng Hợp Lực",
+      "extension": ".pdf",
+      "size_bytes": 4106743,
+      "depth": 1,
+      "path_parts": [
+        "VÉCTƠ TRONG KHÔNG GIAN",
+        "Bài 4.1. Toán Thực Tế Vecto - Dạng 1_ Tổng Hợp Lực.pdf"
+      ],
+      "sort_key": [
+        "véctơ trong không gian",
+        "",
+        "bài ",
+        4,
+        ".",
+        1,
+        ". toán thực tế vecto - dạng ",
+        1,
+        "_ tổng hợp lực.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 44,
+      "relative_path": "VÉCTƠ TRONG KHÔNG GIAN/Bài 4.2. Toán Thực Tế Vecto - Dạng 2_ Bài Toán Tổng Tìm Tọa Độ , Tọa Độ Hóa.pdf",
+      "folder_path": "VÉCTƠ TRONG KHÔNG GIAN",
+      "file_name": "Bài 4.2. Toán Thực Tế Vecto - Dạng 2_ Bài Toán Tổng Tìm Tọa Độ , Tọa Độ Hóa.pdf",
+      "stem": "Bài 4.2. Toán Thực Tế Vecto - Dạng 2_ Bài Toán Tổng Tìm Tọa Độ , Tọa Độ Hóa",
+      "extension": ".pdf",
+      "size_bytes": 10693281,
+      "depth": 1,
+      "path_parts": [
+        "VÉCTƠ TRONG KHÔNG GIAN",
+        "Bài 4.2. Toán Thực Tế Vecto - Dạng 2_ Bài Toán Tổng Tìm Tọa Độ , Tọa Độ Hóa.pdf"
+      ],
+      "sort_key": [
+        "véctơ trong không gian",
+        "",
+        "bài ",
+        4,
+        ".",
+        2,
+        ". toán thực tế vecto - dạng ",
+        2,
+        "_ bài toán tổng tìm tọa độ , tọa độ hóa.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 45,
+      "relative_path": "VÉCTƠ TRONG KHÔNG GIAN/Bài 4.3. Toán Thực Tế Vecto - Dạng 3. Tính Công (Tích Vô Hướng).pdf",
+      "folder_path": "VÉCTƠ TRONG KHÔNG GIAN",
+      "file_name": "Bài 4.3. Toán Thực Tế Vecto - Dạng 3. Tính Công (Tích Vô Hướng).pdf",
+      "stem": "Bài 4.3. Toán Thực Tế Vecto - Dạng 3. Tính Công (Tích Vô Hướng)",
+      "extension": ".pdf",
+      "size_bytes": 4788267,
+      "depth": 1,
+      "path_parts": [
+        "VÉCTƠ TRONG KHÔNG GIAN",
+        "Bài 4.3. Toán Thực Tế Vecto - Dạng 3. Tính Công (Tích Vô Hướng).pdf"
+      ],
+      "sort_key": [
+        "véctơ trong không gian",
+        "",
+        "bài ",
+        4,
+        ".",
+        3,
+        ". toán thực tế vecto - dạng ",
+        3,
+        ". tính công (tích vô hướng).pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 46,
+      "relative_path": "VÉCTƠ TRONG KHÔNG GIAN/Bài 4.4. Toán Thực Tế Vecto - Dạng 4. Treo Vật Bằng Sợi Dậy.pdf",
+      "folder_path": "VÉCTƠ TRONG KHÔNG GIAN",
+      "file_name": "Bài 4.4. Toán Thực Tế Vecto - Dạng 4. Treo Vật Bằng Sợi Dậy.pdf",
+      "stem": "Bài 4.4. Toán Thực Tế Vecto - Dạng 4. Treo Vật Bằng Sợi Dậy",
+      "extension": ".pdf",
+      "size_bytes": 5783737,
+      "depth": 1,
+      "path_parts": [
+        "VÉCTƠ TRONG KHÔNG GIAN",
+        "Bài 4.4. Toán Thực Tế Vecto - Dạng 4. Treo Vật Bằng Sợi Dậy.pdf"
+      ],
+      "sort_key": [
+        "véctơ trong không gian",
+        "",
+        "bài ",
+        4,
+        ".",
+        4,
+        ". toán thực tế vecto - dạng ",
+        4,
+        ". treo vật bằng sợi dậy.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 47,
+      "relative_path": "VÉCTƠ TRONG KHÔNG GIAN/Bài 4. Toán Thực Tế Vecto.pdf",
+      "folder_path": "VÉCTƠ TRONG KHÔNG GIAN",
+      "file_name": "Bài 4. Toán Thực Tế Vecto.pdf",
+      "stem": "Bài 4. Toán Thực Tế Vecto",
+      "extension": ".pdf",
+      "size_bytes": 5292970,
+      "depth": 1,
+      "path_parts": [
+        "VÉCTƠ TRONG KHÔNG GIAN",
+        "Bài 4. Toán Thực Tế Vecto.pdf"
+      ],
+      "sort_key": [
+        "véctơ trong không gian",
+        "",
+        "bài ",
+        4,
+        ". toán thực tế vecto.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 48,
+      "relative_path": "VÉCTƠ TRONG KHÔNG GIAN/Bài Toán Tâm Tỉ Cự.pdf",
+      "folder_path": "VÉCTƠ TRONG KHÔNG GIAN",
+      "file_name": "Bài Toán Tâm Tỉ Cự.pdf",
+      "stem": "Bài Toán Tâm Tỉ Cự",
+      "extension": ".pdf",
+      "size_bytes": 2164528,
+      "depth": 1,
+      "path_parts": [
+        "VÉCTƠ TRONG KHÔNG GIAN",
+        "Bài Toán Tâm Tỉ Cự.pdf"
+      ],
+      "sort_key": [
+        "véctơ trong không gian",
+        "",
+        "bài toán tâm tỉ cự.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 49,
+      "relative_path": "XÁC SUẤT CÓ ĐIỀU KIỆN/Bài 1. Xác Suất Có Điều Kiện và Công Thức Nhân Xác Suất.pdf",
+      "folder_path": "XÁC SUẤT CÓ ĐIỀU KIỆN",
+      "file_name": "Bài 1. Xác Suất Có Điều Kiện và Công Thức Nhân Xác Suất.pdf",
+      "stem": "Bài 1. Xác Suất Có Điều Kiện và Công Thức Nhân Xác Suất",
+      "extension": ".pdf",
+      "size_bytes": 8704722,
+      "depth": 1,
+      "path_parts": [
+        "XÁC SUẤT CÓ ĐIỀU KIỆN",
+        "Bài 1. Xác Suất Có Điều Kiện và Công Thức Nhân Xác Suất.pdf"
+      ],
+      "sort_key": [
+        "xác suất có điều kiện",
+        "",
+        "bài ",
+        1,
+        ". xác suất có điều kiện và công thức nhân xác suất.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 50,
+      "relative_path": "XÁC SUẤT CÓ ĐIỀU KIỆN/Bài 2.1 Công Thức Xác Suất Toàn Phần.pdf",
+      "folder_path": "XÁC SUẤT CÓ ĐIỀU KIỆN",
+      "file_name": "Bài 2.1 Công Thức Xác Suất Toàn Phần.pdf",
+      "stem": "Bài 2.1 Công Thức Xác Suất Toàn Phần",
+      "extension": ".pdf",
+      "size_bytes": 7856331,
+      "depth": 1,
+      "path_parts": [
+        "XÁC SUẤT CÓ ĐIỀU KIỆN",
+        "Bài 2.1 Công Thức Xác Suất Toàn Phần.pdf"
+      ],
+      "sort_key": [
+        "xác suất có điều kiện",
+        "",
+        "bài ",
+        2,
+        ".",
+        1,
+        " công thức xác suất toàn phần.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 51,
+      "relative_path": "XÁC SUẤT CÓ ĐIỀU KIỆN/Bài 2.2 Công Thức Bayes.pdf",
+      "folder_path": "XÁC SUẤT CÓ ĐIỀU KIỆN",
+      "file_name": "Bài 2.2 Công Thức Bayes.pdf",
+      "stem": "Bài 2.2 Công Thức Bayes",
+      "extension": ".pdf",
+      "size_bytes": 5820411,
+      "depth": 1,
+      "path_parts": [
+        "XÁC SUẤT CÓ ĐIỀU KIỆN",
+        "Bài 2.2 Công Thức Bayes.pdf"
+      ],
+      "sort_key": [
+        "xác suất có điều kiện",
+        "",
+        "bài ",
+        2,
+        ".",
+        2,
+        " công thức bayes.pdf",
+        ""
+      ]
+    },
+    {
+      "source": "NGPHANTIEN",
+      "order": 52,
+      "relative_path": "XÁC SUẤT CÓ ĐIỀU KIỆN/Bài 3. Biến Đổi, Tính Toán Công Thức Xác Suất.pdf",
+      "folder_path": "XÁC SUẤT CÓ ĐIỀU KIỆN",
+      "file_name": "Bài 3. Biến Đổi, Tính Toán Công Thức Xác Suất.pdf",
+      "stem": "Bài 3. Biến Đổi, Tính Toán Công Thức Xác Suất",
+      "extension": ".pdf",
+      "size_bytes": 3150572,
+      "depth": 1,
+      "path_parts": [
+        "XÁC SUẤT CÓ ĐIỀU KIỆN",
+        "Bài 3. Biến Đổi, Tính Toán Công Thức Xác Suất.pdf"
+      ],
+      "sort_key": [
+        "xác suất có điều kiện",
+        "",
+        "bài ",
+        3,
+        ". biến đổi, tính toán công thức xác suất.pdf",
+        ""
+      ]
+    }
+  ]
+}

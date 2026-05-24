@@ -1,0 +1,214 @@
+{
+  "generated_at": "2026-05-19T17:42:35",
+  "root": "D:\\Projects\\pipeline\\local_curriculum_english",
+  "input_root": "D:\\Projects\\pipeline\\local_curriculum_english\\input_sources",
+  "model": "cc/claude-haiku-4-5-20251001",
+  "subject": "english",
+  "lesson_count": 6,
+  "ai_success_count": 0,
+  "fallback_count": 6,
+  "error_count": 0,
+  "lessons": [
+    {
+      "source": "MP",
+      "order": 1,
+      "relative_path": "NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/20 CHỦ ĐỀ TỪ VỰNG VÀ ĐỌC ĐIỀN - ĐỌC HIỂU CƠ BẢN/01 VIDEO Chủ đề 1 _ Family and Relationships (1).pdf",
+      "folder_path": "NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/20 CHỦ ĐỀ TỪ VỰNG VÀ ĐỌC ĐIỀN - ĐỌC HIỂU CƠ BẢN",
+      "file_name": "01 VIDEO Chủ đề 1 _ Family and Relationships (1).pdf",
+      "sha1": "8852273e405f7f48f259afc963a1ae8e6f458b10",
+      "page_count": 3,
+      "char_count": 8155,
+      "status": "fallback_ai_error",
+      "errors": [
+        "Connection error."
+      ],
+      "analysis": {
+        "lesson_title": "01 VIDEO Chủ đề 1 _ Family and Relationships (1)",
+        "program_area": "NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU",
+        "chapter": "NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/20 CHỦ ĐỀ TỪ VỰNG VÀ ĐỌC ĐIỀN - ĐỌC HIỂU CƠ BẢN",
+        "lesson_type": "unknown",
+        "phase": "Nền tảng",
+        "objectives": [],
+        "concepts": [],
+        "prerequisites": [],
+        "teaching_methods": [],
+        "example_types": [],
+        "application_questions": [],
+        "difficulty_progression": [],
+        "source_strengths": [],
+        "gaps_or_warnings": [
+          "AI analysis unavailable; this is a local text/folder fallback."
+        ],
+        "confidence": "low"
+      }
+    },
+    {
+      "source": "MP",
+      "order": 2,
+      "relative_path": "NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/20 CHỦ ĐỀ TỪ VỰNG VÀ ĐỌC ĐIỀN - ĐỌC HIỂU CƠ BẢN/02 Bài thi online chủ đề 1_ Family and Relationships (1).pdf",
+      "folder_path": "NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/20 CHỦ ĐỀ TỪ VỰNG VÀ ĐỌC ĐIỀN - ĐỌC HIỂU CƠ BẢN",
+      "file_name": "02 Bài thi online chủ đề 1_ Family and Relationships (1).pdf",
+      "sha1": "accedf320f48adabc0f10d3befcffa2c524f6267",
+      "page_count": 5,
+      "char_count": 9093,
+      "status": "fallback_ai_error",
+      "errors": [
+        "Connection error."
+      ],
+      "analysis": {
+        "lesson_title": "02 Bài thi online chủ đề 1_ Family and Relationships (1)",
+        "program_area": "NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU",
+        "chapter": "NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/20 CHỦ ĐỀ TỪ VỰNG VÀ ĐỌC ĐIỀN - ĐỌC HIỂU CƠ BẢN",
+        "lesson_type": "unknown",
+        "phase": "Nền tảng",
+        "objectives": [],
+        "concepts": [],
+        "prerequisites": [],
+        "teaching_methods": [],
+        "example_types": [],
+        "application_questions": [],
+        "difficulty_progression": [],
+        "source_strengths": [],
+        "gaps_or_warnings": [
+          "AI analysis unavailable; this is a local text/folder fallback."
+        ],
+        "confidence": "low"
+      }
+    },
+    {
+      "source": "MP",
+      "order": 3,
+      "relative_path": "NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN/1_nangcapvontuvung-chude_giaoducbuoi1.pdf",
+      "folder_path": "NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN",
+      "file_name": "1_nangcapvontuvung-chude_giaoducbuoi1.pdf",
+      "sha1": "92f32e1a3f86a07066bbd761b6b0cb753b726a3b",
+      "page_count": 6,
+      "char_count": 12489,
+      "status": "fallback_ai_error",
+      "errors": [
+        "Connection error."
+      ],
+      "analysis": {
+        "lesson_title": "1_nangcapvontuvung-chude_giaoducbuoi1",
+        "program_area": "NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU",
+        "chapter": "NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN",
+        "lesson_type": "unknown",
+        "phase": "Nền tảng",
+        "objectives": [],
+        "concepts": [],
+        "prerequisites": [],
+        "teaching_methods": [],
+        "example_types": [],
+        "application_questions": [],
+        "difficulty_progression": [],
+        "source_strengths": [],
+        "gaps_or_warnings": [
+          "AI analysis unavailable; this is a local text/folder fallback."
+        ],
+        "confidence": "low"
+      }
+    },
+    {
+      "source": "MP",
+      "order": 4,
+      "relative_path": "NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN/2 chudegiaoducbuoi1.pdf",
+      "folder_path": "NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN",
+      "file_name": "2 chudegiaoducbuoi1.pdf",
+      "sha1": "6d3ee94cc4879c49d374b047c3a2545de72a5e79",
+      "page_count": 2,
+      "char_count": 5324,
+      "status": "fallback_ai_error",
+      "errors": [
+        "Connection error."
+      ],
+      "analysis": {
+        "lesson_title": "2 chudegiaoducbuoi1",
+        "program_area": "NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU",
+        "chapter": "NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN",
+        "lesson_type": "unknown",
+        "phase": "Nền tảng",
+        "objectives": [],
+        "concepts": [],
+        "prerequisites": [],
+        "teaching_methods": [],
+        "example_types": [],
+        "application_questions": [],
+        "difficulty_progression": [],
+        "source_strengths": [],
+        "gaps_or_warnings": [
+          "AI analysis unavailable; this is a local text/folder fallback."
+        ],
+        "confidence": "low"
+      }
+    },
+    {
+      "source": "MP",
+      "order": 5,
+      "relative_path": "VIP90/TUẦN 1/[VIP 90.2026.Tuần 1] Tài liệu đầy đủ Tuần 1 (Tài liệu buổi học & Bài thi Online).pdf",
+      "folder_path": "VIP90/TUẦN 1",
+      "file_name": "[VIP 90.2026.Tuần 1] Tài liệu đầy đủ Tuần 1 (Tài liệu buổi học & Bài thi Online).pdf",
+      "sha1": "25f879745fc14acef768ebe412d050b40ccb910d",
+      "page_count": 78,
+      "char_count": 207446,
+      "status": "fallback_ai_error",
+      "errors": [
+        "Connection error."
+      ],
+      "analysis": {
+        "lesson_title": "[VIP 90.2026.Tuần 1] Tài liệu đầy đủ Tuần 1 (Tài liệu buổi học & Bài thi Online)",
+        "program_area": "VIP90",
+        "chapter": "VIP90/TUẦN 1",
+        "lesson_type": "unknown",
+        "phase": null,
+        "objectives": [],
+        "concepts": [],
+        "prerequisites": [],
+        "teaching_methods": [
+          "kết hợp cung cấp các phương pháp làm nhanh; hiệu quả để các em cải thiện nhanh nhất điểm số.",
+          "Em nên học thật kĩ LIVE (hoặc bài giảng sau LIVE lưu lại) để nắm kĩ kiến thức, phương pháp nhằm"
+        ],
+        "example_types": [],
+        "application_questions": [],
+        "difficulty_progression": [],
+        "source_strengths": [],
+        "gaps_or_warnings": [
+          "AI analysis unavailable; this is a local text/folder fallback."
+        ],
+        "confidence": "low"
+      }
+    },
+    {
+      "source": "MP",
+      "order": 6,
+      "relative_path": "VIP90/TUẦN 1/Bảng từ Bài thi trước buổi học Dành trọn điểm câu hỏi Từ loại và Trật tự từ (Buổi 1).pdf",
+      "folder_path": "VIP90/TUẦN 1",
+      "file_name": "Bảng từ Bài thi trước buổi học Dành trọn điểm câu hỏi Từ loại và Trật tự từ (Buổi 1).pdf",
+      "sha1": "d4ca99114cfc0c75bea449c87fc32813d1295b87",
+      "page_count": 8,
+      "char_count": 8315,
+      "status": "fallback_ai_error",
+      "errors": [
+        "Connection error."
+      ],
+      "analysis": {
+        "lesson_title": "Bảng từ Bài thi trước buổi học Dành trọn điểm câu hỏi Từ loại và Trật tự từ (Buổi 1)",
+        "program_area": "VIP90",
+        "chapter": "VIP90/TUẦN 1",
+        "lesson_type": "unknown",
+        "phase": null,
+        "objectives": [],
+        "concepts": [],
+        "prerequisites": [],
+        "teaching_methods": [],
+        "example_types": [],
+        "application_questions": [],
+        "difficulty_progression": [],
+        "source_strengths": [],
+        "gaps_or_warnings": [
+          "AI analysis unavailable; this is a local text/folder fallback."
+        ],
+        "confidence": "low"
+      }
+    }
+  ]
+}

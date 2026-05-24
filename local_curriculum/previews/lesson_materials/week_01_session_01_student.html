@@ -1,0 +1,94 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8">
+<title>Tuần 1 Buổi 1</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}],throwOnError:false})"></script>
+<style>
+*{box-sizing:border-box}
+body{font-family:'Times New Roman',Times,serif;margin:0;background:#fff;color:#111;font-size:14px;line-height:1.6}
+main{max-width:900px;margin:0 auto;padding:28px 32px}
+/* Header */
+.doc-header{border-bottom:3px solid #1a56a0;padding-bottom:10px;margin-bottom:20px}
+.doc-header h1{font-size:18px;margin:0 0 2px;color:#1a56a0}
+.doc-header .subtitle{font-size:13px;color:#555}
+/* Section titles */
+h2.sec{font-size:15px;font-weight:bold;color:#1a56a0;border-bottom:1px solid #1a56a0;padding-bottom:3px;margin:22px 0 10px}
+h3.subsec{font-size:13px;font-weight:bold;margin:14px 0 6px;color:#222}
+/* Formula table */
+table.formula-tbl{border-collapse:collapse;width:100%;margin:8px 0 14px;font-size:13px}
+table.formula-tbl th{background:#1a56a0;color:#fff;padding:5px 10px;text-align:center;font-weight:bold}
+table.formula-tbl td{border:1px solid #aac;padding:5px 10px;text-align:center;vertical-align:middle}
+table.formula-tbl td.note{text-align:left;color:#555;font-size:12px}
+table.formula-tbl tr:nth-child(even) td{background:#f0f4fb}
+/* Rule box */
+.rule-box{border:1.5px solid #1a56a0;border-radius:4px;margin:10px 0 14px;overflow:hidden}
+.rule-box .rule-title{background:#1a56a0;color:#fff;font-weight:bold;padding:5px 12px;font-size:13px}
+.rule-box .rule-body{padding:10px 14px}
+.rule-box .rule-stmt{font-weight:bold;font-size:14px;color:#1a1a1a;margin-bottom:4px}
+.rule-box .rule-note{font-size:12px;color:#555;font-style:italic;margin-bottom:4px}
+.rule-box .rule-example{font-size:13px;color:#1a56a0;border-left:3px solid #1a56a0;padding-left:8px;margin-top:6px}
+/* Worked example */
+.example-box{border:1px solid #d1a020;border-radius:4px;margin:10px 0 14px;overflow:hidden}
+.example-box .ex-title{background:#f59e0b;color:#fff;font-weight:bold;padding:5px 12px;font-size:13px}
+.example-box .ex-body{padding:10px 14px}
+.example-box .ex-problem{font-weight:bold;margin-bottom:8px}
+.example-box .ex-steps{margin:0;padding-left:20px}
+.example-box .ex-steps li{margin:3px 0;font-size:13px}
+.example-box .ex-answer{margin-top:8px;font-weight:bold;color:#0a6640;border-top:1px dashed #ccc;padding-top:6px}
+/* Remark box */
+.remark-box{background:#fff7e6;border-left:4px solid #f59e0b;padding:8px 14px;margin:10px 0;border-radius:0 4px 4px 0}
+.remark-box .remark-label{font-weight:bold;color:#b45309;font-size:13px}
+.remark-box .remark-text{font-size:13px;margin-top:3px}
+/* Common mistakes */
+.mistake-table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+.mistake-table th{background:#fee2e2;color:#b42318;padding:5px 10px;text-align:left;border:1px solid #fca5a5}
+.mistake-table td{border:1px solid #e5e7eb;padding:6px 10px;vertical-align:top}
+.mistake-table td.wrong{color:#b42318}
+.mistake-table td.right{color:#166534}
+/* Questions */
+.q-block{border-top:1px solid #e5e7eb;padding:10px 0}
+.q-num{font-weight:bold;color:#1a56a0}
+.q-diff{font-size:11px;color:#6b7280;background:#f3f4f6;padding:1px 6px;border-radius:3px;margin-left:6px}
+.q-text{margin:5px 0 8px}
+.q-options{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:3px 16px}
+.q-options li{font-size:13px}
+.q-options li .lbl{font-weight:bold;color:#374151;margin-right:4px}
+.q-answer{margin-top:6px;font-weight:bold;color:#0f766e;font-size:13px}
+/* Solving process */
+ol.steps{margin:6px 0 6px 20px;padding:0}
+ol.steps li{margin:3px 0;font-size:13px}
+/* Meta/warnings */
+.warn-list{color:#b42318;font-size:12px;margin:4px 0;padding-left:16px}
+.meta-box{background:#f8fafc;border:1px dashed #94a3b8;border-radius:4px;padding:8px 12px;font-size:12px;color:#475569;margin:6px 0}
+/* No-content placeholder */
+.no-content{color:#9ca3af;font-style:italic;font-size:13px}
+ul{margin:5px 0 5px 22px;padding:0}
+li{margin:2px 0}
+</style></head><body><main>
+<div class="doc-header">
+  <h1>Tuần 1 · Buổi 1 — Đạo hàm và các quy tắc tính đạo hàm cần dùng cho khảo sát hàm số.</h1>
+  <div class="subtitle">Chương 0 - Theme 4: Đạo hàm và các quy tắc tính đạo hàm (dùng cho khảo sát hàm số)</div>
+</div>
+
+<h2 class="sec">Mục tiêu buổi học</h2>
+<ul><li>Nhớ và áp dụng đúng bảng công thức đạo hàm các hàm cơ bản: hằng số, lũy thừa, căn thức, hàm lượng giác</li><li>Tính đạo hàm bằng 4 quy tắc: tổng, hiệu, tích, thương</li><li>Nhận diện và tính đạo hàm hàm hợp $y = f(g(x))$ theo công thức $y'_x = g'(x) \cdot f'(g(x))$</li><li>Tránh các lỗi sai phổ biến khi tính đạo hàm tích và thương</li></ul>
+
+<h2 class="sec">1. Bảng công thức</h2><table class='formula-tbl'><tr><th>$y = f(x)$</th><th>$y' = f'(x)$</th><th>Ghi chú</th></tr><tr><td>$c$ (hằng số) </td><td>$(c)' = 0$ </td><td class='note'>Đạo hàm hằng số luôn bằng 0 </td></tr><tr><td>$x$ </td><td>$(x)' = 1$ </td><td class='note'> </td></tr><tr><td>$x^n$ ($n \in \mathbb{N}, n &gt; 1$) </td><td>$(x^n)' = n \cdot x^{n-1}$ </td><td class='note'>Giảm số mũ đi 1, nhân hệ số bằng số mũ cũ </td></tr><tr><td>$\sqrt{x}$ </td><td>$(\sqrt{x})' = \dfrac{1}{2\sqrt{x}}$ </td><td class='note'>Điều kiện $x &gt; 0$ </td></tr><tr><td>$\dfrac{1}{x}$ </td><td>$\left(\dfrac{1}{x}\right)' = -\dfrac{1}{x^2}$ </td><td class='note'>Điều kiện $x \neq 0$ </td></tr><tr><td>$\sin x$ </td><td>$(\sin x)' = \cos x$ </td><td class='note'> </td></tr><tr><td>$\cos x$ </td><td>$(\cos x)' = -\sin x$ </td><td class='note'>Chú ý dấu âm </td></tr><tr><td>$\tan x$ </td><td>$(\tan x)' = \dfrac{1}{\cos^2 x} = \tan^2 x + 1$ </td><td class='note'>Điều kiện $x \neq \dfrac{\pi}{2} + k\pi$ </td></tr><tr><td>$\cot x$ </td><td>$(\cot x)' = -\dfrac{1}{\sin^2 x} = -(1 + \cot^2 x)$ </td><td class='note'>Điều kiện $x \neq k\pi$ </td></tr></table>
+
+<h2 class="sec">2. Quy tắc</h2><div class='rule-box'><div class='rule-title'>Quy tắc 1: Quy tắc tổng và hiệu </div><div class='rule-body'><div class='rule-stmt'>$(u + v)' = u' + v'$ và $(u - v)' = u' - v'$ </div><div class='rule-note'>Đạo hàm từng số hạng rồi cộng hoặc trừ lại. Áp dụng được cho nhiều số hạng.</div><div class='rule-example'><em>Ví dụ:</em> $(x^3 + 3x^2 + 2)' = 3x^2 + 6x + 0 = 3x^2 + 6x$</div></div></div><div class='rule-box'><div class='rule-title'>Quy tắc 2: Quy tắc nhân với hằng số </div><div class='rule-body'><div class='rule-stmt'>$(k \cdot u)' = k \cdot u'$ với $k$ là hằng số </div><div class='rule-note'>Hằng số $k$ giữ nguyên, chỉ lấy đạo hàm của $u$.</div><div class='rule-example'><em>Ví dụ:</em> $(3x^4)' = 3 \cdot 4x^3 = 12x^3$</div></div></div><div class='rule-box'><div class='rule-title'>Quy tắc 3: Quy tắc tích </div><div class='rule-body'><div class='rule-stmt'>$(u \cdot v)' = u'v + uv'$ </div><div class='rule-note'>Đạo hàm hàm đầu nhân hàm sau, cộng hàm đầu nhân đạo hàm hàm sau. Mở rộng 3 nhân tử: $(uvz)' = u'vz + uv'z + uvz'$.</div><div class='rule-example'><em>Ví dụ:</em> $(x^3 \cdot \sqrt{x})' = 3x^2 \cdot \sqrt{x} + x^3 \cdot \dfrac{1}{2\sqrt{x}}$</div></div></div><div class='rule-box'><div class='rule-title'>Quy tắc 4: Quy tắc thương </div><div class='rule-body'><div class='rule-stmt'>$\left(\dfrac{u}{v}\right)' = \dfrac{u'v - uv'}{v^2}$ với $v \neq 0$ </div><div class='rule-note'>Tử: đạo hàm tử nhân mẫu trừ tử nhân đạo hàm mẫu. Mẫu: bình phương mẫu. Trường hợp đặc biệt: $\left(\dfrac{ax+b}{cx+d}\right)' = \dfrac{ad - bc}{(cx+d)^2}$.</div><div class='rule-example'><em>Ví dụ:</em> $\left(\dfrac{x+2}{2x-1}\right)' = \dfrac{1 \cdot (2x-1) - (x+2) \cdot 2}{(2x-1)^2} = \dfrac{-5}{(2x-1)^2}$</div></div></div><div class='rule-box'><div class='rule-title'>Quy tắc 5: Quy tắc đạo hàm hàm hợp </div><div class='rule-body'><div class='rule-stmt'>$\{f(g(x))\}' = g'(x) \cdot f'(g(x))$ </div><div class='rule-note'>Lấy đạo hàm hàm ngoài (giữ nguyên hàm trong), nhân với đạo hàm hàm trong. Gọi $u = g(x)$ thì $y'_x = y'_u \cdot u'_x$.</div><div class='rule-example'><em>Ví dụ:</em> $(\sqrt{x^2+1})' = \dfrac{(x^2+1)'}{2\sqrt{x^2+1}} = \dfrac{2x}{2\sqrt{x^2+1}} = \dfrac{x}{\sqrt{x^2+1}}$</div></div></div>
+
+<div class='remark-box'><div class='remark-label'>Nhận xét 1 - Hằng số nhân hàm</div><div class='remark-text'>Nếu $k$ là hằng số thì $(ku)' = k \cdot u'$. Hằng số không bị mất, chỉ lấy đạo hàm phần hàm số.</div></div><div class='remark-box'><div class='remark-label'>Nhận xét 2 - Công thức nhanh hàm phân thức bậc nhất</div><div class='remark-text'>Với $y = \dfrac{ax+b}{cx+d}$ ($ad - bc \neq 0$, $c \neq 0$), ta có $y' = \dfrac{ad-bc}{(cx+d)^2}$. Chỉ cần xác định $a, b, c, d$ rồi thay vào, không cần khai triển dài.</div></div><div class='remark-box'><div class='remark-label'>Nhận xét 3 - Đạo hàm tan và cot</div><div class='remark-text'>$(\tan x)' = \dfrac{1}{\cos^2 x} = \tan^2 x + 1$ và $(\cot x)' = -\dfrac{1}{\sin^2 x} = -(1 + \cot^2 x)$. Hai dạng viết tương đương nhau, dùng tùy bài.</div></div><div class='remark-box'><div class='remark-label'>Nhận xét 4 - Hàm hợp</div><div class='remark-text'>Khi gặp biểu thức dạng $f(g(x))$ (hàm của hàm), luôn xác định rõ hàm ngoài và hàm trong trước khi tính đạo hàm.</div></div>
+
+<h2 class="sec">3. Ví dụ mẫu</h2><div class='example-box'><div class='ex-title'>Ví dụ 1</div><div class='ex-body'><div class='ex-problem'>Tìm đạo hàm của hàm số $y = x^2 - x^4 + \sqrt{x}$.</div><strong>Lời giải:</strong><ol class='ex-steps'><li>Bước 1: Nhận dạng - đây là tổng/hiệu các hàm cơ bản, dùng quy tắc tổng hiệu.</li><li>Bước 2: Lấy đạo hàm từng số hạng: $(x^2)' = 2x$; $(x^4)' = 4x^3$; $(\sqrt{x})' = \dfrac{1}{2\sqrt{x}}$.</li><li>Bước 3: Ghép lại: $y' = 2x - 4x^3 + \dfrac{1}{2\sqrt{x}}$.</li></ol><div class='ex-answer'>Kết quả: $y' = 2x - 4x^3 + \dfrac{1}{2\sqrt{x}}$</div></div></div><div class='example-box'><div class='ex-title'>Ví dụ 2</div><div class='ex-body'><div class='ex-problem'>Tìm đạo hàm của hàm số $y = x^3(\sqrt{x} - x^5)$.</div><strong>Lời giải:</strong><ol class='ex-steps'><li>Bước 1: Nhận dạng - đây là tích hai hàm $u = x^3$ và $v = \sqrt{x} - x^5$, dùng quy tắc tích $(uv)' = u'v + uv'$.</li><li>Bước 2: Tính $u' = (x^3)' = 3x^2$ và $v' = (\sqrt{x} - x^5)' = \dfrac{1}{2\sqrt{x}} - 5x^4$.</li><li>Bước 3: Áp dụng công thức: $y' = 3x^2(\sqrt{x} - x^5) + x^3\left(\dfrac{1}{2\sqrt{x}} - 5x^4\right)$.</li><li>Bước 4: Khai triển: $y' = 3x^2\sqrt{x} - 3x^7 + \dfrac{x^3}{2\sqrt{x}} - 5x^7$.</li><li>Bước 5: Thu gọn: $y' = 3x^2\sqrt{x} + \dfrac{x^3}{2\sqrt{x}} - 8x^7$.</li></ol><div class='ex-answer'>Kết quả: $y' = 3x^2\sqrt{x} + \dfrac{x^3}{2\sqrt{x}} - 8x^7$</div></div></div><div class='example-box'><div class='ex-title'>Ví dụ 3</div><div class='ex-body'><div class='ex-problem'>Tính đạo hàm của hàm số $y = \dfrac{\sqrt{x}}{x+1}$.</div><strong>Lời giải:</strong><ol class='ex-steps'><li>Bước 1: Nhận dạng - đây là thương $u = \sqrt{x}$, $v = x+1$, dùng quy tắc thương.</li><li>Bước 2: Tính $u' = \dfrac{1}{2\sqrt{x}}$ và $v' = 1$.</li><li>Bước 3: Áp dụng công thức: $y' = \dfrac{\dfrac{1}{2\sqrt{x}} \cdot (x+1) - \sqrt{x} \cdot 1}{(x+1)^2}$.</li><li>Bước 4: Quy đồng tử số: $y' = \dfrac{\dfrac{x+1}{2\sqrt{x}} - \sqrt{x}}{(x+1)^2} = \dfrac{x+1 - 2x}{2\sqrt{x}(x+1)^2}$.</li><li>Bước 5: Thu gọn tử: $y' = \dfrac{1-x}{2\sqrt{x}(x+1)^2}$.</li></ol><div class='ex-answer'>Kết quả: $y' = \dfrac{1-x}{2\sqrt{x}(x+1)^2}$</div></div></div><div class='example-box'><div class='ex-title'>Ví dụ 4</div><div class='ex-body'><div class='ex-problem'>Tính đạo hàm của $f(x) = (x-1)(2x+1)(x^2+1)$.</div><strong>Lời giải:</strong><ol class='ex-steps'><li>Bước 1: Nhận dạng - tích ba nhân tử, dùng công thức mở rộng $(uvz)' = u'vz + uv'z + uvz'$.</li><li>Bước 2: Đặt $u = x-1$, $v = 2x+1$, $z = x^2+1$. Tính: $u'=1$, $v'=2$, $z'=2x$.</li><li>Bước 3: Áp dụng: $f'(x) = 1 \cdot (2x+1)(x^2+1) + (x-1) \cdot 2 \cdot (x^2+1) + (x-1)(2x+1) \cdot 2x$.</li><li>Bước 4: Khai triển và thu gọn từng nhóm rồi cộng lại.</li><li>Bước 5: Kết quả: $f'(x) = 8x^3 - 3x^2 + 2x - 1$.</li></ol><div class='ex-answer'>Kết quả: $f'(x) = 8x^3 - 3x^2 + 2x - 1$</div></div></div><div class='example-box'><div class='ex-title'>Ví dụ 5</div><div class='ex-body'><div class='ex-problem'>Tính đạo hàm của hàm số $y = \sqrt{x^2+1}$ (ví dụ hàm hợp).</div><strong>Lời giải:</strong><ol class='ex-steps'><li>Bước 1: Nhận dạng hàm hợp - hàm ngoài $f(u) = \sqrt{u}$, hàm trong $u = g(x) = x^2+1$.</li><li>Bước 2: Tính đạo hàm hàm trong: $u' = g'(x) = 2x$.</li><li>Bước 3: Tính đạo hàm hàm ngoài theo $u$: $f'(u) = \dfrac{1}{2\sqrt{u}}$.</li><li>Bước 4: Áp dụng công thức hàm hợp: $y' = g'(x) \cdot f'(g(x)) = 2x \cdot \dfrac{1}{2\sqrt{x^2+1}}$.</li><li>Bước 5: Rút gọn: $y' = \dfrac{x}{\sqrt{x^2+1}}$.</li></ol><div class='ex-answer'>Kết quả: $y' = \dfrac{x}{\sqrt{x^2+1}}$</div></div></div>
+
+<h2 class="sec">4. Lỗi sai thường gặp</h2><table class='mistake-table'><tr><th>Lỗi sai thường gặp</th><th>Cách đúng</th></tr><tr><td class='wrong'>Tính đạo hàm hằng số ra kết quả khác 0, ví dụ $(2)' = 2$ hoặc $(2)' = 1$. </td><td class='right'>Đạo hàm của bất kỳ hằng số nào cũng bằng $0$: $(c)' = 0$. </td></tr><tr><td class='wrong'>Áp dụng sai quy tắc tích: viết $(uv)' = u' \cdot v'$ (nhân đạo hàm hai vế). </td><td class='right'>Công thức đúng là $(uv)' = u'v + uv'$, không phải nhân đạo hàm hai hàm với nhau. </td></tr><tr><td class='wrong'>Viết sai thứ tự tử trong quy tắc thương: $\left(\dfrac{u}{v}\right)' = \dfrac{uv' - u'v}{v^2}$. </td><td class='right'>Thứ tự đúng là $\left(\dfrac{u}{v}\right)' = \dfrac{u'v - uv'}{v^2}$. Tử đầu là đạo hàm tử nhân mẫu. </td></tr><tr><td class='wrong'>Quên nhân đạo hàm hàm trong khi tính đạo hàm hàm hợp, ví dụ $(\sqrt{x^2+1})' = \dfrac{1}{2\sqrt{x^2+1}}$. </td><td class='right'>Phải nhân thêm đạo hàm hàm trong: $(\sqrt{x^2+1})' = \dfrac{(x^2+1)'}{2\sqrt{x^2+1}} = \dfrac{2x}{2\sqrt{x^2+1}} = \dfrac{x}{\sqrt{x^2+1}}$. </td></tr><tr><td class='wrong'>Nhầm dấu đạo hàm $\cos x$: viết $(\cos x)' = \sin x$ (thiếu dấu âm). </td><td class='right'>$(\cos x)' = -\sin x$. Chỉ có $(\sin x)' = \cos x$ là dương. </td></tr></table>
+
+<h2 class="sec">5. Quy trình giải</h2><ol class="steps"><li>Bước 1: Đọc kỹ hàm số, xác định dạng (tổng/hiệu, tích, thương, hàm hợp, hay kết hợp).</li><li>Bước 2: Chọn quy tắc phù hợp (1 trong 4 quy tắc hoặc hàm hợp); nếu phức tạp thì tách nhỏ.</li><li>Bước 3: Tính đạo hàm từng thành phần $u'$, $v'$ dựa vào bảng công thức cơ bản.</li><li>Bước 4: Ghép lại theo đúng công thức quy tắc đã chọn, chú ý dấu và thứ tự.</li><li>Bước 5: Rút gọn kết quả nếu có thể (quy đồng, thu gọn đồng dạng).</li></ol>
+
+<h2 class="sec">Bài tập trước buổi</h2>
+<p class='no-content'>Chưa có câu hỏi sạch phù hợp trong question bank.</p>
+
+<h2 class="sec">Tự kiểm tra trước buổi</h2>
+<ul><li>$(x^5)' = ?$ Áp dụng công thức $(x^n)' = n \cdot x^{n-1}$ với $n = 5$.</li><li>$(\sqrt{x})' = ?$ và điều kiện xác định của đạo hàm này là gì?</li><li>Viết công thức quy tắc tích $(uv)'$ và quy tắc thương $\left(\dfrac{u}{v}\right)'$.</li><li>$(\sin x)' = ?$ và $(\cos x)' = ?$ - chú ý dấu.</li><li>Nếu $y = \sqrt{u}$ và $u = x^2 + 3$, hãy tính $y'_x$ theo quy tắc hàm hợp.</li></ul>
+
+</main></body></html>

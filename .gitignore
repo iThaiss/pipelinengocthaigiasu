@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+.venv_ocr/
+venv/
+env/
+
+# Local runtime and caches
+.ingest_cache/
+.claude/
+.grapuco/
+logs/
+*.log
+*.out.log
+*.err.log
+
+# Large local models and generated data
+mineru_models/
+data/
+local_curriculum/cache/
+local_curriculum/input_sources/
+local_curriculum/logs/
+local_curriculum/output_sqlite/
+local_curriculum_english/cache/
+local_curriculum_english/input_sources/
+local_curriculum_english/logs/
+local_curriculum_english/output_sqlite/
+
+# Generated artifacts kept local by default
+artifacts/assets/
+artifacts/images/
+artifacts/lesson_source_renders/
+artifacts/mineru_out/
+artifacts/mineru_out_txt/
+artifacts/runs/
+artifacts/standard_exam_runs/
+artifacts/standard_exam_previews/
+artifacts/dry_runs/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
