@@ -1,17 +1,16 @@
 <!doctype html><html><head><meta charset='utf-8'><title>Practice Bank Quality Audit</title><style>
 body{font-family:Arial,sans-serif;padding:20px;line-height:1.45}.summary{background:#eee;padding:10px;border:1px solid #ccc}section{border-top:3px solid #222;margin-top:24px}.card{border:1px solid #ddd;padding:10px;margin:10px 0}.meta{font-size:12px;color:#666;word-break:break-all}.opts{margin:8px 0}.reason{font-size:12px;color:#9a4b00}pre{white-space:pre-wrap;max-height:260px;overflow:auto;background:#f7f7f7;padding:8px}
 </style></head><body><h1>Practice Bank Quality Audit</h1><div class='summary'><pre>{
-  &quot;generated_at&quot;: &quot;2026-05-25T04:24:27&quot;,
+  &quot;generated_at&quot;: &quot;2026-05-25T04:32:15&quot;,
   &quot;applied&quot;: true,
   &quot;total_questions&quot;: 9785,
-  &quot;ready_for_ai_solve&quot;: 7067,
-  &quot;not_ready_for_ai_solve&quot;: 2718,
-  &quot;changed_questions&quot;: 844,
+  &quot;ready_for_ai_solve&quot;: 7422,
+  &quot;not_ready_for_ai_solve&quot;: 2363,
+  &quot;changed_questions&quot;: 355,
   &quot;issue_counts&quot;: {
     &quot;truncated_options&quot;: 884,
     &quot;possible_wrong_passage_pairing&quot;: 525,
     &quot;cloze_blank_not_in_passage&quot;: 500,
-    &quot;ambiguous_blank_number&quot;: 456,
     &quot;missing_options&quot;: 268,
     &quot;context_vocab_missing_context&quot;: 180,
     &quot;reading_true_false_not_structured&quot;: 40,
@@ -20,7 +19,6 @@ body{font-family:Arial,sans-serif;padding:20px;line-height:1.45}.summary{backgro
   &quot;issue_by_format_top&quot;: {
     &quot;possible_wrong_passage_pairing|thpt_reading_passage&quot;: 525,
     &quot;cloze_blank_not_in_passage|hsa_cloze_text&quot;: 500,
-    &quot;ambiguous_blank_number|hsa_sentence_completion&quot;: 456,
     &quot;truncated_options|hsa_sentence_completion&quot;: 445,
     &quot;missing_options|hsa_sentence_completion&quot;: 268,
     &quot;truncated_options|thpt_arrangement_text&quot;: 236,
@@ -47,31 +45,24 @@ body{font-family:Arial,sans-serif;padding:20px;line-height:1.45}.summary{backgro
     &quot;truncated_options|E2G.04&quot;: 319,
     &quot;context_vocab_missing_context|E2X.06&quot;: 180,
     &quot;possible_wrong_passage_pairing|E2R.02&quot;: 126,
-    &quot;ambiguous_blank_number|E2S.06&quot;: 121,
     &quot;possible_wrong_passage_pairing|E2R.08&quot;: 112,
     &quot;missing_options|E2G.02&quot;: 99,
     &quot;truncated_options|E2X.01&quot;: 95,
-    &quot;ambiguous_blank_number|E2X.08&quot;: 90,
     &quot;truncated_options|E2S.06&quot;: 86,
     &quot;truncated_options|E2G.05&quot;: 77,
     &quot;possible_wrong_passage_pairing|E2R.05&quot;: 71,
-    &quot;ambiguous_blank_number|E2X.03&quot;: 60,
-    &quot;ambiguous_blank_number|E2S.04&quot;: 60,
     &quot;possible_wrong_passage_pairing|E2R.01&quot;: 60,
     &quot;possible_wrong_passage_pairing|E2R.09&quot;: 57,
     &quot;possible_wrong_passage_pairing|E2R.03&quot;: 49,
-    &quot;ambiguous_blank_number|E2S.10&quot;: 46,
     &quot;missing_options|E2S.01&quot;: 45,
     &quot;truncated_options|E2S.08&quot;: 41,
     &quot;reading_true_false_not_structured|E2R.05&quot;: 40,
     &quot;missing_options|E2S.02&quot;: 40,
-    &quot;ambiguous_blank_number|E2S.11&quot;: 40,
     &quot;truncated_options|E2R.02&quot;: 31,
     &quot;truncated_options|E2V.06&quot;: 30,
     &quot;truncated_options|E2C.05&quot;: 29,
     &quot;truncated_options|E2G.06&quot;: 29,
     &quot;truncated_options|E2R.08&quot;: 28,
-    &quot;ambiguous_blank_number|E2V.06&quot;: 25,
     &quot;truncated_options|E2S.04&quot;: 24,
     &quot;possible_wrong_passage_pairing|E2R.04&quot;: 21,
     &quot;possible_wrong_passage_pairing|E2R.06&quot;: 21,
@@ -91,19 +82,15 @@ body{font-family:Arial,sans-serif;padding:20px;line-height:1.45}.summary{backgro
     &quot;truncated_options|E2R.07&quot;: 6,
     &quot;truncated_options|E2X.06&quot;: 5,
     &quot;missing_options|E2S.09&quot;: 4,
-    &quot;ambiguous_blank_number|E2G.04&quot;: 4,
-    &quot;ambiguous_blank_number|E2C.05&quot;: 3,
     &quot;truncated_options|E2R.04&quot;: 3,
     &quot;truncated_options|E2W.02&quot;: 3,
     &quot;duplicate_options|E2G.02&quot;: 3,
     &quot;truncated_options|E2S.10&quot;: 3,
     &quot;truncated_options|E2S.09&quot;: 3,
-    &quot;ambiguous_blank_number|E2G.05&quot;: 3,
     &quot;missing_options|E2R.02&quot;: 3,
     &quot;missing_options|E2M.01&quot;: 2,
     &quot;truncated_options|E2X.05&quot;: 2,
     &quot;duplicate_options|E2S.08&quot;: 2,
-    &quot;ambiguous_blank_number|E2V.07&quot;: 2,
     &quot;truncated_options|E2R.05&quot;: 2,
     &quot;duplicate_options|E2C.05&quot;: 2,
     &quot;truncated_options|E2R.03&quot;: 1,
@@ -116,8 +103,6 @@ body{font-family:Arial,sans-serif;padding:20px;line-height:1.45}.summary{backgro
     &quot;duplicate_options|E2X.01&quot;: 1,
     &quot;truncated_options|E2V.02&quot;: 1,
     &quot;duplicate_options|E2S.09&quot;: 1,
-    &quot;ambiguous_blank_number|E2X.04&quot;: 1,
-    &quot;ambiguous_blank_number|E2G.01&quot;: 1,
     &quot;duplicate_options|E2G.04&quot;: 1,
     &quot;duplicate_options|E2G.05&quot;: 1,
     &quot;duplicate_options|E2R.05&quot;: 1
@@ -290,62 +275,6 @@ body{font-family:Arial,sans-serif;padding:20px;line-height:1.45}.summary{backgro
 <div class='opts'>A. spread like a virus and confused the public | B. which can spread rapidly and mislead people | C. whose potential to mislead people by its rapid spread | D. caused a lot of public confusion through its rapid spread</div>
 <details><summary>Passage (171 chars)</summary><pre>LUYỆN TẬP ĐỌC ĐIỀN KHUYẾT THÔNG TIN (BUỔI 1) các dạng câu hỏi trong đề thi Mark the letter A, B, C, or D to indicate the correct answer to each of the following questions.</pre></details>
 <div class='reason'>cloze_blank_not_in_passage; cloze_blank_number_normalized; merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer</div>
-</div></section><section><h2>ambiguous_blank_number (456)</h2>
-<div class='card'>
-<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf<br>E2X.03 / hsa_sentence_completion / ready=False</div>
-<div><b>Q1</b> 1. When people move to a city, local authorities must work harder to (1) __________ the demand for housing, jobs, and public services. They also need to (2) __________ improvements to infrastructure, such as roads, schools, and hospitals, to ensure a better quality of life. In addition, city planners should (3) __________ measures to manage traffic, protect the environment, and maintain safety as it continues to grow.</div>
-<div class='opts'>A. go | B. give | C. meet | D. take</div>
-
-<div class='reason'>ambiguous_blank_number; regex_fallback_missing_answer</div>
-</div>
-<div class='card'>
-<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf<br>E2X.03 / hsa_sentence_completion / ready=False</div>
-<div><b>Q2</b> 1. When people move to a city, local authorities must work harder to (1) __________ the demand for housing, jobs, and public services. They also need to (2) __________ improvements to infrastructure, such as roads, schools, and hospitals, to ensure a better quality of life. In addition, city planners should (3) __________ measures to manage traffic, protect the environment, and maintain safety as it continues to grow.</div>
-<div class='opts'>A. make | B. get | C. put | D. bring</div>
-
-<div class='reason'>ambiguous_blank_number; regex_fallback_missing_answer</div>
-</div>
-<div class='card'>
-<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf<br>E2X.03 / hsa_sentence_completion / ready=False</div>
-<div><b>Q3</b> 1. When people move to a city, local authorities must work harder to (1) __________ the demand for housing, jobs, and public services. They also need to (2) __________ improvements to infrastructure, such as roads, schools, and hospitals, to ensure a better quality of life. In addition, city planners should (3) __________ measures to manage traffic, protect the environment, and maintain safety as it continues to grow.</div>
-<div class='opts'>A. put | B. do | C. wear | D. take</div>
-
-<div class='reason'>ambiguous_blank_number; regex_fallback_missing_answer</div>
-</div>
-<div class='card'>
-<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf<br>E2X.03 / hsa_sentence_completion / ready=False</div>
-<div><b>Q4</b> 2. When you (4) __________ part in a discussion, it’s normal for people to have different opinions. However, try to express your ideas respectfully and avoid (5) __________ an argument with others. Disagreement doesn’t have to lead to conflict if everyone listens carefully. Also, never (6) __________ the blame on someone just because they think differently – focus on understanding and finding common ground instead.</div>
-<div class='opts'>A. make | B. put | C. take | D. lay</div>
-
-<div class='reason'>ambiguous_blank_number; regex_fallback_missing_answer</div>
-</div>
-<div class='card'>
-<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf<br>E2X.03 / hsa_sentence_completion / ready=False</div>
-<div><b>Q5</b> 2. When you (4) __________ part in a discussion, it’s normal for people to have different opinions. However, try to express your ideas respectfully and avoid (5) __________ an argument with others. Disagreement doesn’t have to lead to conflict if everyone listens carefully. Also, never (6) __________ the blame on someone just because they think differently – focus on understanding and finding common ground instead.</div>
-<div class='opts'>A. leaving | B. taking | C. putting | D. having</div>
-
-<div class='reason'>ambiguous_blank_number; regex_fallback_missing_answer</div>
-</div>
-<div class='card'>
-<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf<br>E2X.03 / hsa_sentence_completion / ready=False</div>
-<div><b>Q6</b> 2. When you (4) __________ part in a discussion, it’s normal for people to have different opinions. However, try to express your ideas respectfully and avoid (5) __________ an argument with others. Disagreement doesn’t have to lead to conflict if everyone listens carefully. Also, never (6) __________ the blame on someone just because they think differently – focus on understanding and finding common ground instead.</div>
-<div class='opts'>A. lay | B. take | C. keep | D. drive</div>
-
-<div class='reason'>ambiguous_blank_number; regex_fallback_missing_answer</div>
-</div>
-<div class='card'>
-<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf<br>E2X.03 / hsa_sentence_completion / ready=False</div>
-<div><b>Q7</b> 3. In Vietnam, final-year students must (7) __________ for an exam to enter higher education programmes. During this important year, they are expected to (8) __________ their studies seriously and stay focused on their goals. The entire school year is spent (9) __________ careful preparations – reviewing lessons, attending extra classes, and practising past papers – to achieve the best possible results.</div>
-<div class='opts'>A. sit | B. make | C. take | D. come</div>
-
-<div class='reason'>ambiguous_blank_number; regex_fallback_missing_answer</div>
-</div>
-<div class='card'>
-<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf<br>E2X.03 / hsa_sentence_completion / ready=False</div>
-<div><b>Q8</b> 3. In Vietnam, final-year students must (7) __________ for an exam to enter higher education programmes. During this important year, they are expected to (8) __________ their studies seriously and stay focused on their goals. The entire school year is spent (9) __________ careful preparations – reviewing lessons, attending extra classes, and practising past papers – to achieve the best possible results.</div>
-<div class='opts'>A. get | B. make | C. take | D. lend</div>
-
-<div class='reason'>ambiguous_blank_number; regex_fallback_missing_answer</div>
 </div></section><section><h2>missing_options (268)</h2>
 <div class='card'>
 <div class='meta'>MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/Thi Online Phát triển năng lực xử lí câu hỏi Tư duy logic và giải quyết vấn đề (Buổi 6).pdf<br>E2M.01 / hsa_sentence_completion / ready=False</div>

@@ -1,16 +1,15 @@
 {
   "audit": {
-    "generated_at": "2026-05-25T04:24:27",
+    "generated_at": "2026-05-25T04:32:15",
     "applied": true,
     "total_questions": 9785,
-    "ready_for_ai_solve": 7067,
-    "not_ready_for_ai_solve": 2718,
-    "changed_questions": 844,
+    "ready_for_ai_solve": 7422,
+    "not_ready_for_ai_solve": 2363,
+    "changed_questions": 355,
     "issue_counts": {
       "truncated_options": 884,
       "possible_wrong_passage_pairing": 525,
       "cloze_blank_not_in_passage": 500,
-      "ambiguous_blank_number": 456,
       "missing_options": 268,
       "context_vocab_missing_context": 180,
       "reading_true_false_not_structured": 40,
@@ -19,7 +18,6 @@
     "issue_by_format_top": {
       "possible_wrong_passage_pairing|thpt_reading_passage": 525,
       "cloze_blank_not_in_passage|hsa_cloze_text": 500,
-      "ambiguous_blank_number|hsa_sentence_completion": 456,
       "truncated_options|hsa_sentence_completion": 445,
       "missing_options|hsa_sentence_completion": 268,
       "truncated_options|thpt_arrangement_text": 236,
@@ -46,31 +44,24 @@
       "truncated_options|E2G.04": 319,
       "context_vocab_missing_context|E2X.06": 180,
       "possible_wrong_passage_pairing|E2R.02": 126,
-      "ambiguous_blank_number|E2S.06": 121,
       "possible_wrong_passage_pairing|E2R.08": 112,
       "missing_options|E2G.02": 99,
       "truncated_options|E2X.01": 95,
-      "ambiguous_blank_number|E2X.08": 90,
       "truncated_options|E2S.06": 86,
       "truncated_options|E2G.05": 77,
       "possible_wrong_passage_pairing|E2R.05": 71,
-      "ambiguous_blank_number|E2X.03": 60,
-      "ambiguous_blank_number|E2S.04": 60,
       "possible_wrong_passage_pairing|E2R.01": 60,
       "possible_wrong_passage_pairing|E2R.09": 57,
       "possible_wrong_passage_pairing|E2R.03": 49,
-      "ambiguous_blank_number|E2S.10": 46,
       "missing_options|E2S.01": 45,
       "truncated_options|E2S.08": 41,
       "reading_true_false_not_structured|E2R.05": 40,
       "missing_options|E2S.02": 40,
-      "ambiguous_blank_number|E2S.11": 40,
       "truncated_options|E2R.02": 31,
       "truncated_options|E2V.06": 30,
       "truncated_options|E2C.05": 29,
       "truncated_options|E2G.06": 29,
       "truncated_options|E2R.08": 28,
-      "ambiguous_blank_number|E2V.06": 25,
       "truncated_options|E2S.04": 24,
       "possible_wrong_passage_pairing|E2R.04": 21,
       "possible_wrong_passage_pairing|E2R.06": 21,
@@ -90,19 +81,15 @@
       "truncated_options|E2R.07": 6,
       "truncated_options|E2X.06": 5,
       "missing_options|E2S.09": 4,
-      "ambiguous_blank_number|E2G.04": 4,
-      "ambiguous_blank_number|E2C.05": 3,
       "truncated_options|E2R.04": 3,
       "truncated_options|E2W.02": 3,
       "duplicate_options|E2G.02": 3,
       "truncated_options|E2S.10": 3,
       "truncated_options|E2S.09": 3,
-      "ambiguous_blank_number|E2G.05": 3,
       "missing_options|E2R.02": 3,
       "missing_options|E2M.01": 2,
       "truncated_options|E2X.05": 2,
       "duplicate_options|E2S.08": 2,
-      "ambiguous_blank_number|E2V.07": 2,
       "truncated_options|E2R.05": 2,
       "duplicate_options|E2C.05": 2,
       "truncated_options|E2R.03": 1,
@@ -115,592 +102,12 @@
       "duplicate_options|E2X.01": 1,
       "truncated_options|E2V.02": 1,
       "duplicate_options|E2S.09": 1,
-      "ambiguous_blank_number|E2X.04": 1,
-      "ambiguous_blank_number|E2G.01": 1,
       "duplicate_options|E2G.04": 1,
       "duplicate_options|E2G.05": 1,
       "duplicate_options|E2R.05": 1
     }
   },
   "samples": {
-    "ambiguous_blank_number": [
-      {
-        "question_id": "en-practice-a139b5a05853-001-451e4d285731",
-        "source_file": "Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "file_sha1": "a139b5a05853502030fbd80b977f42255a9b68ee",
-        "question_number": 1,
-        "page_start": 5,
-        "page_end": 5,
-        "question_text": "1. When people move to a city, local authorities must work harder to (1) __________ the demand for housing, jobs, and public services. They also need to (2) __________ improvements to infrastructure, such as roads, schools, and hospitals, to ensure a better quality of life. In addition, city planners should (3) __________ measures to manage traffic, protect the environment, and maintain safety as it continues to grow.",
-        "options": {
-          "A": "go",
-          "B": "give",
-          "C": "meet",
-          "D": "take"
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": null,
-        "passage_text": null,
-        "question_format": "hsa_sentence_completion",
-        "knowledge_subtopic_code_v2": "E2X.03",
-        "exam_profiles": [
-          "HSA_ENGLISH"
-        ],
-        "linked_node_codes_v2": [
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-2",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-3",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-4"
-        ],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "ambiguous_blank_number; regex_fallback_missing_answer",
-        "ready_for_ai_solve": false,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 1. A. go \nB. give \nC. meet  \nD. take",
-          "practice_item_type": "mcq",
-          "page_start": 5,
-          "page_end": 5
-        },
-        "quality_issues": [
-          "ambiguous_blank_number"
-        ]
-      },
-      {
-        "question_id": "en-practice-a139b5a05853-002-ad59208f09bb",
-        "source_file": "Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "file_sha1": "a139b5a05853502030fbd80b977f42255a9b68ee",
-        "question_number": 2,
-        "page_start": 5,
-        "page_end": 5,
-        "question_text": "1. When people move to a city, local authorities must work harder to (1) __________ the demand for housing, jobs, and public services. They also need to (2) __________ improvements to infrastructure, such as roads, schools, and hospitals, to ensure a better quality of life. In addition, city planners should (3) __________ measures to manage traffic, protect the environment, and maintain safety as it continues to grow.",
-        "options": {
-          "A": "make",
-          "B": "get",
-          "C": "put",
-          "D": "bring"
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": null,
-        "passage_text": null,
-        "question_format": "hsa_sentence_completion",
-        "knowledge_subtopic_code_v2": "E2X.03",
-        "exam_profiles": [
-          "HSA_ENGLISH"
-        ],
-        "linked_node_codes_v2": [
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-2",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-3",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-4"
-        ],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "ambiguous_blank_number; regex_fallback_missing_answer",
-        "ready_for_ai_solve": false,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 2. A. make  \nB. get \nC. put \nD. bring",
-          "practice_item_type": "mcq",
-          "page_start": 5,
-          "page_end": 5
-        },
-        "quality_issues": [
-          "ambiguous_blank_number"
-        ]
-      },
-      {
-        "question_id": "en-practice-a139b5a05853-003-31e5644b2fd7",
-        "source_file": "Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "file_sha1": "a139b5a05853502030fbd80b977f42255a9b68ee",
-        "question_number": 3,
-        "page_start": 5,
-        "page_end": 5,
-        "question_text": "1. When people move to a city, local authorities must work harder to (1) __________ the demand for housing, jobs, and public services. They also need to (2) __________ improvements to infrastructure, such as roads, schools, and hospitals, to ensure a better quality of life. In addition, city planners should (3) __________ measures to manage traffic, protect the environment, and maintain safety as it continues to grow.",
-        "options": {
-          "A": "put",
-          "B": "do",
-          "C": "wear",
-          "D": "take"
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": null,
-        "passage_text": null,
-        "question_format": "hsa_sentence_completion",
-        "knowledge_subtopic_code_v2": "E2X.03",
-        "exam_profiles": [
-          "HSA_ENGLISH"
-        ],
-        "linked_node_codes_v2": [
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-2",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-3",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-4"
-        ],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "ambiguous_blank_number; regex_fallback_missing_answer",
-        "ready_for_ai_solve": false,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 3. A. put \nB. do \nC. wear \nD. take  \n \n2. When you (4) __________ part in a discussion, it’s normal for people to have different opinions. \nHowever, try to express your ideas respectfully and avoid (5) __________ an argument with others. \nDisagreement doesn’t have to lead to conflict if everyone listens carefully. Also, never (6) __________ \nthe blame on someone just because they think differently – focus on understanding and finding common \nground instead.",
-          "practice_item_type": "mcq",
-          "page_start": 5,
-          "page_end": 5
-        },
-        "quality_issues": [
-          "ambiguous_blank_number"
-        ]
-      },
-      {
-        "question_id": "en-practice-a139b5a05853-004-80ce7d1f33ac",
-        "source_file": "Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "file_sha1": "a139b5a05853502030fbd80b977f42255a9b68ee",
-        "question_number": 4,
-        "page_start": 5,
-        "page_end": 5,
-        "question_text": "2. When you (4) __________ part in a discussion, it’s normal for people to have different opinions. However, try to express your ideas respectfully and avoid (5) __________ an argument with others. Disagreement doesn’t have to lead to conflict if everyone listens carefully. Also, never (6) __________ the blame on someone just because they think differently – focus on understanding and finding common ground instead.",
-        "options": {
-          "A": "make",
-          "B": "put",
-          "C": "take",
-          "D": "lay"
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": null,
-        "passage_text": null,
-        "question_format": "hsa_sentence_completion",
-        "knowledge_subtopic_code_v2": "E2X.03",
-        "exam_profiles": [
-          "HSA_ENGLISH"
-        ],
-        "linked_node_codes_v2": [
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-2",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-3",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-4"
-        ],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "ambiguous_blank_number; regex_fallback_missing_answer",
-        "ready_for_ai_solve": false,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 4. A. make \nB. put \nC. take  \nD. lay",
-          "practice_item_type": "mcq",
-          "page_start": 5,
-          "page_end": 5
-        },
-        "quality_issues": [
-          "ambiguous_blank_number"
-        ]
-      },
-      {
-        "question_id": "en-practice-a139b5a05853-005-75e174a63460",
-        "source_file": "Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "file_sha1": "a139b5a05853502030fbd80b977f42255a9b68ee",
-        "question_number": 5,
-        "page_start": 5,
-        "page_end": 5,
-        "question_text": "2. When you (4) __________ part in a discussion, it’s normal for people to have different opinions. However, try to express your ideas respectfully and avoid (5) __________ an argument with others. Disagreement doesn’t have to lead to conflict if everyone listens carefully. Also, never (6) __________ the blame on someone just because they think differently – focus on understanding and finding common ground instead.",
-        "options": {
-          "A": "leaving",
-          "B": "taking",
-          "C": "putting",
-          "D": "having"
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": null,
-        "passage_text": null,
-        "question_format": "hsa_sentence_completion",
-        "knowledge_subtopic_code_v2": "E2X.03",
-        "exam_profiles": [
-          "HSA_ENGLISH"
-        ],
-        "linked_node_codes_v2": [
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-2",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-3",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-4"
-        ],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "ambiguous_blank_number; regex_fallback_missing_answer",
-        "ready_for_ai_solve": false,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 5. A. leaving \nB. taking \nC. putting \nD. having",
-          "practice_item_type": "mcq",
-          "page_start": 5,
-          "page_end": 5
-        },
-        "quality_issues": [
-          "ambiguous_blank_number"
-        ]
-      },
-      {
-        "question_id": "en-practice-a139b5a05853-006-990a55c00ade",
-        "source_file": "Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "file_sha1": "a139b5a05853502030fbd80b977f42255a9b68ee",
-        "question_number": 6,
-        "page_start": 5,
-        "page_end": 5,
-        "question_text": "2. When you (4) __________ part in a discussion, it’s normal for people to have different opinions. However, try to express your ideas respectfully and avoid (5) __________ an argument with others. Disagreement doesn’t have to lead to conflict if everyone listens carefully. Also, never (6) __________ the blame on someone just because they think differently – focus on understanding and finding common ground instead.",
-        "options": {
-          "A": "lay",
-          "B": "take",
-          "C": "keep",
-          "D": "drive"
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": null,
-        "passage_text": null,
-        "question_format": "hsa_sentence_completion",
-        "knowledge_subtopic_code_v2": "E2X.03",
-        "exam_profiles": [
-          "HSA_ENGLISH"
-        ],
-        "linked_node_codes_v2": [
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-2",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-3",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-4"
-        ],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "ambiguous_blank_number; regex_fallback_missing_answer",
-        "ready_for_ai_solve": false,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 6. A. lay  \nB. take \nC. keep \nD. drive  \n \n3. In Vietnam, final-year students must (7) __________ for an exam to enter higher education programmes. \nDuring this important year, they are expected to (8) __________ their studies seriously and stay focused \non their goals. The entire school year is spent (9) __________ careful preparations – reviewing lessons, \nattending extra classes, and practising past papers – to achieve the best possible results.",
-          "practice_item_type": "mcq",
-          "page_start": 5,
-          "page_end": 5
-        },
-        "quality_issues": [
-          "ambiguous_blank_number"
-        ]
-      },
-      {
-        "question_id": "en-practice-a139b5a05853-007-18e37d2a0aac",
-        "source_file": "Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "file_sha1": "a139b5a05853502030fbd80b977f42255a9b68ee",
-        "question_number": 7,
-        "page_start": 5,
-        "page_end": 5,
-        "question_text": "3. In Vietnam, final-year students must (7) __________ for an exam to enter higher education programmes. During this important year, they are expected to (8) __________ their studies seriously and stay focused on their goals. The entire school year is spent (9) __________ careful preparations – reviewing lessons, attending extra classes, and practising past papers – to achieve the best possible results.",
-        "options": {
-          "A": "sit",
-          "B": "make",
-          "C": "take",
-          "D": "come"
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": null,
-        "passage_text": null,
-        "question_format": "hsa_sentence_completion",
-        "knowledge_subtopic_code_v2": "E2X.03",
-        "exam_profiles": [
-          "HSA_ENGLISH"
-        ],
-        "linked_node_codes_v2": [
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-2",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-3",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-4"
-        ],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "ambiguous_blank_number; regex_fallback_missing_answer",
-        "ready_for_ai_solve": false,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 7. A. sit  \nB. make \nC. take \nD. come",
-          "practice_item_type": "mcq",
-          "page_start": 5,
-          "page_end": 5
-        },
-        "quality_issues": [
-          "ambiguous_blank_number"
-        ]
-      },
-      {
-        "question_id": "en-practice-a139b5a05853-008-d795412a4517",
-        "source_file": "Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "file_sha1": "a139b5a05853502030fbd80b977f42255a9b68ee",
-        "question_number": 8,
-        "page_start": 5,
-        "page_end": 5,
-        "question_text": "3. In Vietnam, final-year students must (7) __________ for an exam to enter higher education programmes. During this important year, they are expected to (8) __________ their studies seriously and stay focused on their goals. The entire school year is spent (9) __________ careful preparations – reviewing lessons, attending extra classes, and practising past papers – to achieve the best possible results.",
-        "options": {
-          "A": "get",
-          "B": "make",
-          "C": "take",
-          "D": "lend"
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": null,
-        "passage_text": null,
-        "question_format": "hsa_sentence_completion",
-        "knowledge_subtopic_code_v2": "E2X.03",
-        "exam_profiles": [
-          "HSA_ENGLISH"
-        ],
-        "linked_node_codes_v2": [
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-2",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-3",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-4"
-        ],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "ambiguous_blank_number; regex_fallback_missing_answer",
-        "ready_for_ai_solve": false,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 8. A. get \nB. make \nC. take  \nD. lend",
-          "practice_item_type": "mcq",
-          "page_start": 5,
-          "page_end": 5
-        },
-        "quality_issues": [
-          "ambiguous_blank_number"
-        ]
-      },
-      {
-        "question_id": "en-practice-a139b5a05853-009-bf940be4c36b",
-        "source_file": "Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "file_sha1": "a139b5a05853502030fbd80b977f42255a9b68ee",
-        "question_number": 9,
-        "page_start": 5,
-        "page_end": 5,
-        "question_text": "3. In Vietnam, final-year students must (7) __________ for an exam to enter higher education programmes. During this important year, they are expected to (8) __________ their studies seriously and stay focused on their goals. The entire school year is spent (9) __________ careful preparations – reviewing lessons, attending extra classes, and practising past papers – to achieve the best possible results.",
-        "options": {
-          "A": "cutting",
-          "B": "laying",
-          "C": "making",
-          "D": "meeting"
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": null,
-        "passage_text": null,
-        "question_format": "hsa_sentence_completion",
-        "knowledge_subtopic_code_v2": "E2X.03",
-        "exam_profiles": [
-          "HSA_ENGLISH"
-        ],
-        "linked_node_codes_v2": [
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-2",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-3",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-4"
-        ],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "ambiguous_blank_number; regex_fallback_missing_answer",
-        "ready_for_ai_solve": false,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 9. A. cutting \nB. laying \nC. making \nD. meeting \n \n4. Sensational headlines on social media are created to (10) __________ people’s attention immediately. \nThey often use emotional or exaggerated language to attract clicks and reactions. However, readers should \n(11) __________ in mind that not all information online is true or balanced. It’s essential to (12) \n__________ calm and verify the facts before believing or sharing anything. Many fake stories spread \nquickly because people react too fast. Before you (13) __________ a comment, take a moment to think – \nyour words can affect how others see the issue.",
-          "practice_item_type": "mcq",
-          "page_start": 5,
-          "page_end": 5
-        },
-        "quality_issues": [
-          "ambiguous_blank_number"
-        ]
-      },
-      {
-        "question_id": "en-practice-a139b5a05853-010-f41e6a861274",
-        "source_file": "Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "file_sha1": "a139b5a05853502030fbd80b977f42255a9b68ee",
-        "question_number": 10,
-        "page_start": 5,
-        "page_end": 5,
-        "question_text": "4. Sensational headlines on social media are created to (10) __________ people’s attention immediately. They often use emotional or exaggerated language to attract clicks and reactions. However, readers should (11) __________ in mind that not all information online is true or balanced. It’s essential to (12) __________ calm and verify the facts before believing or sharing anything. Many fake stories spread quickly because people react too fast. Before you (13) __________ a comment, take a moment to think – your words can affect how others see the issue.",
-        "options": {
-          "A": "meet",
-          "B": "grab",
-          "C": "lead",
-          "D": "take"
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": null,
-        "passage_text": null,
-        "question_format": "hsa_sentence_completion",
-        "knowledge_subtopic_code_v2": "E2X.03",
-        "exam_profiles": [
-          "HSA_ENGLISH"
-        ],
-        "linked_node_codes_v2": [
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-2",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-3",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-4"
-        ],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "ambiguous_blank_number; regex_fallback_missing_answer",
-        "ready_for_ai_solve": false,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 10. A. meet \nB. grab  \nC. lead \nD. take",
-          "practice_item_type": "mcq",
-          "page_start": 5,
-          "page_end": 5
-        },
-        "quality_issues": [
-          "ambiguous_blank_number"
-        ]
-      },
-      {
-        "question_id": "en-practice-a139b5a05853-011-ce865ff78000",
-        "source_file": "Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "file_sha1": "a139b5a05853502030fbd80b977f42255a9b68ee",
-        "question_number": 11,
-        "page_start": 5,
-        "page_end": 5,
-        "question_text": "4. Sensational headlines on social media are created to (10) __________ people’s attention immediately. They often use emotional or exaggerated language to attract clicks and reactions. However, readers should (11) __________ in mind that not all information online is true or balanced. It’s essential to (12) __________ calm and verify the facts before believing or sharing anything. Many fake stories spread quickly because people react too fast. Before you (13) __________ a comment, take a moment to think – your words can affect how others see the issue.",
-        "options": {
-          "A": "take",
-          "B": "put",
-          "C": "meet",
-          "D": "bear"
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": null,
-        "passage_text": null,
-        "question_format": "hsa_sentence_completion",
-        "knowledge_subtopic_code_v2": "E2X.03",
-        "exam_profiles": [
-          "HSA_ENGLISH"
-        ],
-        "linked_node_codes_v2": [
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-2",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-3",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-4"
-        ],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "ambiguous_blank_number; regex_fallback_missing_answer",
-        "ready_for_ai_solve": false,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 11. A. take \nB. put \nC. meet \nD. bear",
-          "practice_item_type": "mcq",
-          "page_start": 5,
-          "page_end": 5
-        },
-        "quality_issues": [
-          "ambiguous_blank_number"
-        ]
-      },
-      {
-        "question_id": "en-practice-a139b5a05853-012-21b988a9601a",
-        "source_file": "Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/COLLOCATION/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 3).pdf",
-        "file_sha1": "a139b5a05853502030fbd80b977f42255a9b68ee",
-        "question_number": 12,
-        "page_start": 5,
-        "page_end": 5,
-        "question_text": "4. Sensational headlines on social media are created to (10) __________ people’s attention immediately. They often use emotional or exaggerated language to attract clicks and reactions. However, readers should (11) __________ in mind that not all information online is true or balanced. It’s essential to (12) __________ calm and verify the facts before believing or sharing anything. Many fake stories spread quickly because people react too fast. Before you (13) __________ a comment, take a moment to think – your words can affect how others see the issue.",
-        "options": {
-          "A": "put",
-          "B": "keep",
-          "C": "take",
-          "D": "have"
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": null,
-        "passage_text": null,
-        "question_format": "hsa_sentence_completion",
-        "knowledge_subtopic_code_v2": "E2X.03",
-        "exam_profiles": [
-          "HSA_ENGLISH"
-        ],
-        "linked_node_codes_v2": [
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-2",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-3",
-          "E2X.03-chinh-phuc-cau-hoi-collocation-theo-dinh-huong-ra-de-thi-moi-4"
-        ],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "ambiguous_blank_number; regex_fallback_missing_answer",
-        "ready_for_ai_solve": false,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 12. A. put \nB. keep \nC. take \nD. have",
-          "practice_item_type": "mcq",
-          "page_start": 5,
-          "page_end": 5
-        },
-        "quality_issues": [
-          "ambiguous_blank_number"
-        ]
-      }
-    ],
     "truncated_options": [
       {
         "question_id": "en-practice-868afc1b26eb-009-fd8db263b157",
