@@ -153,7 +153,7 @@ def qkey(q: dict[str, Any]) -> tuple[Any, ...]:
     opts = q.get('options') or {}
     opt_sig = '|'.join(f'{k}:{" ".join(str(opts[k]).split())}' for k in sorted(opts))[:600]
     text_sig = ' '.join((q.get('question_text') or '').split())[:240]
-    return (q.get('file_sha1'), q.get('question_number'), opt_sig or text_sig)
+    return (q.get('relative_path'), q.get('file_sha1'), q.get('question_number'), opt_sig or text_sig)
 
 def main() -> None:
     for stream in (sys.stdout, sys.stderr):
