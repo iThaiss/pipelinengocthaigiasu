@@ -49,3 +49,6 @@ artifacts/dry_runs/
 .DS_Store
 .idea/
 .vscode/
+
+# Local import backups
+local_curriculum_english/output_json/practice_questions_before_ocr_vision_import_*.json
