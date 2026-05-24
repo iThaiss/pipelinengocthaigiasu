@@ -52,3 +52,6 @@ artifacts/dry_runs/
 
 # Local import backups
 local_curriculum_english/output_json/practice_questions_before_ocr_vision_import_*.json
+
+# Local quality-prune backups
+local_curriculum_english/output_json/practice_questions_before_quality_prune_*.json
