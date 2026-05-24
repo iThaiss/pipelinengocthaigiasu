@@ -1,63 +1,349 @@
 {
-  "generated_at": "2026-05-25T04:32:15",
-  "total_files_with_issues": 204,
-  "total_blocked_questions": 2363,
+  "generated_at": "2026-05-25T04:55:46",
+  "total_files_with_issues": 203,
+  "total_blocked_questions": 2529,
   "actions": {
-    "re_extract_options_or_mark_manual_review": 105,
-    "review_or_drop_generated_backfill": 2,
     "re_extract_from_source_pdf": 88,
+    "re_extract_options_or_mark_manual_review": 104,
+    "review_or_drop_generated_backfill": 2,
     "manual_review": 9
   },
   "files": [
     {
-      "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 9 - MẠO TỪ/7 maotu4.pdf",
-      "blocked_questions": 99,
+      "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỒNG NGHĨA - TRÁI NGHĨA THEO NGỮ CẢNH/Hạ gục câu hỏi Đồng nghĩa - Trái nghĩa theo ngữ cảnh (Buổi 1).pdf",
+      "blocked_questions": 60,
       "issues": {
-        "missing_options": 99
+        "context_vocab_missing_context": 60,
+        "truncated_options": 2
       },
       "formats": {
-        "hsa_sentence_completion": 99
+        "hsa_synonym": 60
       },
       "subtopics": {
-        "E2G.02": 99
+        "E2X.06": 60
+      },
+      "recommended_action": "re_extract_from_source_pdf",
+      "samples": [
+        {
+          "question_id": "en-practice-739ee7ee9685-001-5d8c0d2d801b",
+          "question_number": 1,
+          "question_text": "The word guide in the text is opposite in meaning to .",
+          "options": {
+            "A": "prepare",
+            "B": "neglect",
+            "C": "focus",
+            "D": "remind"
+          },
+          "question_format": "hsa_synonym",
+          "knowledge_subtopic_code_v2": "E2X.06",
+          "quality_issues": [
+            "context_vocab_missing_context"
+          ],
+          "review_reason": "context_vocab_missing_context; merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer"
+        },
+        {
+          "question_id": "en-practice-739ee7ee9685-002-4488f754747f",
+          "question_number": 2,
+          "question_text": "The word resentment in the text is closest in meaning to .",
+          "options": {
+            "A": "discussion",
+            "B": "hardship",
+            "C": "frustration",
+            "D": "competition"
+          },
+          "question_format": "hsa_synonym",
+          "knowledge_subtopic_code_v2": "E2X.06",
+          "quality_issues": [
+            "context_vocab_missing_context"
+          ],
+          "review_reason": "context_vocab_missing_context; merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer"
+        },
+        {
+          "question_id": "en-practice-739ee7ee9685-003-cf574efb5a72",
+          "question_number": 3,
+          "question_text": "The word strengthen in the text is opposite in meaning to .",
+          "options": {
+            "A": "maintain",
+            "B": "oppose",
+            "C": "weaken",
+            "D": "disapprove"
+          },
+          "question_format": "hsa_synonym",
+          "knowledge_subtopic_code_v2": "E2X.06",
+          "quality_issues": [
+            "context_vocab_missing_context"
+          ],
+          "review_reason": "context_vocab_missing_context; merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer"
+        }
+      ]
+    },
+    {
+      "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỒNG NGHĨA - TRÁI NGHĨA THEO NGỮ CẢNH/Hạ gục câu hỏi Đồng nghĩa - Trái nghĩa theo ngữ cảnh (Buổi 2).pdf",
+      "blocked_questions": 60,
+      "issues": {
+        "context_vocab_missing_context": 60,
+        "truncated_options": 2
+      },
+      "formats": {
+        "hsa_synonym": 60
+      },
+      "subtopics": {
+        "E2X.06": 60
+      },
+      "recommended_action": "re_extract_from_source_pdf",
+      "samples": [
+        {
+          "question_id": "en-practice-f01e2fb88e25-001-c20de6a3c072",
+          "question_number": 1,
+          "question_text": "The word employ in the text is closest in meaning to _________.",
+          "options": {
+            "A": "gain",
+            "B": "hire",
+            "C": "cause",
+            "D": "use"
+          },
+          "question_format": "hsa_synonym",
+          "knowledge_subtopic_code_v2": "E2X.06",
+          "quality_issues": [
+            "context_vocab_missing_context"
+          ],
+          "review_reason": "context_vocab_missing_context; merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer"
+        },
+        {
+          "question_id": "en-practice-f01e2fb88e25-002-39132f18907f",
+          "question_number": 2,
+          "question_text": "The word suit in the text can be replaced by _________.",
+          "options": {
+            "A": "skip",
+            "B": "fit",
+            "C": "stop",
+            "D": "fix"
+          },
+          "question_format": "hsa_synonym",
+          "knowledge_subtopic_code_v2": "E2X.06",
+          "quality_issues": [
+            "context_vocab_missing_context"
+          ],
+          "review_reason": "context_vocab_missing_context; merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer"
+        },
+        {
+          "question_id": "en-practice-f01e2fb88e25-003-70ed1509aa4b",
+          "question_number": 3,
+          "question_text": "The word accessible in the text is opposite in meaning to _________.",
+          "options": {
+            "A": "unusual",
+            "B": "unpleasant",
+            "C": "limited",
+            "D": "available"
+          },
+          "question_format": "hsa_synonym",
+          "knowledge_subtopic_code_v2": "E2X.06",
+          "quality_issues": [
+            "context_vocab_missing_context"
+          ],
+          "review_reason": "context_vocab_missing_context; merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer"
+        }
+      ]
+    },
+    {
+      "relative_path": "MP/NGỮ PHÁP ỨNG DỤNG/CHUYÊN ĐỀ 6 - GIỚI TỪ, CỤM GIỚI TỪ/Thi online Lý thuyết - Giới từ và Cụm giới từ (Đề số 1).pdf",
+      "blocked_questions": 60,
+      "issues": {
+        "truncated_options": 60
+      },
+      "formats": {
+        "thpt_arrangement_text": 60
+      },
+      "subtopics": {
+        "E2G.04": 60
       },
       "recommended_action": "re_extract_options_or_mark_manual_review",
       "samples": [
         {
-          "question_id": "en-practice-56a8fa4d6884-001-002a9b6e602a",
+          "question_id": "en-practice-3e9ec83098f9-001-2a4491b35a95",
           "question_number": 1,
-          "question_text": "There is.....interesting movie playing at the Valley Art Theater.",
-          "options": {},
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2G.02",
+          "question_text": "1. This morning’s lecture mainly focused (1) _______ the impact of technology on modern education. The professor carefully explained (2) _______ the students how online platforms can both support and challenge learning. Besides listening, the students also actively participated (3) _______ the discussion by asking questions, sharing opinions, and giving real-life examples.",
+          "options": {
+            "A": "of",
+            "B": "with",
+            "C": "to",
+            "D": "on"
+          },
+          "question_format": "thpt_arrangement_text",
+          "knowledge_subtopic_code_v2": "E2G.04",
           "quality_issues": [
-            "missing_options"
+            "truncated_options"
           ],
-          "review_reason": "merged_rescan_preserved_answer_metadata; missing_options; practice_item_type:open_response; regex_fallback_missing_answer"
+          "review_reason": "regex_fallback_missing_answer; truncated_options"
         },
         {
-          "question_id": "en-practice-56a8fa4d6884-002-4d1c5264bc2c",
+          "question_id": "en-practice-3e9ec83098f9-002-33c301b412d1",
           "question_number": 2,
-          "question_text": "My parents live in a country where there are.....long cold winters.",
-          "options": {},
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2G.02",
+          "question_text": "1. This morning’s lecture mainly focused (1) _______ the impact of technology on modern education. The professor carefully explained (2) _______ the students how online platforms can both support and challenge learning. Besides listening, the students also actively participated (3) _______ the discussion by asking questions, sharing opinions, and giving real-life examples.",
+          "options": {
+            "A": "by",
+            "B": "on",
+            "C": "to",
+            "D": "about"
+          },
+          "question_format": "thpt_arrangement_text",
+          "knowledge_subtopic_code_v2": "E2G.04",
           "quality_issues": [
-            "missing_options"
+            "truncated_options"
           ],
-          "review_reason": "merged_rescan_preserved_answer_metadata; missing_options; practice_item_type:open_response; regex_fallback_missing_answer"
+          "review_reason": "regex_fallback_missing_answer; truncated_options"
         },
         {
-          "question_id": "en-practice-56a8fa4d6884-003-33d54414e4db",
+          "question_id": "en-practice-3e9ec83098f9-003-21d0fd61e4c7",
           "question_number": 3,
-          "question_text": "The Airbus is made by......European company.",
-          "options": {},
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2G.02",
+          "question_text": "1. This morning’s lecture mainly focused (1) _______ the impact of technology on modern education. The professor carefully explained (2) _______ the students how online platforms can both support and challenge learning. Besides listening, the students also actively participated (3) _______ the discussion by asking questions, sharing opinions, and giving real-life examples.",
+          "options": {
+            "A": "of",
+            "B": "for",
+            "C": "with",
+            "D": "in"
+          },
+          "question_format": "thpt_arrangement_text",
+          "knowledge_subtopic_code_v2": "E2G.04",
           "quality_issues": [
-            "missing_options"
+            "truncated_options"
           ],
-          "review_reason": "merged_rescan_preserved_answer_metadata; missing_options; practice_item_type:open_response; regex_fallback_missing_answer"
+          "review_reason": "regex_fallback_missing_answer; truncated_options"
+        }
+      ]
+    },
+    {
+      "relative_path": "MP/NGỮ PHÁP ỨNG DỤNG/CHUYÊN ĐỀ 6 - GIỚI TỪ, CỤM GIỚI TỪ/Thi online Lý thuyết - Giới từ và Cụm giới từ (Đề số 2).pdf",
+      "blocked_questions": 60,
+      "issues": {
+        "truncated_options": 60,
+        "duplicate_options": 2
+      },
+      "formats": {
+        "thpt_arrangement_text": 60
+      },
+      "subtopics": {
+        "E2G.04": 60
+      },
+      "recommended_action": "re_extract_options_or_mark_manual_review",
+      "samples": [
+        {
+          "question_id": "en-practice-bce8a4f9256c-001-32ab4db7be81",
+          "question_number": 1,
+          "question_text": "1. Just one sensational post can easily make people confused (1) _______ what is true and what is false. That is why every social media user should be responsible (2) _______ the information they share, because careless actions may cause harm. Accordingly, we all need to be doubtful (3) _______ online content and verify facts before believing or forwarding anything to others.",
+          "options": {
+            "A": "at",
+            "B": "with",
+            "C": "to",
+            "D": "about"
+          },
+          "question_format": "thpt_arrangement_text",
+          "knowledge_subtopic_code_v2": "E2G.04",
+          "quality_issues": [
+            "truncated_options"
+          ],
+          "review_reason": "regex_fallback_missing_answer; truncated_options"
+        },
+        {
+          "question_id": "en-practice-bce8a4f9256c-002-e0497c9959f4",
+          "question_number": 2,
+          "question_text": "1. Just one sensational post can easily make people confused (1) _______ what is true and what is false. That is why every social media user should be responsible (2) _______ the information they share, because careless actions may cause harm. Accordingly, we all need to be doubtful (3) _______ online content and verify facts before believing or forwarding anything to others.",
+          "options": {
+            "A": "for",
+            "B": "with",
+            "C": "on",
+            "D": "by"
+          },
+          "question_format": "thpt_arrangement_text",
+          "knowledge_subtopic_code_v2": "E2G.04",
+          "quality_issues": [
+            "truncated_options"
+          ],
+          "review_reason": "regex_fallback_missing_answer; truncated_options"
+        },
+        {
+          "question_id": "en-practice-bce8a4f9256c-003-73d4646349d5",
+          "question_number": 3,
+          "question_text": "1. Just one sensational post can easily make people confused (1) _______ what is true and what is false. That is why every social media user should be responsible (2) _______ the information they share, because careless actions may cause harm. Accordingly, we all need to be doubtful (3) _______ online content and verify facts before believing or forwarding anything to others.",
+          "options": {
+            "A": "about",
+            "B": "for",
+            "C": "to",
+            "D": "on"
+          },
+          "question_format": "thpt_arrangement_text",
+          "knowledge_subtopic_code_v2": "E2G.04",
+          "quality_issues": [
+            "truncated_options"
+          ],
+          "review_reason": "regex_fallback_missing_answer; truncated_options"
+        }
+      ]
+    },
+    {
+      "relative_path": "MP/NGỮ PHÁP ỨNG DỤNG/CHUYÊN ĐỀ 6 - GIỚI TỪ, CỤM GIỚI TỪ/Thi online Lý thuyết - Giới từ và Cụm giới từ (Đề số 3).pdf",
+      "blocked_questions": 60,
+      "issues": {
+        "truncated_options": 60
+      },
+      "formats": {
+        "thpt_arrangement_text": 60
+      },
+      "subtopics": {
+        "E2G.04": 60
+      },
+      "recommended_action": "re_extract_options_or_mark_manual_review",
+      "samples": [
+        {
+          "question_id": "en-practice-b69520f9cce8-001-11c29a5ac1df",
+          "question_number": 1,
+          "question_text": "1. The recent decision (1) _______ raising fuel prices made by the government has created mixed opinions in society. The main cause (2) _______ the controversy is the impact on transportation and daily expenses. Public reaction (3) _______ the decision has been strong, with protests in some areas and calls for fairer solutions to support low-income families.",
+          "options": {
+            "A": "on",
+            "B": "for",
+            "C": "with",
+            "D": "from"
+          },
+          "question_format": "thpt_arrangement_text",
+          "knowledge_subtopic_code_v2": "E2G.04",
+          "quality_issues": [
+            "truncated_options"
+          ],
+          "review_reason": "regex_fallback_missing_answer; truncated_options"
+        },
+        {
+          "question_id": "en-practice-b69520f9cce8-002-5e75bf892697",
+          "question_number": 2,
+          "question_text": "1. The recent decision (1) _______ raising fuel prices made by the government has created mixed opinions in society. The main cause (2) _______ the controversy is the impact on transportation and daily expenses. Public reaction (3) _______ the decision has been strong, with protests in some areas and calls for fairer solutions to support low-income families.",
+          "options": {
+            "A": "of",
+            "B": "from",
+            "C": "into",
+            "D": "over"
+          },
+          "question_format": "thpt_arrangement_text",
+          "knowledge_subtopic_code_v2": "E2G.04",
+          "quality_issues": [
+            "truncated_options"
+          ],
+          "review_reason": "regex_fallback_missing_answer; truncated_options"
+        },
+        {
+          "question_id": "en-practice-b69520f9cce8-003-a9b30b8216ab",
+          "question_number": 3,
+          "question_text": "1. The recent decision (1) _______ raising fuel prices made by the government has created mixed opinions in society. The main cause (2) _______ the controversy is the impact on transportation and daily expenses. Public reaction (3) _______ the decision has been strong, with protests in some areas and calls for fairer solutions to support low-income families.",
+          "options": {
+            "A": "to",
+            "B": "on",
+            "C": "for",
+            "D": "in"
+          },
+          "question_format": "thpt_arrangement_text",
+          "knowledge_subtopic_code_v2": "E2G.04",
+          "quality_issues": [
+            "truncated_options"
+          ],
+          "review_reason": "regex_fallback_missing_answer; truncated_options"
         }
       ]
     },
@@ -129,6 +415,73 @@
       ]
     },
     {
+      "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 16 - CÁC DẠNG MỆNH ĐỀ/5 [covumaiphuong]tailieulivestream_cacdangmenhde_15.4_2020.pdf",
+      "blocked_questions": 58,
+      "issues": {
+        "truncated_options": 58
+      },
+      "formats": {
+        "hsa_sentence_completion": 58
+      },
+      "subtopics": {
+        "E2R.02": 58
+      },
+      "recommended_action": "re_extract_options_or_mark_manual_review",
+      "samples": [
+        {
+          "question_id": "en-practice-e9cb925c5bb7-001-eb9ed983b2af",
+          "question_number": 1,
+          "question_text": "This is _______ our basic interest lies.",
+          "options": {
+            "A": "what",
+            "B": "that",
+            "C": "where",
+            "D": "how"
+          },
+          "question_format": "hsa_sentence_completion",
+          "knowledge_subtopic_code_v2": "E2R.02",
+          "quality_issues": [
+            "truncated_options"
+          ],
+          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
+        },
+        {
+          "question_id": "en-practice-e9cb925c5bb7-002-605478384fc8",
+          "question_number": 2,
+          "question_text": "The man stood quite still, _______ his lips moved slightly.",
+          "options": {
+            "A": "except",
+            "B": "except for",
+            "C": "except that",
+            "D": "except what"
+          },
+          "question_format": "hsa_sentence_completion",
+          "knowledge_subtopic_code_v2": "E2R.02",
+          "quality_issues": [
+            "truncated_options"
+          ],
+          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
+        },
+        {
+          "question_id": "en-practice-e9cb925c5bb7-003-4f7645f0334d",
+          "question_number": 3,
+          "question_text": "Are you sorry for _______ you have done?",
+          "options": {
+            "A": "that",
+            "B": "what",
+            "C": "which",
+            "D": "No word is needed"
+          },
+          "question_format": "hsa_sentence_completion",
+          "knowledge_subtopic_code_v2": "E2R.02",
+          "quality_issues": [
+            "truncated_options"
+          ],
+          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
+        }
+      ]
+    },
+    {
       "relative_path": "generated_backfill/E2R.09.json",
       "blocked_questions": 57,
       "issues": {
@@ -196,138 +549,272 @@
       ]
     },
     {
-      "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỒNG NGHĨA - TRÁI NGHĨA THEO NGỮ CẢNH/Hạ gục câu hỏi Đồng nghĩa - Trái nghĩa theo ngữ cảnh (Buổi 1).pdf",
-      "blocked_questions": 30,
+      "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 20 - GIỚI TỪ/11 chuyende20_thionline_gioitu-buoi4deso01.pdf",
+      "blocked_questions": 56,
       "issues": {
-        "context_vocab_missing_context": 30,
-        "truncated_options": 1
+        "truncated_options": 56
       },
       "formats": {
-        "hsa_synonym": 30
+        "hsa_sentence_completion": 56
       },
       "subtopics": {
-        "E2X.06": 30
+        "E2G.04": 56
       },
-      "recommended_action": "re_extract_from_source_pdf",
+      "recommended_action": "re_extract_options_or_mark_manual_review",
       "samples": [
         {
-          "question_id": "en-practice-739ee7ee9685-001-5d8c0d2d801b",
+          "question_id": "en-practice-b068308c0bbe-001-8588b5d66cf6",
           "question_number": 1,
-          "question_text": "The word guide in the text is opposite in meaning to .",
+          "question_text": "There's a pressing need _____ improved access to education in rural areas.",
           "options": {
-            "A": "prepare",
-            "B": "neglect",
-            "C": "focus",
-            "D": "remind"
+            "A": "in",
+            "B": "of",
+            "C": "to",
+            "D": "for"
           },
-          "question_format": "hsa_synonym",
-          "knowledge_subtopic_code_v2": "E2X.06",
+          "question_format": "hsa_sentence_completion",
+          "knowledge_subtopic_code_v2": "E2G.04",
           "quality_issues": [
-            "context_vocab_missing_context"
+            "truncated_options"
           ],
-          "review_reason": "context_vocab_missing_context; merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer"
+          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
         },
         {
-          "question_id": "en-practice-739ee7ee9685-002-4488f754747f",
+          "question_id": "en-practice-b068308c0bbe-002-cbbcf0b61de6",
           "question_number": 2,
-          "question_text": "The word resentment in the text is closest in meaning to .",
+          "question_text": "There has been a noticeable drop _____ temperature in the past week.",
           "options": {
-            "A": "discussion",
-            "B": "hardship",
-            "C": "frustration",
-            "D": "competition"
+            "A": "by",
+            "B": "in",
+            "C": "at",
+            "D": "of"
           },
-          "question_format": "hsa_synonym",
-          "knowledge_subtopic_code_v2": "E2X.06",
+          "question_format": "hsa_sentence_completion",
+          "knowledge_subtopic_code_v2": "E2G.04",
           "quality_issues": [
-            "context_vocab_missing_context"
+            "truncated_options"
           ],
-          "review_reason": "context_vocab_missing_context; merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer"
+          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
         },
         {
-          "question_id": "en-practice-739ee7ee9685-003-cf574efb5a72",
+          "question_id": "en-practice-b068308c0bbe-003-df97ffae64fc",
           "question_number": 3,
-          "question_text": "The word strengthen in the text is opposite in meaning to .",
+          "question_text": "With help from his parents, he now can overcome his addiction ______ alcohol.",
           "options": {
-            "A": "maintain",
-            "B": "oppose",
-            "C": "weaken",
-            "D": "disapprove"
+            "A": "for",
+            "B": "in",
+            "C": "up",
+            "D": "to"
           },
-          "question_format": "hsa_synonym",
-          "knowledge_subtopic_code_v2": "E2X.06",
+          "question_format": "hsa_sentence_completion",
+          "knowledge_subtopic_code_v2": "E2G.04",
           "quality_issues": [
-            "context_vocab_missing_context"
+            "truncated_options"
           ],
-          "review_reason": "context_vocab_missing_context; merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer"
+          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
         }
       ]
     },
     {
-      "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỒNG NGHĨA - TRÁI NGHĨA THEO NGỮ CẢNH/Hạ gục câu hỏi Đồng nghĩa - Trái nghĩa theo ngữ cảnh (Buổi 2).pdf",
-      "blocked_questions": 30,
+      "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 20 - GIỚI TỪ/8 chuyende20_thionline_gioitu-buoi3deso01 (1).pdf",
+      "blocked_questions": 56,
       "issues": {
-        "context_vocab_missing_context": 30,
-        "truncated_options": 1
+        "truncated_options": 56
       },
       "formats": {
-        "hsa_synonym": 30
+        "hsa_sentence_completion": 56
       },
       "subtopics": {
-        "E2X.06": 30
+        "E2G.04": 56
       },
-      "recommended_action": "re_extract_from_source_pdf",
+      "recommended_action": "re_extract_options_or_mark_manual_review",
       "samples": [
         {
-          "question_id": "en-practice-f01e2fb88e25-001-c20de6a3c072",
+          "question_id": "en-practice-d1fd6e477413-001-4f896d097da1",
           "question_number": 1,
-          "question_text": "The word employ in the text is closest in meaning to _________.",
+          "question_text": "It’s worrying that many teenagers are addicted ______ social media.",
           "options": {
-            "A": "gain",
-            "B": "hire",
-            "C": "cause",
-            "D": "use"
+            "A": "on",
+            "B": "of",
+            "C": "to",
+            "D": "for"
           },
-          "question_format": "hsa_synonym",
-          "knowledge_subtopic_code_v2": "E2X.06",
+          "question_format": "hsa_sentence_completion",
+          "knowledge_subtopic_code_v2": "E2G.04",
           "quality_issues": [
-            "context_vocab_missing_context"
+            "truncated_options"
           ],
-          "review_reason": "context_vocab_missing_context; merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer"
+          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
         },
         {
-          "question_id": "en-practice-f01e2fb88e25-002-39132f18907f",
+          "question_id": "en-practice-d1fd6e477413-002-34ad03873f4c",
           "question_number": 2,
-          "question_text": "The word suit in the text can be replaced by _________.",
+          "question_text": "The defendant was found guilty _____ embezzlement and sentenced to prison.",
           "options": {
-            "A": "skip",
-            "B": "fit",
-            "C": "stop",
-            "D": "fix"
+            "A": "by",
+            "B": "on",
+            "C": "at",
+            "D": "of"
           },
-          "question_format": "hsa_synonym",
-          "knowledge_subtopic_code_v2": "E2X.06",
+          "question_format": "hsa_sentence_completion",
+          "knowledge_subtopic_code_v2": "E2G.04",
           "quality_issues": [
-            "context_vocab_missing_context"
+            "truncated_options"
           ],
-          "review_reason": "context_vocab_missing_context; merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer"
+          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
         },
         {
-          "question_id": "en-practice-f01e2fb88e25-003-70ed1509aa4b",
+          "question_id": "en-practice-d1fd6e477413-003-9e13ab361e74",
           "question_number": 3,
-          "question_text": "The word accessible in the text is opposite in meaning to _________.",
+          "question_text": "As a project manager, you are responsible _____ overseeing the entire process.",
           "options": {
-            "A": "unusual",
-            "B": "unpleasant",
-            "C": "limited",
-            "D": "available"
+            "A": "for",
+            "B": "in",
+            "C": "up",
+            "D": "on"
           },
-          "question_format": "hsa_synonym",
-          "knowledge_subtopic_code_v2": "E2X.06",
+          "question_format": "hsa_sentence_completion",
+          "knowledge_subtopic_code_v2": "E2G.04",
           "quality_issues": [
-            "context_vocab_missing_context"
+            "truncated_options"
           ],
-          "review_reason": "context_vocab_missing_context; merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer"
+          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
+        }
+      ]
+    },
+    {
+      "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 20 - GIỚI TỪ/8 chuyende20_thionline_gioitu-buoi3deso01.pdf",
+      "blocked_questions": 56,
+      "issues": {
+        "truncated_options": 56
+      },
+      "formats": {
+        "hsa_sentence_completion": 56
+      },
+      "subtopics": {
+        "E2G.04": 56
+      },
+      "recommended_action": "re_extract_options_or_mark_manual_review",
+      "samples": [
+        {
+          "question_id": "en-practice-d1fd6e477413-001-bbd65291ba00",
+          "question_number": 1,
+          "question_text": "It’s worrying that many teenagers are addicted ______ social media.",
+          "options": {
+            "A": "on",
+            "B": "of",
+            "C": "to",
+            "D": "for"
+          },
+          "question_format": "hsa_sentence_completion",
+          "knowledge_subtopic_code_v2": "E2G.04",
+          "quality_issues": [
+            "truncated_options"
+          ],
+          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
+        },
+        {
+          "question_id": "en-practice-d1fd6e477413-002-646326396575",
+          "question_number": 2,
+          "question_text": "The defendant was found guilty _____ embezzlement and sentenced to prison.",
+          "options": {
+            "A": "by",
+            "B": "on",
+            "C": "at",
+            "D": "of"
+          },
+          "question_format": "hsa_sentence_completion",
+          "knowledge_subtopic_code_v2": "E2G.04",
+          "quality_issues": [
+            "truncated_options"
+          ],
+          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
+        },
+        {
+          "question_id": "en-practice-d1fd6e477413-003-1d7bd702af06",
+          "question_number": 3,
+          "question_text": "As a project manager, you are responsible _____ overseeing the entire process.",
+          "options": {
+            "A": "for",
+            "B": "in",
+            "C": "up",
+            "D": "on"
+          },
+          "question_format": "hsa_sentence_completion",
+          "knowledge_subtopic_code_v2": "E2G.04",
+          "quality_issues": [
+            "truncated_options"
+          ],
+          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
+        }
+      ]
+    },
+    {
+      "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 15 - CÂU MỆNH ĐÈ, CÂU CHẺ/8 chuyende15_thionline_cauchedeso01.pdf",
+      "blocked_questions": 50,
+      "issues": {
+        "truncated_options": 50,
+        "duplicate_options": 2
+      },
+      "formats": {
+        "hsa_sentence_completion": 50
+      },
+      "subtopics": {
+        "E2S.08": 50
+      },
+      "recommended_action": "re_extract_options_or_mark_manual_review",
+      "samples": [
+        {
+          "question_id": "en-practice-5c418bd64458-006-85381dde467c",
+          "question_number": 1,
+          "question_text": "It is my hand luggage _______ was lost at the airport.",
+          "options": {
+            "A": "where",
+            "B": "that",
+            "C": "who",
+            "D": "what"
+          },
+          "question_format": "hsa_sentence_completion",
+          "knowledge_subtopic_code_v2": "E2S.08",
+          "quality_issues": [
+            "truncated_options"
+          ],
+          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
+        },
+        {
+          "question_id": "en-practice-5c418bd64458-007-a82c83c556ef",
+          "question_number": 2,
+          "question_text": "It is Professor Robert _______ I respect the most at my university.",
+          "options": {
+            "A": "that",
+            "B": "whose",
+            "C": "whose",
+            "D": "which"
+          },
+          "question_format": "hsa_sentence_completion",
+          "knowledge_subtopic_code_v2": "E2S.08",
+          "quality_issues": [
+            "duplicate_options",
+            "truncated_options"
+          ],
+          "review_reason": "duplicate_options; merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
+        },
+        {
+          "question_id": "en-practice-5c418bd64458-008-ed444c4eff10",
+          "question_number": 3,
+          "question_text": "It is with genuine kindness _______ he earned our trust and respect.",
+          "options": {
+            "A": "whom",
+            "B": "when",
+            "C": "which",
+            "D": "that"
+          },
+          "question_format": "hsa_sentence_completion",
+          "knowledge_subtopic_code_v2": "E2S.08",
+          "quality_issues": [
+            "truncated_options"
+          ],
+          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
         }
       ]
     },
@@ -603,261 +1090,6 @@
       ]
     },
     {
-      "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 15 - CÂU MỆNH ĐÈ, CÂU CHẺ/2 chuyende15_thionline_menhdequanhedeso01.pdf",
-      "blocked_questions": 30,
-      "issues": {
-        "missing_options": 15,
-        "truncated_options": 15
-      },
-      "formats": {
-        "hsa_sentence_completion": 30
-      },
-      "subtopics": {
-        "E2S.08": 30
-      },
-      "recommended_action": "re_extract_options_or_mark_manual_review",
-      "samples": [
-        {
-          "question_id": "en-practice-409c0bd199f9-001-e419a840119a",
-          "question_number": 1,
-          "question_text": "The doctor was not very kind. He treated my father. (who) → ________________________________________________________________________.",
-          "options": {},
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2S.08",
-          "quality_issues": [
-            "missing_options"
-          ],
-          "review_reason": "merged_rescan_preserved_answer_metadata; missing_options; practice_item_type:open_response; regex_fallback_missing_answer"
-        },
-        {
-          "question_id": "en-practice-409c0bd199f9-002-42528f5e1d5f",
-          "question_number": 2,
-          "question_text": "They are still discussing the movie. We watched it last night. (which) → ________________________________________________________________________.",
-          "options": {},
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2S.08",
-          "quality_issues": [
-            "missing_options"
-          ],
-          "review_reason": "merged_rescan_preserved_answer_metadata; missing_options; practice_item_type:open_response; regex_fallback_missing_answer"
-        },
-        {
-          "question_id": "en-practice-409c0bd199f9-003-2763d2eb8fe2",
-          "question_number": 3,
-          "question_text": "The laptop needs to be replaced. Its screen is cracked. (whose) → ________________________________________________________________________.",
-          "options": {},
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2S.08",
-          "quality_issues": [
-            "missing_options"
-          ],
-          "review_reason": "merged_rescan_preserved_answer_metadata; missing_options; practice_item_type:open_response; regex_fallback_missing_answer"
-        }
-      ]
-    },
-    {
-      "relative_path": "MP/NGỮ PHÁP ỨNG DỤNG/CHUYÊN ĐỀ 6 - GIỚI TỪ, CỤM GIỚI TỪ/Thi online Lý thuyết - Giới từ và Cụm giới từ (Đề số 1).pdf",
-      "blocked_questions": 30,
-      "issues": {
-        "truncated_options": 30
-      },
-      "formats": {
-        "thpt_arrangement_text": 30
-      },
-      "subtopics": {
-        "E2G.04": 30
-      },
-      "recommended_action": "re_extract_options_or_mark_manual_review",
-      "samples": [
-        {
-          "question_id": "en-practice-3e9ec83098f9-001-2a4491b35a95",
-          "question_number": 1,
-          "question_text": "1. This morning’s lecture mainly focused (1) _______ the impact of technology on modern education. The professor carefully explained (2) _______ the students how online platforms can both support and challenge learning. Besides listening, the students also actively participated (3) _______ the discussion by asking questions, sharing opinions, and giving real-life examples.",
-          "options": {
-            "A": "of",
-            "B": "with",
-            "C": "to",
-            "D": "on"
-          },
-          "question_format": "thpt_arrangement_text",
-          "knowledge_subtopic_code_v2": "E2G.04",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "regex_fallback_missing_answer; truncated_options"
-        },
-        {
-          "question_id": "en-practice-3e9ec83098f9-002-33c301b412d1",
-          "question_number": 2,
-          "question_text": "1. This morning’s lecture mainly focused (1) _______ the impact of technology on modern education. The professor carefully explained (2) _______ the students how online platforms can both support and challenge learning. Besides listening, the students also actively participated (3) _______ the discussion by asking questions, sharing opinions, and giving real-life examples.",
-          "options": {
-            "A": "by",
-            "B": "on",
-            "C": "to",
-            "D": "about"
-          },
-          "question_format": "thpt_arrangement_text",
-          "knowledge_subtopic_code_v2": "E2G.04",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "regex_fallback_missing_answer; truncated_options"
-        },
-        {
-          "question_id": "en-practice-3e9ec83098f9-003-21d0fd61e4c7",
-          "question_number": 3,
-          "question_text": "1. This morning’s lecture mainly focused (1) _______ the impact of technology on modern education. The professor carefully explained (2) _______ the students how online platforms can both support and challenge learning. Besides listening, the students also actively participated (3) _______ the discussion by asking questions, sharing opinions, and giving real-life examples.",
-          "options": {
-            "A": "of",
-            "B": "for",
-            "C": "with",
-            "D": "in"
-          },
-          "question_format": "thpt_arrangement_text",
-          "knowledge_subtopic_code_v2": "E2G.04",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "regex_fallback_missing_answer; truncated_options"
-        }
-      ]
-    },
-    {
-      "relative_path": "MP/NGỮ PHÁP ỨNG DỤNG/CHUYÊN ĐỀ 6 - GIỚI TỪ, CỤM GIỚI TỪ/Thi online Lý thuyết - Giới từ và Cụm giới từ (Đề số 2).pdf",
-      "blocked_questions": 30,
-      "issues": {
-        "truncated_options": 30,
-        "duplicate_options": 1
-      },
-      "formats": {
-        "thpt_arrangement_text": 30
-      },
-      "subtopics": {
-        "E2G.04": 30
-      },
-      "recommended_action": "re_extract_options_or_mark_manual_review",
-      "samples": [
-        {
-          "question_id": "en-practice-bce8a4f9256c-001-32ab4db7be81",
-          "question_number": 1,
-          "question_text": "1. Just one sensational post can easily make people confused (1) _______ what is true and what is false. That is why every social media user should be responsible (2) _______ the information they share, because careless actions may cause harm. Accordingly, we all need to be doubtful (3) _______ online content and verify facts before believing or forwarding anything to others.",
-          "options": {
-            "A": "at",
-            "B": "with",
-            "C": "to",
-            "D": "about"
-          },
-          "question_format": "thpt_arrangement_text",
-          "knowledge_subtopic_code_v2": "E2G.04",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "regex_fallback_missing_answer; truncated_options"
-        },
-        {
-          "question_id": "en-practice-bce8a4f9256c-002-e0497c9959f4",
-          "question_number": 2,
-          "question_text": "1. Just one sensational post can easily make people confused (1) _______ what is true and what is false. That is why every social media user should be responsible (2) _______ the information they share, because careless actions may cause harm. Accordingly, we all need to be doubtful (3) _______ online content and verify facts before believing or forwarding anything to others.",
-          "options": {
-            "A": "for",
-            "B": "with",
-            "C": "on",
-            "D": "by"
-          },
-          "question_format": "thpt_arrangement_text",
-          "knowledge_subtopic_code_v2": "E2G.04",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "regex_fallback_missing_answer; truncated_options"
-        },
-        {
-          "question_id": "en-practice-bce8a4f9256c-003-73d4646349d5",
-          "question_number": 3,
-          "question_text": "1. Just one sensational post can easily make people confused (1) _______ what is true and what is false. That is why every social media user should be responsible (2) _______ the information they share, because careless actions may cause harm. Accordingly, we all need to be doubtful (3) _______ online content and verify facts before believing or forwarding anything to others.",
-          "options": {
-            "A": "about",
-            "B": "for",
-            "C": "to",
-            "D": "on"
-          },
-          "question_format": "thpt_arrangement_text",
-          "knowledge_subtopic_code_v2": "E2G.04",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "regex_fallback_missing_answer; truncated_options"
-        }
-      ]
-    },
-    {
-      "relative_path": "MP/NGỮ PHÁP ỨNG DỤNG/CHUYÊN ĐỀ 6 - GIỚI TỪ, CỤM GIỚI TỪ/Thi online Lý thuyết - Giới từ và Cụm giới từ (Đề số 3).pdf",
-      "blocked_questions": 30,
-      "issues": {
-        "truncated_options": 30
-      },
-      "formats": {
-        "thpt_arrangement_text": 30
-      },
-      "subtopics": {
-        "E2G.04": 30
-      },
-      "recommended_action": "re_extract_options_or_mark_manual_review",
-      "samples": [
-        {
-          "question_id": "en-practice-b69520f9cce8-001-11c29a5ac1df",
-          "question_number": 1,
-          "question_text": "1. The recent decision (1) _______ raising fuel prices made by the government has created mixed opinions in society. The main cause (2) _______ the controversy is the impact on transportation and daily expenses. Public reaction (3) _______ the decision has been strong, with protests in some areas and calls for fairer solutions to support low-income families.",
-          "options": {
-            "A": "on",
-            "B": "for",
-            "C": "with",
-            "D": "from"
-          },
-          "question_format": "thpt_arrangement_text",
-          "knowledge_subtopic_code_v2": "E2G.04",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "regex_fallback_missing_answer; truncated_options"
-        },
-        {
-          "question_id": "en-practice-b69520f9cce8-002-5e75bf892697",
-          "question_number": 2,
-          "question_text": "1. The recent decision (1) _______ raising fuel prices made by the government has created mixed opinions in society. The main cause (2) _______ the controversy is the impact on transportation and daily expenses. Public reaction (3) _______ the decision has been strong, with protests in some areas and calls for fairer solutions to support low-income families.",
-          "options": {
-            "A": "of",
-            "B": "from",
-            "C": "into",
-            "D": "over"
-          },
-          "question_format": "thpt_arrangement_text",
-          "knowledge_subtopic_code_v2": "E2G.04",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "regex_fallback_missing_answer; truncated_options"
-        },
-        {
-          "question_id": "en-practice-b69520f9cce8-003-a9b30b8216ab",
-          "question_number": 3,
-          "question_text": "1. The recent decision (1) _______ raising fuel prices made by the government has created mixed opinions in society. The main cause (2) _______ the controversy is the impact on transportation and daily expenses. Public reaction (3) _______ the decision has been strong, with protests in some areas and calls for fairer solutions to support low-income families.",
-          "options": {
-            "A": "to",
-            "B": "on",
-            "C": "for",
-            "D": "in"
-          },
-          "question_format": "thpt_arrangement_text",
-          "knowledge_subtopic_code_v2": "E2G.04",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "regex_fallback_missing_answer; truncated_options"
-        }
-      ]
-    },
-    {
       "relative_path": "MP/NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN/11_nangcapvontuvung-chude_theworldofworkbuoi1.pdf",
       "blocked_questions": 30,
       "issues": {
@@ -921,396 +1153,6 @@
             "possible_wrong_passage_pairing"
           ],
           "review_reason": "merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer"
-        }
-      ]
-    },
-    {
-      "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 16 - CÁC DẠNG MỆNH ĐỀ/5 [covumaiphuong]tailieulivestream_cacdangmenhde_15.4_2020.pdf",
-      "blocked_questions": 29,
-      "issues": {
-        "truncated_options": 29
-      },
-      "formats": {
-        "hsa_sentence_completion": 29
-      },
-      "subtopics": {
-        "E2R.02": 29
-      },
-      "recommended_action": "re_extract_options_or_mark_manual_review",
-      "samples": [
-        {
-          "question_id": "en-practice-e9cb925c5bb7-001-eb9ed983b2af",
-          "question_number": 1,
-          "question_text": "This is _______ our basic interest lies.",
-          "options": {
-            "A": "what",
-            "B": "that",
-            "C": "where",
-            "D": "how"
-          },
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2R.02",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
-        },
-        {
-          "question_id": "en-practice-e9cb925c5bb7-002-605478384fc8",
-          "question_number": 2,
-          "question_text": "The man stood quite still, _______ his lips moved slightly.",
-          "options": {
-            "A": "except",
-            "B": "except for",
-            "C": "except that",
-            "D": "except what"
-          },
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2R.02",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
-        },
-        {
-          "question_id": "en-practice-e9cb925c5bb7-003-4f7645f0334d",
-          "question_number": 3,
-          "question_text": "Are you sorry for _______ you have done?",
-          "options": {
-            "A": "that",
-            "B": "what",
-            "C": "which",
-            "D": "No word is needed"
-          },
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2R.02",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
-        }
-      ]
-    },
-    {
-      "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 20 - GIỚI TỪ/11 chuyende20_thionline_gioitu-buoi4deso01.pdf",
-      "blocked_questions": 28,
-      "issues": {
-        "truncated_options": 28
-      },
-      "formats": {
-        "hsa_sentence_completion": 28
-      },
-      "subtopics": {
-        "E2G.04": 28
-      },
-      "recommended_action": "re_extract_options_or_mark_manual_review",
-      "samples": [
-        {
-          "question_id": "en-practice-b068308c0bbe-001-8588b5d66cf6",
-          "question_number": 1,
-          "question_text": "There's a pressing need _____ improved access to education in rural areas.",
-          "options": {
-            "A": "in",
-            "B": "of",
-            "C": "to",
-            "D": "for"
-          },
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2G.04",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
-        },
-        {
-          "question_id": "en-practice-b068308c0bbe-002-cbbcf0b61de6",
-          "question_number": 2,
-          "question_text": "There has been a noticeable drop _____ temperature in the past week.",
-          "options": {
-            "A": "by",
-            "B": "in",
-            "C": "at",
-            "D": "of"
-          },
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2G.04",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
-        },
-        {
-          "question_id": "en-practice-b068308c0bbe-003-df97ffae64fc",
-          "question_number": 3,
-          "question_text": "With help from his parents, he now can overcome his addiction ______ alcohol.",
-          "options": {
-            "A": "for",
-            "B": "in",
-            "C": "up",
-            "D": "to"
-          },
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2G.04",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
-        }
-      ]
-    },
-    {
-      "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 20 - GIỚI TỪ/8 chuyende20_thionline_gioitu-buoi3deso01 (1).pdf",
-      "blocked_questions": 28,
-      "issues": {
-        "truncated_options": 28
-      },
-      "formats": {
-        "hsa_sentence_completion": 28
-      },
-      "subtopics": {
-        "E2G.04": 28
-      },
-      "recommended_action": "re_extract_options_or_mark_manual_review",
-      "samples": [
-        {
-          "question_id": "en-practice-d1fd6e477413-001-4f896d097da1",
-          "question_number": 1,
-          "question_text": "It’s worrying that many teenagers are addicted ______ social media.",
-          "options": {
-            "A": "on",
-            "B": "of",
-            "C": "to",
-            "D": "for"
-          },
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2G.04",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
-        },
-        {
-          "question_id": "en-practice-d1fd6e477413-002-34ad03873f4c",
-          "question_number": 2,
-          "question_text": "The defendant was found guilty _____ embezzlement and sentenced to prison.",
-          "options": {
-            "A": "by",
-            "B": "on",
-            "C": "at",
-            "D": "of"
-          },
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2G.04",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
-        },
-        {
-          "question_id": "en-practice-d1fd6e477413-003-9e13ab361e74",
-          "question_number": 3,
-          "question_text": "As a project manager, you are responsible _____ overseeing the entire process.",
-          "options": {
-            "A": "for",
-            "B": "in",
-            "C": "up",
-            "D": "on"
-          },
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2G.04",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
-        }
-      ]
-    },
-    {
-      "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 20 - GIỚI TỪ/8 chuyende20_thionline_gioitu-buoi3deso01.pdf",
-      "blocked_questions": 28,
-      "issues": {
-        "truncated_options": 28
-      },
-      "formats": {
-        "hsa_sentence_completion": 28
-      },
-      "subtopics": {
-        "E2G.04": 28
-      },
-      "recommended_action": "re_extract_options_or_mark_manual_review",
-      "samples": [
-        {
-          "question_id": "en-practice-d1fd6e477413-001-bbd65291ba00",
-          "question_number": 1,
-          "question_text": "It’s worrying that many teenagers are addicted ______ social media.",
-          "options": {
-            "A": "on",
-            "B": "of",
-            "C": "to",
-            "D": "for"
-          },
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2G.04",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
-        },
-        {
-          "question_id": "en-practice-d1fd6e477413-002-646326396575",
-          "question_number": 2,
-          "question_text": "The defendant was found guilty _____ embezzlement and sentenced to prison.",
-          "options": {
-            "A": "by",
-            "B": "on",
-            "C": "at",
-            "D": "of"
-          },
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2G.04",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
-        },
-        {
-          "question_id": "en-practice-d1fd6e477413-003-1d7bd702af06",
-          "question_number": 3,
-          "question_text": "As a project manager, you are responsible _____ overseeing the entire process.",
-          "options": {
-            "A": "for",
-            "B": "in",
-            "C": "up",
-            "D": "on"
-          },
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2G.04",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
-        }
-      ]
-    },
-    {
-      "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 16 - CÁC DẠNG MỆNH ĐỀ/2 covumaiphuongchuyende16_thionline_cacdangmenhdebuoiso01.pdf",
-      "blocked_questions": 26,
-      "issues": {
-        "truncated_options": 16,
-        "missing_options": 10
-      },
-      "formats": {
-        "hsa_sentence_completion": 26
-      },
-      "subtopics": {
-        "E2M.99": 26
-      },
-      "recommended_action": "re_extract_options_or_mark_manual_review",
-      "samples": [
-        {
-          "question_id": "en-practice-76646ddc6269-001-df2a86fff898",
-          "question_number": 1,
-          "question_text": "I'm unsure about what I should wear to the party. (to wear) → ________________________________________________________________________.",
-          "options": {},
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2M.99",
-          "quality_issues": [
-            "missing_options"
-          ],
-          "review_reason": "missing_options; practice_item_type:open_response; regex_fallback_missing_answer"
-        },
-        {
-          "question_id": "en-practice-76646ddc6269-002-ecf3b106bd78",
-          "question_number": 2,
-          "question_text": "Before we went to bed, our children had fallen asleep. (After) → ________________________________________________________________________.",
-          "options": {},
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2M.99",
-          "quality_issues": [
-            "missing_options"
-          ],
-          "review_reason": "missing_options; practice_item_type:open_response; regex_fallback_missing_answer"
-        },
-        {
-          "question_id": "en-practice-76646ddc6269-003-48e97dd9ff7f",
-          "question_number": 3,
-          "question_text": "The movie was so captivating that we watched it twice. (such) → ________________________________________________________________________.",
-          "options": {},
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2M.99",
-          "quality_issues": [
-            "missing_options"
-          ],
-          "review_reason": "missing_options; practice_item_type:open_response; regex_fallback_missing_answer"
-        }
-      ]
-    },
-    {
-      "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 15 - CÂU MỆNH ĐÈ, CÂU CHẺ/8 chuyende15_thionline_cauchedeso01.pdf",
-      "blocked_questions": 25,
-      "issues": {
-        "truncated_options": 25,
-        "duplicate_options": 1
-      },
-      "formats": {
-        "hsa_sentence_completion": 25
-      },
-      "subtopics": {
-        "E2S.08": 25
-      },
-      "recommended_action": "re_extract_options_or_mark_manual_review",
-      "samples": [
-        {
-          "question_id": "en-practice-5c418bd64458-006-85381dde467c",
-          "question_number": 1,
-          "question_text": "It is my hand luggage _______ was lost at the airport.",
-          "options": {
-            "A": "where",
-            "B": "that",
-            "C": "who",
-            "D": "what"
-          },
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2S.08",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
-        },
-        {
-          "question_id": "en-practice-5c418bd64458-007-a82c83c556ef",
-          "question_number": 2,
-          "question_text": "It is Professor Robert _______ I respect the most at my university.",
-          "options": {
-            "A": "that",
-            "B": "whose",
-            "C": "whose",
-            "D": "which"
-          },
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2S.08",
-          "quality_issues": [
-            "duplicate_options",
-            "truncated_options"
-          ],
-          "review_reason": "duplicate_options; merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
-        },
-        {
-          "question_id": "en-practice-5c418bd64458-008-ed444c4eff10",
-          "question_number": 3,
-          "question_text": "It is with genuine kindness _______ he earned our trust and respect.",
-          "options": {
-            "A": "whom",
-            "B": "when",
-            "C": "which",
-            "D": "that"
-          },
-          "question_format": "hsa_sentence_completion",
-          "knowledge_subtopic_code_v2": "E2S.08",
-          "quality_issues": [
-            "truncated_options"
-          ],
-          "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
         }
       ]
     },
@@ -2607,6 +2449,73 @@
       ]
     },
     {
+      "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 15 - CÂU MỆNH ĐÈ, CÂU CHẺ/2 chuyende15_thionline_menhdequanhedeso01.pdf",
+      "blocked_questions": 17,
+      "issues": {
+        "truncated_options": 17
+      },
+      "formats": {
+        "hsa_sentence_completion": 17
+      },
+      "subtopics": {
+        "E2S.04": 17
+      },
+      "recommended_action": "re_extract_options_or_mark_manual_review",
+      "samples": [
+        {
+          "question_id": "en-practice-409c0bd199f9-014-aa91fce08bb7",
+          "question_number": 14,
+          "question_text": "The forest which trees are home to many bird species is a peaceful retreat.",
+          "options": {
+            "A": "forest",
+            "B": "which",
+            "C": "bird species",
+            "D": "peaceful retreat"
+          },
+          "question_format": "hsa_sentence_completion",
+          "knowledge_subtopic_code_v2": "E2S.04",
+          "quality_issues": [
+            "truncated_options"
+          ],
+          "review_reason": "No answer key provided in PDF; missing_answer; truncated_options"
+        },
+        {
+          "question_id": "en-practice-409c0bd199f9-015-22db0347d9de",
+          "question_number": 15,
+          "question_text": "This software, that I have been using for years, recently received an upgrade.",
+          "options": {
+            "A": "software",
+            "B": "that",
+            "C": "using",
+            "D": "upgrade"
+          },
+          "question_format": "hsa_sentence_completion",
+          "knowledge_subtopic_code_v2": "E2S.04",
+          "quality_issues": [
+            "truncated_options"
+          ],
+          "review_reason": "No answer key provided in PDF; missing_answer; truncated_options"
+        },
+        {
+          "question_id": "en-practice-409c0bd199f9-016-9a619ec1bb0e",
+          "question_number": 16,
+          "question_text": "Do you know the tall person _______ is waiting outside?",
+          "options": {
+            "A": "who",
+            "B": "whom",
+            "C": "whose",
+            "D": "which"
+          },
+          "question_format": "hsa_sentence_completion",
+          "knowledge_subtopic_code_v2": "E2S.04",
+          "quality_issues": [
+            "truncated_options"
+          ],
+          "review_reason": "No answer key provided in PDF; missing_answer; truncated_options"
+        }
+      ]
+    },
+    {
       "relative_path": "MP/NGỮ PHÁP ỨNG DỤNG/CHUYÊN ĐỀ 12 - LIÊN TỪ VÀ MỆNH ĐỀ TRẠNG NGỮ/12 Thi online Lý thuyết - Liên từ và mệnh đề trạng ngữ (Đề số 1).pdf",
       "blocked_questions": 17,
       "issues": {
@@ -3007,6 +2916,75 @@
             "truncated_options"
           ],
           "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options"
+        }
+      ]
+    },
+    {
+      "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 16 - CÁC DẠNG MỆNH ĐỀ/2 covumaiphuongchuyende16_thionline_cacdangmenhdebuoiso01.pdf",
+      "blocked_questions": 16,
+      "issues": {
+        "truncated_options": 16
+      },
+      "formats": {
+        "hsa_sentence_completion": 16
+      },
+      "subtopics": {
+        "E2S.06": 11,
+        "E2S.04": 4,
+        "E2S.09": 1
+      },
+      "recommended_action": "re_extract_options_or_mark_manual_review",
+      "samples": [
+        {
+          "question_id": "en-practice-76646ddc6269-011-2f278bc35a47",
+          "question_number": 11,
+          "question_text": "_______ Emily said in front of the whole class shocked everyone.",
+          "options": {
+            "A": "What",
+            "B": "Where",
+            "C": "When",
+            "D": "While"
+          },
+          "question_format": "hsa_sentence_completion",
+          "knowledge_subtopic_code_v2": "E2S.04",
+          "quality_issues": [
+            "truncated_options"
+          ],
+          "review_reason": "No answer key provided in PDF; missing_answer; truncated_options"
+        },
+        {
+          "question_id": "en-practice-76646ddc6269-012-a116bcc0c462",
+          "question_number": 12,
+          "question_text": "We'll book our tickets for the concert _______ they go on sale.",
+          "options": {
+            "A": "in order for",
+            "B": "in spite of",
+            "C": "not until",
+            "D": "as soon as"
+          },
+          "question_format": "hsa_sentence_completion",
+          "knowledge_subtopic_code_v2": "E2S.06",
+          "quality_issues": [
+            "truncated_options"
+          ],
+          "review_reason": "No answer key provided in PDF; missing_answer; truncated_options"
+        },
+        {
+          "question_id": "en-practice-76646ddc6269-015-7d6f260fbdf2",
+          "question_number": 15,
+          "question_text": "_______ the movie starts, I will have bought some popcorn.",
+          "options": {
+            "A": "Not until",
+            "B": "By the time",
+            "C": "With a view to",
+            "D": "Owing to"
+          },
+          "question_format": "hsa_sentence_completion",
+          "knowledge_subtopic_code_v2": "E2S.06",
+          "quality_issues": [
+            "truncated_options"
+          ],
+          "review_reason": "No answer key provided in PDF; missing_answer; truncated_options"
         }
       ]
     },
