@@ -1,103 +1,97 @@
 {
   "summary": {
-    "generated_at": "2026-05-25T03:57:58",
+    "generated_at": "2026-05-25T04:27:51",
     "model": "gz-prod/claude-sonnet-4-6",
     "sample_size": 20,
     "subtopics_sampled": 20,
     "confidence": {
-      "low": 3,
-      "high": 17
+      "high": 18,
+      "low": 2
     },
     "usable": {
-      "False": 4,
-      "True": 16
+      "True": 16,
+      "False": 4
     },
     "errors": 0,
     "answer": {
+      "A": 5,
       "NONE": 5,
-      "A": 6,
-      "B": 2,
+      "B": 4,
       "D": 3,
-      "C": 4
+      "C": 3
     }
   },
   "results": [
     {
       "question": {
-        "question_id": "en-practice-4a445882529c-003-a59da761e96d",
-        "source_file": "07. Bài 7. Luyện tập nâng cao Đọc điền khuyết thông tin (Buổi 7) (1).pdf",
-        "relative_path": "MP/TỪ VỰNG CHUYÊN SÂU/CHUYÊN SÂU ĐỌC ĐIỀN KHUYẾT THÔNG TIn/07. Bài 7. Luyện tập nâng cao Đọc điền khuyết thông tin (Buổi 7) (1).pdf",
-        "file_sha1": "4a445882529ceb42c8ecd26e2910b2862f10b7a0",
-        "question_number": 3,
-        "page_start": 1,
-        "page_end": 1,
-        "question_text": "ĐỌC ĐIỀN KHUYẾT THÔNG TIN (BUỔI 7) Plus 2: Luyện đọc điền và đọc hiểu chuyên sâu Mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 1 to 6. Using smartphones at school has become a hot topic among educators and parents alike. On one hand, smartphones can be valuable educational tools. For instance, students can use them to access educational apps and resources, (1) _______. On the other hand, smartphones can also be a distraction. While some argue that students can use (2) _______ responsibly, others worry that they may misuse them during class time. Despite these concerns, smartphones can (3) _______. Their portability allows students to access information and (4) ______ anywhere, anytime. However, it is important to establish (5) _______ in order to ensure that they are used appropriately. In conclusion, (6) _______, it is essential to strike a balance between their educational potential and their potential for distraction.",
+        "question_id": "en-practice-eaadf67bf4a5-017-6ee8cfb5807c",
+        "source_file": "Chủ đề 18 Personality and Emotions (1).pdf",
+        "relative_path": "MP/NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/20 CHỦ ĐỀ TỪ VỰNG VÀ ĐỌC ĐIỀN - ĐỌC HIỂU CƠ BẢN/Chủ đề 18 Personality and Emotions (1).pdf",
+        "file_sha1": "eaadf67bf4a5e08bff322171a7e75ba89609dade",
+        "question_number": 17,
+        "page_start": 6,
+        "page_end": 6,
+        "question_text": "Choose the option that best fits blank (17) in the passage.",
         "options": {
-          "A": "making learning more interactive and engaging",
-          "B": "make learning more interactive and engaged",
-          "C": "making learning more interactive and engaged",
-          "D": "make learning more interactive and engaging"
+          "A": "emotional",
+          "B": "energetic",
+          "C": "meaningful",
+          "D": "sensitive"
         },
         "correct_answer": null,
         "answer_source": "missing",
         "explanation": "",
-        "passage_id": "passage-4a44588252-03-713715f369",
-        "passage_text": "ĐỌC ĐIỀN KHUYẾT THÔNG TIN (BUỔI 7) Plus 2: Luyện đọc điền và đọc hiểu chuyên sâu Mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 1 to 6. Using smartphones at school has become a hot topic among educators and parents alike. On one hand, smartphones can be valuable educational tools. For instance, students can use them to access educational apps and resources, (1) _______. On the other hand, smartphones can also be a distraction. While some argue that students can use (2) _______ responsibly, others worry that they may misuse them during class time. Despite these concerns, smartphones can (3) _______. Their portability allows students to access information and (4) ______ anywhere, anytime. However, it is important to establish (5) _______ in order to ensure that they are used appropriately. In conclusion, (6) _______, it is essential to strike a balance between their educational potential and their potential for distraction.",
+        "passage_id": "passage-eaadf67bf4-17-41ca174b93",
+        "passage_text": "5. Keeping a positive mind is essential because our thoughts strongly (14) _______ how we feel and act. When we focus on positive ideas, we reduce stress and make better decisions. Optimism also encourages creativity and helps us see (15) _______ even in failure. In contrast, negative thinking often limits our confidence and energy. A positive attitude also attracts (16) _______ people and builds healthier relationships. Although staying positive takes effort, it gives us (17) _______ strength to handle challenges and maintain balance in life.",
         "question_format": "hsa_cloze_text",
         "knowledge_subtopic_code_v2": "E2C.05",
         "exam_profiles": [
-          "HSA_ENGLISH"
+          "HSA_ENGLISH",
+          "THPT_2025_CORE"
         ],
         "linked_node_codes_v2": [
-          "E2C.05-ren-luyen-va-nang-cao-ki-nang-xu-li-cau-hoi-doc-dien-doc-hie",
-          "E2C.05-ren-luyen-va-nang-cao-ki-nang-xu-li-cau-hoi-doc-dien-doc-hie-2",
-          "E2C.05-ren-luyen-va-nang-cao-ki-nang-xu-li-cau-hoi-doc-dien-doc-hie-3",
-          "E2C.05-tong-quan-ve-dang-bai-doc-dien-khuyet-thong-tin-va-phuong-ph",
-          "E2C.05-tong-quan-ve-dang-bai-doc-dien-khuyet-thong-tin-va-phuong-ph-2"
+          "E2C.05-bai-10-phuong-phap-dac-trung-xu-li-dang-bai-doc-dien-chuyen",
+          "E2C.05-bai-11-phuong-phap-dac-trung-xu-li-dang-bai-doc-dien-chuyen",
+          "E2C.05-bai-8-phuong-phap-dac-trung-xu-li-dang-bai-doc-dien-chuyen-b",
+          "E2C.05-bai-9-phuong-phap-dac-trung-xu-li-dang-bai-doc-dien-chuyen-b",
+          "E2C.05-dang-bai-doc-dien-khuyet-thong-tin-va-phuong-phap-lam-bai"
         ],
         "difficulty": "basic",
         "confidence": "medium",
         "needs_review": true,
-        "review_reason": "regex_fallback_missing_answer",
+        "review_reason": "cloze_passage_moved_to_context; regex_fallback_missing_answer",
         "ready_for_ai_solve": true,
         "ai_model": "regex_fallback",
         "practice_item_type": "mcq",
         "raw_extract": {
-          "block": "Question 3.  \nA. making learning more interactive and engaging \nB. make learning more interactive and engaged  \nC. making learning more interactive and engaged \nD. make learning more interactive and engaging",
+          "block": "Question 17. A. emotional  \nB. energetic \nC. meaningful \nD. sensitive \n \n6. Happiness is not simply about money or success; it comes from balance and (18) _______ connections. \nPeople feel truly happy when they live with purpose, love what they do, and share time with those who \n(19) _______ about them. A(n) (20) _______ attitude helps them appreciate small joys instead of always \nchasing more. True happiness also depends on emotional health — being calm, forgiving, and hopeful \neven in hard times. When people understand themselves and (21) _______ what really matters, joy \nnaturally grows inside them.",
           "practice_item_type": "mcq",
-          "page_start": 1,
-          "page_end": 1
+          "page_start": 6,
+          "page_end": 6
         }
       },
       "result": {
-        "answer": "NONE",
-        "explanation": "Câu hỏi thiếu thông tin quan trọng: không chỉ rõ blank nào (từ 1-6) cần điền. Mỗi vị trí blank yêu cầu cấu trúc ngữ pháp khác nhau. Ví dụ: blank (1) sau dấu phẩy cần V-ing (A hoặc C), nhưng 'engaged' sai vì cần tính từ 'engaging'. Nếu là blank (3) sau 'can' thì cần động từ nguyên thể (B hoặc D). Không thể xác định đáp án chính xác khi không biết vị trí blank cụ thể.",
-        "confidence": "low",
-        "usable": false,
-        "issues": [
-          "Không chỉ rõ blank number cần điền (1-6)",
-          "Đáp án phụ thuộc hoàn toàn vào vị trí blank trong câu",
-          "Cấu trúc ngữ pháp yêu cầu khác nhau cho mỗi vị trí"
-        ]
+        "answer": "A",
+        "explanation": "Từ 'emotional strength' (sức mạnh tinh thần/cảm xúc) phù hợp nhất với ngữ cảnh về việc giữ thái độ tích cực giúp đối phó với thử thách và duy trì sự cân bằng trong cuộc sống. 'Energetic strength' (sức mạnh năng động), 'meaningful strength' (sức mạnh có ý nghĩa), và 'sensitive strength' (sức mạnh nhạy cảm) đều không tự nhiên trong ngữ cảnh này.",
+        "confidence": "high",
+        "usable": true,
+        "issues": []
       },
       "error": null,
-      "solved_at": "2026-05-25T03:55:34",
+      "solved_at": "2026-05-25T04:24:57",
       "from_cache": false
     },
     {
       "question": {
-        "question_id": "en-practice-9400813c058e-007-3146f94c1b9d",
-        "source_file": "Chuyên đề 10_Thi Online_ Tính từ (Đề số 03) (2).pdf",
-        "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 10 - CẤU TẠO TỪ, TỪ LOẠI/Chuyên đề 10_Thi Online_ Tính từ (Đề số 03) (2).pdf",
-        "file_sha1": "9400813c058e3735fbc118acbfc789ec7a8deffe",
-        "question_number": 2,
+        "question_id": "en-practice-30e120b993dc-010-c253c3965f2b",
+        "source_file": "Chuyên đề 10_Thi Online_Danh từ (Đề số 02).pdf",
+        "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 10 - CẤU TẠO TỪ, TỪ LOẠI/Chuyên đề 10_Thi Online_Danh từ (Đề số 02).pdf",
+        "file_sha1": "30e120b993dc4839679a9b731638790c9443f99f",
+        "question_number": 10,
         "page_start": 1,
         "page_end": 1,
-        "question_text": "We were _______ by the incredible performance of the acrobats at the circus.",
-        "options": {
-          "A": "amazed",
-          "B": "amazing"
-        },
+        "question_text": "The books are stacked neatly on the _____________ in the library. (SHELF) II. Chọn đáp án phù hợp nhất",
+        "options": {},
         "correct_answer": null,
         "answer_source": "missing",
         "explanation": "",
@@ -118,43 +112,45 @@
         "difficulty": "basic",
         "confidence": "medium",
         "needs_review": true,
-        "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer",
+        "review_reason": "merged_rescan_preserved_answer_metadata; practice_item_type:fill_blank; regex_fallback_missing_answer",
         "ready_for_ai_solve": true,
         "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
+        "practice_item_type": "fill_blank",
         "raw_extract": {
-          "block": "Question 2. We were _______ by the incredible performance of the acrobats at the circus. \nA. amazed \n \n \n \n \nB. amazing",
-          "practice_item_type": "mcq",
+          "block": "Question 10. The books are stacked neatly on the _____________ in the library. (SHELF)  \n \nII. Chọn đáp án phù hợp nhất",
+          "practice_item_type": "fill_blank",
           "page_start": 1,
           "page_end": 1
         }
       },
       "result": {
-        "answer": "A",
-        "explanation": "Câu này cần tính từ mô tả cảm xúc của con người (we). 'Amazed' (V-ed) diễn tả cảm giác bị gây ấn tượng mạnh, phù hợp với chủ ngữ là người. 'Amazing' (V-ing) dùng để mô tả đặc điểm của sự vật/việc gây ấn tượng. Đáp án đúng là A.",
+        "answer": "NONE",
+        "explanation": "Đây là bài tập word formation yêu cầu điền dạng đúng của từ 'SHELF' vào chỗ trống. Đáp án đúng là 'shelves' (số nhiều). Đây không phải câu hỏi trắc nghiệm mà là câu hỏi tự luận điền từ.",
         "confidence": "high",
         "usable": true,
-        "issues": []
+        "issues": [
+          "Format mismatch: đề bài là word formation (điền từ) nhưng phần 'II. Chọn đáp án phù hợp nhất' gợi ý đây là trắc nghiệm. Cần làm rõ format và cung cấp options nếu là MCQ, hoặc xóa phần II nếu là bài tập tự luận."
+        ]
       },
       "error": null,
-      "solved_at": "2026-05-25T03:55:41",
+      "solved_at": "2026-05-25T04:25:03",
       "from_cache": false
     },
     {
       "question": {
-        "question_id": "en-practice-4eeb05a038d5-026-4f2ff7118246",
+        "question_id": "en-practice-4eeb05a038d5-006-592dc615aefc",
         "source_file": "19 chude_careerpaths.pdf",
         "relative_path": "MP/TỪ VỰNG CHUYÊN SÂU/CÁC CHỦ ĐỀ TỪ VỰNG CHUYÊN SÂU/19 chude_careerpaths.pdf",
         "file_sha1": "4eeb05a038d579169ec0eb1323450cb88b4a6bde",
-        "question_number": 26,
-        "page_start": 2,
-        "page_end": 2,
-        "question_text": "The job market is constantly changing, so flexibility and a ________ to lifelong learning are prerequisites for a successful career.",
+        "question_number": 6,
+        "page_start": 1,
+        "page_end": 1,
+        "question_text": "_______ jobs can be tedious but are often quite rewarding for your career.",
         "options": {
-          "A": "guarantee",
-          "B": "commitment",
-          "C": "prosperity",
-          "D": "permission"
+          "A": "Entry-level",
+          "B": "Far-flung",
+          "C": "Absent-minded",
+          "D": "Light-hearted"
         },
         "correct_answer": null,
         "answer_source": "missing",
@@ -181,160 +177,38 @@
         "ai_model": "regex_fallback",
         "practice_item_type": "mcq",
         "raw_extract": {
-          "block": "Question 26. The job market is constantly changing, so flexibility and a ________ to lifelong learning \nare prerequisites for a successful career. \nA. guarantee  \nB. commitment \nC. prosperity  \nD. permission",
-          "practice_item_type": "mcq",
-          "page_start": 2,
-          "page_end": 2
-        }
-      },
-      "result": {
-        "answer": "B",
-        "explanation": "Câu này kiểm tra collocation và ngữ nghĩa. 'Commitment to' (cam kết với) là cụm từ đúng và phù hợp với ngữ cảnh về học tập suốt đời. Các từ khác không tạo thành collocation hợp lý: 'guarantee to' (đảm bảo cho) không phù hợp ngữ nghĩa, 'prosperity' (sự thịnh vượng) không đi với 'to', 'permission to' (sự cho phép) không phù hợp với ý nghĩa câu về thái độ cần thiết cho sự nghiệp.",
-        "confidence": "high",
-        "usable": true,
-        "issues": []
-      },
-      "error": null,
-      "solved_at": "2026-05-25T03:55:49",
-      "from_cache": false
-    },
-    {
-      "question": {
-        "question_id": "en-practice-1694c325ab95-012-e850e2c56a52",
-        "source_file": "11_nangcapvontuvung-chude_theworldofworkbuoi1.pdf",
-        "relative_path": "MP/NỀN TẢNG TỪ VỰNG - ĐỌC HIỂU/NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN/11_nangcapvontuvung-chude_theworldofworkbuoi1.pdf",
-        "file_sha1": "1694c325ab95dd04fb16dfa671448f6dcf364a3a",
-        "question_number": 12,
-        "page_start": 1,
-        "page_end": 1,
-        "question_text": "You won’t be considered for this position unless you have the ______ qualifications.",
-        "options": {
-          "A": "remote",
-          "B": "rewarding",
-          "C": "stressful",
-          "D": "relevant"
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": "passage-1694c325ab-01-2b256f29a1",
-        "passage_text": "TÀI LIỆU LIVESTREAM ĐỘC QUYỀN NÂNG CẤP VỐN TỪ VỰNG CƠ BẢN CHỦ ĐỀ: THE WORLD OF WORK (BUỔI 1) các dạng câu hỏi trong đề thi",
-        "question_format": "thpt_reading_passage",
-        "knowledge_subtopic_code_v2": "E2R.02",
-        "exam_profiles": [
-          "THPT_2025_CORE"
-        ],
-        "linked_node_codes_v2": [
-          "E2R.02-14-bai-thi-truoc-buoi-hoc-tinh-hoa-doc-hieu-buoi-1-btpdf",
-          "E2R.02-15-tinh-hoa-doc-hieu-buoi-1-btpdf",
-          "E2R.02-22-bai-thi-truoc-buoi-hoc-tinh-hoa-doc-hieu-buoi-2-btpdf",
-          "E2R.02-23-tinh-hoa-doc-hieu-buoi-2-btpdf",
-          "E2R.02-ren-luyen-va-nang-cao-ki-nang-xu-li-bai-doc-hieu-10-cau-buoi"
-        ],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer",
-        "ready_for_ai_solve": true,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 12. You won’t be considered for this position unless you have the ______ qualifications. \nA. remote \n \nB. rewarding  \nC. stressful \n \nD. relevant",
+          "block": "Question 6. _______ jobs can be tedious but are often quite rewarding for your career. \nA. Entry-level \n \nB. Far-flung  \nC. Absent-minded \nD. Light-hearted",
           "practice_item_type": "mcq",
           "page_start": 1,
           "page_end": 1
         }
       },
       "result": {
-        "answer": "D",
-        "explanation": "Câu hỏi yêu cầu tìm tính từ phù hợp để hoàn thành câu về yêu cầu tuyển dụng. 'Relevant qualifications' (bằng cấp/trình độ liên quan) là cụm từ chuẩn trong ngữ cảnh tuyển dụng, nghĩa là ứng viên cần có trình độ phù hợp với vị trí. Các đáp án khác không hợp lý: remote (từ xa), rewarding (bổ ích), stressful (căng thẳng) không kết hợp với 'qualifications' trong ngữ cảnh này.",
+        "answer": "A",
+        "explanation": "Câu hỏi về từ vựng mô tả loại công việc. 'Entry-level jobs' (công việc cấp đầu vào) có thể nhàm chán nhưng thường có lợi cho sự nghiệp - đây là ý hợp lý. 'Far-flung' (xa xôi), 'absent-minded' (đãng trí), 'light-hearted' (vui vẻ) không phù hợp ngữ cảnh.",
         "confidence": "high",
         "usable": true,
         "issues": []
       },
       "error": null,
-      "solved_at": "2026-05-25T03:55:58",
+      "solved_at": "2026-05-25T04:25:11",
       "from_cache": false
     },
     {
       "question": {
-        "question_id": "en-practice-885b7cc49ded-019-072d23054bd4",
-        "source_file": "Giới từ và Cụm giới từ (Bài tập Ứng dụng - Buổi 2).pdf",
-        "relative_path": "MP/NGỮ PHÁP ỨNG DỤNG/CHUYÊN ĐỀ 6 - GIỚI TỪ, CỤM GIỚI TỪ/Giới từ và Cụm giới từ (Bài tập Ứng dụng - Buổi 2).pdf",
-        "file_sha1": "885b7cc49deda68a570d88bc13b686a83f2bb255",
-        "question_number": 19,
-        "page_start": 2,
-        "page_end": 2,
-        "question_text": "5. Canada’s official multicultural policy promotes inclusion (16) _______ recognising and respecting cultural diversity. It began as a reaction (17) _______ growing immigration and the need for equality. It allows people from different backgrounds to feel they belong (18) _______ society while keeping their own identities. This policy has had a strong impact (19) _______ social harmony and national unity. Today, Canada presents a positive picture (20) _______ a country where diversity is not just accepted, but celebrated.",
-        "options": {
-          "A": "up",
-          "B": "with",
-          "C": "on",
-          "D": "of"
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": null,
-        "passage_text": null,
-        "question_format": "thpt_arrangement_text",
-        "knowledge_subtopic_code_v2": "E2G.04",
-        "exam_profiles": [
-          "SPT_ENGLISH",
-          "THPT_2025_CORE"
-        ],
-        "linked_node_codes_v2": [
-          "E2G.04-cum-dong-tu-buoi-1",
-          "E2G.04-cum-dong-tu-buoi-2",
-          "E2G.04-cum-dong-tu-buoi-3",
-          "E2G.04-gioi-tu-va-cum-gioi-tu-buoi-1",
-          "E2G.04-gioi-tu-va-cum-gioi-tu-ly-thuyet-buoi-2"
-        ],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "regex_fallback_missing_answer",
-        "ready_for_ai_solve": true,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 19.  \nA. up \nB. with  \nC. on  \nD. of",
-          "practice_item_type": "mcq",
-          "page_start": 2,
-          "page_end": 2
-        }
-      },
-      "result": {
-        "answer": "NONE",
-        "explanation": "Đây là dạng bài điền giới từ vào đoạn văn với 5 chỗ trống (16-20) nhưng chỉ có 1 bộ 4 đáp án (A/B/C/D). Không rõ đáp án này áp dụng cho chỗ trống nào. Format 'thpt_arrangement_text' thường yêu cầu sắp xếp câu hoặc đoạn, không phải điền từ. Thiếu thông tin về cấu trúc đề bài thực tế.",
-        "confidence": "low",
-        "usable": false,
-        "issues": [
-          "5 chỗ trống (16-20) nhưng chỉ có 1 bộ đáp án A/B/C/D",
-          "Không xác định được đáp án này cho chỗ trống nào",
-          "Format 'thpt_arrangement_text' không khớp với dạng bài điền giới từ",
-          "Thiếu hướng dẫn rõ ràng về cách thí sinh trả lời"
-        ]
-      },
-      "error": null,
-      "solved_at": "2026-05-25T03:56:08",
-      "from_cache": false
-    },
-    {
-      "question": {
-        "question_id": "en-practice-9f0bef890115-018-0a7c9448cf7a",
-        "source_file": "Thi Online Phát triển năng lực xử lí câu hỏi Tư duy logic và giải quyết vấn đề (Buổi 9).pdf",
-        "relative_path": "MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/Thi Online Phát triển năng lực xử lí câu hỏi Tư duy logic và giải quyết vấn đề (Buổi 9).pdf",
-        "file_sha1": "9f0bef890115effd1def5ac5a072a7bc016450f4",
-        "question_number": 18,
+        "question_id": "en-practice-163c75c705e7-011-65f7fd22116d",
+        "source_file": "Thi Online Phát triển năng lực xử lí câu hỏi Tư duy logic và giải quyết vấn đề (Buổi 6).pdf",
+        "relative_path": "MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/Thi Online Phát triển năng lực xử lí câu hỏi Tư duy logic và giải quyết vấn đề (Buổi 6).pdf",
+        "file_sha1": "163c75c705e7c46bf7316d6e73e57c8733b2a3fd",
+        "question_number": 11,
         "page_start": 3,
         "page_end": 3,
-        "question_text": "You’re working in a group of four for a school project. One member hasn’t done any of the assigned work, but they want their name included when the project is submitted. If you leave their name out, they might fail the class. If you include them, it feels unfair to the rest of the group. What is the most ethical thing to do?",
+        "question_text": "A company is deciding between two internet plans: • Plan A: Costs $50 per month for 500GB of data, with an extra charge of $0.10 per GB beyond the limit. • Plan B: Costs $80 per month for unlimited data. If the company uses 700GB of data per month, which plan is cheaper?",
         "options": {
-          "A": "Include their name to avoid conflict, but warn them privately.",
-          "B": "Leave their name off to teach them a lesson.",
-          "C": "Include their name, but inform the teacher about what happened.",
-          "D": "Do nothing - it’s not your job to enforce fairness."
+          "A": "Plan A",
+          "B": "Plan B",
+          "C": "Both cost the same",
+          "D": "Neither plan is suitable"
         },
         "correct_answer": null,
         "answer_source": "missing",
@@ -355,48 +229,47 @@
         "ai_model": "regex_fallback",
         "practice_item_type": "mcq",
         "raw_extract": {
-          "block": "Question 18. You’re working in a group of four for a school project. One member hasn’t done any of the \nassigned work, but they want their name included when the project is submitted. If you leave their name \nout, they might fail the class. If you include them, it feels unfair to the rest of the group.  What is the most \nethical thing to do?   \nA. Include their name to avoid conflict, but warn them privately.  \nB. Leave their name off to teach them a lesson.  \nC. Include their name, but inform the teacher about what happened. \nD. Do nothing - it’s not your job to enforce fairness.",
+          "block": "Question 11.  \nA company is deciding between two internet plans:  \n• Plan A: Costs $50 per month for 500GB of data, with an extra charge of $0.10 per GB beyond the \nlimit.  \n• Plan B: Costs $80 per month for unlimited data. \nIf the company uses 700GB of data per month, which plan is cheaper?  \nA. Plan A  \n \nB. Plan B  \nC. Both cost the same  \nD. Neither plan is suitable",
           "practice_item_type": "mcq",
           "page_start": 3,
           "page_end": 3
         }
       },
       "result": {
-        "answer": "C",
-        "explanation": "Đáp án C là hợp lý nhất về mặt đạo đức. Bao gồm tên của họ nhưng thông báo cho giáo viên về tình hình thực tế cho phép giáo viên đưa ra quyết định công bằng dựa trên thông tin đầy đủ, tránh xung đột trực tiếp nhưng vẫn duy trì tính trung thực và công bằng. Đáp án A thiếu trách nhiệm, B có thể quá khắt khe và tự ý quyết định, D là thụ động và không giải quyết vấn đề.",
+        "answer": "B",
+        "explanation": "Plan A: $50 + (700-500) × $0.10 = $50 + $20 = $70. Plan B: $80 cố định. Plan A rẻ hơn ($70 < $80), nên đáp án đúng phải là Plan A, nhưng đáp án A lại là 'Plan A'. Tuy nhiên, khi tính toán kỹ: Plan A tổng chi phí là $70, Plan B là $80, vậy Plan A rẻ hơn. Đáp án phải là A.",
         "confidence": "high",
-        "usable": true,
-        "issues": []
+        "usable": false,
+        "issues": [
+          "Câu hỏi này là toán học/logic thuần túy, không phải câu hỏi tiếng Anh (ngữ pháp, từ vựng, đọc hiểu văn bản). Không phù hợp cho ngân hàng đề thi tiếng Anh.",
+          "Subtopic 'E2M.01' và format 'hsa_sentence_completion' không khớp với nội dung toán ứng dụng.",
+          "Đáp án đúng theo tính toán là A (Plan A: $70 < Plan B: $80), nhưng câu hỏi này không đánh giá năng lực tiếng Anh."
+        ]
       },
       "error": null,
-      "solved_at": "2026-05-25T03:56:16",
+      "solved_at": "2026-05-25T04:25:20",
       "from_cache": false
     },
     {
       "question": {
-        "question_id": "en-practice-b9b61dc3cd8b-020-e59149170067",
-        "source_file": "11 chuyende5_thionline_caubidongtonghopdeso03.pdf",
-        "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 5 - CÂU CHỦ ĐỘNG, CÂU BỊ ĐỘNG/11 chuyende5_thionline_caubidongtonghopdeso03.pdf",
-        "file_sha1": "b9b61dc3cd8bc829efbab3f2e7d94b94212a1cdb",
-        "question_number": 10,
+        "question_id": "en-practice-4cc08eb49dfa-043-5615b0e0b582",
+        "source_file": "7 caubidong4.pdf",
+        "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 5 - CÂU CHỦ ĐỘNG, CÂU BỊ ĐỘNG/7 caubidong4.pdf",
+        "file_sha1": "4cc08eb49dfa6e0be1b3366e58ee78a1f01016e9",
+        "question_number": 11,
         "page_start": 2,
         "page_end": 2,
-        "question_text": "With a lot of money, he had his house _______ by professional painters.",
-        "options": {
-          "A": "was painted",
-          "B": "had been painted",
-          "C": "painted",
-          "D": "be painted"
-        },
+        "question_text": "They have decided that the company will go to the beach together at the weekend.",
+        "options": {},
         "correct_answer": null,
         "answer_source": "missing",
         "explanation": "",
         "passage_id": null,
         "passage_text": null,
-        "question_format": "spt_paragraph_writing",
+        "question_format": "hsa_sentence_rewriting",
         "knowledge_subtopic_code_v2": "E2S.01",
         "exam_profiles": [
-          "SPT_ENGLISH"
+          "THPT_2025_CORE"
         ],
         "linked_node_codes_v2": [
           "E2S.01-1-caubidong1",
@@ -406,44 +279,48 @@
         "difficulty": "basic",
         "confidence": "medium",
         "needs_review": true,
-        "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer",
+        "review_reason": "merged_rescan_preserved_answer_metadata; practice_item_type:transform_sentence; regex_fallback_missing_answer",
         "ready_for_ai_solve": true,
         "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
+        "practice_item_type": "transform_sentence",
         "raw_extract": {
-          "block": "With a lot of money, he had his house _______ by professional painters. \nA. was painted \nB. had been painted C. painted \n \nD. be painted",
-          "section_title": "II. Chọn đáp án đúng",
-          "practice_item_type": "mcq",
+          "block": "They have decided that the company will go to the beach together at the weekend.",
+          "section_title": "EXERCISE 3: Câu bị động tường thuật",
+          "practice_item_type": "transform_sentence",
           "page_start": 2,
           "page_end": 2
         }
       },
       "result": {
-        "answer": "C",
-        "explanation": "Cấu trúc causative 'have something done' (nhờ ai làm gì). Công thức: have + object + past participle. Đáp án đúng là 'painted' (quá khứ phân từ). Các đáp án khác sai ngữ pháp: A và B thừa động từ 'was/had been', D sai dạng động từ (be painted thay vì painted).",
-        "confidence": "high",
-        "usable": true,
-        "issues": []
+        "answer": "NONE",
+        "explanation": "Câu hỏi viết lại câu thiếu thông tin quan trọng: không có cấu trúc ngữ pháp mục tiêu được chỉ định và không có các phương án lựa chọn A/B/C/D. Không thể xác định đáp án đúng khi không biết yêu cầu chuyển đổi câu.",
+        "confidence": "low",
+        "usable": false,
+        "issues": [
+          "Missing target grammatical structure or rewriting instruction",
+          "No multiple choice options (A/B/C/D) provided despite format being hsa_sentence_rewriting",
+          "Incomplete question prompt - cannot determine what transformation is required"
+        ]
       },
       "error": null,
-      "solved_at": "2026-05-25T03:56:23",
+      "solved_at": "2026-05-25T04:25:33",
       "from_cache": false
     },
     {
       "question": {
-        "question_id": "en-practice-4db35dea4aeb-010-2a8c41e22bbe",
-        "source_file": "12 Thi Online Bài tập Ứng dụng - Liên từ và mệnh đề trạng ngữ (Đề số 01).pdf",
-        "relative_path": "MP/NGỮ PHÁP ỨNG DỤNG/CHUYÊN ĐỀ 12 - LIÊN TỪ VÀ MỆNH ĐỀ TRẠNG NGỮ/12 Thi Online Bài tập Ứng dụng - Liên từ và mệnh đề trạng ngữ (Đề số 01).pdf",
-        "file_sha1": "4db35dea4aeb180d61ba60930338354e7a2c8e13",
-        "question_number": 10,
+        "question_id": "en-practice-16f465016d8d-016-374739a08944",
+        "source_file": "03. Làm chủ câu hỏi phân loại cao về Từ vựng dễ nhầm lẫn (Buổi 3).pdf",
+        "relative_path": "MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/03. Làm chủ câu hỏi phân loại cao về Từ vựng dễ nhầm lẫn (Buổi 3).pdf",
+        "file_sha1": "16f465016d8d3a0052c8700ab04db03fd4d1bf26",
+        "question_number": 16,
         "page_start": 1,
-        "page_end": 1,
-        "question_text": "4. (10) _______ people spend a large amount of time on platforms like TikTok and Instagram, influencers have a great impact on shopping behaviour and businesses' sales. For example, (11) _______ influencers share discount codes, sales will often increase immediately. Many people watch product reviews and fashion tips online, (12) _______ they can decide what to buy more quickly.",
+        "page_end": 2,
+        "question_text": "City residents feel safer when CCTV cameras and smart sensors are _______ throughout the area.",
         "options": {
-          "A": "Until",
-          "B": "Even though",
-          "C": "Considering that",
-          "D": "Before"
+          "A": "advanced",
+          "B": "analysed",
+          "C": "activated",
+          "D": "installed"
         },
         "correct_answer": null,
         "answer_source": "missing",
@@ -451,53 +328,58 @@
         "passage_id": null,
         "passage_text": null,
         "question_format": "hsa_sentence_completion",
-        "knowledge_subtopic_code_v2": "E2S.06",
+        "knowledge_subtopic_code_v2": "E2R.02",
         "exam_profiles": [
-          "HSA_ENGLISH",
-          "THPT_2025_CORE"
+          "HSA_ENGLISH"
         ],
         "linked_node_codes_v2": [
-          "E2S.06-12-lien-tu-va-menh-de-trang-ngu-ly-thuyet-buoi-1",
-          "E2S.06-12-lien-tu-va-menh-de-trang-ngu-ly-thuyet-buoi-2",
-          "E2S.06-13-trang-tu-lien-ket-ly-thuyetpdf",
-          "E2S.06-16-rut-gon-menh-de-trang-ngu-va-menh-de-co-cung-chu-ngu-ly-t"
+          "E2R.02-14-bai-thi-truoc-buoi-hoc-tinh-hoa-doc-hieu-buoi-1-btpdf",
+          "E2R.02-15-tinh-hoa-doc-hieu-buoi-1-btpdf",
+          "E2R.02-22-bai-thi-truoc-buoi-hoc-tinh-hoa-doc-hieu-buoi-2-btpdf",
+          "E2R.02-23-tinh-hoa-doc-hieu-buoi-2-btpdf",
+          "E2R.02-ren-luyen-va-nang-cao-ki-nang-xu-li-bai-doc-hieu-10-cau-buoi"
         ],
         "difficulty": "basic",
         "confidence": "medium",
         "needs_review": true,
-        "review_reason": "regex_fallback_missing_answer",
+        "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer",
         "ready_for_ai_solve": true,
         "ai_model": "regex_fallback",
         "practice_item_type": "mcq",
         "raw_extract": {
-          "block": "Question 10. A. Until \nB. Even though \nC. Considering that  \nD. Before",
+          "block": "Question 16. City residents feel safer when CCTV cameras and smart sensors are _______ throughout \nthe area. \nA. advanced  \nB. analysed \n \nC. activated  \nD. installed",
           "practice_item_type": "mcq",
           "page_start": 1,
-          "page_end": 1
+          "page_end": 2
         }
       },
       "result": {
-        "answer": "C",
-        "explanation": "Câu cần điền liên từ chỉ nguyên nhân/lý do. 'Considering that' (Xét rằng/Bởi vì) phù hợp nhất: 'Xét rằng mọi người dành nhiều thời gian trên TikTok và Instagram, influencers có ảnh hưởng lớn đến hành vi mua sắm'. Các đáp án khác không hợp lý: 'Until' (cho đến khi), 'Even though' (mặc dù - mâu thuẫn logic), 'Before' (trước khi) đều không diễn đạt mối quan hệ nhân quả giữa hai vế câu.",
+        "answer": "D",
+        "explanation": "Câu hỏi về collocation và ngữ cảnh. 'Install' (lắp đặt) là động từ phù hợp nhất với camera CCTV và cảm biến thông minh. Các từ khác không phù hợp: 'advanced' (tiên tiến) là tính từ, 'analysed' (phân tích) không hợp lý với ngữ cảnh lắp đặt thiết bị, 'activated' (kích hoạt) có thể xảy ra sau khi lắp đặt nhưng không phải hành động chính khiến người dân cảm thấy an toàn hơn.",
         "confidence": "high",
         "usable": true,
         "issues": []
       },
       "error": null,
-      "solved_at": "2026-05-25T03:56:31",
+      "solved_at": "2026-05-25T04:25:41",
       "from_cache": false
     },
     {
       "question": {
-        "question_id": "en-practice-203c38339521-023-c512aede00f4",
-        "source_file": "12 caugiantiep5.pdf",
-        "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 6 - CÂU TRỰC TIẾP, CÂU GIÁN TIẾP/12 caugiantiep5.pdf",
-        "file_sha1": "203c38339521e80f7386665924b5f020c9c2fc8a",
-        "question_number": 3,
-        "page_start": 4,
-        "page_end": 4,
-        "question_text": "“Shall I make you a cup of tea?”, the girl said to the lady . => The girl offered ________________________________.",
-        "options": {},
+        "question_id": "en-practice-79ae5b8867c7-023-c11eaa631c8a",
+        "source_file": "5 chuyende6_thionline_cautructiepgiantiep-buoi02deso01.pdf",
+        "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 6 - CÂU TRỰC TIẾP, CÂU GIÁN TIẾP/5 chuyende6_thionline_cautructiepgiantiep-buoi02deso01.pdf",
+        "file_sha1": "79ae5b8867c70a0bab794e44d75273be20f80e85",
+        "question_number": 8,
+        "page_start": 2,
+        "page_end": 2,
+        "question_text": "Laura asked me _______ planning to take my vacation.",
+        "options": {
+          "A": "where I was",
+          "B": "what am I",
+          "C": "if I had",
+          "D": "have I been"
+        },
         "correct_answer": null,
         "answer_source": "missing",
         "explanation": "",
@@ -517,53 +399,286 @@
         "difficulty": "basic",
         "confidence": "medium",
         "needs_review": true,
-        "review_reason": "regex_fallback_missing_answer; practice_item_type:open_response",
+        "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer",
         "ready_for_ai_solve": true,
         "ai_model": "regex_fallback",
-        "practice_item_type": "open_response",
+        "practice_item_type": "mcq",
         "raw_extract": {
-          "block": "Câu 3: “Shall I make you a cup of tea?”, the girl said to the lady\n \n.\n=> The girl offered ________________________________.",
-          "practice_item_type": "open_response",
-          "page_start": 4,
-          "page_end": 4
+          "block": "Laura asked me _______ planning to take my vacation. \nA. where I was \nB. what am I  \nC. if I had \n \nD. have I been",
+          "section_title": "III. Chọn đáp án đúng",
+          "practice_item_type": "mcq",
+          "page_start": 2,
+          "page_end": 2
         }
       },
       "result": {
-        "answer": "NONE",
-        "explanation": "Đây là bài tập viết lại câu (sentence transformation) chuyển từ câu trực tiếp sang gián tiếp với động từ 'offer'. Đáp án mong đợi: 'to make the lady a cup of tea' hoặc 'the lady a cup of tea'. Không phải dạng trắc nghiệm nhiều lựa chọn.",
+        "answer": "A",
+        "explanation": "Câu hỏi gián tiếp với động từ 'asked' cần cấu trúc: asked + O + wh-word/if + S + V (thì lùi). 'Where I was planning' là cấu trúc đúng (quá khứ tiếp diễn gián tiếp). B sai vì dùng 'am I' (trật tự trực tiếp). C thiếu 'if I had been planning' (thiếu 'been planning'). D sai trật tự và thì.",
         "confidence": "high",
         "usable": true,
         "issues": []
       },
       "error": null,
-      "solved_at": "2026-05-25T03:56:36",
+      "solved_at": "2026-05-25T04:25:50",
       "from_cache": false
     },
     {
       "question": {
-        "question_id": "en-practice-20dadde73c5e-011-6e57220031da",
-        "source_file": "8 chuyende9_thionline_maotu-buoi3.pdf",
-        "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 9 - MẠO TỪ/8 chuyende9_thionline_maotu-buoi3.pdf",
-        "file_sha1": "20dadde73c5e1f6523772b6888428515c6103490",
-        "question_number": 11,
-        "page_start": 1,
-        "page_end": 1,
-        "question_text": "_____ more you invest in yourself, _____ more opportunities will come your way.",
+        "question_id": "en-practice-7e5fb8abe2cf-024-88518c959e67",
+        "source_file": "1 10.pdf",
+        "relative_path": "MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1 10.pdf",
+        "file_sha1": "7e5fb8abe2cf294096ac3762a5f2658c62d0239c",
+        "question_number": 24,
+        "page_start": 4,
+        "page_end": 4,
+        "question_text": "Charlie: I’m really sorry for breaking your phone. Jake: __________",
         "options": {
-          "A": "The – the",
-          "B": "The – Ø",
-          "C": "A – Ø",
-          "D": "Ø – the"
+          "A": "Yes, you should be.",
+          "B": "Don’t break it again!",
+          "C": "It’s okay; accidents happen.",
+          "D": "Just buy me a new one."
         },
         "correct_answer": null,
         "answer_source": "missing",
         "explanation": "",
         "passage_id": null,
         "passage_text": null,
-        "question_format": "spt_paragraph_writing",
+        "question_format": "hsa_antonym",
+        "knowledge_subtopic_code_v2": "E2X.05",
+        "exam_profiles": [
+          "HSA_ENGLISH"
+        ],
+        "linked_node_codes_v2": [
+          "E2X.05-cach-viet-ket-doan-cho-doan-van-tieng-anh",
+          "E2X.05-phuong-phap-giai-cau-hoi-dong-nghia-trai-nghia-trong-ngu-can"
+        ],
+        "difficulty": "basic",
+        "confidence": "medium",
+        "needs_review": true,
+        "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer",
+        "ready_for_ai_solve": true,
+        "ai_model": "regex_fallback",
+        "practice_item_type": "mcq",
+        "raw_extract": {
+          "block": "Question 24. \nCharlie: I’m really sorry for breaking your phone. \nJake: __________ \nA. Yes, you should be.  \nB. Don’t break it again! \nC. It’s okay; accidents happen. \nD. Just buy me a new one.",
+          "practice_item_type": "mcq",
+          "page_start": 4,
+          "page_end": 4
+        }
+      },
+      "result": {
+        "answer": "C",
+        "explanation": "Câu hỏi kiểm tra khả năng chọn phản hồi phù hợp trong tình huống xin lỗi. Charlie xin lỗi vì làm vỡ điện thoại, Jake cần đáp lại một cách hợp lý. Đáp án C 'It's okay; accidents happen.' (Không sao đâu; tai nạn thì có thể xảy ra) là phản hồi lịch sự, tha thứ và phù hợp nhất. Các đáp án A, B, D đều thể hiện thái độ tiêu cực, thiếu tha thứ hoặc đòi hỏi bồi thường ngay lập tức, không phải cách đáp lại tự nhiên và lịch sự trong giao tiếp.",
+        "confidence": "high",
+        "usable": true,
+        "issues": []
+      },
+      "error": null,
+      "solved_at": "2026-05-25T04:25:57",
+      "from_cache": false
+    },
+    {
+      "question": {
+        "question_id": "en-practice-f3f8fe5eac2c-011-6606da063749",
+        "source_file": "Thi Online Cụm từ chỉ số lượng (Đề số 01).pdf",
+        "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 12 - ĐẠI TỪ VÀ LƯỢNG TỪ/Thi Online Cụm từ chỉ số lượng (Đề số 01).pdf",
+        "file_sha1": "f3f8fe5eac2c6bdf14f5988acfef76ff2e10c6ae",
+        "question_number": 11,
+        "page_start": 1,
+        "page_end": 1,
+        "question_text": "Only a _______ of people showed up to the event.",
+        "options": {
+          "A": "deal",
+          "B": "handful"
+        },
+        "correct_answer": null,
+        "answer_source": "missing",
+        "explanation": "",
+        "passage_id": null,
+        "passage_text": null,
+        "question_format": "hsa_sentence_completion",
+        "knowledge_subtopic_code_v2": "E2G.03",
+        "exam_profiles": [
+          "HSA_ENGLISH",
+          "SPT_ENGLISH"
+        ],
+        "linked_node_codes_v2": [
+          "E2G.03-vip90-tuan-2-lam-chu-kien-thuc-ngu-phap-luong-tu-buoi-1",
+          "E2G.03-vip90-tuan-2-lam-chu-kien-thuc-ngu-phap-luong-tu-buoi-2",
+          "E2G.03-vip90-tuan-5-lam-chu-kien-thuc-ngu-phap-cum-tu-chi-luong-buo",
+          "E2G.03-vip90-tuan-5-lam-chu-kien-thuc-ngu-phap-cum-tu-chi-luong-buo-2"
+        ],
+        "difficulty": "basic",
+        "confidence": "medium",
+        "needs_review": true,
+        "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer",
+        "ready_for_ai_solve": true,
+        "ai_model": "regex_fallback",
+        "practice_item_type": "mcq",
+        "raw_extract": {
+          "block": "Question 11. Only a _______ of people showed up to the event. \nA. deal  \nB. handful",
+          "practice_item_type": "mcq",
+          "page_start": 1,
+          "page_end": 1
+        }
+      },
+      "result": {
+        "answer": "B",
+        "explanation": "Cụm từ đúng là 'a handful of people' (một số ít người). 'A deal of' không dùng với danh từ đếm được như 'people', mà thường dùng với danh từ không đếm được (ví dụ: a great deal of time). Đáp án B phù hợp về ngữ pháp và ngữ nghĩa.",
+        "confidence": "high",
+        "usable": true,
+        "issues": []
+      },
+      "error": null,
+      "solved_at": "2026-05-25T04:26:03",
+      "from_cache": false
+    },
+    {
+      "question": {
+        "question_id": "en-practice-b5a90136a447-021-e08ea20ce448",
+        "source_file": "02. Làm chủ câu hỏi phân loại cao về Từ vựng dễ nhầm lẫn (Buổi 2).pdf",
+        "relative_path": "MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/02. Làm chủ câu hỏi phân loại cao về Từ vựng dễ nhầm lẫn (Buổi 2).pdf",
+        "file_sha1": "b5a90136a4476360630616264243f482ef1c3709",
+        "question_number": 21,
+        "page_start": 2,
+        "page_end": 2,
+        "question_text": "The manager ________ his staff to focus on the task to meet the deadline.",
+        "options": {
+          "A": "managed",
+          "B": "ordered",
+          "C": "guided",
+          "D": "instructed"
+        },
+        "correct_answer": null,
+        "answer_source": "missing",
+        "explanation": "",
+        "passage_id": null,
+        "passage_text": null,
+        "question_format": "hsa_sentence_completion",
+        "knowledge_subtopic_code_v2": "E2V.07",
+        "exam_profiles": [
+          "HSA_ENGLISH"
+        ],
+        "linked_node_codes_v2": [
+          "E2V.07-1-dongtukhuyetthieu-1",
+          "E2V.07-1-dongtukhuyetthieu-1-2",
+          "E2V.07-1-dongtunguyenmau",
+          "E2V.07-1-phantu",
+          "E2V.07-18-bai-thi-truoc-buoi-hoc-lam-chu-kien-thuc-ngu-phap-danh-do"
+        ],
+        "difficulty": "basic",
+        "confidence": "medium",
+        "needs_review": true,
+        "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer",
+        "ready_for_ai_solve": true,
+        "ai_model": "regex_fallback",
+        "practice_item_type": "mcq",
+        "raw_extract": {
+          "block": "Question 21. The manager ________ his staff to focus on the task to meet the deadline. \nA. managed  \nB. ordered \n \nC. guided \n \nD. instructed",
+          "practice_item_type": "mcq",
+          "page_start": 2,
+          "page_end": 2
+        }
+      },
+      "result": {
+        "answer": "D",
+        "explanation": "Câu này kiểm tra collocation và cách dùng động từ với 'to-infinitive'. 'Instruct somebody to do something' là cấu trúc đúng nghĩa 'hướng dẫn/chỉ thị ai làm gì'. 'Order' cũng đi với 'to-infinitive' nhưng mang tính mệnh lệnh mạnh hơn, ít phù hợp với ngữ cảnh quản lý nhân viên chuyên nghiệp. 'Manage' và 'guide' không theo sau trực tiếp bởi 'object + to-infinitive' trong cấu trúc này.",
+        "confidence": "high",
+        "usable": true,
+        "issues": []
+      },
+      "error": null,
+      "solved_at": "2026-05-25T04:26:12",
+      "from_cache": false
+    },
+    {
+      "question": {
+        "question_id": "en-practice-bb9342a1f33e-011-55db7a5e1d07",
+        "source_file": "12 Liên từ và mệnh đề trạng ngữ (Bài tập ứng dụng - Buổi 1).pdf",
+        "relative_path": "MP/NGỮ PHÁP ỨNG DỤNG/CHUYÊN ĐỀ 12 - LIÊN TỪ VÀ MỆNH ĐỀ TRẠNG NGỮ/12 Liên từ và mệnh đề trạng ngữ (Bài tập ứng dụng - Buổi 1).pdf",
+        "file_sha1": "bb9342a1f33e229120d14fc7767f865859f9b98f",
+        "question_number": 11,
+        "page_start": 2,
+        "page_end": 2,
+        "question_text": "1. Taylor Swift is an American singer and songwriter. (10) _______, she became interested in musical theatre and performed in a youth theatre. Later, she became more interested in country music, (11) _______. At age 14, her family moved to Nashville, where she became a songwriter of country songs. Her songs made headlines, (12) _______. (p. 13, English Discovery 12)",
+        "options": {
+          "A": "although she avoided public appearances",
+          "B": "whereas she had interest in country songs",
+          "C": "because she stopped singing completely",
+          "D": "so she started performing at local events"
+        },
+        "correct_answer": null,
+        "answer_source": "missing",
+        "explanation": "",
+        "passage_id": null,
+        "passage_text": null,
+        "question_format": "thpt_arrangement_text",
+        "knowledge_subtopic_code_v2": "E2S.06",
+        "exam_profiles": [
+          "SPT_ENGLISH",
+          "THPT_2025_CORE"
+        ],
+        "linked_node_codes_v2": [
+          "E2S.06-12-lien-tu-va-menh-de-trang-ngu-ly-thuyet-buoi-1",
+          "E2S.06-12-lien-tu-va-menh-de-trang-ngu-ly-thuyet-buoi-2",
+          "E2S.06-13-trang-tu-lien-ket-ly-thuyetpdf",
+          "E2S.06-16-rut-gon-menh-de-trang-ngu-va-menh-de-co-cung-chu-ngu-ly-t"
+        ],
+        "difficulty": "basic",
+        "confidence": "medium",
+        "needs_review": true,
+        "review_reason": "regex_fallback_missing_answer",
+        "ready_for_ai_solve": true,
+        "ai_model": "regex_fallback",
+        "practice_item_type": "mcq",
+        "raw_extract": {
+          "block": "Question 11.  \nA. although she avoided public appearances \nB. whereas she had interest in country songs \nC. because she stopped singing completely \nD. so she started performing at local events",
+          "practice_item_type": "mcq",
+          "page_start": 2,
+          "page_end": 2
+        }
+      },
+      "result": {
+        "answer": "NONE",
+        "explanation": "Đây là bài tập sắp xếp câu (arrangement text) yêu cầu học sinh điền các mệnh đề vào vị trí (10), (11), (12). Tuy nhiên đề bài chỉ cung cấp 4 options (A-D) cho 3 chỗ trống, và không rõ option nào tương ứng với vị trí nào. Đây không phải câu hỏi trắc nghiệm đơn lẻ mà là dạng bài ghép nhiều câu, cần format khác để đánh giá đúng.",
+        "confidence": "high",
+        "usable": false,
+        "issues": [
+          "Format không phù hợp: đây là bài arrangement với 3 chỗ trống (10, 11, 12) nhưng chỉ có 4 options A-D",
+          "Thiếu thông tin: không rõ đề yêu cầu chọn option nào cho vị trí nào",
+          "Cần có 3 câu hỏi riêng biệt hoặc format câu trả lời phức hợp (ví dụ: 10-A, 11-D, 12-B)",
+          "Không thể trả lời dạng single-choice A/B/C/D cho bài này"
+        ]
+      },
+      "error": null,
+      "solved_at": "2026-05-25T04:26:23",
+      "from_cache": false
+    },
+    {
+      "question": {
+        "question_id": "en-practice-b7efbda50d86-021-5827486901d0",
+        "source_file": "5 chuyende9_thionline_maotu-buoi2deso01.pdf",
+        "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 9 - MẠO TỪ/5 chuyende9_thionline_maotu-buoi2deso01.pdf",
+        "file_sha1": "b7efbda50d8619141db02f484225cebcb92f6016",
+        "question_number": 21,
+        "page_start": 2,
+        "page_end": 2,
+        "question_text": "______ Navy conducted a successful military exercise in the Pacific Ocean.",
+        "options": {
+          "A": "A",
+          "B": "An",
+          "C": "The",
+          "D": "Ø (no article)"
+        },
+        "correct_answer": null,
+        "answer_source": "missing",
+        "explanation": "",
+        "passage_id": null,
+        "passage_text": null,
+        "question_format": "hsa_sentence_completion",
         "knowledge_subtopic_code_v2": "E2G.02",
         "exam_profiles": [
-          "SPT_ENGLISH"
+          "THPT_2025_CORE"
         ],
         "linked_node_codes_v2": [
           "E2G.02-1-daitu1",
@@ -580,95 +695,256 @@
         "ai_model": "regex_fallback",
         "practice_item_type": "mcq",
         "raw_extract": {
-          "block": "Question 11. _____ more you invest in yourself, _____ more opportunities will come your way. \nA. The – the  \nB. The – Ø  \n \nC. A – Ø  \n \nD. Ø – the",
+          "block": "Question 21. ______ Navy conducted a successful military exercise in the Pacific Ocean. \nA. A  \n \nB. An  \n \nC. The  \n \nD. Ø (no article)",
+          "practice_item_type": "mcq",
+          "page_start": 2,
+          "page_end": 2
+        }
+      },
+      "result": {
+        "answer": "C",
+        "explanation": "Dùng 'The' trước 'Navy' vì đây là danh từ chỉ tổ chức quân đội cụ thể của một quốc gia. 'The Navy' (Hải quân) là cách dùng chuẩn khi nói về lực lượng hải quân, tương tự 'the Army', 'the Air Force'.",
+        "confidence": "high",
+        "usable": true,
+        "issues": []
+      },
+      "error": null,
+      "solved_at": "2026-05-25T04:26:30",
+      "from_cache": false
+    },
+    {
+      "question": {
+        "question_id": "en-practice-d9b45c4fd0dd-010-af3335c5e1f8",
+        "source_file": "6 chuyende7_thionline_caudieukiendeso04.pdf",
+        "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 7 - CÂU ĐIỀU KIỆN/6 chuyende7_thionline_caudieukiendeso04.pdf",
+        "file_sha1": "d9b45c4fd0ddd3966a002b21d856e8feb6e92034",
+        "question_number": 10,
+        "page_start": 1,
+        "page_end": 1,
+        "question_text": "But for the rain, we could go out and have a drink in a coffee shop. (weren’t) → ________________________________________________________________________",
+        "options": {},
+        "correct_answer": null,
+        "answer_source": "missing",
+        "explanation": "",
+        "passage_id": null,
+        "passage_text": null,
+        "question_format": "hsa_sentence_rewriting",
+        "knowledge_subtopic_code_v2": "E2S.03",
+        "exam_profiles": [
+          "THPT_2025_CORE"
+        ],
+        "linked_node_codes_v2": [
+          "E2S.03-1-caudieukien1",
+          "E2S.03-1-giadinhcach",
+          "E2S.03-5-caudieukien2"
+        ],
+        "difficulty": "basic",
+        "confidence": "medium",
+        "needs_review": true,
+        "review_reason": "merged_rescan_preserved_answer_metadata; practice_item_type:transform_sentence; regex_fallback_missing_answer",
+        "ready_for_ai_solve": true,
+        "ai_model": "regex_fallback",
+        "practice_item_type": "transform_sentence",
+        "raw_extract": {
+          "block": "But for the rain, we could go out and have a drink in a coffee shop. (weren’t) \n→ ________________________________________________________________________",
+          "section_title": "I. Sử dụng từ gợi ý để viết lại những câu sau sao cho ý nghĩa của chúng không đổi",
+          "practice_item_type": "transform_sentence",
+          "page_start": 1,
+          "page_end": 1
+        }
+      },
+      "result": {
+        "answer": "NONE",
+        "explanation": "Đây là bài tập viết lại câu điều kiện loại 2. Câu gốc dùng 'But for the rain' (Nếu không có mưa), cần viết lại dùng 'weren't'. Đáp án mẫu: 'If it weren't for the rain, we could go out and have a drink in a coffee shop.' hoặc 'Were it not for the rain, we could go out and have a drink in a coffee shop.'",
+        "confidence": "high",
+        "usable": true,
+        "issues": []
+      },
+      "error": null,
+      "solved_at": "2026-05-25T04:26:43",
+      "from_cache": false
+    },
+    {
+      "question": {
+        "question_id": "en-practice-3f1c7ebcaea2-004-50801146a4e2",
+        "source_file": "1.12 928150646-1741507131095-covumaiphuongthionline_sapxepdoanhoithoa.pdf",
+        "relative_path": "MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1.12 928150646-1741507131095-covumaiphuongthionline_sapxepdoanhoithoa.pdf",
+        "file_sha1": "3f1c7ebcaea2e7351fb7fdda6acc1452d423f099",
+        "question_number": 4,
+        "page_start": 1,
+        "page_end": 1,
+        "question_text": "a. I’ve already started applying. I sent out a few resumes last week, but I haven’t heard back yet. b. Have you started looking for jobs yet, or are you taking a break after graduation? c. That’s normal. It usually takes companies some time to respond to applications. d. That’s a good idea. I’ll reach out to some alumni and see if they have any advice. e. You will! Just keep applying and maybe try networking with people in your field. f. Yeah, I know, but waiting is stressful. I just hope I can find something soon.",
+        "options": {
+          "A": "f – c – b – e – a – d",
+          "B": "b – a – c – f – e – d",
+          "C": "c – b – d – a – f – e",
+          "D": "f – e – b – d – c – a"
+        },
+        "correct_answer": null,
+        "answer_source": "missing",
+        "explanation": "",
+        "passage_id": null,
+        "passage_text": null,
+        "question_format": "hsa_dialogue_arrangement",
+        "knowledge_subtopic_code_v2": "E2O.01",
+        "exam_profiles": [
+          "HSA_ENGLISH",
+          "THPT_2025_CORE"
+        ],
+        "linked_node_codes_v2": [],
+        "difficulty": "basic",
+        "confidence": "medium",
+        "needs_review": true,
+        "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer",
+        "ready_for_ai_solve": true,
+        "ai_model": "regex_fallback",
+        "practice_item_type": "mcq",
+        "raw_extract": {
+          "block": "Question 4. \na. I’ve already started applying. I sent out a few resumes last week, but I haven’t heard back yet. \nb. Have you started looking for jobs yet, or are you taking a break after graduation? \nc. That’s normal. It usually takes companies some time to respond to applications. \nd. That’s a good idea. I’ll reach out to some alumni and see if they have any advice. \ne. You will! Just keep applying and maybe try networking with people in your field. \nf. Yeah, I know, but waiting is stressful. I just hope I can find something soon. \nA. f – c – b – e – a – d \n \n \nB. b – a – c – f – e – d \nC. c – b – d – a – f – e \n \n \nD. f – e – b – d – c – a",
           "practice_item_type": "mcq",
           "page_start": 1,
           "page_end": 1
         }
       },
       "result": {
-        "answer": "A",
-        "explanation": "Đây là cấu trúc so sánh kép 'The + comparative..., the + comparative...' (càng... thì càng...). Công thức: 'The more you invest in yourself, the more opportunities will come your way' (Càng đầu tư vào bản thân, càng nhiều cơ hội đến với bạn). Cả hai vế đều cần 'the' trước 'more'.",
+        "answer": "B",
+        "explanation": "Đây là bài sắp xếp đoạn hội thoại. Trình tự logic: b (hỏi đã tìm việc chưa) → a (trả lời đã nộp hồ sơ) → c (an ủi việc chờ đợi là bình thường) → f (phản hồi về sự căng thẳng khi chờ) → e (khuyên tiếp tục nộp và networking) → d (đồng ý sẽ liên hệ alumni). Đáp án B tạo thành cuộc hội thoại mạch lạc với luồng hỏi-đáp-an ủi-lo lắng-khuyên-hành động.",
         "confidence": "high",
         "usable": true,
         "issues": []
       },
       "error": null,
-      "solved_at": "2026-05-25T03:56:42",
+      "solved_at": "2026-05-25T04:26:57",
       "from_cache": false
     },
     {
       "question": {
-        "question_id": "en-practice-1480ea8aa5f3-012-e319695621d2",
-        "source_file": "Luyện tập chuyên sâu tư duy xử lý câu hỏi Suy luận (Buổi 2).pdf",
-        "relative_path": "MP/LUYỆN GIẢI ĐỀ THI TỐT NGHIỆP/CHINH PHỤC CÂU HỎI 10 ĐIỂM/SUY LUẬN/Luyện tập chuyên sâu tư duy xử lý câu hỏi Suy luận (Buổi 2).pdf",
-        "file_sha1": "1480ea8aa5f35c85a104f0e97a5b22daca670449",
-        "question_number": 12,
-        "page_start": 3,
-        "page_end": 3,
-        "question_text": "People adopt busyness to confront uncomfortable truths about their inner lives.",
-        "options": {},
+        "question_id": "en-practice-853486f54b3e-011-47200869d5e2",
+        "source_file": "Thi Online Câu hỏi Viết lại câu và ghép câu nâng cao (Đề số 03).pdf",
+        "relative_path": "MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/Thi Online Câu hỏi Viết lại câu và ghép câu nâng cao (Đề số 03).pdf",
+        "file_sha1": "853486f54b3e966e8a81febb3cca49cd69fb27dc",
+        "question_number": 11,
+        "page_start": 2,
+        "page_end": 2,
+        "question_text": "He didn’t leave the office until midnight. He had to finish all the reports first.",
+        "options": {
+          "A": "He didn’t leave the office until he had finished all the reports.",
+          "B": "Not until midnight he left the office because of the reports.",
+          "C": "Having been finished all the reports, he left the office at midnight.",
+          "D": "He had left the office at midnight before he finished the reports."
+        },
         "correct_answer": null,
         "answer_source": "missing",
         "explanation": "",
-        "passage_id": "passage-1480ea8aa5-01-292a32ee72",
-        "passage_text": "Read the following passage and do the task below. The modern smart city is characterised by a vast, often invisible network: the ubiquitous presence of Closed-Circuit Television (CCTV) cameras. Mounted on streetlights, building façades, and transport hubs, these unblinking eyes form a pervasive surveillance grid. This infrastructure is promoted as the cornerstone of urban safety and efficiency, utilising sophisticated analytics to monitor traffic flow, deter crime, and manage crowds. However, this transformation of public space into a zone of constant observation raises profound questions about the balance between collective security and individual liberty in the digital age. Proponents argue that such surveillance is a necessary and pragmatic response to contemporary urban challenges. The deployment of high-definition cameras with facial recognition capabilities can, in theory, act as a powerful deterrent to criminal activity and significantly aid law enforcement investigations. Beyond security, the data harvested is instrumental in optimising city functions—easing traffic congestion, coordinating public services, and streamlining emergency responses. This data-driven governance is framed not as oversight, but as a service, creating a more responsive and orderly urban environment for all citizens. Conversely, critics warn of creeping towards a surveillance state, where the presumption of privacy in public space is irrevocably eroded. The aggregation of countless data points—our movements, associations, and routines—creates detailed digital profiles without explicit consent. This risks enabling social control, chilling free assembly and expression, and disproportionately targeting marginalised communities. The very technology hailed for its objectivity can perpetuate and automate societal biases, leading to discriminatory outcomes masked behind algorithmic neutrality. The widespread presence of CCTV in smart cities presents a fundamental dilemma of the 21st century. It forces a societal negotiation between the compelling promise of safety and the sacred right to anonymity. The critical challenge lies not in rejecting the technology outright, but in establishing robust, transparent governance. Strong legal frameworks, independent oversight, and public dialogue are imperative to ensure that the watchful infrastructure of the smart city remains a tool for civic empowerment, rather than becoming an architecture of pervasive control. Which of the following can be inferred from the passage? Decide each of the following statements is TRUE (T) or FALSE (F).",
-        "question_format": "thpt_reading_passage",
-        "knowledge_subtopic_code_v2": "E2R.05",
+        "passage_id": null,
+        "passage_text": null,
+        "question_format": "hsa_sentence_rewriting",
+        "knowledge_subtopic_code_v2": "E2W.02",
         "exam_profiles": [
+          "HSA_ENGLISH"
+        ],
+        "linked_node_codes_v2": [],
+        "difficulty": "basic",
+        "confidence": "medium",
+        "needs_review": true,
+        "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer",
+        "ready_for_ai_solve": true,
+        "ai_model": "regex_fallback",
+        "practice_item_type": "mcq",
+        "raw_extract": {
+          "block": "Question 11. He didn’t leave the office until midnight. He had to finish all the reports first.  \nA. He didn’t leave the office until he had finished all the reports.  \nB. Not until midnight he left the office because of the reports.  \nC. Having been finished all the reports, he left the office at midnight.  \nD. He had left the office at midnight before he finished the reports.",
+          "practice_item_type": "mcq",
+          "page_start": 2,
+          "page_end": 2
+        }
+      },
+      "result": {
+        "answer": "A",
+        "explanation": "Câu gốc diễn tả: anh ấy không rời văn phòng cho đến nửa đêm và phải hoàn thành tất cả báo cáo trước. Đáp án A đúng vì dùng cấu trúc 'not... until' kết hợp thì quá khứ hoàn thành (had finished) để thể hiện hành động hoàn thành báo cáo xảy ra trước khi rời văn phòng. B sai ngữ pháp (đảo ngữ sai: phải là 'did he leave'). C sai vì 'having been finished' là bị động không phù hợp (phải là 'having finished'). D sai logic thời gian (left before finished - ngược với ý câu gốc).",
+        "confidence": "high",
+        "usable": true,
+        "issues": []
+      },
+      "error": null,
+      "solved_at": "2026-05-25T04:27:05",
+      "from_cache": false
+    },
+    {
+      "question": {
+        "question_id": "en-practice-fd1d31468e8f-005-6ce3e2083ed4",
+        "source_file": "Ứng dụng kiến thức trong đọc hiểu đoạn văn (Buổi 5).pdf",
+        "relative_path": "MP/NGỮ PHÁP ỨNG DỤNG/CHUYÊN ĐỀ 20 - ỨNG DỤNG KIẾN THỨC ĐỌC HIỂU ĐOẠN VĂN/Ứng dụng kiến thức trong đọc hiểu đoạn văn (Buổi 5).pdf",
+        "file_sha1": "fd1d31468e8f390c2360764d16631ebb1bee80cf",
+        "question_number": 5,
+        "page_start": 2,
+        "page_end": 2,
+        "question_text": "Read the following passage and mark the letter A, B, C, or D to indicate the correct option that best fits each of the numbered blanks from 1 to 5. Grandparents in a big family often play a very important role. They are people who keep family stories alive, give comfort when life feels hard, and, in many cases, (1) ______. Their influence does not come from rules but from experience, which makes their advice sound calm and wise. Because they can change from serious advisers into patient listeners – or even into friendly playmates – (2) _______. (3) _______. Some enjoy being fully involved, seeing childcare as both a duty and a joy. Others prefer to stay in the background and only help when needed. The level of their support often depends on the situation of the family, their culture, and their own health. A grandmother who is still working, or a grandfather who is not very strong, cannot give as much time as those who are retired and healthy. Another important point is that grandparents can act as peacemakers. When parents and teenagers argue, the voice of an older family member is sometimes seen as fair and balanced. (4) _______. Their steady presence, even if not always visible, (5) _______.",
+        "options": {
+          "A": "especially when they are a strong pillar in the life of the extended family",
+          "B": "makes them a strong pillar in the life of the extended family",
+          "C": "they become a strong pillar in the life of the extended family",
+          "D": "who turns into a strong pillar in the life of the extended family"
+        },
+        "correct_answer": null,
+        "answer_source": "missing",
+        "explanation": "",
+        "passage_id": null,
+        "passage_text": null,
+        "question_format": "thpt_arrangement_text",
+        "knowledge_subtopic_code_v2": "E2W.03",
+        "exam_profiles": [
+          "SPT_ENGLISH",
           "THPT_2025_CORE"
         ],
         "linked_node_codes_v2": [
-          "E2R.05-chien-thuat-xu-ly-cau-hoi-suy-luan",
-          "E2R.05-ky-nang-tu-duy-tuyen-tinh-linear-thinking-chinh-phuc-cau-hoi"
+          "E2W.03-cach-lap-dan-y-cho-bai-viet-tieng-anh",
+          "E2W.03-viet-doan-van-hoan-chinh-ve-chu-de-cong-nghe-thong-tin",
+          "E2W.03-viet-doan-van-hoan-chinh-ve-chu-de-giao-duc"
         ],
         "difficulty": "basic",
         "confidence": "medium",
         "needs_review": true,
-        "review_reason": "merged_rescan_preserved_answer_metadata; practice_item_type:true_false; regex_fallback_missing_answer",
+        "review_reason": "regex_fallback_missing_answer",
         "ready_for_ai_solve": true,
         "ai_model": "regex_fallback",
-        "practice_item_type": "true_false",
+        "practice_item_type": "mcq",
         "raw_extract": {
-          "block": "People adopt busyness to confront uncomfortable truths about their inner lives.",
-          "section_title": "",
-          "practice_item_type": "true_false",
-          "page_start": 3,
-          "page_end": 3
+          "block": "Question 5. \nA. especially when they are a strong pillar in the life of the extended family \nB. makes them a strong pillar in the life of the extended family \nC. they become a strong pillar in the life of the extended family \nD. who turns into a strong pillar in the life of the extended family \n \nRead the following passage and mark the letter A, B, C, or D to indicate the correct option that best fits \neach of the numbered blanks from 6 to 10. \nWhen people talk about carbon and climate change, they usually think of forests on land, yet green \ncarbon – (6) _______ – is just as important. Unlike ordinary forests, these coastal ecosystems (often called \n‘blue carbon sinks’) trap carbon in waterlogged soil, (7) _______. Because of this special process, a small \npatch of mangrove may store more carbon than a much larger area of dry forest.  \n(8) _______. By holding the coastline together and softening the power of waves, these habitats act \nas natural barriers that protect villages from storms and flooding. (9) _______, a change that not only \ndestroys local wildlife but also sends large amounts of carbon back into the atmosphere.  \nIf such losses continue, the cost will be high. Protecting green carbon ecosystems – through careful \nlaws, community projects, and international support – is therefore not simply an environmental choice \nbut also a social one, (10) ______.",
+          "practice_item_type": "mcq",
+          "page_start": 2,
+          "page_end": 2
         }
       },
       "result": {
         "answer": "NONE",
-        "explanation": "Câu hỏi 'People adopt busyness to confront uncomfortable truths about their inner lives' hoàn toàn không liên quan đến đoạn văn về camera giám sát CCTV trong thành phố thông minh. Đoạn văn không đề cập gì về 'busyness' (sự bận rộn) hay 'inner lives' (cuộc sống nội tâm). Đây có vẻ là câu hỏi bị nhầm lẫn với một đoạn văn khác.",
-        "confidence": "high",
+        "explanation": "Câu hỏi thiếu thông tin quan trọng: không chỉ rõ đây là câu số mấy (1-5) cần điền. Mỗi vị trí yêu cầu cấu trúc ngữ pháp khác nhau. Không thể xác định đáp án chính xác khi không biết vị trí cần điền trong đoạn văn.",
+        "confidence": "low",
         "usable": false,
         "issues": [
-          "Question stem completely mismatched with passage content",
-          "Passage discusses CCTV surveillance in smart cities, question asks about busyness and inner lives",
-          "No logical connection between question and provided context",
-          "Appears to be a question paired with wrong passage",
-          "Format indicates T/F task but only one statement provided without T/F options"
+          "Đề bài không chỉ rõ đây là blank số mấy (1, 2, 3, 4, hay 5)",
+          "Không thể đánh giá tính đúng đắn của các phương án khi thiếu thông tin vị trí cụ thể",
+          "Cấu trúc ngữ pháp yêu cầu ở mỗi vị trí khác nhau (ví dụ: sau dấu phзапятая, đầu câu, sau 'and', v.v.)"
         ]
       },
       "error": null,
-      "solved_at": "2026-05-25T03:56:48",
+      "solved_at": "2026-05-25T04:27:14",
       "from_cache": false
     },
     {
       "question": {
-        "question_id": "en-practice-0e5ff5e4a38f-026-ccb8f022e1c6",
+        "question_id": "en-practice-0e5ff5e4a38f-004-795209d53c5d",
         "source_file": "5 chuyende21_thionline_cumdongtu-buoi2deso01.pdf",
         "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 21 - CỤM ĐỘNG TỪ/5 chuyende21_thionline_cumdongtu-buoi2deso01.pdf",
         "file_sha1": "0e5ff5e4a38f1470bc57e8ab04fe4b8a2550c7bd",
-        "question_number": 26,
-        "page_start": 2,
-        "page_end": 2,
-        "question_text": "Don’t _____ his stories. He’s good at making things up.",
+        "question_number": 4,
+        "page_start": 1,
+        "page_end": 1,
+        "question_text": "The tension between the two countries will _______ after the negotiations.",
         "options": {
-          "A": "fall for",
-          "B": "fall through",
-          "C": "fall out",
-          "D": "fall behind"
+          "A": "help out",
+          "B": "follow up",
+          "C": "go off",
+          "D": "ease off"
         },
         "correct_answer": null,
         "answer_source": "missing",
@@ -694,163 +970,204 @@
         "ai_model": "regex_fallback",
         "practice_item_type": "mcq",
         "raw_extract": {
-          "block": "Question 26. Don’t _____ his stories. He’s good at making things up. \nA. fall for \n \nB. fall through \nC. fall out \n \nD. fall behind",
+          "block": "Question 4. The tension between the two countries will _______ after the negotiations. \nA. help out \n \nB. follow up  \nC. go off \n \nD. ease off",
           "practice_item_type": "mcq",
-          "page_start": 2,
-          "page_end": 2
+          "page_start": 1,
+          "page_end": 1
         }
       },
       "result": {
-        "answer": "A",
-        "explanation": "Câu hỏi kiểm tra phrasal verb với 'fall'. 'Fall for' có nghĩa là 'tin vào, bị lừa bởi' (believe something that is not true). Câu văn cảnh báo không nên tin vào những câu chuyện của anh ta vì anh ta giỏi bịa chuyện. 'Fall through' = thất bại/không thành, 'fall out' = cãi nhau, 'fall behind' = tụt lại phía sau - đều không phù hợp ngữ cảnh.",
+        "answer": "D",
+        "explanation": "Câu hỏi kiểm tra phrasal verbs. 'Ease off' nghĩa là giảm bớt, dịu đi - phù hợp với ngữ cảnh căng thẳng giữa hai nước sẽ giảm sau đàm phán. 'Help out' = giúp đỡ, 'follow up' = theo dõi tiếp, 'go off' = nổ/kêu - đều không phù hợp ngữ cảnh.",
         "confidence": "high",
         "usable": true,
         "issues": []
       },
       "error": null,
-      "solved_at": "2026-05-25T03:56:57",
+      "solved_at": "2026-05-25T04:27:23",
       "from_cache": false
     },
     {
       "question": {
-        "question_id": "en-practice-7e5fb8abe2cf-004-528a9d7612c5",
-        "source_file": "1 10.pdf",
-        "relative_path": "MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1 10.pdf",
-        "file_sha1": "7e5fb8abe2cf294096ac3762a5f2658c62d0239c",
+        "question_id": "en-practice-fb58a5e783c3-004-4213e9c96d89",
+        "source_file": "plus-2-luyen-tap-chuyen-sau-tu-duy-xu-ly-cau-hoi-paraphrasing-buoi-2.pdf",
+        "relative_path": "MP/LUYỆN GIẢI ĐỀ THI TỐT NGHIỆP/CHINH PHỤC CÂU HỎI 10 ĐIỂM/PARAPHASING/plus-2-luyen-tap-chuyen-sau-tu-duy-xu-ly-cau-hoi-paraphrasing-buoi-2.pdf",
+        "file_sha1": "fb58a5e783c38090161d30bbaab9e373638ed846",
         "question_number": 4,
-        "page_start": 1,
-        "page_end": 1,
-        "question_text": "Jimmy: How are you finding the new study schedule I suggested for you? Lucy: __________",
+        "page_start": 2,
+        "page_end": 2,
+        "question_text": "According to paragraph 2, the rise of diseases caused by extreme weather events _______.",
         "options": {
-          "A": "I appreciate it because it helps me feel less overwhelmed during exam season.",
-          "B": "It’s really helpful, although I barely use any of the resources provided.",
-          "C": "It’s a good plan, but I think we will still reduce our study workload.",
-          "D": "I prefer something less structured, as I already enjoy my free time."
+          "A": "is straining public health systems",
+          "B": "is raising recovery costs for governments",
+          "C": "imposes an intolerable burden on families",
+          "D": "involves building healthcare infrastructure"
         },
         "correct_answer": null,
         "answer_source": "missing",
         "explanation": "",
-        "passage_id": null,
-        "passage_text": null,
-        "question_format": "hsa_antonym",
-        "knowledge_subtopic_code_v2": "E2X.05",
+        "passage_id": "p1",
+        "passage_text": "In recent decades, the world has witnessed a noticeable rise in the frequency and intensity of extreme weather events. Heatwaves, floods, hurricanes, and prolonged droughts are no longer isolated phenomena; they occur more often and leave devastating consequences. Scientists agree that climate change, largely driven by human activity, has altered weather patterns and created conditions that make such events more likely. Warmer air holds more moisture, leading to heavier rainfall, while rising sea levels increase the destructive power of coastal storms.\n\nThe impacts of these changes are wide-ranging. Communities face serious risks to food security as crops fail during extended dry spells or are destroyed by unexpected floods. Public health is also under pressure, with heat-related illnesses and the spread of vector-borne diseases becoming more common. Economically, the cost of recovery after disasters is climbing, as governments and individuals struggle to rebuild damaged infrastructure, homes, and livelihoods. Insurance companies, too, are raising premiums in response to higher risks, placing additional burdens on households.\n\nAddressing this challenge requires both adaptation and mitigation. Adaptation means preparing for unavoidable impacts, such as building flood-resistant infrastructure or developing drought-tolerant crops. Mitigation focuses on reducing greenhouse gas emissions to limit further warming. Renewable energy, sustainable transport, and changes in consumption habits all play a crucial role in slowing down climate change. While the task is complex, international cooperation and local initiatives can help societies become more resilient. Ultimately, reducing the pace of global warming is essential if humanity hopes to prevent even more severe weather extremes in the future.",
+        "question_format": "thpt_reading_passage",
+        "knowledge_subtopic_code_v2": "E2R.07",
         "exam_profiles": [
-          "HSA_ENGLISH"
-        ],
-        "linked_node_codes_v2": [
-          "E2X.05-cach-viet-ket-doan-cho-doan-van-tieng-anh",
-          "E2X.05-phuong-phap-giai-cau-hoi-dong-nghia-trai-nghia-trong-ngu-can"
-        ],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer",
-        "ready_for_ai_solve": true,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 4. \nJimmy: How are you finding the new study schedule I suggested for you? \nLucy: __________ \nA. I appreciate it because it helps me feel less overwhelmed during exam season. \nB. It’s really helpful, although I barely use any of the resources provided. \nC. It’s a good plan, but I think we will still reduce our study workload. \nD. I prefer something less structured, as I already enjoy my free time.",
-          "practice_item_type": "mcq",
-          "page_start": 1,
-          "page_end": 1
-        }
-      },
-      "result": {
-        "answer": "A",
-        "explanation": "Câu hỏi yêu cầu tìm câu trả lời phù hợp nhất cho câu hỏi 'How are you finding the new study schedule?' (Bạn thấy lịch học mới thế nào?). Đáp án A phù hợp nhất vì Lucy đánh giá tích cực về lịch học và giải thích lý do cụ thể (giúp bớt áp lực trong mùa thi). Đáp án B mâu thuẫn (helpful nhưng barely use). Đáp án C không logic (good plan nhưng lại muốn giảm khối lượng học). Đáp án D không phù hợp vì nếu thích thời gian tự do thì không nên chấp nhận lịch học có cấu trúc ngay từ đầu.",
-        "confidence": "high",
-        "usable": true,
-        "issues": []
-      },
-      "error": null,
-      "solved_at": "2026-05-25T03:57:05",
-      "from_cache": false
-    },
-    {
-      "question": {
-        "question_id": "en-practice-f01e2fb88e25-003-70ed1509aa4b",
-        "source_file": "Hạ gục câu hỏi Đồng nghĩa - Trái nghĩa theo ngữ cảnh (Buổi 2).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỒNG NGHĨA - TRÁI NGHĨA THEO NGỮ CẢNH/Hạ gục câu hỏi Đồng nghĩa - Trái nghĩa theo ngữ cảnh (Buổi 2).pdf",
-        "file_sha1": "f01e2fb88e25fd6faabc2c32754c2ad03b41386c",
-        "question_number": 3,
-        "page_start": 1,
-        "page_end": 1,
-        "question_text": "The word accessible in the text is opposite in meaning to _________.",
-        "options": {
-          "A": "unusual",
-          "B": "unpleasant",
-          "C": "limited",
-          "D": "available"
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": null,
-        "passage_text": null,
-        "question_format": "hsa_synonym",
-        "knowledge_subtopic_code_v2": "E2X.06",
-        "exam_profiles": [
-          "HSA_ENGLISH"
-        ],
-        "linked_node_codes_v2": [],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer",
-        "ready_for_ai_solve": true,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 3. The word accessible in the text is opposite in meaning to _________. \nA. unusual \nB. unpleasant \nC. limited \nD. available  \n \n2. \nRobot classroom assistants are becoming more common in schools. They can help teachers by providing \nassistance with lessons and activities. This allows teachers to focus more on guiding students. Robots can \nalso engage students in learning. They make lessons more interactive and fun, which helps students stay \ninterested. Using robots in classrooms can be beneficial. They can answer simple questions, give \nfeedback, and support students with different learning needs. This makes learning easier and more \nenjoyable for everyone.",
-          "practice_item_type": "mcq",
-          "page_start": 1,
-          "page_end": 1
-        }
-      },
-      "result": {
-        "answer": "NONE",
-        "explanation": "Không có đoạn văn hoặc ngữ cảnh nào được cung cấp để xác định nghĩa của từ 'accessible' trong văn bản cụ thể. Từ 'accessible' thường có nghĩa là 'có thể tiếp cận được' và trái nghĩa phổ biến là 'inaccessible' hoặc 'unavailable'. Tuy nhiên, đáp án C (limited - hạn chế) và đáp án D (available - có sẵn) đều có thể gây nhầm lẫn. Nếu 'accessible' nghĩa là 'dễ tiếp cận', thì trái nghĩa có thể là 'limited' (bị hạn chế). Nhưng 'available' lại là từ đồng nghĩa, không phải trái nghĩa. Không thể chọn chính xác khi thiếu ngữ cảnh.",
-        "confidence": "low",
-        "usable": false,
-        "issues": [
-          "Missing passage/context - cannot determine the specific meaning of 'accessible' in the text",
-          "Question asks for opposite meaning but no source text is provided",
-          "Option D 'available' is actually a synonym, not antonym of 'accessible'",
-          "Cannot verify which option is the intended correct answer without context"
-        ]
-      },
-      "error": null,
-      "solved_at": "2026-05-25T03:57:14",
-      "from_cache": false
-    },
-    {
-      "question": {
-        "question_id": "en-practice-1f051d46c33c-013-00c3787675f9",
-        "source_file": "Từ vựng cùng trường nghĩa (Buổi 2).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/TỪ VỰNG CÙNG TRƯỜNG NGHĨA/Từ vựng cùng trường nghĩa (Buổi 2).pdf",
-        "file_sha1": "1f051d46c33ce444b3baac82c400befdb860153b",
-        "question_number": 13,
-        "page_start": 1,
-        "page_end": 1,
-        "question_text": "The ______ of the course can be tailored to the needs of the students.",
-        "options": {
-          "A": "page",
-          "B": "content",
-          "C": "cast",
-          "D": "playlist"
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": null,
-        "passage_text": null,
-        "question_format": "hsa_sentence_completion",
-        "knowledge_subtopic_code_v2": "E2X.08",
-        "exam_profiles": [
-          "SPT_ENGLISH",
           "THPT_2025_CORE"
         ],
-        "linked_node_codes_v2": [],
+        "linked_node_codes_v2": [
+          "E2R.07-bai-6-cach-lam-cau-hoi-paraphrasing-trong-bai-doc",
+          "E2R.07-cach-viet-mo-doan-cho-doan-van-tieng-anh"
+        ],
+        "difficulty": "basic",
+        "confidence": "high",
+        "needs_review": true,
+        "review_reason": "missing_answer; vision_rescan",
+        "ready_for_ai_solve": true,
+        "ai_model": "gz-prod/claude-sonnet-4-6",
+        "raw_extract": {
+          "question_number": 4,
+          "page_start": 2,
+          "page_end": 2,
+          "question_text": "According to paragraph 2, the rise of diseases caused by extreme weather events _______.",
+          "options": {
+            "A": "is straining public health systems",
+            "B": "is raising recovery costs for governments",
+            "C": "imposes an intolerable burden on families",
+            "D": "involves building healthcare infrastructure"
+          },
+          "correct_answer": null,
+          "answer_source": "missing",
+          "explanation": "",
+          "passage_id": "p1",
+          "passage_text": "In recent decades, the world has witnessed a noticeable rise in the frequency and intensity of extreme weather events. Heatwaves, floods, hurricanes, and prolonged droughts are no longer isolated phenomena; they occur more often and leave devastating consequences. Scientists agree that climate change, largely driven by human activity, has altered weather patterns and created conditions that make such events more likely. Warmer air holds more moisture, leading to heavier rainfall, while rising sea levels increase the destructive power of coastal storms.\n\nThe impacts of these changes are wide-ranging. Communities face serious risks to food security as crops fail during extended dry spells or are destroyed by unexpected floods. Public health is also under pressure, with heat-related illnesses and the spread of vector-borne diseases becoming more common. Economically, the cost of recovery after disasters is climbing, as governments and individuals struggle to rebuild damaged infrastructure, homes, and livelihoods. Insurance companies, too, are raising premiums in response to higher risks, placing additional burdens on households.\n\nAddressing this challenge requires both adaptation and mitigation. Adaptation means preparing for unavoidable impacts, such as building flood-resistant infrastructure or developing drought-tolerant crops. Mitigation focuses on reducing greenhouse gas emissions to limit further warming. Renewable energy, sustainable transport, and changes in consumption habits all play a crucial role in slowing down climate change. While the task is complex, international cooperation and local initiatives can help societies become more resilient. Ultimately, reducing the pace of global warming is essential if humanity hopes to prevent even more severe weather extremes in the future.",
+          "question_format": "thpt_reading_passage",
+          "knowledge_subtopic_code_v2": "E2R.07",
+          "exam_profiles": [
+            "THPT_2025_CORE"
+          ],
+          "difficulty": "basic",
+          "confidence": "high",
+          "needs_review": false,
+          "review_reason": ""
+        },
+        "source_type": "ocr_vision_rescan"
+      },
+      "result": {
+        "answer": "A",
+        "explanation": "Đoạn 2 nói rõ 'Public health is also under pressure, with heat-related illnesses and the spread of vector-borne diseases becoming more common' - sức khỏe cộng đồng đang chịu áp lực do bệnh tật liên quan đến thời tiết cực đoan gia tăng. Đáp án A 'is straining public health systems' (đang gây áp lực lên hệ thống y tế công cộng) khớp chính xác với ý này.",
+        "confidence": "high",
+        "usable": true,
+        "issues": []
+      },
+      "error": null,
+      "solved_at": "2026-05-25T04:27:31",
+      "from_cache": false
+    },
+    {
+      "question": {
+        "question_id": "en-practice-2df82f999cde-007-42c8e52d9efe",
+        "source_file": "Chuyên sâu Đọc điền - Đọc hiểu chủ đề The World of Work.pdf",
+        "relative_path": "MP/TỪ VỰNG CHUYÊN SÂU/ĐỌC HIỂU CHUYÊN SÂU THEO CHỦ ĐỀ/Chuyên sâu Đọc điền - Đọc hiểu chủ đề The World of Work.pdf",
+        "file_sha1": "2df82f999cde6fd59c457937683692c85e8f2f4e",
+        "question_number": 7,
+        "page_start": 2,
+        "page_end": 2,
+        "question_text": "Which of the following is NOT mentioned as an item that Jeff Haslam always wears when doing his job?",
+        "options": {
+          "A": "a mask",
+          "B": "specialised clothing",
+          "C": "waterproof clothes",
+          "D": "a helmet with a light"
+        },
+        "correct_answer": null,
+        "answer_source": "missing",
+        "explanation": "",
+        "passage_id": "p2",
+        "passage_text": "Jeff Haslam spends much of his time working underground in London's sewers. These tunnels are crucial for transporting wastewater and other refuse away from the city. Jeff's main job is to keep these clean. \"We work in teams of six,\" he explains, noting the dirty and dark conditions of their work. He wears specialised clothing, a mask, and a helmet with a light to navigate these challenging environments. In contrast, Charlie Radley works as a fisherman in the cold waters of Alaska. Each fishing trip lasts about a week, and the weather can be extremely harsh. \"It's often stormy and very cold,\" Charlie says, highlighting the need for warm, waterproof clothing. While he has the potential to earn a good income, it greatly depends on the success of their catch. If they don't bring in enough fish, his earnings significantly drop. Sandy Smith is a lumberjack who enjoys working outdoors. She noticed a job advertisement for lumberjacks online and decided to apply, despite the long hours and modest pay. \"It's a very dangerous job,\" Sandy admits, emphasising the risks associated with using heavy machinery in remote areas. She is always cautious, as medical facilities are always far away. Despite their different occupations, Jeff, Charlie, and Sandy all face significant challenges in their jobs. Each one deals with unique difficulties, from maintaining sewers and fishing in harsh conditions to cutting down trees. Their stories illustrate the dedication required for roles that are essential to society, even if they often go unrecognised.",
+        "question_format": "thpt_reading_passage",
+        "knowledge_subtopic_code_v2": "E2R.05",
+        "exam_profiles": [
+          "THPT_2025_CORE"
+        ],
+        "linked_node_codes_v2": [
+          "E2R.05-cach-lam-cau-hoi-suy-luan-trong-bai-doc-hieu",
+          "E2R.05-chien-thuat-xu-ly-cau-hoi-suy-luan",
+          "E2R.05-ky-nang-tu-duy-tuyen-tinh-linear-thinking-chinh-phuc-cau-hoi"
+        ],
+        "difficulty": "basic",
+        "confidence": "high",
+        "needs_review": true,
+        "review_reason": "low_text_quality; missing_answer; vision_rescan",
+        "ready_for_ai_solve": true,
+        "ai_model": "gz-prod/claude-sonnet-4-6",
+        "raw_extract": {
+          "question_number": 7,
+          "page_start": 2,
+          "page_end": 2,
+          "question_text": "Which of the following is NOT mentioned as an item that Jeff Haslam always wears when doing his job?",
+          "options": {
+            "A": "a mask",
+            "B": "specialised clothing",
+            "C": "waterproof clothes",
+            "D": "a helmet with a light"
+          },
+          "correct_answer": null,
+          "answer_source": "missing",
+          "explanation": "",
+          "passage_id": "p2",
+          "passage_text": "Jeff Haslam spends much of his time working underground in London's sewers. These tunnels are crucial for transporting wastewater and other refuse away from the city. Jeff's main job is to keep these clean. \"We work in teams of six,\" he explains, noting the dirty and dark conditions of their work. He wears specialised clothing, a mask, and a helmet with a light to navigate these challenging environments. In contrast, Charlie Radley works as a fisherman in the cold waters of Alaska. Each fishing trip lasts about a week, and the weather can be extremely harsh. \"It's often stormy and very cold,\" Charlie says, highlighting the need for warm, waterproof clothing. While he has the potential to earn a good income, it greatly depends on the success of their catch. If they don't bring in enough fish, his earnings significantly drop. Sandy Smith is a lumberjack who enjoys working outdoors. She noticed a job advertisement for lumberjacks online and decided to apply, despite the long hours and modest pay. \"It's a very dangerous job,\" Sandy admits, emphasising the risks associated with using heavy machinery in remote areas. She is always cautious, as medical facilities are always far away. Despite their different occupations, Jeff, Charlie, and Sandy all face significant challenges in their jobs. Each one deals with unique difficulties, from maintaining sewers and fishing in harsh conditions to cutting down trees. Their stories illustrate the dedication required for roles that are essential to society, even if they often go unrecognised.",
+          "question_format": "thpt_reading_passage",
+          "knowledge_subtopic_code_v2": "E2R.05",
+          "exam_profiles": [
+            "THPT_2025_CORE"
+          ],
+          "difficulty": "basic",
+          "confidence": "high",
+          "needs_review": false,
+          "review_reason": ""
+        },
+        "source_type": "ocr_vision_rescan"
+      },
+      "result": {
+        "answer": "C",
+        "explanation": "Đoạn văn mô tả Jeff Haslam làm việc trong cống ngầm London và đề cập anh ấy mặc 'specialised clothing' (B), 'a mask' (A), và 'a helmet with a light' (D). 'Waterproof clothes' (C) được đề cập cho Charlie Radley - người đánh cá ở Alaska, không phải Jeff Haslam.",
+        "confidence": "high",
+        "usable": true,
+        "issues": []
+      },
+      "error": null,
+      "solved_at": "2026-05-25T04:27:39",
+      "from_cache": false
+    },
+    {
+      "question": {
+        "question_id": "en-practice-f36b5811894d-006-5bcb2c9c804f",
+        "source_file": "1.22 511997477-1739234775937-covumaiphuongphuongphapvakinanggiaiquyet.pdf",
+        "relative_path": "MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1.22 511997477-1739234775937-covumaiphuongphuongphapvakinanggiaiquyet.pdf",
+        "file_sha1": "f36b5811894de493748fe989945ed6abb2ddee37",
+        "question_number": 6,
+        "page_start": 1,
+        "page_end": 1,
+        "question_text": "I could either cook dinner myself or order food from a restaurant. I prefer the former.",
+        "options": {
+          "A": "I’ll cook dinner myself, so I don’t need to order food.",
+          "B": "I’d rather cook dinner myself than order food from a restaurant.",
+          "C": "I will try cooking dinner before deciding to order from a restaurant.",
+          "D": "I have decided to cook dinner at home without ordering from a restaurant."
+        },
+        "correct_answer": null,
+        "answer_source": "missing",
+        "explanation": "",
+        "passage_id": null,
+        "passage_text": null,
+        "question_format": "thpt_arrangement_text",
+        "knowledge_subtopic_code_v2": "E2O.02",
+        "exam_profiles": [
+          "HSA_ENGLISH",
+          "THPT_2025_CORE"
+        ],
+        "linked_node_codes_v2": [
+          "E2O.02-viet-doan-van-hoan-chinh-ve-chu-de-moi-truong"
+        ],
         "difficulty": "basic",
         "confidence": "medium",
         "needs_review": true,
@@ -859,7 +1176,7 @@
         "ai_model": "regex_fallback",
         "practice_item_type": "mcq",
         "raw_extract": {
-          "block": "Question 13. The ______ of the course can be tailored to the needs of the students.  \nA. page \n \nB. content \n \nC. cast  \n \nD. playlist",
+          "block": "Question 6. I could either cook dinner myself or order food from a restaurant. I prefer the former. \nA. I’ll cook dinner myself, so I don’t need to order food. \nB. I’d rather cook dinner myself than order food from a restaurant. \nC. I will try cooking dinner before deciding to order from a restaurant. \nD. I have decided to cook dinner at home without ordering from a restaurant.",
           "practice_item_type": "mcq",
           "page_start": 1,
           "page_end": 1
@@ -867,292 +1184,13 @@
       },
       "result": {
         "answer": "B",
-        "explanation": "Câu hỏi về từ vựng phù hợp với ngữ cảnh. 'Content' (nội dung) là từ duy nhất hợp lý khi nói về việc điều chỉnh khóa học theo nhu cầu học sinh. 'Page' (trang), 'cast' (dàn diễn viên), và 'playlist' (danh sách phát) không phù hợp với ngữ cảnh giáo dục.",
+        "explanation": "Câu gốc: 'I prefer the former' nghĩa là tôi thích lựa chọn đầu tiên hơn (cook dinner myself). Đáp án B dùng cấu trúc 'would rather... than...' diễn đạt đúng ý thích nấu ăn hơn là đặt đồ ăn. Đáp án A thiếu ý so sánh sở thích. Đáp án C sai nghĩa (thử nấu trước khi quyết định). Đáp án D chỉ nói quyết định mà không thể hiện sự ưu tiên/thích hơn.",
         "confidence": "high",
         "usable": true,
         "issues": []
       },
       "error": null,
-      "solved_at": "2026-05-25T03:57:20",
-      "from_cache": false
-    },
-    {
-      "question": {
-        "question_id": "en-practice-0c0eff41f555-011-1cb2f580bf24",
-        "source_file": "4 chuyende12_thionline_daitubuoiso02.pdf",
-        "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 12 - ĐẠI TỪ VÀ LƯỢNG TỪ/4 chuyende12_thionline_daitubuoiso02.pdf",
-        "file_sha1": "0c0eff41f55582e36a08b022832291d045e5217b",
-        "question_number": 11,
-        "page_start": 1,
-        "page_end": 1,
-        "question_text": "_______ of the two restaurants will be a great choice for dinner.",
-        "options": {
-          "A": "Either",
-          "B": "Some",
-          "C": "Every",
-          "D": "Most"
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": null,
-        "passage_text": null,
-        "question_format": "hsa_sentence_completion",
-        "knowledge_subtopic_code_v2": "E2G.03",
-        "exam_profiles": [
-          "THPT_2025_CORE"
-        ],
-        "linked_node_codes_v2": [
-          "E2G.03-vip90-tuan-2-lam-chu-kien-thuc-ngu-phap-luong-tu-buoi-1",
-          "E2G.03-vip90-tuan-2-lam-chu-kien-thuc-ngu-phap-luong-tu-buoi-2",
-          "E2G.03-vip90-tuan-5-lam-chu-kien-thuc-ngu-phap-cum-tu-chi-luong-buo",
-          "E2G.03-vip90-tuan-5-lam-chu-kien-thuc-ngu-phap-cum-tu-chi-luong-buo-2"
-        ],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer",
-        "ready_for_ai_solve": true,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 11. _______ of the two restaurants will be a great choice for dinner. \nA. Either \n \nB. Some \n \nC. Every  \n \nD. Most",
-          "practice_item_type": "mcq",
-          "page_start": 1,
-          "page_end": 1
-        }
-      },
-      "result": {
-        "answer": "A",
-        "explanation": "Câu này cần đại từ bất định để chỉ một trong hai nhà hàng. 'Either' (một trong hai) là đúng ngữ pháp với 'of the two'. 'Some/Most' dùng cho số nhiều không xác định, 'Every' không đi với 'of the two'.",
-        "confidence": "high",
-        "usable": true,
-        "issues": []
-      },
-      "error": null,
-      "solved_at": "2026-05-25T03:57:27",
-      "from_cache": false
-    },
-    {
-      "question": {
-        "question_id": "en-practice-bb0666ec7fc4-015-16458041b90a",
-        "source_file": "5 chuyende3_thionline_danhdongtudeso01.pdf",
-        "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 3 - DANH ĐỘNG TỪ VÀ ĐỘNG TỪ NGUYÊN MẪU/5 chuyende3_thionline_danhdongtudeso01.pdf",
-        "file_sha1": "bb0666ec7fc409f97d59506a03b071354435d072",
-        "question_number": 15,
-        "page_start": 1,
-        "page_end": 1,
-        "question_text": "_______ this door takes quite a lot of effort.",
-        "options": {
-          "A": "Pushed",
-          "B": "To pushing",
-          "C": "Having pushed",
-          "D": "Pushing"
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": null,
-        "passage_text": null,
-        "question_format": "hsa_sentence_completion",
-        "knowledge_subtopic_code_v2": "E2V.07",
-        "exam_profiles": [
-          "THPT_2025_CORE"
-        ],
-        "linked_node_codes_v2": [
-          "E2V.07-1-dongtukhuyetthieu-1",
-          "E2V.07-1-dongtukhuyetthieu-1-2",
-          "E2V.07-1-dongtunguyenmau",
-          "E2V.07-1-phantu",
-          "E2V.07-4-danhdongtu"
-        ],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer",
-        "ready_for_ai_solve": true,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 15. _______ this door takes quite a lot of effort. \nA. Pushed  \n \nB. To pushing  \nC. Having pushed \nD. Pushing",
-          "practice_item_type": "mcq",
-          "page_start": 1,
-          "page_end": 1
-        }
-      },
-      "result": {
-        "answer": "D",
-        "explanation": "Câu cần một chủ ngữ cho động từ 'takes'. Gerund 'Pushing' (V-ing) đóng vai trò danh động từ làm chủ ngữ của câu, diễn tả hành động 'đẩy cánh cửa này'. A (Pushed - quá khứ phân từ) không thể làm chủ ngữ. B (To pushing) sai ngữ pháp vì không có cấu trúc 'to + V-ing'. C (Having pushed) diễn tả hành động hoàn thành trước hành động khác, không phù hợp ngữ cảnh. Đáp án đúng: D. Pushing.",
-        "confidence": "high",
-        "usable": true,
-        "issues": []
-      },
-      "error": null,
-      "solved_at": "2026-05-25T03:57:34",
-      "from_cache": false
-    },
-    {
-      "question": {
-        "question_id": "en-practice-77b5620ac9b8-023-018c2d18e76e",
-        "source_file": "8 chuyende7_thionline_caudieukiendeso06-tonghop.pdf",
-        "relative_path": "MP/NGỮ PHÁP TRỌN ĐỜI/CHUYÊN ĐỀ 7 - CÂU ĐIỀU KIỆN/8 chuyende7_thionline_caudieukiendeso06-tonghop.pdf",
-        "file_sha1": "77b5620ac9b83b094cc712e5ce817b86a03bb25f",
-        "question_number": 8,
-        "page_start": 2,
-        "page_end": 2,
-        "question_text": "My sister _______ us to use her room as long as we clean it.",
-        "options": {
-          "A": "will allow",
-          "B": "allows",
-          "C": "would allow",
-          "D": "must allow"
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": null,
-        "passage_text": null,
-        "question_format": "hsa_sentence_completion",
-        "knowledge_subtopic_code_v2": "E2S.03",
-        "exam_profiles": [
-          "THPT_2025_CORE"
-        ],
-        "linked_node_codes_v2": [
-          "E2S.03-1-caudieukien1",
-          "E2S.03-1-giadinhcach",
-          "E2S.03-5-caudieukien2"
-        ],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer",
-        "ready_for_ai_solve": true,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "My sister _______ us to use her room as long as we clean it. \nA. will allow  \nB. allows \n \nC. would allow \nD. must allow",
-          "section_title": "IV. Chọn đáp án phù hợp nhất",
-          "practice_item_type": "mcq",
-          "page_start": 2,
-          "page_end": 2
-        }
-      },
-      "result": {
-        "answer": "A",
-        "explanation": "Câu điều kiện loại 1 với 'as long as' (miễn là). Mệnh đề chính dùng thì tương lai đơn 'will allow', mệnh đề điều kiện dùng hiện tại đơn 'clean'. Cấu trúc: S + will + V + as long as + S + V(hiện tại đơn).",
-        "confidence": "high",
-        "usable": true,
-        "issues": []
-      },
-      "error": null,
-      "solved_at": "2026-05-25T03:57:40",
-      "from_cache": false
-    },
-    {
-      "question": {
-        "question_id": "en-practice-d8c1c00ef0ba-018-5c401e2d2356",
-        "source_file": "1.8 932929271-1741507109572-covumaiphuongthionline_sapxepdoanhoithoa.pdf",
-        "relative_path": "MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/1.8 932929271-1741507109572-covumaiphuongthionline_sapxepdoanhoithoa.pdf",
-        "file_sha1": "d8c1c00ef0ba9a52eecddc5d2cbbe3f875e51659",
-        "question_number": 18,
-        "page_start": 4,
-        "page_end": 4,
-        "question_text": "a. That’s a good idea! I often spend too much on unnecessary things. b. I’m trying to save money, but it’s really difficult. c. Maybe you can start by tracking your expenses to see where you can cut down. d. Exactly! Once you know your spending habits, you can create a better budget.",
-        "options": {
-          "A": "c – b – a – d",
-          "B": "a – c – d – b",
-          "C": "b – c – a – d",
-          "D": "d – a – b – c"
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": null,
-        "passage_text": null,
-        "question_format": "hsa_dialogue_arrangement",
-        "knowledge_subtopic_code_v2": "E2O.01",
-        "exam_profiles": [
-          "HSA_ENGLISH",
-          "THPT_2025_CORE"
-        ],
-        "linked_node_codes_v2": [],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer",
-        "ready_for_ai_solve": true,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 18.  \na. That’s a good idea! I often spend too much on unnecessary things. \nb. I’m trying to save money, but it’s really difficult. \nc. Maybe you can start by tracking your expenses to see where you can cut down. \nd. Exactly! Once you know your spending habits, you can create a better budget. \nA. c – b – a – d \nB. a – c – d – b \nC. b – c – a – d \nD. d – a – b – c",
-          "practice_item_type": "mcq",
-          "page_start": 4,
-          "page_end": 4
-        }
-      },
-      "result": {
-        "answer": "C",
-        "explanation": "Đây là bài sắp xếp câu trong đoạn hội thoại. Trình tự logic: b (nêu vấn đề: khó tiết kiệm tiền) → c (đưa ra gợi ý: theo dõi chi tiêu) → a (đồng ý với gợi ý) → d (bổ sung thêm lợi ích của việc theo dõi chi tiêu). Câu b mở đầu vấn đề, c đưa giải pháp, a phản hồi tích cực, d kết luận logic.",
-        "confidence": "high",
-        "usable": true,
-        "issues": []
-      },
-      "error": null,
-      "solved_at": "2026-05-25T03:57:47",
-      "from_cache": false
-    },
-    {
-      "question": {
-        "question_id": "en-practice-f2e617215d71-007-dc48dc16753f",
-        "source_file": "Thi Online Câu hỏi Viết lại câu và ghép câu nâng cao (Đề số 05).pdf",
-        "relative_path": "MP/LUYỆN THI DGNL/ĐÁNH GIÁ NĂNG LỰC - ĐẠI HỌC QUỐC GIA HÀ NỘI/Thi Online Câu hỏi Viết lại câu và ghép câu nâng cao (Đề số 05).pdf",
-        "file_sha1": "f2e617215d718530ad74b1d764dbfecdae1ddae3",
-        "question_number": 7,
-        "page_start": 2,
-        "page_end": 2,
-        "question_text": "Although the findings were controversial, they provided valuable insights into consumer behaviour.",
-        "options": {
-          "A": "However controversial the findings are, they offered valuable insights into consumer behaviour.",
-          "B": "Though controversial, consumer behaviour helped provide valuable insights into the findings.",
-          "C": "The findings were considered controversial, causing them to provide valuable insights into consumer",
-          "D": "Controversial though the findings were, they offered valuable insights into consumer behaviour."
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": null,
-        "passage_text": null,
-        "question_format": "hsa_sentence_rewriting",
-        "knowledge_subtopic_code_v2": "E2W.02",
-        "exam_profiles": [
-          "HSA_ENGLISH"
-        ],
-        "linked_node_codes_v2": [],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer",
-        "ready_for_ai_solve": true,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 7. Although the findings were controversial, they provided valuable insights into consumer \nbehaviour.  \nA. However controversial the findings are, they offered valuable insights into consumer behaviour.  \nB. Though controversial, consumer behaviour helped provide valuable insights into the findings.  \nC. The findings were considered controversial, causing them to provide valuable insights into consumer \nbehaviour.  \nD. Controversial though the findings were, they offered valuable insights into consumer behaviour.",
-          "practice_item_type": "mcq",
-          "page_start": 2,
-          "page_end": 2
-        }
-      },
-      "result": {
-        "answer": "D",
-        "explanation": "Câu gốc: 'Although the findings were controversial, they provided valuable insights into consumer behaviour.' Cần viết lại câu giữ nguyên nghĩa. Đáp án D 'Controversial though the findings were, they offered valuable insights into consumer behaviour' sử dụng cấu trúc đảo ngữ 'Adj + though + S + V' (tương đương 'Although S + V + Adj') và giữ đúng nghĩa: mặc dù những phát hiện gây tranh cãi nhưng chúng vẫn cung cấp hiểu biết có giá trị về hành vi người tiêu dùng. Đáp án A sai thì (are thay vì were). Đáp án B đảo lộn chủ ngữ (consumer behaviour thành chủ ngữ). Đáp án C sai nghĩa (causing = gây ra, không phải mặc dù) và câu bị cắt cụt.",
-        "confidence": "high",
-        "usable": true,
-        "issues": [
-          "Đáp án C bị cắt cụt ở cuối câu (thiếu 'behaviour' sau 'consumer'), nhưng vẫn loại được vì sai nghĩa rõ ràng"
-        ]
-      },
-      "error": null,
-      "solved_at": "2026-05-25T03:57:58",
+      "solved_at": "2026-05-25T04:27:50",
       "from_cache": false
     }
   ]

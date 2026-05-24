@@ -71,6 +71,8 @@ def choose_sample(questions: list[dict[str,Any]], per_subtopic: int, limit_subto
     rng=random.Random(seed)
     by=defaultdict(list)
     for q in questions:
+        if q.get('ready_for_ai_solve') is False:
+            continue
         by[q.get('knowledge_subtopic_code_v2') or 'UNKNOWN'].append(q)
     subtopics=sorted(by, key=lambda k: (-len(by[k]), k))
     if limit_subtopics:
