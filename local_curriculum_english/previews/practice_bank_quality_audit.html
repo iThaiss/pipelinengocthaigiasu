@@ -1,33 +1,33 @@
 <!doctype html><html><head><meta charset='utf-8'><title>Practice Bank Quality Audit</title><style>
 body{font-family:Arial,sans-serif;padding:20px;line-height:1.45}.summary{background:#eee;padding:10px;border:1px solid #ccc}section{border-top:3px solid #222;margin-top:24px}.card{border:1px solid #ddd;padding:10px;margin:10px 0}.meta{font-size:12px;color:#666;word-break:break-all}.opts{margin:8px 0}.reason{font-size:12px;color:#9a4b00}pre{white-space:pre-wrap;max-height:260px;overflow:auto;background:#f7f7f7;padding:8px}
 </style></head><body><h1>Practice Bank Quality Audit</h1><div class='summary'><pre>{
-  &quot;generated_at&quot;: &quot;2026-05-25T04:55:46&quot;,
+  &quot;generated_at&quot;: &quot;2026-05-25T05:00:00&quot;,
   &quot;applied&quot;: true,
   &quot;total_questions&quot;: 10006,
-  &quot;ready_for_ai_solve&quot;: 7477,
-  &quot;not_ready_for_ai_solve&quot;: 2529,
-  &quot;changed_questions&quot;: 0,
+  &quot;ready_for_ai_solve&quot;: 8120,
+  &quot;not_ready_for_ai_solve&quot;: 1886,
+  &quot;changed_questions&quot;: 655,
   &quot;issue_counts&quot;: {
-    &quot;truncated_options&quot;: 1116,
-    &quot;possible_wrong_passage_pairing&quot;: 525,
+    &quot;truncated_options&quot;: 837,
     &quot;cloze_blank_not_in_passage&quot;: 500,
     &quot;context_vocab_missing_context&quot;: 240,
     &quot;missing_options&quot;: 144,
+    &quot;possible_wrong_passage_pairing&quot;: 126,
     &quot;reading_true_false_not_structured&quot;: 40,
     &quot;duplicate_options&quot;: 17
   },
   &quot;issue_by_format_top&quot;: {
-    &quot;truncated_options|hsa_sentence_completion&quot;: 585,
-    &quot;possible_wrong_passage_pairing|thpt_reading_passage&quot;: 525,
     &quot;cloze_blank_not_in_passage|hsa_cloze_text&quot;: 500,
-    &quot;truncated_options|thpt_arrangement_text&quot;: 326,
+    &quot;truncated_options|hsa_sentence_completion&quot;: 354,
+    &quot;truncated_options|thpt_arrangement_text&quot;: 313,
     &quot;context_vocab_missing_context|hsa_synonym&quot;: 240,
     &quot;missing_options|hsa_sentence_completion&quot;: 144,
-    &quot;truncated_options|spt_word_formation&quot;: 109,
-    &quot;truncated_options|thpt_reading_passage&quot;: 42,
+    &quot;possible_wrong_passage_pairing|thpt_reading_passage&quot;: 126,
+    &quot;truncated_options|spt_word_formation&quot;: 93,
+    &quot;truncated_options|thpt_reading_passage&quot;: 40,
     &quot;reading_true_false_not_structured|thpt_reading_passage&quot;: 40,
-    &quot;truncated_options|hsa_cloze_text&quot;: 29,
-    &quot;truncated_options|thpt_advertisement_cloze&quot;: 11,
+    &quot;truncated_options|thpt_advertisement_cloze&quot;: 12,
+    &quot;truncated_options|hsa_cloze_text&quot;: 11,
     &quot;truncated_options|hsa_synonym&quot;: 9,
     &quot;duplicate_options|hsa_sentence_completion&quot;: 8,
     &quot;truncated_options|hsa_sentence_rewriting&quot;: 3,
@@ -44,79 +44,65 @@ body{font-family:Arial,sans-serif;padding:20px;line-height:1.45}.summary{backgro
     &quot;cloze_blank_not_in_passage|E2C.05&quot;: 500,
     &quot;truncated_options|E2G.04&quot;: 493,
     &quot;context_vocab_missing_context|E2X.06&quot;: 240,
-    &quot;possible_wrong_passage_pairing|E2R.02&quot;: 126,
-    &quot;possible_wrong_passage_pairing|E2R.08&quot;: 112,
-    &quot;truncated_options|E2S.06&quot;: 97,
-    &quot;truncated_options|E2X.01&quot;: 95,
+    &quot;possible_wrong_passage_pairing|E2R.02&quot;: 96,
+    &quot;truncated_options|E2X.01&quot;: 91,
     &quot;truncated_options|E2G.05&quot;: 77,
-    &quot;possible_wrong_passage_pairing|E2R.05&quot;: 71,
-    &quot;truncated_options|E2R.02&quot;: 60,
-    &quot;possible_wrong_passage_pairing|E2R.01&quot;: 60,
-    &quot;possible_wrong_passage_pairing|E2R.09&quot;: 57,
-    &quot;truncated_options|E2S.08&quot;: 51,
-    &quot;possible_wrong_passage_pairing|E2R.03&quot;: 49,
     &quot;missing_options|E2S.01&quot;: 45,
-    &quot;truncated_options|E2S.04&quot;: 45,
     &quot;reading_true_false_not_structured|E2R.05&quot;: 40,
     &quot;missing_options|E2S.02&quot;: 40,
     &quot;truncated_options|E2V.06&quot;: 30,
-    &quot;truncated_options|E2C.05&quot;: 29,
-    &quot;truncated_options|E2G.06&quot;: 29,
-    &quot;truncated_options|E2R.08&quot;: 28,
-    &quot;possible_wrong_passage_pairing|E2R.04&quot;: 21,
+    &quot;truncated_options|E2R.08&quot;: 27,
+    &quot;truncated_options|E2S.06&quot;: 22,
     &quot;possible_wrong_passage_pairing|E2R.06&quot;: 21,
     &quot;missing_options|E2S.03&quot;: 15,
     &quot;truncated_options|E2M.01&quot;: 13,
     &quot;truncated_options|E2G.03&quot;: 13,
-    &quot;truncated_options|E2C.03&quot;: 11,
+    &quot;truncated_options|E2C.03&quot;: 12,
+    &quot;truncated_options|E2C.05&quot;: 11,
     &quot;missing_options|E2V.01&quot;: 10,
     &quot;missing_options|E2V.06&quot;: 10,
-    &quot;truncated_options|E2S.03&quot;: 10,
-    &quot;possible_wrong_passage_pairing|E2R.07&quot;: 8,
+    &quot;possible_wrong_passage_pairing|E2R.05&quot;: 8,
     &quot;missing_options|E2V.04&quot;: 8,
+    &quot;truncated_options|E2R.02&quot;: 7,
     &quot;truncated_options|E2X.06&quot;: 7,
+    &quot;truncated_options|E2S.03&quot;: 7,
     &quot;missing_options|E2S.06&quot;: 7,
     &quot;truncated_options|E2R.07&quot;: 6,
-    &quot;truncated_options|E2S.09&quot;: 4,
+    &quot;truncated_options|E2R.04&quot;: 4,
     &quot;missing_options|E2S.09&quot;: 4,
-    &quot;truncated_options|E2R.04&quot;: 3,
     &quot;truncated_options|E2W.02&quot;: 3,
     &quot;duplicate_options|E2G.02&quot;: 3,
     &quot;duplicate_options|E2S.08&quot;: 3,
-    &quot;truncated_options|E2S.10&quot;: 3,
+    &quot;truncated_options|E2S.09&quot;: 3,
     &quot;missing_options|E2R.02&quot;: 3,
     &quot;missing_options|E2M.01&quot;: 2,
     &quot;truncated_options|E2X.05&quot;: 2,
     &quot;duplicate_options|E2G.04&quot;: 2,
     &quot;truncated_options|E2R.05&quot;: 2,
     &quot;duplicate_options|E2C.05&quot;: 2,
-    &quot;truncated_options|E2R.03&quot;: 1,
+    &quot;truncated_options|E2X.08&quot;: 1,
     &quot;duplicate_options|E2O.01&quot;: 1,
     &quot;truncated_options|E2F.01&quot;: 1,
     &quot;duplicate_options|E2M.99&quot;: 1,
-    &quot;truncated_options|E2V.07&quot;: 1,
     &quot;truncated_options|E2S.01&quot;: 1,
     &quot;duplicate_options|E2S.01&quot;: 1,
     &quot;duplicate_options|E2X.01&quot;: 1,
+    &quot;truncated_options|E2G.06&quot;: 1,
     &quot;truncated_options|E2V.02&quot;: 1,
+    &quot;truncated_options|E2S.10&quot;: 1,
     &quot;duplicate_options|E2S.09&quot;: 1,
     &quot;duplicate_options|E2G.05&quot;: 1,
-    &quot;duplicate_options|E2R.05&quot;: 1
+    &quot;truncated_options|E2X.07&quot;: 1,
+    &quot;duplicate_options|E2R.05&quot;: 1,
+    &quot;possible_wrong_passage_pairing|E2R.07&quot;: 1
   }
-}</pre></div><section><h2>truncated_options (1116)</h2>
+}</pre></div><section><h2>truncated_options (837)</h2>
 <div class='card'>
-<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐIỀN KHUYẾT/Bài 14. Đọc điền khuyết thông tin (Buổi 13).pdf<br>E2C.05 / hsa_cloze_text / ready=False</div>
-<div><b>Q9</b> Choose the option that best fits blank (9) in the passage.</div>
-<div class='opts'>A. during everything of which feels new and exciting | B. during which everything feels new and exciting | C. everything feels new and exciting during that | D. feeling that everything is new and exciting during that</div>
-<details><summary>Passage (1588 chars)</summary><pre>Read the following passage and mark the letter A, B, C or D to indicate the correct option that best fits each of the numbered blanks from 6 to 10. Living in a foreign country can be both exciting and fulfilling, offering opportunities to grow personally and professionally. At the same time, it often brings unexpected difficulties (6) ______. Everyday routines, social norms, and communication styles may feel unfamiliar, and without preparation, these differences can become overwhelming. As a result, individuals who move abroad permanently may struggle to adjust to their new surroundings (7) ______. Before relocating to another country for the long term, it is important to learn about local culture, traditions, and religious practices, as these often shape daily life. This preparation is especially necessary in societies where (8) ______. For instance, in several Eastern cultures, touching someone’s head—even as a friendly gesture toward a child—is considered disrespectful. Without cultural awareness, newcomers may unintentionally offend others, creating awkward or uncomfortable situations that could easily be avoided. Psychologists describe culture shock as a form of long-term mental stress that develops in stages. Initially, newcomers experience a “honeymoon” phase, (9) ______. This is often followed by a period of rejection, marked by homesickness and feelings of isolation. Over time, individuals enter a conformist stage, gradually accepting local customs. Eventually, full adjustment occurs, allowing them to feel confident, connected, and at home. (10) ______.</pre></details>
-<div class='reason'>cloze_passage_moved_to_context; regex_fallback_missing_answer; truncated_options</div>
-</div>
-<div class='card'>
-<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐIỀN KHUYẾT/Thi online Đọc điền khuyết thông tin (Buổi 13).pdf<br>E2C.05 / hsa_cloze_text / ready=False</div>
-<div><b>Q9</b> Choose the option that best fits blank (9) in the passage.</div>
-<div class='opts'>A. during everything of which feels new and exciting | B. during which everything feels new and exciting | C. everything feels new and exciting during that | D. feeling that everything is new and exciting during that</div>
-<details><summary>Passage (1588 chars)</summary><pre>Read the following passage and mark the letter A, B, C or D to indicate the correct option that best fits each of the numbered blanks from 6 to 10. Living in a foreign country can be both exciting and fulfilling, offering opportunities to grow personally and professionally. At the same time, it often brings unexpected difficulties (6) ______. Everyday routines, social norms, and communication styles may feel unfamiliar, and without preparation, these differences can become overwhelming. As a result, individuals who move abroad permanently may struggle to adjust to their new surroundings (7) ______. Before relocating to another country for the long term, it is important to learn about local culture, traditions, and religious practices, as these often shape daily life. This preparation is especially necessary in societies where (8) ______. For instance, in several Eastern cultures, touching someone’s head—even as a friendly gesture toward a child—is considered disrespectful. Without cultural awareness, newcomers may unintentionally offend others, creating awkward or uncomfortable situations that could easily be avoided. Psychologists describe culture shock as a form of long-term mental stress that develops in stages. Initially, newcomers experience a “honeymoon” phase, (9) ______. This is often followed by a period of rejection, marked by homesickness and feelings of isolation. Over time, individuals enter a conformist stage, gradually accepting local customs. Eventually, full adjustment occurs, allowing them to feel confident, connected, and at home. (10) ______.</pre></details>
-<div class='reason'>cloze_passage_moved_to_context; regex_fallback_missing_answer; truncated_options</div>
+<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/TỪ VỰNG CÙNG TRƯỜNG NGHĨA/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 5).pdf<br>E2X.08 / hsa_sentence_completion / ready=False</div>
+<div><b>Q10</b> Choose the option that best fits blank (10) in the passage.</div>
+<div class='opts'>A. makes | B. brings | C. acts | D. has</div>
+<details><summary>Passage (499 chars)</summary><pre>4. When someone (10) __________ a problem and needs help, the best thing you can do is (11) __________ an ear to them. Sometimes, people just want to be listened to rather than judged. However, if they ask for your opinion, you can gently (12) __________ advice or make a suggestion that might help them find a solution. Still, it’s important not to (13) __________ patience, even if they seem emotional or confused. Showing kindness and understanding can truly make a difference to someone in need.</pre></details>
+<div class='reason'>multi_blank_context_normalized; regex_fallback_missing_answer; truncated_options</div>
 </div>
 <div class='card'>
 <div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi online Cách làm câu hỏi tóm tắt nội dung đoạn trong bài đọc hiểu (Đề số 01).pdf<br>E2R.08 / thpt_reading_passage / ready=False</div>
@@ -159,62 +145,13 @@ body{font-family:Arial,sans-serif;padding:20px;line-height:1.45}.summary{backgro
 <div class='opts'>A. The campaign includes an emotional assembly with former smokers and a weekly Quit Club offering | B. A basketball player was invited last year to warn students about smoking, and the nurse runs exercise | C. Students at Greenfield High School hear advice from former smokers and seek health advice from | D. The campaign against smoking features speeches from former smokers and asks students to follow</div>
 <details><summary>Passage (1673 chars)</summary><pre>4. At Greenfield High School, students and teachers have joined forces to fight smoking through their &quot;Breathe Free&quot; campaign. The programme started after a school survey showed that many students didn&#x27;t understand how quickly smoking could damage their health. Now, colourful posters with facts about smoking dangers fill the hallways, and the student council organises monthly &quot;Health Days&quot; with fun activities about clean living. The campaign&#x27;s most powerful event is the annual &quot;Real Stories&quot; assembly, where former smokers share how cigarettes hurt their lives. Last year, a local basketball player moved students to tears when he described losing his athletic scholarship due to smoking-related health problems. The school nurse also runs a popular &quot;Quit Club&quot; that meets every Thursday, offering support and healthy alternatives like chewing gum or stress balls. Greenfield High School has taken strong steps to enforce no-smoking rules. The school installed new smoke detectors near bathrooms and the back field where students used to sneak cigarettes. Instead of just punishing smokers, the campaign focuses on helping them. Students caught smoking must attend special counselling sessions and participate in creating anti-smoking materials for younger kids. After two years, &quot;Breathe Free&quot; is making a real difference. School health reports show 40% fewer students admitting to smoking, and the student-run &quot;Fresh Air Squad&quot; keeps spreading the message. Even local shops near the school have agreed not to sell cigarettes to Greenfield students. What began as a small health project has grown into a community-wide movement for cleaner lungs and brighter futures.</pre></details>
 <div class='reason'>merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer; truncated_options</div>
-</div></section><section><h2>possible_wrong_passage_pairing (525)</h2>
-<div class='card'>
-<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách làm câu hỏi TRUENOT TRUENOT MENTIONED EXCEPT trong bài đọc ( Đề số 01).pdf<br>E2R.02 / thpt_reading_passage / ready=False</div>
-<div><b>Q4</b> Which of the following is NOT mentioned as one of the three most common languages?</div>
-<div class='opts'>A. English | B. Spanish | C. Assiniboine | D. Mandarin</div>
-<details><summary>Passage (1609 chars)</summary><pre>Read the following passages and mark the letter A, B, C, or D on your answer sheet to indicate the best answer to each of the following questions. No animal species can survive indefinitely on the Earth. Centuries ago, species went extinct from natural causes, for example, they were unable to adapt to bad weather and other difficult conditions. However, animals are now dying out faster than ever because of human activity. It is estimated that, until the 18th century, one species disappeared from the Earth every four years. By the 19th century, this had increased to one species per year. By 1975, it was 1,000 species per year, and today, animals are disappearing at the alarming rate of more than 40,000 species per year. Many factors can cause an animal or plant species to become endangered, and one big one is the destruction of their habitats. Deforestation and soil, air, and water pollution are usually the main culprits. For example, the population of critically Sumatran orangutans is now less than 10,000 on their home island of Sumatra, Indonesia, due to deforestation and farming. Another cause of endangerment is humans exploiting wild animals. Uncontrolled hunting of whales in the last century, for example, resulted in many whale species becoming critically endangered. The high demands for animal parts stem from their use in foods or medicines or their value as decorative objects. For example, the ivory tusks of elephants are used to make jewellery, and the price is high enough that people risk being arrested and jailed to go after these animals. (Adapted from English Workbook 12)</pre></details>
-<div class='reason'>merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer</div>
 </div>
 <div class='card'>
-<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách làm câu hỏi TRUENOT TRUENOT MENTIONED EXCEPT trong bài đọc ( Đề số 01).pdf<br>E2R.02 / thpt_reading_passage / ready=False</div>
-<div><b>Q7</b> Which of the following is NOT mentioned in paragraph 1 about the Vietnamese communities in southern Louisiana?</div>
-<div class='opts'>A. They perform cultures in Vietnamese. | B. They engage in various cultural activities. | C. They always learn about other cultures. | D. They live in communities speaking Vietnamese.</div>
-<details><summary>Passage (1609 chars)</summary><pre>Read the following passages and mark the letter A, B, C, or D on your answer sheet to indicate the best answer to each of the following questions. No animal species can survive indefinitely on the Earth. Centuries ago, species went extinct from natural causes, for example, they were unable to adapt to bad weather and other difficult conditions. However, animals are now dying out faster than ever because of human activity. It is estimated that, until the 18th century, one species disappeared from the Earth every four years. By the 19th century, this had increased to one species per year. By 1975, it was 1,000 species per year, and today, animals are disappearing at the alarming rate of more than 40,000 species per year. Many factors can cause an animal or plant species to become endangered, and one big one is the destruction of their habitats. Deforestation and soil, air, and water pollution are usually the main culprits. For example, the population of critically Sumatran orangutans is now less than 10,000 on their home island of Sumatra, Indonesia, due to deforestation and farming. Another cause of endangerment is humans exploiting wild animals. Uncontrolled hunting of whales in the last century, for example, resulted in many whale species becoming critically endangered. The high demands for animal parts stem from their use in foods or medicines or their value as decorative objects. For example, the ivory tusks of elephants are used to make jewellery, and the price is high enough that people risk being arrested and jailed to go after these animals. (Adapted from English Workbook 12)</pre></details>
-<div class='reason'>merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer</div>
-</div>
-<div class='card'>
-<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách làm câu hỏi TRUENOT TRUENOT MENTIONED EXCEPT trong bài đọc ( Đề số 01).pdf<br>E2R.02 / thpt_reading_passage / ready=False</div>
-<div><b>Q10</b> Which of the following is NOT mentioned in paragraph 1 as one of the places where the use of Celtic languages is banned?</div>
-<div class='opts'>A. Wales | B. Australia | C. Scotland | D. Ireland</div>
-<details><summary>Passage (1609 chars)</summary><pre>Read the following passages and mark the letter A, B, C, or D on your answer sheet to indicate the best answer to each of the following questions. No animal species can survive indefinitely on the Earth. Centuries ago, species went extinct from natural causes, for example, they were unable to adapt to bad weather and other difficult conditions. However, animals are now dying out faster than ever because of human activity. It is estimated that, until the 18th century, one species disappeared from the Earth every four years. By the 19th century, this had increased to one species per year. By 1975, it was 1,000 species per year, and today, animals are disappearing at the alarming rate of more than 40,000 species per year. Many factors can cause an animal or plant species to become endangered, and one big one is the destruction of their habitats. Deforestation and soil, air, and water pollution are usually the main culprits. For example, the population of critically Sumatran orangutans is now less than 10,000 on their home island of Sumatra, Indonesia, due to deforestation and farming. Another cause of endangerment is humans exploiting wild animals. Uncontrolled hunting of whales in the last century, for example, resulted in many whale species becoming critically endangered. The high demands for animal parts stem from their use in foods or medicines or their value as decorative objects. For example, the ivory tusks of elephants are used to make jewellery, and the price is high enough that people risk being arrested and jailed to go after these animals. (Adapted from English Workbook 12)</pre></details>
-<div class='reason'>merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer</div>
-</div>
-<div class='card'>
-<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách làm câu hỏi TRUENOT TRUENOT MENTIONED EXCEPT trong bài đọc ( Đề số 01).pdf<br>E2R.02 / thpt_reading_passage / ready=False</div>
-<div><b>Q13</b> Which of the following is NOT mentioned in paragraph 1 to define heritage?</div>
-<div class='opts'>A. customs | B. festivals | C. culture | D. beliefs</div>
-<details><summary>Passage (1609 chars)</summary><pre>Read the following passages and mark the letter A, B, C, or D on your answer sheet to indicate the best answer to each of the following questions. No animal species can survive indefinitely on the Earth. Centuries ago, species went extinct from natural causes, for example, they were unable to adapt to bad weather and other difficult conditions. However, animals are now dying out faster than ever because of human activity. It is estimated that, until the 18th century, one species disappeared from the Earth every four years. By the 19th century, this had increased to one species per year. By 1975, it was 1,000 species per year, and today, animals are disappearing at the alarming rate of more than 40,000 species per year. Many factors can cause an animal or plant species to become endangered, and one big one is the destruction of their habitats. Deforestation and soil, air, and water pollution are usually the main culprits. For example, the population of critically Sumatran orangutans is now less than 10,000 on their home island of Sumatra, Indonesia, due to deforestation and farming. Another cause of endangerment is humans exploiting wild animals. Uncontrolled hunting of whales in the last century, for example, resulted in many whale species becoming critically endangered. The high demands for animal parts stem from their use in foods or medicines or their value as decorative objects. For example, the ivory tusks of elephants are used to make jewellery, and the price is high enough that people risk being arrested and jailed to go after these animals. (Adapted from English Workbook 12)</pre></details>
-<div class='reason'>merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer</div>
-</div>
-<div class='card'>
-<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi online Cách làm câu hỏi tóm tắt nội dung đoạn trong bài đọc hiểu (Đề số 01).pdf<br>E2R.08 / thpt_reading_passage / ready=False</div>
-<div><b>Q1</b> Which of the following best summarises paragraph 1?</div>
-<div class='opts'>A. University helps students earn more money, so most people still believe it is the only way. | B. Many still believe in university, but more people now question if it’s truly necessary. | C. Going to university is important for getting a good salary and becoming more knowledgeable. | D. People can build a career if they go to university and work hard to succeed.</div>
-<details><summary>Passage (1405 chars)</summary><pre>1. For many years, people have believed that going to university is the best way to have a successful future. It offers students the chance to gain knowledge, build a career, and earn a good salary. However, not everyone chooses this path. In fact, more people today are starting to question whether university is truly necessary for success. Some individuals prefer to take a different route. Instead of spending several years in academic study, they learn skills through vocational training, online courses, or apprenticeships. Jobs in areas like technology, design, hospitality, or construction often do not require a university degree. These people focus on gaining practical experience, which is also highly valued in the job market. Another reason some people avoid university is the high cost. In many countries, tuition fees and living expenses are very expensive. Not attending university means avoiding student loans and starting to earn money earlier. For some, working while learning on the job is a more sensible and affordable option. In the end, success does not come from one single path. While university works well for many, it is not the only way to achieve goals. What matters most is understanding your strengths, interests, and what kind of life you want. Whether through university or other paths, people can build a meaningful and rewarding future by choosing what suits them best.</pre></details>
-<div class='reason'>merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer</div>
-</div>
-<div class='card'>
-<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi online Cách làm câu hỏi tóm tắt nội dung đoạn trong bài đọc hiểu (Đề số 01).pdf<br>E2R.08 / thpt_reading_passage / ready=False</div>
-<div><b>Q2</b> Which of the following best summarises paragraph 2?</div>
-<div class='opts'>A. Some people learn practical skills and work in fields that don’t require a university degree. | B. Many students choose to study technology and design at university for a better future. | C. People can get jobs in hospitality or construction if they go to college or university. | D. Vocational training is easier than university, so more people now prefer it over academic study.</div>
-<details><summary>Passage (1405 chars)</summary><pre>1. For many years, people have believed that going to university is the best way to have a successful future. It offers students the chance to gain knowledge, build a career, and earn a good salary. However, not everyone chooses this path. In fact, more people today are starting to question whether university is truly necessary for success. Some individuals prefer to take a different route. Instead of spending several years in academic study, they learn skills through vocational training, online courses, or apprenticeships. Jobs in areas like technology, design, hospitality, or construction often do not require a university degree. These people focus on gaining practical experience, which is also highly valued in the job market. Another reason some people avoid university is the high cost. In many countries, tuition fees and living expenses are very expensive. Not attending university means avoiding student loans and starting to earn money earlier. For some, working while learning on the job is a more sensible and affordable option. In the end, success does not come from one single path. While university works well for many, it is not the only way to achieve goals. What matters most is understanding your strengths, interests, and what kind of life you want. Whether through university or other paths, people can build a meaningful and rewarding future by choosing what suits them best.</pre></details>
-<div class='reason'>merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer</div>
-</div>
-<div class='card'>
-<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi online Cách làm câu hỏi tóm tắt nội dung đoạn trong bài đọc hiểu (Đề số 01).pdf<br>E2R.08 / thpt_reading_passage / ready=False</div>
-<div><b>Q3</b> Which of the following best summarises paragraph 3?</div>
-<div class='opts'>A. Some people avoid university because it is costly and prefer earning money through work experience. | B. University students often pay high fees and take out loans to cover their living expenses. | C. Many people believe working while studying is more useful than going to university full time. | D. Not going to university helps students choose better jobs and avoid studying for too long.</div>
-<details><summary>Passage (1405 chars)</summary><pre>1. For many years, people have believed that going to university is the best way to have a successful future. It offers students the chance to gain knowledge, build a career, and earn a good salary. However, not everyone chooses this path. In fact, more people today are starting to question whether university is truly necessary for success. Some individuals prefer to take a different route. Instead of spending several years in academic study, they learn skills through vocational training, online courses, or apprenticeships. Jobs in areas like technology, design, hospitality, or construction often do not require a university degree. These people focus on gaining practical experience, which is also highly valued in the job market. Another reason some people avoid university is the high cost. In many countries, tuition fees and living expenses are very expensive. Not attending university means avoiding student loans and starting to earn money earlier. For some, working while learning on the job is a more sensible and affordable option. In the end, success does not come from one single path. While university works well for many, it is not the only way to achieve goals. What matters most is understanding your strengths, interests, and what kind of life you want. Whether through university or other paths, people can build a meaningful and rewarding future by choosing what suits them best.</pre></details>
-<div class='reason'>merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer</div>
-</div>
-<div class='card'>
-<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi online Cách làm câu hỏi tóm tắt nội dung đoạn trong bài đọc hiểu (Đề số 01).pdf<br>E2R.08 / thpt_reading_passage / ready=False</div>
-<div><b>Q4</b> Which of the following best summarises paragraph 4?</div>
-<div class='opts'>A. Many people believe that university is still the best way to have a successful future. | B. People must decide early if they want a university degree or a different career. | C. Knowing your goals helps you decide whether to study more or begin working right away. | D. Success depends on choosing a path that fits your strengths, goals, and personal interests.</div>
-<details><summary>Passage (1405 chars)</summary><pre>1. For many years, people have believed that going to university is the best way to have a successful future. It offers students the chance to gain knowledge, build a career, and earn a good salary. However, not everyone chooses this path. In fact, more people today are starting to question whether university is truly necessary for success. Some individuals prefer to take a different route. Instead of spending several years in academic study, they learn skills through vocational training, online courses, or apprenticeships. Jobs in areas like technology, design, hospitality, or construction often do not require a university degree. These people focus on gaining practical experience, which is also highly valued in the job market. Another reason some people avoid university is the high cost. In many countries, tuition fees and living expenses are very expensive. Not attending university means avoiding student loans and starting to earn money earlier. For some, working while learning on the job is a more sensible and affordable option. In the end, success does not come from one single path. While university works well for many, it is not the only way to achieve goals. What matters most is understanding your strengths, interests, and what kind of life you want. Whether through university or other paths, people can build a meaningful and rewarding future by choosing what suits them best.</pre></details>
-<div class='reason'>merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer</div>
+<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU 8 CÂU/Bài 2 Luyện tập bài đọc 8 câu (Buổi 2).pdf<br>E2R.02 / thpt_reading_passage / ready=False</div>
+<div><b>Q13</b> The phrase result in in paragraph 4 could be best replaced by ______.</div>
+<div class='opts'>A. prevent | B. focus on | C. lead to | D. change</div>
+<details><summary>Passage (1620 chars)</summary><pre>From melting arctic ice caps to forest fires, global warming is heating up the planet and damaging the Earth&#x27;s ecosystems. Global warming is the rise of the Earth&#x27;s temperatures caused by an increase of CO2 and other greenhouse gas emissions. Global warming has increased very much in the past 100 years because people are using more and more electricity and driving more cars. We are also cutting down more trees that clean the air. Scientists have been studying the effects of global warming on different ecosystems for a long time and what they have found is quite worrying. The rising temperatures have caused many problems in ecosystems. Arctic ice is melting, causing sea levels to rise and floods in seaside areas. As a result, animals and plants are losing their homes. As oceans and rivers become warmer, the water temperatures keep changing. Some marine animals cannot live in these new conditions. Since the 1970s, populations of fish in lakes and rivers have decreased by 76 percent. Global warming is also causing extreme weather events. Other ecosystems, like deserts and grasslands, are experiencing terrible droughts and certain wildlife and plant species that depend on water are dying. Due to the high temperatures, wildfires are destroying whole ecosystems such as forests. There has been a serious rise in endangered species in recent years that could result in many animals becoming extinct. The loss of plants and animals causes problems for all living things in an ecosystem. We need to take action to stop global warming and save the Earth&#x27;s ecosystems before it&#x27;s too late. (Adapted from Bright)</pre></details>
+<div class='reason'>merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options</div>
 </div></section><section><h2>cloze_blank_not_in_passage (500)</h2>
 <div class='card'>
 <div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐIỀN KHUYẾT/Đọc điền khuyết thông tin (Buổi 1).pdf<br>E2C.05 / hsa_cloze_text / ready=False</div>
@@ -383,6 +320,62 @@ body{font-family:Arial,sans-serif;padding:20px;line-height:1.45}.summary{backgro
 <div class='opts'></div>
 
 <div class='reason'>missing_options; practice_item_type:open_response; regex_fallback_missing_answer</div>
+</div></section><section><h2>possible_wrong_passage_pairing (126)</h2>
+<div class='card'>
+<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách làm câu hỏi TRUENOT TRUENOT MENTIONED EXCEPT trong bài đọc ( Đề số 01).pdf<br>E2R.02 / thpt_reading_passage / ready=False</div>
+<div><b>Q4</b> Which of the following is NOT mentioned as one of the three most common languages?</div>
+<div class='opts'>A. English | B. Spanish | C. Assiniboine | D. Mandarin</div>
+<details><summary>Passage (1609 chars)</summary><pre>Read the following passages and mark the letter A, B, C, or D on your answer sheet to indicate the best answer to each of the following questions. No animal species can survive indefinitely on the Earth. Centuries ago, species went extinct from natural causes, for example, they were unable to adapt to bad weather and other difficult conditions. However, animals are now dying out faster than ever because of human activity. It is estimated that, until the 18th century, one species disappeared from the Earth every four years. By the 19th century, this had increased to one species per year. By 1975, it was 1,000 species per year, and today, animals are disappearing at the alarming rate of more than 40,000 species per year. Many factors can cause an animal or plant species to become endangered, and one big one is the destruction of their habitats. Deforestation and soil, air, and water pollution are usually the main culprits. For example, the population of critically Sumatran orangutans is now less than 10,000 on their home island of Sumatra, Indonesia, due to deforestation and farming. Another cause of endangerment is humans exploiting wild animals. Uncontrolled hunting of whales in the last century, for example, resulted in many whale species becoming critically endangered. The high demands for animal parts stem from their use in foods or medicines or their value as decorative objects. For example, the ivory tusks of elephants are used to make jewellery, and the price is high enough that people risk being arrested and jailed to go after these animals. (Adapted from English Workbook 12)</pre></details>
+<div class='reason'>merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer</div>
+</div>
+<div class='card'>
+<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách làm câu hỏi TRUENOT TRUENOT MENTIONED EXCEPT trong bài đọc ( Đề số 01).pdf<br>E2R.02 / thpt_reading_passage / ready=False</div>
+<div><b>Q7</b> Which of the following is NOT mentioned in paragraph 1 about the Vietnamese communities in southern Louisiana?</div>
+<div class='opts'>A. They perform cultures in Vietnamese. | B. They engage in various cultural activities. | C. They always learn about other cultures. | D. They live in communities speaking Vietnamese.</div>
+<details><summary>Passage (1609 chars)</summary><pre>Read the following passages and mark the letter A, B, C, or D on your answer sheet to indicate the best answer to each of the following questions. No animal species can survive indefinitely on the Earth. Centuries ago, species went extinct from natural causes, for example, they were unable to adapt to bad weather and other difficult conditions. However, animals are now dying out faster than ever because of human activity. It is estimated that, until the 18th century, one species disappeared from the Earth every four years. By the 19th century, this had increased to one species per year. By 1975, it was 1,000 species per year, and today, animals are disappearing at the alarming rate of more than 40,000 species per year. Many factors can cause an animal or plant species to become endangered, and one big one is the destruction of their habitats. Deforestation and soil, air, and water pollution are usually the main culprits. For example, the population of critically Sumatran orangutans is now less than 10,000 on their home island of Sumatra, Indonesia, due to deforestation and farming. Another cause of endangerment is humans exploiting wild animals. Uncontrolled hunting of whales in the last century, for example, resulted in many whale species becoming critically endangered. The high demands for animal parts stem from their use in foods or medicines or their value as decorative objects. For example, the ivory tusks of elephants are used to make jewellery, and the price is high enough that people risk being arrested and jailed to go after these animals. (Adapted from English Workbook 12)</pre></details>
+<div class='reason'>merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer</div>
+</div>
+<div class='card'>
+<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách làm câu hỏi TRUENOT TRUENOT MENTIONED EXCEPT trong bài đọc ( Đề số 01).pdf<br>E2R.02 / thpt_reading_passage / ready=False</div>
+<div><b>Q10</b> Which of the following is NOT mentioned in paragraph 1 as one of the places where the use of Celtic languages is banned?</div>
+<div class='opts'>A. Wales | B. Australia | C. Scotland | D. Ireland</div>
+<details><summary>Passage (1609 chars)</summary><pre>Read the following passages and mark the letter A, B, C, or D on your answer sheet to indicate the best answer to each of the following questions. No animal species can survive indefinitely on the Earth. Centuries ago, species went extinct from natural causes, for example, they were unable to adapt to bad weather and other difficult conditions. However, animals are now dying out faster than ever because of human activity. It is estimated that, until the 18th century, one species disappeared from the Earth every four years. By the 19th century, this had increased to one species per year. By 1975, it was 1,000 species per year, and today, animals are disappearing at the alarming rate of more than 40,000 species per year. Many factors can cause an animal or plant species to become endangered, and one big one is the destruction of their habitats. Deforestation and soil, air, and water pollution are usually the main culprits. For example, the population of critically Sumatran orangutans is now less than 10,000 on their home island of Sumatra, Indonesia, due to deforestation and farming. Another cause of endangerment is humans exploiting wild animals. Uncontrolled hunting of whales in the last century, for example, resulted in many whale species becoming critically endangered. The high demands for animal parts stem from their use in foods or medicines or their value as decorative objects. For example, the ivory tusks of elephants are used to make jewellery, and the price is high enough that people risk being arrested and jailed to go after these animals. (Adapted from English Workbook 12)</pre></details>
+<div class='reason'>merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer</div>
+</div>
+<div class='card'>
+<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách làm câu hỏi TRUENOT TRUENOT MENTIONED EXCEPT trong bài đọc ( Đề số 01).pdf<br>E2R.02 / thpt_reading_passage / ready=False</div>
+<div><b>Q13</b> Which of the following is NOT mentioned in paragraph 1 to define heritage?</div>
+<div class='opts'>A. customs | B. festivals | C. culture | D. beliefs</div>
+<details><summary>Passage (1609 chars)</summary><pre>Read the following passages and mark the letter A, B, C, or D on your answer sheet to indicate the best answer to each of the following questions. No animal species can survive indefinitely on the Earth. Centuries ago, species went extinct from natural causes, for example, they were unable to adapt to bad weather and other difficult conditions. However, animals are now dying out faster than ever because of human activity. It is estimated that, until the 18th century, one species disappeared from the Earth every four years. By the 19th century, this had increased to one species per year. By 1975, it was 1,000 species per year, and today, animals are disappearing at the alarming rate of more than 40,000 species per year. Many factors can cause an animal or plant species to become endangered, and one big one is the destruction of their habitats. Deforestation and soil, air, and water pollution are usually the main culprits. For example, the population of critically Sumatran orangutans is now less than 10,000 on their home island of Sumatra, Indonesia, due to deforestation and farming. Another cause of endangerment is humans exploiting wild animals. Uncontrolled hunting of whales in the last century, for example, resulted in many whale species becoming critically endangered. The high demands for animal parts stem from their use in foods or medicines or their value as decorative objects. For example, the ivory tusks of elephants are used to make jewellery, and the price is high enough that people risk being arrested and jailed to go after these animals. (Adapted from English Workbook 12)</pre></details>
+<div class='reason'>merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer</div>
+</div>
+<div class='card'>
+<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách xử lí câu hỏi tìm thông tin chi tiết bài đọc (Đề số 01).pdf<br>E2R.02 / thpt_reading_passage / ready=False</div>
+<div><b>Q2</b> In the paragraph, which of the following is NOT mentioned as one of the environmental issues?</div>
+<div class='opts'>A. air pollution | B. climate change | C. deforestation | D. extinct species</div>
+<details><summary>Passage (758 chars)</summary><pre>Read the following passages and mark the letter A, B, C, or D on your answer sheet to indicate the best answer to each of the questions. In November 2009, they got an apartment together in Palo Alto, California and started work on Pinterest. And it seemed that a lot of people liked their idea. When Pinterest started in March 2010, it grew quickly and had 10 million users after the first year. This was an amazing number compared with Twitter and Facebook: Twitter took two years to reach 10 million users and Facebook took over five years. Just a year after starting, Pinterest was worth $200 million and had over 421 million page views. Silberman&#x27;s ordinary interest as a boy certainly became an extraordinary business. (Adapted from English Workbook 12)</pre></details>
+<div class='reason'>merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer</div>
+</div>
+<div class='card'>
+<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách xử lí câu hỏi tìm thông tin chi tiết bài đọc (Đề số 01).pdf<br>E2R.02 / thpt_reading_passage / ready=False</div>
+<div><b>Q3</b> In the paragraph, which of the following is NOT mentioned as one of the aims of going zero waste?</div>
+<div class='opts'>A. to be outside in nature more | B. to enjoy life more | C. to save on money | D. to have quality time with family</div>
+<details><summary>Passage (758 chars)</summary><pre>Read the following passages and mark the letter A, B, C, or D on your answer sheet to indicate the best answer to each of the questions. In November 2009, they got an apartment together in Palo Alto, California and started work on Pinterest. And it seemed that a lot of people liked their idea. When Pinterest started in March 2010, it grew quickly and had 10 million users after the first year. This was an amazing number compared with Twitter and Facebook: Twitter took two years to reach 10 million users and Facebook took over five years. Just a year after starting, Pinterest was worth $200 million and had over 421 million page views. Silberman&#x27;s ordinary interest as a boy certainly became an extraordinary business. (Adapted from English Workbook 12)</pre></details>
+<div class='reason'>merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer</div>
+</div>
+<div class='card'>
+<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách xử lí câu hỏi tìm thông tin chi tiết bài đọc (Đề số 01).pdf<br>E2R.02 / thpt_reading_passage / ready=False</div>
+<div><b>Q4</b> In the paragraph, which of the following is NOT mentioned as one of the activities in a Carnival celebration?</div>
+<div class='opts'>A. watching performances on TV | B. holding big parades | C. wearing special clothes | D. dancing and singing</div>
+<details><summary>Passage (758 chars)</summary><pre>Read the following passages and mark the letter A, B, C, or D on your answer sheet to indicate the best answer to each of the questions. In November 2009, they got an apartment together in Palo Alto, California and started work on Pinterest. And it seemed that a lot of people liked their idea. When Pinterest started in March 2010, it grew quickly and had 10 million users after the first year. This was an amazing number compared with Twitter and Facebook: Twitter took two years to reach 10 million users and Facebook took over five years. Just a year after starting, Pinterest was worth $200 million and had over 421 million page views. Silberman&#x27;s ordinary interest as a boy certainly became an extraordinary business. (Adapted from English Workbook 12)</pre></details>
+<div class='reason'>merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer</div>
+</div>
+<div class='card'>
+<div class='meta'>MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách xử lí câu hỏi tìm thông tin chi tiết bài đọc (Đề số 01).pdf<br>E2R.02 / thpt_reading_passage / ready=False</div>
+<div><b>Q5</b> In the paragraph, which of the following is NOT mentioned as one of the benefits of family meals to children?</div>
+<div class='opts'>A. fewer risk-taking behaviours | B. lower levels of depression | C. better social relationships | D. better academic performance</div>
+<details><summary>Passage (758 chars)</summary><pre>Read the following passages and mark the letter A, B, C, or D on your answer sheet to indicate the best answer to each of the questions. In November 2009, they got an apartment together in Palo Alto, California and started work on Pinterest. And it seemed that a lot of people liked their idea. When Pinterest started in March 2010, it grew quickly and had 10 million users after the first year. This was an amazing number compared with Twitter and Facebook: Twitter took two years to reach 10 million users and Facebook took over five years. Just a year after starting, Pinterest was worth $200 million and had over 421 million page views. Silberman&#x27;s ordinary interest as a boy certainly became an extraordinary business. (Adapted from English Workbook 12)</pre></details>
+<div class='reason'>merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer</div>
 </div></section><section><h2>reading_true_false_not_structured (40)</h2>
 <div class='card'>
 <div class='meta'>MP/LUYỆN GIẢI ĐỀ THI TỐT NGHIỆP/CHINH PHỤC CÂU HỎI 10 ĐIỂM/SUY LUẬN/Luyện tập chuyên sâu tư duy xử lý câu hỏi Suy luận (Buổi 1).pdf<br>E2R.05 / thpt_reading_passage / ready=False</div>

@@ -108,7 +108,7 @@ def audit_question(q: dict[str, Any], apply: bool) -> tuple[list[str], bool]:
         issues.append('ambiguous_blank_number')
     if fmt == 'hsa_sentence_completion' and item_type in {'open_response', 'error_correction'} and len(opts) < 2:
         issues.append('missing_options')
-    if vals and any(re.search(r'\b(?:within its|following its|like|as|of|to|for|with|from|that|which|when|because|although)$', v, re.I) for v in vals):
+    if vals and any(re.search(r'\b(?:within its|following its|brings|includes|offering|providing|with|from|to|of|for)$', v, re.I) for v in vals):
         issues.append('truncated_options')
     if fmt in {'hsa_synonym', 'hsa_antonym'} and CONTEXT_VOCAB_RE.search(text) and not q.get('passage_text'):
         issues.append('context_vocab_missing_context')
@@ -123,10 +123,15 @@ def audit_question(q: dict[str, Any], apply: bool) -> tuple[list[str], bool]:
         issues.append('reading_true_false_not_structured')
     if fmt == 'thpt_reading_passage' and q.get('passage_text'):
         passage = str(q.get('passage_text') or '').lower()
-        words = [w.lower() for w in re.findall(r'[A-Za-z]{5,}', text) if w.lower() not in {'which','following','paragraph','according','passage','question','mostly','meaning','underlined','sentence'}]
+        stop = {
+            'which','following','paragraph','according','passage','question','mostly','meaning','underlined','sentence',
+            'title','matches','summarises','summarizes','summary','purpose','author','best','main','idea','mentioned',
+            'inferred','infer','true','not','closest','opposite','word','phrase','refers'
+        }
+        words = [w.lower() for w in re.findall(r'[A-Za-z]{5,}', text) if w.lower() not in stop]
         hits = sum(1 for w in words[:10] if w in passage)
-        if words and hits == 0:
-            # Strong mismatch signal: specific content words in the question are absent from the attached passage.
+        if len(words) >= 2 and hits == 0:
+            # Strong mismatch signal: several specific content words in the question are absent from the attached passage.
             issues.append('possible_wrong_passage_pairing')
     if not q.get('knowledge_subtopic_code_v2'):
         issues.append('missing_subtopic')

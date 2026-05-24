@@ -1,32 +1,32 @@
 {
   "audit": {
-    "generated_at": "2026-05-25T04:55:46",
+    "generated_at": "2026-05-25T05:00:00",
     "applied": true,
     "total_questions": 10006,
-    "ready_for_ai_solve": 7477,
-    "not_ready_for_ai_solve": 2529,
-    "changed_questions": 0,
+    "ready_for_ai_solve": 8120,
+    "not_ready_for_ai_solve": 1886,
+    "changed_questions": 655,
     "issue_counts": {
-      "truncated_options": 1116,
-      "possible_wrong_passage_pairing": 525,
+      "truncated_options": 837,
       "cloze_blank_not_in_passage": 500,
       "context_vocab_missing_context": 240,
       "missing_options": 144,
+      "possible_wrong_passage_pairing": 126,
       "reading_true_false_not_structured": 40,
       "duplicate_options": 17
     },
     "issue_by_format_top": {
-      "truncated_options|hsa_sentence_completion": 585,
-      "possible_wrong_passage_pairing|thpt_reading_passage": 525,
       "cloze_blank_not_in_passage|hsa_cloze_text": 500,
-      "truncated_options|thpt_arrangement_text": 326,
+      "truncated_options|hsa_sentence_completion": 354,
+      "truncated_options|thpt_arrangement_text": 313,
       "context_vocab_missing_context|hsa_synonym": 240,
       "missing_options|hsa_sentence_completion": 144,
-      "truncated_options|spt_word_formation": 109,
-      "truncated_options|thpt_reading_passage": 42,
+      "possible_wrong_passage_pairing|thpt_reading_passage": 126,
+      "truncated_options|spt_word_formation": 93,
+      "truncated_options|thpt_reading_passage": 40,
       "reading_true_false_not_structured|thpt_reading_passage": 40,
-      "truncated_options|hsa_cloze_text": 29,
-      "truncated_options|thpt_advertisement_cloze": 11,
+      "truncated_options|thpt_advertisement_cloze": 12,
+      "truncated_options|hsa_cloze_text": 11,
       "truncated_options|hsa_synonym": 9,
       "duplicate_options|hsa_sentence_completion": 8,
       "truncated_options|hsa_sentence_rewriting": 3,
@@ -43,153 +43,99 @@
       "cloze_blank_not_in_passage|E2C.05": 500,
       "truncated_options|E2G.04": 493,
       "context_vocab_missing_context|E2X.06": 240,
-      "possible_wrong_passage_pairing|E2R.02": 126,
-      "possible_wrong_passage_pairing|E2R.08": 112,
-      "truncated_options|E2S.06": 97,
-      "truncated_options|E2X.01": 95,
+      "possible_wrong_passage_pairing|E2R.02": 96,
+      "truncated_options|E2X.01": 91,
       "truncated_options|E2G.05": 77,
-      "possible_wrong_passage_pairing|E2R.05": 71,
-      "truncated_options|E2R.02": 60,
-      "possible_wrong_passage_pairing|E2R.01": 60,
-      "possible_wrong_passage_pairing|E2R.09": 57,
-      "truncated_options|E2S.08": 51,
-      "possible_wrong_passage_pairing|E2R.03": 49,
       "missing_options|E2S.01": 45,
-      "truncated_options|E2S.04": 45,
       "reading_true_false_not_structured|E2R.05": 40,
       "missing_options|E2S.02": 40,
       "truncated_options|E2V.06": 30,
-      "truncated_options|E2C.05": 29,
-      "truncated_options|E2G.06": 29,
-      "truncated_options|E2R.08": 28,
-      "possible_wrong_passage_pairing|E2R.04": 21,
+      "truncated_options|E2R.08": 27,
+      "truncated_options|E2S.06": 22,
       "possible_wrong_passage_pairing|E2R.06": 21,
       "missing_options|E2S.03": 15,
       "truncated_options|E2M.01": 13,
       "truncated_options|E2G.03": 13,
-      "truncated_options|E2C.03": 11,
+      "truncated_options|E2C.03": 12,
+      "truncated_options|E2C.05": 11,
       "missing_options|E2V.01": 10,
       "missing_options|E2V.06": 10,
-      "truncated_options|E2S.03": 10,
-      "possible_wrong_passage_pairing|E2R.07": 8,
+      "possible_wrong_passage_pairing|E2R.05": 8,
       "missing_options|E2V.04": 8,
+      "truncated_options|E2R.02": 7,
       "truncated_options|E2X.06": 7,
+      "truncated_options|E2S.03": 7,
       "missing_options|E2S.06": 7,
       "truncated_options|E2R.07": 6,
-      "truncated_options|E2S.09": 4,
+      "truncated_options|E2R.04": 4,
       "missing_options|E2S.09": 4,
-      "truncated_options|E2R.04": 3,
       "truncated_options|E2W.02": 3,
       "duplicate_options|E2G.02": 3,
       "duplicate_options|E2S.08": 3,
-      "truncated_options|E2S.10": 3,
+      "truncated_options|E2S.09": 3,
       "missing_options|E2R.02": 3,
       "missing_options|E2M.01": 2,
       "truncated_options|E2X.05": 2,
       "duplicate_options|E2G.04": 2,
       "truncated_options|E2R.05": 2,
       "duplicate_options|E2C.05": 2,
-      "truncated_options|E2R.03": 1,
+      "truncated_options|E2X.08": 1,
       "duplicate_options|E2O.01": 1,
       "truncated_options|E2F.01": 1,
       "duplicate_options|E2M.99": 1,
-      "truncated_options|E2V.07": 1,
       "truncated_options|E2S.01": 1,
       "duplicate_options|E2S.01": 1,
       "duplicate_options|E2X.01": 1,
+      "truncated_options|E2G.06": 1,
       "truncated_options|E2V.02": 1,
+      "truncated_options|E2S.10": 1,
       "duplicate_options|E2S.09": 1,
       "duplicate_options|E2G.05": 1,
-      "duplicate_options|E2R.05": 1
+      "truncated_options|E2X.07": 1,
+      "duplicate_options|E2R.05": 1,
+      "possible_wrong_passage_pairing|E2R.07": 1
     }
   },
   "samples": {
     "truncated_options": [
       {
-        "question_id": "en-practice-868afc1b26eb-009-fd8db263b157",
-        "source_file": "Bài 14. Đọc điền khuyết thông tin (Buổi 13).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐIỀN KHUYẾT/Bài 14. Đọc điền khuyết thông tin (Buổi 13).pdf",
-        "file_sha1": "868afc1b26ebed628d50bd4de2e209554e9c96b9",
-        "question_number": 9,
-        "page_start": 2,
-        "page_end": 3,
-        "question_text": "Choose the option that best fits blank (9) in the passage.",
+        "question_id": "en-practice-5218ff760eb3-010-e8638915b2d6",
+        "source_file": "Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 5).pdf",
+        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/TỪ VỰNG CÙNG TRƯỜNG NGHĨA/Chinh phục câu hỏi Collocation theo định hướng ra đề thi mới (Buổi 5).pdf",
+        "file_sha1": "5218ff760eb36b30477f202f2a03a7f71c2e170e",
+        "question_number": 10,
+        "page_start": 5,
+        "page_end": 5,
+        "question_text": "Choose the option that best fits blank (10) in the passage.",
         "options": {
-          "A": "during everything of which feels new and exciting",
-          "B": "during which everything feels new and exciting",
-          "C": "everything feels new and exciting during that",
-          "D": "feeling that everything is new and exciting during that"
+          "A": "makes",
+          "B": "brings",
+          "C": "acts",
+          "D": "has"
         },
         "correct_answer": null,
         "answer_source": "missing",
         "explanation": "",
-        "passage_id": "passage-868afc1b26-09-a5b3e4a8ba",
-        "passage_text": "Read the following passage and mark the letter A, B, C or D to indicate the correct option that best fits each of the numbered blanks from 6 to 10. Living in a foreign country can be both exciting and fulfilling, offering opportunities to grow personally and professionally. At the same time, it often brings unexpected difficulties (6) ______. Everyday routines, social norms, and communication styles may feel unfamiliar, and without preparation, these differences can become overwhelming. As a result, individuals who move abroad permanently may struggle to adjust to their new surroundings (7) ______. Before relocating to another country for the long term, it is important to learn about local culture, traditions, and religious practices, as these often shape daily life. This preparation is especially necessary in societies where (8) ______. For instance, in several Eastern cultures, touching someone’s head—even as a friendly gesture toward a child—is considered disrespectful. Without cultural awareness, newcomers may unintentionally offend others, creating awkward or uncomfortable situations that could easily be avoided. Psychologists describe culture shock as a form of long-term mental stress that develops in stages. Initially, newcomers experience a “honeymoon” phase, (9) ______. This is often followed by a period of rejection, marked by homesickness and feelings of isolation. Over time, individuals enter a conformist stage, gradually accepting local customs. Eventually, full adjustment occurs, allowing them to feel confident, connected, and at home. (10) ______.",
-        "question_format": "hsa_cloze_text",
-        "knowledge_subtopic_code_v2": "E2C.05",
+        "passage_id": null,
+        "passage_text": "4. When someone (10) __________ a problem and needs help, the best thing you can do is (11) __________ an ear to them. Sometimes, people just want to be listened to rather than judged. However, if they ask for your opinion, you can gently (12) __________ advice or make a suggestion that might help them find a solution. Still, it’s important not to (13) __________ patience, even if they seem emotional or confused. Showing kindness and understanding can truly make a difference to someone in need.",
+        "question_format": "hsa_sentence_completion",
+        "knowledge_subtopic_code_v2": "E2X.08",
         "exam_profiles": [
           "HSA_ENGLISH"
         ],
-        "linked_node_codes_v2": [
-          "E2C.05-dang-bai-doc-dien-khuyet-thong-tin-va-phuong-phap-lam-bai"
-        ],
+        "linked_node_codes_v2": [],
         "difficulty": "basic",
         "confidence": "medium",
         "needs_review": true,
-        "review_reason": "cloze_passage_moved_to_context; regex_fallback_missing_answer; truncated_options",
+        "review_reason": "multi_blank_context_normalized; regex_fallback_missing_answer; truncated_options",
         "ready_for_ai_solve": false,
         "ai_model": "regex_fallback",
         "practice_item_type": "mcq",
         "raw_extract": {
-          "block": "Question 9.  \nA. during everything of which feels new and exciting  \nB. during which everything feels new and exciting \nC. everything feels new and exciting during that  \nD. feeling that everything is new and exciting during that",
+          "block": "Question 10. A. makes \nB. brings \nC. acts \nD. has",
           "practice_item_type": "mcq",
-          "page_start": 2,
-          "page_end": 3
-        },
-        "quality_issues": [
-          "truncated_options"
-        ]
-      },
-      {
-        "question_id": "en-practice-6c54f1097021-009-33b8e495a0ab",
-        "source_file": "Thi online Đọc điền khuyết thông tin (Buổi 13).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐIỀN KHUYẾT/Thi online Đọc điền khuyết thông tin (Buổi 13).pdf",
-        "file_sha1": "6c54f109702162279c935aa352f7bd12156f49d1",
-        "question_number": 9,
-        "page_start": 2,
-        "page_end": 3,
-        "question_text": "Choose the option that best fits blank (9) in the passage.",
-        "options": {
-          "A": "during everything of which feels new and exciting",
-          "B": "during which everything feels new and exciting",
-          "C": "everything feels new and exciting during that",
-          "D": "feeling that everything is new and exciting during that"
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": "passage-6c54f10970-09-a5b3e4a8ba",
-        "passage_text": "Read the following passage and mark the letter A, B, C or D to indicate the correct option that best fits each of the numbered blanks from 6 to 10. Living in a foreign country can be both exciting and fulfilling, offering opportunities to grow personally and professionally. At the same time, it often brings unexpected difficulties (6) ______. Everyday routines, social norms, and communication styles may feel unfamiliar, and without preparation, these differences can become overwhelming. As a result, individuals who move abroad permanently may struggle to adjust to their new surroundings (7) ______. Before relocating to another country for the long term, it is important to learn about local culture, traditions, and religious practices, as these often shape daily life. This preparation is especially necessary in societies where (8) ______. For instance, in several Eastern cultures, touching someone’s head—even as a friendly gesture toward a child—is considered disrespectful. Without cultural awareness, newcomers may unintentionally offend others, creating awkward or uncomfortable situations that could easily be avoided. Psychologists describe culture shock as a form of long-term mental stress that develops in stages. Initially, newcomers experience a “honeymoon” phase, (9) ______. This is often followed by a period of rejection, marked by homesickness and feelings of isolation. Over time, individuals enter a conformist stage, gradually accepting local customs. Eventually, full adjustment occurs, allowing them to feel confident, connected, and at home. (10) ______.",
-        "question_format": "hsa_cloze_text",
-        "knowledge_subtopic_code_v2": "E2C.05",
-        "exam_profiles": [
-          "HSA_ENGLISH"
-        ],
-        "linked_node_codes_v2": [
-          "E2C.05-dang-bai-doc-dien-khuyet-thong-tin-va-phuong-phap-lam-bai"
-        ],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "cloze_passage_moved_to_context; regex_fallback_missing_answer; truncated_options",
-        "ready_for_ai_solve": false,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 9.  \nA. during everything of which feels new and exciting  \nB. during which everything feels new and exciting \nC. everything feels new and exciting during that  \nD. feeling that everything is new and exciting during that",
-          "practice_item_type": "mcq",
-          "page_start": 2,
-          "page_end": 3
+          "page_start": 5,
+          "page_end": 5
         },
         "quality_issues": [
           "truncated_options"
@@ -237,7 +183,6 @@
           "page_end": 3
         },
         "quality_issues": [
-          "possible_wrong_passage_pairing",
           "truncated_options"
         ]
       },
@@ -283,7 +228,6 @@
           "page_end": 3
         },
         "quality_issues": [
-          "possible_wrong_passage_pairing",
           "truncated_options"
         ]
       },
@@ -329,7 +273,6 @@
           "page_end": 4
         },
         "quality_issues": [
-          "possible_wrong_passage_pairing",
           "truncated_options"
         ]
       },
@@ -375,7 +318,6 @@
           "page_end": 4
         },
         "quality_issues": [
-          "possible_wrong_passage_pairing",
           "truncated_options"
         ]
       },
@@ -421,7 +363,6 @@
           "page_end": 5
         },
         "quality_issues": [
-          "possible_wrong_passage_pairing",
           "truncated_options"
         ]
       },
@@ -467,7 +408,6 @@
           "page_end": 6
         },
         "quality_issues": [
-          "possible_wrong_passage_pairing",
           "truncated_options"
         ]
       },
@@ -560,7 +500,6 @@
           "page_end": 1
         },
         "quality_issues": [
-          "possible_wrong_passage_pairing",
           "truncated_options"
         ]
       },
@@ -610,19 +549,19 @@
         ]
       },
       {
-        "question_id": "en-practice-ac6ddaa10c17-004-3fb839727fdf",
+        "question_id": "en-practice-ac6ddaa10c17-005-f410b0073f74",
         "source_file": "Luyện tập Đọc hiểu 10 câu hỏi (Buổi 1).pdf",
         "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU 10 CÂU/Luyện tập Đọc hiểu 10 câu hỏi (Buổi 1).pdf",
         "file_sha1": "ac6ddaa10c17a9cb001eb35b4803b5cbfff3c879",
-        "question_number": 4,
-        "page_start": 1,
+        "question_number": 5,
+        "page_start": 2,
         "page_end": 2,
-        "question_text": "The word “they” in paragraph 3 refers to _______.",
+        "question_text": "Which of the following best summarises paragraph 3?",
         "options": {
-          "A": "Silbermann and two friends",
-          "B": "Paul Sciarra and Evan Sharp",
-          "C": "his town businesses",
-          "D": "pictures of things you like"
+          "A": "In 2008, Silbermann quit his job, moved to California, and launched Pinterest to help people share",
+          "B": "Silbermann left Google, joined two friends, and created Pinterest - a site inspired by collecting, aiming",
+          "C": "Pinterest began in 2009 when three men in California, including Silbermann, launched a website for",
+          "D": "Silbermann started Pinterest with Paul Sciarra and Evan Sharp in 2009 after being made redundant by"
         },
         "correct_answer": null,
         "answer_source": "missing",
@@ -630,11 +569,13 @@
         "passage_id": "passage-ac6ddaa10c-01-97b620b06a",
         "passage_text": "Ben Silbermann was an ordinary boy. He was born in 1982 in Iowa in the USA and he loved collecting things; stamps, leaves, and especially insects. As a young man in his 20s, his love of collecting turned into big business. [I] He went to Yale University and studied chemistry and political science. [II] In 2006, when he graduated from university, he moved to the state of California and got a job at Google. [III] Silbermann met a lot of people there who were very interested in technology, and he decided on two things. [IV] He worked at Google for two years. Then, in 2008, Silbermann left his job and he started his own business with two friends: Paul Sciarra and Evan Sharp. In November 2009, they got an apartment together in Palo Alto, California and started work on Pinterest. Silbermann and Sharp realised they both loved collecting, and they made a \"virtual pinboard\" - pages online where you \"pin\" pictures of things you like and things you \"collect\". Their idea was to connect everyone in the world through the things they find interesting. And it seemed that a lot of people liked their idea. When Pinterest started in March 2010, it grew quickly and had 10 million users after the first year. This was an amazing number compared with Twitter and Facebook: Twitter took two years to reach 10 million users and Facebook took over five years. Just a year after starting, Pinterest was worth $200 million and had over 421 million page views. Silbermann's ordinary interest as a boy certainly became an extraordinary business. (Adapted from English 12)",
         "question_format": "thpt_reading_passage",
-        "knowledge_subtopic_code_v2": "E2R.03",
+        "knowledge_subtopic_code_v2": "E2R.08",
         "exam_profiles": [
           "THPT_2025_CORE"
         ],
-        "linked_node_codes_v2": [],
+        "linked_node_codes_v2": [
+          "E2R.08-ky-nang-lam-cau-hoi-tim-doan-chua-thong-tin-va-dien-cau-phu"
+        ],
         "difficulty": "basic",
         "confidence": "medium",
         "needs_review": true,
@@ -643,13 +584,57 @@
         "ai_model": "regex_fallback",
         "practice_item_type": "mcq",
         "raw_extract": {
-          "block": "Question 4. The word “they” in paragraph 3 refers to _______. \nA. Silbermann and two friends \nB. Paul Sciarra and Evan Sharp \nC. his town businesses \n \nD. pictures of things you like",
+          "block": "Question 5. Which of the following best summarises paragraph 3? \nA. In 2008, Silbermann quit his job, moved to California, and launched Pinterest to help people share \npictures online. \nB. Silbermann left Google, joined two friends, and created Pinterest - a site inspired by collecting, aiming \nto connect people through shared interests. \nC. Pinterest began in 2009 when three men in California, including Silbermann, launched a website for \npinning and sharing photos of interesting things. \nD. Silbermann started Pinterest with Paul Sciarra and Evan Sharp in 2009 after being made redundant by \nGoogle, aiming to create a site for online sharing and collecting photos.",
           "practice_item_type": "mcq",
-          "page_start": 1,
+          "page_start": 2,
           "page_end": 2
         },
         "quality_issues": [
-          "possible_wrong_passage_pairing",
+          "truncated_options"
+        ]
+      },
+      {
+        "question_id": "en-practice-ac6ddaa10c17-006-e516d7542df3",
+        "source_file": "Luyện tập Đọc hiểu 10 câu hỏi (Buổi 1).pdf",
+        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU 10 CÂU/Luyện tập Đọc hiểu 10 câu hỏi (Buổi 1).pdf",
+        "file_sha1": "ac6ddaa10c17a9cb001eb35b4803b5cbfff3c879",
+        "question_number": 6,
+        "page_start": 2,
+        "page_end": 2,
+        "question_text": "Which of the following best paraphrases the underlined sentence in paragraph 4? When Pinterest started in March 2010, it grew quickly and had 10 million users after the first year.",
+        "options": {
+          "A": "Pinterest launched in March 2010, experienced rapid growth, and gained 10 million users within its",
+          "B": "Had Pinterest not launched in March 2010, it might not have reached 10 million users so quickly.",
+          "C": "Only after it reached 10 million users did Pinterest begin growing quickly in the year following its",
+          "D": "Rarely had a platform grown slowly and still reached 10 million users one year after launching, like"
+        },
+        "correct_answer": null,
+        "answer_source": "missing",
+        "explanation": "",
+        "passage_id": "passage-ac6ddaa10c-01-97b620b06a",
+        "passage_text": "Ben Silbermann was an ordinary boy. He was born in 1982 in Iowa in the USA and he loved collecting things; stamps, leaves, and especially insects. As a young man in his 20s, his love of collecting turned into big business. [I] He went to Yale University and studied chemistry and political science. [II] In 2006, when he graduated from university, he moved to the state of California and got a job at Google. [III] Silbermann met a lot of people there who were very interested in technology, and he decided on two things. [IV] He worked at Google for two years. Then, in 2008, Silbermann left his job and he started his own business with two friends: Paul Sciarra and Evan Sharp. In November 2009, they got an apartment together in Palo Alto, California and started work on Pinterest. Silbermann and Sharp realised they both loved collecting, and they made a \"virtual pinboard\" - pages online where you \"pin\" pictures of things you like and things you \"collect\". Their idea was to connect everyone in the world through the things they find interesting. And it seemed that a lot of people liked their idea. When Pinterest started in March 2010, it grew quickly and had 10 million users after the first year. This was an amazing number compared with Twitter and Facebook: Twitter took two years to reach 10 million users and Facebook took over five years. Just a year after starting, Pinterest was worth $200 million and had over 421 million page views. Silbermann's ordinary interest as a boy certainly became an extraordinary business. (Adapted from English 12)",
+        "question_format": "thpt_reading_passage",
+        "knowledge_subtopic_code_v2": "E2R.07",
+        "exam_profiles": [
+          "THPT_2025_CORE"
+        ],
+        "linked_node_codes_v2": [
+          "E2R.07-bai-6-cach-lam-cau-hoi-paraphrasing-trong-bai-doc"
+        ],
+        "difficulty": "basic",
+        "confidence": "medium",
+        "needs_review": true,
+        "review_reason": "merged_rescan_preserved_answer_metadata; regex_fallback_missing_answer; truncated_options",
+        "ready_for_ai_solve": false,
+        "ai_model": "regex_fallback",
+        "practice_item_type": "mcq",
+        "raw_extract": {
+          "block": "Question 6. Which of the following best paraphrases the underlined sentence in paragraph 4? \nWhen Pinterest started in March 2010, it grew quickly and had 10 million users after the first year. \nA. Pinterest launched in March 2010, experienced rapid growth, and gained 10 million users within its \nfirst year. \nB. Had Pinterest not launched in March 2010, it might not have reached 10 million users so quickly. \nC. Only after it reached 10 million users did Pinterest begin growing quickly in the year following its \nlaunch. \nD. Rarely had a platform grown slowly and still reached 10 million users one year after launching, like \nPinterest did in 2010.",
+          "practice_item_type": "mcq",
+          "page_start": 2,
+          "page_end": 2
+        },
+        "quality_issues": [
           "truncated_options"
         ]
       }
@@ -1384,77 +1369,36 @@
         ]
       },
       {
-        "question_id": "en-practice-b144c76dc3a9-001-c16d756abecd",
-        "source_file": "Thi online Cách làm câu hỏi tóm tắt nội dung đoạn trong bài đọc hiểu (Đề số 01).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi online Cách làm câu hỏi tóm tắt nội dung đoạn trong bài đọc hiểu (Đề số 01).pdf",
-        "file_sha1": "b144c76dc3a91e7b2a384589b28368363ab755ad",
-        "question_number": 1,
-        "page_start": 1,
-        "page_end": 1,
-        "question_text": "Which of the following best summarises paragraph 1?",
-        "options": {
-          "A": "University helps students earn more money, so most people still believe it is the only way.",
-          "B": "Many still believe in university, but more people now question if it’s truly necessary.",
-          "C": "Going to university is important for getting a good salary and becoming more knowledgeable.",
-          "D": "People can build a career if they go to university and work hard to succeed."
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": "passage-b144c76dc3-01-fa354bca39",
-        "passage_text": "1. For many years, people have believed that going to university is the best way to have a successful future. It offers students the chance to gain knowledge, build a career, and earn a good salary. However, not everyone chooses this path. In fact, more people today are starting to question whether university is truly necessary for success. Some individuals prefer to take a different route. Instead of spending several years in academic study, they learn skills through vocational training, online courses, or apprenticeships. Jobs in areas like technology, design, hospitality, or construction often do not require a university degree. These people focus on gaining practical experience, which is also highly valued in the job market. Another reason some people avoid university is the high cost. In many countries, tuition fees and living expenses are very expensive. Not attending university means avoiding student loans and starting to earn money earlier. For some, working while learning on the job is a more sensible and affordable option. In the end, success does not come from one single path. While university works well for many, it is not the only way to achieve goals. What matters most is understanding your strengths, interests, and what kind of life you want. Whether through university or other paths, people can build a meaningful and rewarding future by choosing what suits them best.",
-        "question_format": "thpt_reading_passage",
-        "knowledge_subtopic_code_v2": "E2R.08",
-        "exam_profiles": [
-          "THPT_2025_CORE"
-        ],
-        "linked_node_codes_v2": [
-          "E2R.08-ky-nang-lam-cau-hoi-tim-doan-chua-thong-tin-va-dien-cau-phu"
-        ],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer",
-        "ready_for_ai_solve": false,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 1. Which of the following best summarises paragraph 1? \nA. University helps students earn more money, so most people still believe it is the only way. \nB. Many still believe in university, but more people now question if it’s truly necessary. \nC. Going to university is important for getting a good salary and becoming more knowledgeable.  \nD. People can build a career if they go to university and work hard to succeed.",
-          "practice_item_type": "mcq",
-          "page_start": 1,
-          "page_end": 1
-        },
-        "quality_issues": [
-          "possible_wrong_passage_pairing"
-        ]
-      },
-      {
-        "question_id": "en-practice-b144c76dc3a9-002-ef9c2254bbd6",
-        "source_file": "Thi online Cách làm câu hỏi tóm tắt nội dung đoạn trong bài đọc hiểu (Đề số 01).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi online Cách làm câu hỏi tóm tắt nội dung đoạn trong bài đọc hiểu (Đề số 01).pdf",
-        "file_sha1": "b144c76dc3a91e7b2a384589b28368363ab755ad",
+        "question_id": "en-practice-0c5971d1cd4e-002-65878e5848b1",
+        "source_file": "Thi Online Cách xử lí câu hỏi tìm thông tin chi tiết bài đọc (Đề số 01).pdf",
+        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách xử lí câu hỏi tìm thông tin chi tiết bài đọc (Đề số 01).pdf",
+        "file_sha1": "0c5971d1cd4e673f8cbb376a187ecddc9b70c77a",
         "question_number": 2,
         "page_start": 1,
         "page_end": 1,
-        "question_text": "Which of the following best summarises paragraph 2?",
+        "question_text": "In the paragraph, which of the following is NOT mentioned as one of the environmental issues?",
         "options": {
-          "A": "Some people learn practical skills and work in fields that don’t require a university degree.",
-          "B": "Many students choose to study technology and design at university for a better future.",
-          "C": "People can get jobs in hospitality or construction if they go to college or university.",
-          "D": "Vocational training is easier than university, so more people now prefer it over academic study."
+          "A": "air pollution",
+          "B": "climate change",
+          "C": "deforestation",
+          "D": "extinct species"
         },
         "correct_answer": null,
         "answer_source": "missing",
         "explanation": "",
-        "passage_id": "passage-b144c76dc3-01-fa354bca39",
-        "passage_text": "1. For many years, people have believed that going to university is the best way to have a successful future. It offers students the chance to gain knowledge, build a career, and earn a good salary. However, not everyone chooses this path. In fact, more people today are starting to question whether university is truly necessary for success. Some individuals prefer to take a different route. Instead of spending several years in academic study, they learn skills through vocational training, online courses, or apprenticeships. Jobs in areas like technology, design, hospitality, or construction often do not require a university degree. These people focus on gaining practical experience, which is also highly valued in the job market. Another reason some people avoid university is the high cost. In many countries, tuition fees and living expenses are very expensive. Not attending university means avoiding student loans and starting to earn money earlier. For some, working while learning on the job is a more sensible and affordable option. In the end, success does not come from one single path. While university works well for many, it is not the only way to achieve goals. What matters most is understanding your strengths, interests, and what kind of life you want. Whether through university or other paths, people can build a meaningful and rewarding future by choosing what suits them best.",
+        "passage_id": "passage-0c5971d1cd-01-db35e0a2dd",
+        "passage_text": "Read the following passages and mark the letter A, B, C, or D on your answer sheet to indicate the best answer to each of the questions. In November 2009, they got an apartment together in Palo Alto, California and started work on Pinterest. And it seemed that a lot of people liked their idea. When Pinterest started in March 2010, it grew quickly and had 10 million users after the first year. This was an amazing number compared with Twitter and Facebook: Twitter took two years to reach 10 million users and Facebook took over five years. Just a year after starting, Pinterest was worth $200 million and had over 421 million page views. Silberman's ordinary interest as a boy certainly became an extraordinary business. (Adapted from English Workbook 12)",
         "question_format": "thpt_reading_passage",
-        "knowledge_subtopic_code_v2": "E2R.08",
+        "knowledge_subtopic_code_v2": "E2R.02",
         "exam_profiles": [
           "THPT_2025_CORE"
         ],
         "linked_node_codes_v2": [
-          "E2R.08-ky-nang-lam-cau-hoi-tim-doan-chua-thong-tin-va-dien-cau-phu"
+          "E2R.02-14-bai-thi-truoc-buoi-hoc-tinh-hoa-doc-hieu-buoi-1-btpdf",
+          "E2R.02-15-tinh-hoa-doc-hieu-buoi-1-btpdf",
+          "E2R.02-22-bai-thi-truoc-buoi-hoc-tinh-hoa-doc-hieu-buoi-2-btpdf",
+          "E2R.02-23-tinh-hoa-doc-hieu-buoi-2-btpdf",
+          "E2R.02-ren-luyen-va-nang-cao-ki-nang-xu-li-bai-doc-hieu-10-cau-buoi"
         ],
         "difficulty": "basic",
         "confidence": "medium",
@@ -1464,7 +1408,7 @@
         "ai_model": "regex_fallback",
         "practice_item_type": "mcq",
         "raw_extract": {
-          "block": "Question 2. Which of the following best summarises paragraph 2? \nA. Some people learn practical skills and work in fields that don’t require a university degree. \nB. Many students choose to study technology and design at university for a better future.  \nC. People can get jobs in hospitality or construction if they go to college or university.  \nD. Vocational training is easier than university, so more people now prefer it over academic study.",
+          "block": "Question 2. In the paragraph, which of the following is NOT mentioned as one of the environmental \nissues? \nA. air pollution \nB. climate change    C. deforestation \nD. extinct species \n \nThe real goal of going zero waste, however, is not just to save money. For another couple, Mr and \nMrs Frugalwoods, the goal is to enjoy life more and spend more quality time together as a family. Their \nblog, Frugalwoods, includes articles about buying less and saving money, growing food at their home in \nVermont, and raising their baby girl. Mrs Frugalwoods says that their daughter, ‘is our mini gardener/hiker \nwho adores being outside in nature with her parents.’ \n(Adapted from Explore New World)",
           "practice_item_type": "mcq",
           "page_start": 1,
           "page_end": 1
@@ -1474,32 +1418,36 @@
         ]
       },
       {
-        "question_id": "en-practice-b144c76dc3a9-003-f82323f589f8",
-        "source_file": "Thi online Cách làm câu hỏi tóm tắt nội dung đoạn trong bài đọc hiểu (Đề số 01).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi online Cách làm câu hỏi tóm tắt nội dung đoạn trong bài đọc hiểu (Đề số 01).pdf",
-        "file_sha1": "b144c76dc3a91e7b2a384589b28368363ab755ad",
+        "question_id": "en-practice-0c5971d1cd4e-003-dadef209e3e1",
+        "source_file": "Thi Online Cách xử lí câu hỏi tìm thông tin chi tiết bài đọc (Đề số 01).pdf",
+        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách xử lí câu hỏi tìm thông tin chi tiết bài đọc (Đề số 01).pdf",
+        "file_sha1": "0c5971d1cd4e673f8cbb376a187ecddc9b70c77a",
         "question_number": 3,
         "page_start": 1,
         "page_end": 2,
-        "question_text": "Which of the following best summarises paragraph 3?",
+        "question_text": "In the paragraph, which of the following is NOT mentioned as one of the aims of going zero waste?",
         "options": {
-          "A": "Some people avoid university because it is costly and prefer earning money through work experience.",
-          "B": "University students often pay high fees and take out loans to cover their living expenses.",
-          "C": "Many people believe working while studying is more useful than going to university full time.",
-          "D": "Not going to university helps students choose better jobs and avoid studying for too long."
+          "A": "to be outside in nature more",
+          "B": "to enjoy life more",
+          "C": "to save on money",
+          "D": "to have quality time with family"
         },
         "correct_answer": null,
         "answer_source": "missing",
         "explanation": "",
-        "passage_id": "passage-b144c76dc3-01-fa354bca39",
-        "passage_text": "1. For many years, people have believed that going to university is the best way to have a successful future. It offers students the chance to gain knowledge, build a career, and earn a good salary. However, not everyone chooses this path. In fact, more people today are starting to question whether university is truly necessary for success. Some individuals prefer to take a different route. Instead of spending several years in academic study, they learn skills through vocational training, online courses, or apprenticeships. Jobs in areas like technology, design, hospitality, or construction often do not require a university degree. These people focus on gaining practical experience, which is also highly valued in the job market. Another reason some people avoid university is the high cost. In many countries, tuition fees and living expenses are very expensive. Not attending university means avoiding student loans and starting to earn money earlier. For some, working while learning on the job is a more sensible and affordable option. In the end, success does not come from one single path. While university works well for many, it is not the only way to achieve goals. What matters most is understanding your strengths, interests, and what kind of life you want. Whether through university or other paths, people can build a meaningful and rewarding future by choosing what suits them best.",
+        "passage_id": "passage-0c5971d1cd-01-db35e0a2dd",
+        "passage_text": "Read the following passages and mark the letter A, B, C, or D on your answer sheet to indicate the best answer to each of the questions. In November 2009, they got an apartment together in Palo Alto, California and started work on Pinterest. And it seemed that a lot of people liked their idea. When Pinterest started in March 2010, it grew quickly and had 10 million users after the first year. This was an amazing number compared with Twitter and Facebook: Twitter took two years to reach 10 million users and Facebook took over five years. Just a year after starting, Pinterest was worth $200 million and had over 421 million page views. Silberman's ordinary interest as a boy certainly became an extraordinary business. (Adapted from English Workbook 12)",
         "question_format": "thpt_reading_passage",
-        "knowledge_subtopic_code_v2": "E2R.08",
+        "knowledge_subtopic_code_v2": "E2R.02",
         "exam_profiles": [
           "THPT_2025_CORE"
         ],
         "linked_node_codes_v2": [
-          "E2R.08-ky-nang-lam-cau-hoi-tim-doan-chua-thong-tin-va-dien-cau-phu"
+          "E2R.02-14-bai-thi-truoc-buoi-hoc-tinh-hoa-doc-hieu-buoi-1-btpdf",
+          "E2R.02-15-tinh-hoa-doc-hieu-buoi-1-btpdf",
+          "E2R.02-22-bai-thi-truoc-buoi-hoc-tinh-hoa-doc-hieu-buoi-2-btpdf",
+          "E2R.02-23-tinh-hoa-doc-hieu-buoi-2-btpdf",
+          "E2R.02-ren-luyen-va-nang-cao-ki-nang-xu-li-bai-doc-hieu-10-cau-buoi"
         ],
         "difficulty": "basic",
         "confidence": "medium",
@@ -1509,7 +1457,7 @@
         "ai_model": "regex_fallback",
         "practice_item_type": "mcq",
         "raw_extract": {
-          "block": "Question 3. Which of the following best summarises paragraph 3? \nA. Some people avoid university because it is costly and prefer earning money through work experience. \nB. University students often pay high fees and take out loans to cover their living expenses.  \nC. Many people believe working while studying is more useful than going to university full time.  \nD. Not going to university helps students choose better jobs and avoid studying for too long.",
+          "block": "Question 3. In the paragraph, which of the following is NOT mentioned as one of the aims of going zero \nwaste? \nA. to be outside in nature more \nB. to enjoy life more \nC. to save on money \nD. to have quality time with family",
           "practice_item_type": "mcq",
           "page_start": 1,
           "page_end": 2
@@ -1519,32 +1467,36 @@
         ]
       },
       {
-        "question_id": "en-practice-b144c76dc3a9-004-0c5e30ce8aec",
-        "source_file": "Thi online Cách làm câu hỏi tóm tắt nội dung đoạn trong bài đọc hiểu (Đề số 01).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi online Cách làm câu hỏi tóm tắt nội dung đoạn trong bài đọc hiểu (Đề số 01).pdf",
-        "file_sha1": "b144c76dc3a91e7b2a384589b28368363ab755ad",
+        "question_id": "en-practice-0c5971d1cd4e-004-0d42dd438e5f",
+        "source_file": "Thi Online Cách xử lí câu hỏi tìm thông tin chi tiết bài đọc (Đề số 01).pdf",
+        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách xử lí câu hỏi tìm thông tin chi tiết bài đọc (Đề số 01).pdf",
+        "file_sha1": "0c5971d1cd4e673f8cbb376a187ecddc9b70c77a",
         "question_number": 4,
         "page_start": 2,
         "page_end": 2,
-        "question_text": "Which of the following best summarises paragraph 4?",
+        "question_text": "In the paragraph, which of the following is NOT mentioned as one of the activities in a Carnival celebration?",
         "options": {
-          "A": "Many people believe that university is still the best way to have a successful future.",
-          "B": "People must decide early if they want a university degree or a different career.",
-          "C": "Knowing your goals helps you decide whether to study more or begin working right away.",
-          "D": "Success depends on choosing a path that fits your strengths, goals, and personal interests."
+          "A": "watching performances on TV",
+          "B": "holding big parades",
+          "C": "wearing special clothes",
+          "D": "dancing and singing"
         },
         "correct_answer": null,
         "answer_source": "missing",
         "explanation": "",
-        "passage_id": "passage-b144c76dc3-01-fa354bca39",
-        "passage_text": "1. For many years, people have believed that going to university is the best way to have a successful future. It offers students the chance to gain knowledge, build a career, and earn a good salary. However, not everyone chooses this path. In fact, more people today are starting to question whether university is truly necessary for success. Some individuals prefer to take a different route. Instead of spending several years in academic study, they learn skills through vocational training, online courses, or apprenticeships. Jobs in areas like technology, design, hospitality, or construction often do not require a university degree. These people focus on gaining practical experience, which is also highly valued in the job market. Another reason some people avoid university is the high cost. In many countries, tuition fees and living expenses are very expensive. Not attending university means avoiding student loans and starting to earn money earlier. For some, working while learning on the job is a more sensible and affordable option. In the end, success does not come from one single path. While university works well for many, it is not the only way to achieve goals. What matters most is understanding your strengths, interests, and what kind of life you want. Whether through university or other paths, people can build a meaningful and rewarding future by choosing what suits them best.",
+        "passage_id": "passage-0c5971d1cd-01-db35e0a2dd",
+        "passage_text": "Read the following passages and mark the letter A, B, C, or D on your answer sheet to indicate the best answer to each of the questions. In November 2009, they got an apartment together in Palo Alto, California and started work on Pinterest. And it seemed that a lot of people liked their idea. When Pinterest started in March 2010, it grew quickly and had 10 million users after the first year. This was an amazing number compared with Twitter and Facebook: Twitter took two years to reach 10 million users and Facebook took over five years. Just a year after starting, Pinterest was worth $200 million and had over 421 million page views. Silberman's ordinary interest as a boy certainly became an extraordinary business. (Adapted from English Workbook 12)",
         "question_format": "thpt_reading_passage",
-        "knowledge_subtopic_code_v2": "E2R.08",
+        "knowledge_subtopic_code_v2": "E2R.02",
         "exam_profiles": [
           "THPT_2025_CORE"
         ],
         "linked_node_codes_v2": [
-          "E2R.08-ky-nang-lam-cau-hoi-tim-doan-chua-thong-tin-va-dien-cau-phu"
+          "E2R.02-14-bai-thi-truoc-buoi-hoc-tinh-hoa-doc-hieu-buoi-1-btpdf",
+          "E2R.02-15-tinh-hoa-doc-hieu-buoi-1-btpdf",
+          "E2R.02-22-bai-thi-truoc-buoi-hoc-tinh-hoa-doc-hieu-buoi-2-btpdf",
+          "E2R.02-23-tinh-hoa-doc-hieu-buoi-2-btpdf",
+          "E2R.02-ren-luyen-va-nang-cao-ki-nang-xu-li-bai-doc-hieu-10-cau-buoi"
         ],
         "difficulty": "basic",
         "confidence": "medium",
@@ -1554,7 +1506,7 @@
         "ai_model": "regex_fallback",
         "practice_item_type": "mcq",
         "raw_extract": {
-          "block": "Question 4. Which of the following best summarises paragraph 4? \nA. Many people believe that university is still the best way to have a successful future.  \nB. People must decide early if they want a university degree or a different career.  \nC. Knowing your goals helps you decide whether to study more or begin working right away. \nD. Success depends on choosing a path that fits your strengths, goals, and personal interests.",
+          "block": "Question 4. In the paragraph, which of the following is NOT mentioned as one of the activities in a \nCarnival celebration? \nA. watching performances on TV \nB. holding big parades \nC. wearing special clothes \nD. dancing and singing \n \nMealtimes are relaxed times when family members can join in important or entertaining discussions. \nChildren who eat dinner with their families daily are likelier to have better family relationships and \nacademic performance. Studies also show that teens who eat with their families on a regular basis have \nlower levels of depression and risk-taking behaviours. It does not matter what you are eating or what time \nof day you are eating with your family; what matters most is that you are together and taking the \nopportunity to communicate. \n(Adapted from Bright)",
           "practice_item_type": "mcq",
           "page_start": 2,
           "page_end": 2
@@ -1564,32 +1516,36 @@
         ]
       },
       {
-        "question_id": "en-practice-b144c76dc3a9-005-04268fcf8338",
-        "source_file": "Thi online Cách làm câu hỏi tóm tắt nội dung đoạn trong bài đọc hiểu (Đề số 01).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi online Cách làm câu hỏi tóm tắt nội dung đoạn trong bài đọc hiểu (Đề số 01).pdf",
-        "file_sha1": "b144c76dc3a91e7b2a384589b28368363ab755ad",
+        "question_id": "en-practice-0c5971d1cd4e-005-d701bb146cbf",
+        "source_file": "Thi Online Cách xử lí câu hỏi tìm thông tin chi tiết bài đọc (Đề số 01).pdf",
+        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách xử lí câu hỏi tìm thông tin chi tiết bài đọc (Đề số 01).pdf",
+        "file_sha1": "0c5971d1cd4e673f8cbb376a187ecddc9b70c77a",
         "question_number": 5,
         "page_start": 2,
         "page_end": 2,
-        "question_text": "Which of the following best summarises the passage?",
+        "question_text": "In the paragraph, which of the following is NOT mentioned as one of the benefits of family meals to children?",
         "options": {
-          "A": "Many people believe university guarantees success, but practical skills, job experience, and avoiding",
-          "B": "Going to university is expensive, so people are choosing jobs in fields like design and technology",
-          "C": "Although university offers knowledge and career opportunities, some people prefer to work in",
-          "D": "Success today depends on choosing a path that suits your goals, but for most people, university remains"
+          "A": "fewer risk-taking behaviours",
+          "B": "lower levels of depression",
+          "C": "better social relationships",
+          "D": "better academic performance"
         },
         "correct_answer": null,
         "answer_source": "missing",
         "explanation": "",
-        "passage_id": "passage-b144c76dc3-01-fa354bca39",
-        "passage_text": "1. For many years, people have believed that going to university is the best way to have a successful future. It offers students the chance to gain knowledge, build a career, and earn a good salary. However, not everyone chooses this path. In fact, more people today are starting to question whether university is truly necessary for success. Some individuals prefer to take a different route. Instead of spending several years in academic study, they learn skills through vocational training, online courses, or apprenticeships. Jobs in areas like technology, design, hospitality, or construction often do not require a university degree. These people focus on gaining practical experience, which is also highly valued in the job market. Another reason some people avoid university is the high cost. In many countries, tuition fees and living expenses are very expensive. Not attending university means avoiding student loans and starting to earn money earlier. For some, working while learning on the job is a more sensible and affordable option. In the end, success does not come from one single path. While university works well for many, it is not the only way to achieve goals. What matters most is understanding your strengths, interests, and what kind of life you want. Whether through university or other paths, people can build a meaningful and rewarding future by choosing what suits them best.",
+        "passage_id": "passage-0c5971d1cd-01-db35e0a2dd",
+        "passage_text": "Read the following passages and mark the letter A, B, C, or D on your answer sheet to indicate the best answer to each of the questions. In November 2009, they got an apartment together in Palo Alto, California and started work on Pinterest. And it seemed that a lot of people liked their idea. When Pinterest started in March 2010, it grew quickly and had 10 million users after the first year. This was an amazing number compared with Twitter and Facebook: Twitter took two years to reach 10 million users and Facebook took over five years. Just a year after starting, Pinterest was worth $200 million and had over 421 million page views. Silberman's ordinary interest as a boy certainly became an extraordinary business. (Adapted from English Workbook 12)",
         "question_format": "thpt_reading_passage",
-        "knowledge_subtopic_code_v2": "E2R.08",
+        "knowledge_subtopic_code_v2": "E2R.02",
         "exam_profiles": [
           "THPT_2025_CORE"
         ],
         "linked_node_codes_v2": [
-          "E2R.08-ky-nang-lam-cau-hoi-tim-doan-chua-thong-tin-va-dien-cau-phu"
+          "E2R.02-14-bai-thi-truoc-buoi-hoc-tinh-hoa-doc-hieu-buoi-1-btpdf",
+          "E2R.02-15-tinh-hoa-doc-hieu-buoi-1-btpdf",
+          "E2R.02-22-bai-thi-truoc-buoi-hoc-tinh-hoa-doc-hieu-buoi-2-btpdf",
+          "E2R.02-23-tinh-hoa-doc-hieu-buoi-2-btpdf",
+          "E2R.02-ren-luyen-va-nang-cao-ki-nang-xu-li-bai-doc-hieu-10-cau-buoi"
         ],
         "difficulty": "basic",
         "confidence": "medium",
@@ -1599,7 +1555,7 @@
         "ai_model": "regex_fallback",
         "practice_item_type": "mcq",
         "raw_extract": {
-          "block": "Question 5. Which of the following best summarises the passage? \nA. Many people believe university guarantees success, but practical skills, job experience, and avoiding \ndebt make paths like vocational training or apprenticeships a smart choice for some.  \nB. Going to university is expensive, so people are choosing jobs in fields like design and technology \nwhere they can earn money earlier and gain more practical experience.  \nC. Although university offers knowledge and career opportunities, some people prefer to work in \nconstruction or hospitality and avoid tuition fees by learning practical skills instead.  \nD. Success today depends on choosing a path that suits your goals, but for most people, university remains \nthe best way to build a career and earn a high salary. \n \n2. \nAt Oakwood Elementary School, there is a special teaching assistant named Robo-Teach. This \nsmall, blue-and-white robot helps students with their lessons and makes learning fun. Robo-Teach can \nmove around the classroom, answer questions, and even tell jokes to keep kids smiling. The students love \nhow patient and kind the robot is, especially when they need extra help with maths or reading.   \nRobo-Teach works with the teacher to make lessons more interesting. It can show videos on its small \nscreen, quiz students with fun games, and even read stories aloud. The robot remembers each student’s \nname and knows which subjects they find tricky. This way, it can give them the right help when they need \nit. The teacher says Robo-Teach makes the classroom a happier and more organised place.   \nThe best part is that Robo-Teach never gets tired or frustrated. If a student doesn’t understand \nsomething, the robot will explain it again in a different way. It also cheers students on when they get \nanswers right, saying things like, “Great job!” or “You’re getting better every day!” This makes the kids \nfeel proud and excited to learn.   \nRobo-Teach has become a favourite at Oakwood Elementary. Students look forward to seeing it \nevery day, and even shy kids feel comfortable asking it questions. The robot may not replace human \nteachers, but it sure makes school a lot more fun and helps everyone learn better. Who wouldn’t want a \nrobot friend like Robo-Teach?",
+          "block": "Question 5. In the paragraph, which of the following is NOT mentioned as one of the benefits of family \nmeals to children? \nA. fewer risk-taking behaviours \nB. lower levels of depression \nC. better social relationships \nD. better academic performance \n \nEcological balance is the stability of each species' population within an environment. However, this \nstate can be upset by the introduction of new species, the sudden extinction of animals, natural disasters \nor man-made problems. Throughout history, there has been a variety of environmental issues. Some of \nthe most serious ones are the activities of preparing for and fighting wars, which can cause serious \nenvironmental damage. During the Resistance War Against America for National Salvation, for \ninstance, dense forests covering large green areas were carpet bombed, resulting in the habitat of \nnumerous species being destroyed. \n(Adapted from iLearn Smart World)",
           "practice_item_type": "mcq",
           "page_start": 2,
           "page_end": 2
@@ -1609,78 +1565,36 @@
         ]
       },
       {
-        "question_id": "en-practice-b144c76dc3a9-006-510081966781",
-        "source_file": "Thi online Cách làm câu hỏi tóm tắt nội dung đoạn trong bài đọc hiểu (Đề số 01).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi online Cách làm câu hỏi tóm tắt nội dung đoạn trong bài đọc hiểu (Đề số 01).pdf",
-        "file_sha1": "b144c76dc3a91e7b2a384589b28368363ab755ad",
+        "question_id": "en-practice-0c5971d1cd4e-006-203dbe54638b",
+        "source_file": "Thi Online Cách xử lí câu hỏi tìm thông tin chi tiết bài đọc (Đề số 01).pdf",
+        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách xử lí câu hỏi tìm thông tin chi tiết bài đọc (Đề số 01).pdf",
+        "file_sha1": "0c5971d1cd4e673f8cbb376a187ecddc9b70c77a",
         "question_number": 6,
         "page_start": 2,
-        "page_end": 3,
-        "question_text": "Which of the following best summarises paragraph 1?",
+        "page_end": 2,
+        "question_text": "In the paragraph, which of the following is NOT mentioned as one of the threats to ecological balance?",
         "options": {
-          "A": "Robo-Teach is a friendly, mobile robot at Oakwood Elementary that helps students learn and brings",
-          "B": "Robo-Teach assists students at Oakwood Elementary but mostly tells jokes and entertains kids when",
-          "C": "Students at Oakwood Elementary use Robo-Teach for maths, though the robot cannot answer questions",
-          "D": "Oakwood Elementary students enjoy learning with Robo-Teach, a blue robot who helps with reading"
+          "A": "natural disasters",
+          "B": "human activities",
+          "C": "dense forests",
+          "D": "the extinction of species"
         },
         "correct_answer": null,
         "answer_source": "missing",
         "explanation": "",
-        "passage_id": "passage-b144c76dc3-02-7c87af7581",
-        "passage_text": "2. At Oakwood Elementary School, there is a special teaching assistant named Robo-Teach. This small, blue-and-white robot helps students with their lessons and makes learning fun. Robo-Teach can move around the classroom, answer questions, and even tell jokes to keep kids smiling. The students love how patient and kind the robot is, especially when they need extra help with maths or reading. Robo-Teach works with the teacher to make lessons more interesting. It can show videos on its small screen, quiz students with fun games, and even read stories aloud. The robot remembers each student’s name and knows which subjects they find tricky. This way, it can give them the right help when they need it. The teacher says Robo-Teach makes the classroom a happier and more organised place. The best part is that Robo-Teach never gets tired or frustrated. If a student doesn’t understand something, the robot will explain it again in a different way. It also cheers students on when they get answers right, saying things like, “Great job!” or “You’re getting better every day!” This makes the kids feel proud and excited to learn. Robo-Teach has become a favourite at Oakwood Elementary. Students look forward to seeing it every day, and even shy kids feel comfortable asking it questions. The robot may not replace human teachers, but it sure makes school a lot more fun and helps everyone learn better. Who wouldn’t want a robot friend like Robo-Teach?",
+        "passage_id": "passage-0c5971d1cd-01-db35e0a2dd",
+        "passage_text": "Read the following passages and mark the letter A, B, C, or D on your answer sheet to indicate the best answer to each of the questions. In November 2009, they got an apartment together in Palo Alto, California and started work on Pinterest. And it seemed that a lot of people liked their idea. When Pinterest started in March 2010, it grew quickly and had 10 million users after the first year. This was an amazing number compared with Twitter and Facebook: Twitter took two years to reach 10 million users and Facebook took over five years. Just a year after starting, Pinterest was worth $200 million and had over 421 million page views. Silberman's ordinary interest as a boy certainly became an extraordinary business. (Adapted from English Workbook 12)",
         "question_format": "thpt_reading_passage",
-        "knowledge_subtopic_code_v2": "E2R.08",
+        "knowledge_subtopic_code_v2": "E2R.02",
         "exam_profiles": [
           "THPT_2025_CORE"
         ],
         "linked_node_codes_v2": [
-          "E2R.08-ky-nang-lam-cau-hoi-tim-doan-chua-thong-tin-va-dien-cau-phu"
-        ],
-        "difficulty": "basic",
-        "confidence": "medium",
-        "needs_review": true,
-        "review_reason": "merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer; truncated_options",
-        "ready_for_ai_solve": false,
-        "ai_model": "regex_fallback",
-        "practice_item_type": "mcq",
-        "raw_extract": {
-          "block": "Question 6. Which of the following best summarises paragraph 1? \nA. Robo-Teach is a friendly, mobile robot at Oakwood Elementary that helps students learn and brings \nfun to the classroom.  \nB. Robo-Teach assists students at Oakwood Elementary but mostly tells jokes and entertains kids when \nthey feel bored in class.  \nC. Students at Oakwood Elementary use Robo-Teach for maths, though the robot cannot answer questions \nor move around the room.  \nD. Oakwood Elementary students enjoy learning with Robo-Teach, a blue robot who helps with reading \nand tells stories during lessons.",
-          "practice_item_type": "mcq",
-          "page_start": 2,
-          "page_end": 3
-        },
-        "quality_issues": [
-          "possible_wrong_passage_pairing",
-          "truncated_options"
-        ]
-      },
-      {
-        "question_id": "en-practice-b144c76dc3a9-007-0ea02ed506a2",
-        "source_file": "Thi online Cách làm câu hỏi tóm tắt nội dung đoạn trong bài đọc hiểu (Đề số 01).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi online Cách làm câu hỏi tóm tắt nội dung đoạn trong bài đọc hiểu (Đề số 01).pdf",
-        "file_sha1": "b144c76dc3a91e7b2a384589b28368363ab755ad",
-        "question_number": 7,
-        "page_start": 3,
-        "page_end": 3,
-        "question_text": "Which of the following best summarises paragraph 2?",
-        "options": {
-          "A": "Robo-Teach entertains students with games, videos, and stories to make school more fun and exciting.",
-          "B": "Robo-Teach assists teachers by making lessons engaging and helping students learn based on",
-          "C": "Robo-Teach plays games, reads stories, and remembers student names to improve classroom",
-          "D": "Robo-Teach is a helpful school robot that reads aloud, plays games, and shows short videos."
-        },
-        "correct_answer": null,
-        "answer_source": "missing",
-        "explanation": "",
-        "passage_id": "passage-b144c76dc3-02-7c87af7581",
-        "passage_text": "2. At Oakwood Elementary School, there is a special teaching assistant named Robo-Teach. This small, blue-and-white robot helps students with their lessons and makes learning fun. Robo-Teach can move around the classroom, answer questions, and even tell jokes to keep kids smiling. The students love how patient and kind the robot is, especially when they need extra help with maths or reading. Robo-Teach works with the teacher to make lessons more interesting. It can show videos on its small screen, quiz students with fun games, and even read stories aloud. The robot remembers each student’s name and knows which subjects they find tricky. This way, it can give them the right help when they need it. The teacher says Robo-Teach makes the classroom a happier and more organised place. The best part is that Robo-Teach never gets tired or frustrated. If a student doesn’t understand something, the robot will explain it again in a different way. It also cheers students on when they get answers right, saying things like, “Great job!” or “You’re getting better every day!” This makes the kids feel proud and excited to learn. Robo-Teach has become a favourite at Oakwood Elementary. Students look forward to seeing it every day, and even shy kids feel comfortable asking it questions. The robot may not replace human teachers, but it sure makes school a lot more fun and helps everyone learn better. Who wouldn’t want a robot friend like Robo-Teach?",
-        "question_format": "thpt_reading_passage",
-        "knowledge_subtopic_code_v2": "E2R.08",
-        "exam_profiles": [
-          "THPT_2025_CORE"
-        ],
-        "linked_node_codes_v2": [
-          "E2R.08-ky-nang-lam-cau-hoi-tim-doan-chua-thong-tin-va-dien-cau-phu"
+          "E2R.02-14-bai-thi-truoc-buoi-hoc-tinh-hoa-doc-hieu-buoi-1-btpdf",
+          "E2R.02-15-tinh-hoa-doc-hieu-buoi-1-btpdf",
+          "E2R.02-22-bai-thi-truoc-buoi-hoc-tinh-hoa-doc-hieu-buoi-2-btpdf",
+          "E2R.02-23-tinh-hoa-doc-hieu-buoi-2-btpdf",
+          "E2R.02-ren-luyen-va-nang-cao-ki-nang-xu-li-bai-doc-hieu-10-cau-buoi"
         ],
         "difficulty": "basic",
         "confidence": "medium",
@@ -1690,7 +1604,105 @@
         "ai_model": "regex_fallback",
         "practice_item_type": "mcq",
         "raw_extract": {
-          "block": "Question 7. Which of the following best summarises paragraph 2? \nA. Robo-Teach entertains students with games, videos, and stories to make school more fun and exciting. \nB. Robo-Teach assists teachers by making lessons engaging and helping students learn based on \nindividual needs. \nC. Robo-Teach plays games, reads stories, and remembers student names to improve classroom \nrelationships. \nD. Robo-Teach is a helpful school robot that reads aloud, plays games, and shows short videos.",
+          "block": "Question 6. In the paragraph, which of the following is NOT mentioned as one of the threats to ecological \nbalance? \nA. natural disasters  B. human activities   C. dense forests \nD. the extinction of species \n \nIn order for robots to play football, robotics companies have had to develop special technologies. A \nrobot can't just run onto the field and start kicking the ball. So each robot is fitted with a webcam which \nis connected to a computer inside the robot. The robot is able to see where the other players are, where \nthe goal is and, most importantly, where the ball is. They are programmed to make their own decisions \nand during the match, the robots' creators are not allowed to tell them what to do. The robots are, however, \nable to communicate with other members of their team, via a wireless network. \n(Adapted from Solutions)",
+          "practice_item_type": "mcq",
+          "page_start": 2,
+          "page_end": 2
+        },
+        "quality_issues": [
+          "possible_wrong_passage_pairing"
+        ]
+      },
+      {
+        "question_id": "en-practice-0c5971d1cd4e-007-55fc8b25ad21",
+        "source_file": "Thi Online Cách xử lí câu hỏi tìm thông tin chi tiết bài đọc (Đề số 01).pdf",
+        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách xử lí câu hỏi tìm thông tin chi tiết bài đọc (Đề số 01).pdf",
+        "file_sha1": "0c5971d1cd4e673f8cbb376a187ecddc9b70c77a",
+        "question_number": 7,
+        "page_start": 2,
+        "page_end": 3,
+        "question_text": "In the paragraph, which of the following is NOT mentioned as one of the abilities of robots which play football?",
+        "options": {
+          "A": "Seeing others and the ball",
+          "B": "Running and kicking the ball",
+          "C": "Telling others what to do",
+          "D": "Communicating with other team members"
+        },
+        "correct_answer": null,
+        "answer_source": "missing",
+        "explanation": "",
+        "passage_id": "passage-0c5971d1cd-01-db35e0a2dd",
+        "passage_text": "Read the following passages and mark the letter A, B, C, or D on your answer sheet to indicate the best answer to each of the questions. In November 2009, they got an apartment together in Palo Alto, California and started work on Pinterest. And it seemed that a lot of people liked their idea. When Pinterest started in March 2010, it grew quickly and had 10 million users after the first year. This was an amazing number compared with Twitter and Facebook: Twitter took two years to reach 10 million users and Facebook took over five years. Just a year after starting, Pinterest was worth $200 million and had over 421 million page views. Silberman's ordinary interest as a boy certainly became an extraordinary business. (Adapted from English Workbook 12)",
+        "question_format": "thpt_reading_passage",
+        "knowledge_subtopic_code_v2": "E2R.02",
+        "exam_profiles": [
+          "THPT_2025_CORE"
+        ],
+        "linked_node_codes_v2": [
+          "E2R.02-14-bai-thi-truoc-buoi-hoc-tinh-hoa-doc-hieu-buoi-1-btpdf",
+          "E2R.02-15-tinh-hoa-doc-hieu-buoi-1-btpdf",
+          "E2R.02-22-bai-thi-truoc-buoi-hoc-tinh-hoa-doc-hieu-buoi-2-btpdf",
+          "E2R.02-23-tinh-hoa-doc-hieu-buoi-2-btpdf",
+          "E2R.02-ren-luyen-va-nang-cao-ki-nang-xu-li-bai-doc-hieu-10-cau-buoi"
+        ],
+        "difficulty": "basic",
+        "confidence": "medium",
+        "needs_review": true,
+        "review_reason": "merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer",
+        "ready_for_ai_solve": false,
+        "ai_model": "regex_fallback",
+        "practice_item_type": "mcq",
+        "raw_extract": {
+          "block": "Question 7. In the paragraph, which of the following is NOT mentioned as one of the abilities of robots \nwhich play football? \nA. Seeing others and the ball \nB. Running and kicking the ball \nC. Telling others what to do \nD. Communicating with other team members",
+          "practice_item_type": "mcq",
+          "page_start": 2,
+          "page_end": 3
+        },
+        "quality_issues": [
+          "possible_wrong_passage_pairing"
+        ]
+      },
+      {
+        "question_id": "en-practice-0c5971d1cd4e-008-809ec51a00d2",
+        "source_file": "Thi Online Cách xử lí câu hỏi tìm thông tin chi tiết bài đọc (Đề số 01).pdf",
+        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách xử lí câu hỏi tìm thông tin chi tiết bài đọc (Đề số 01).pdf",
+        "file_sha1": "0c5971d1cd4e673f8cbb376a187ecddc9b70c77a",
+        "question_number": 8,
+        "page_start": 3,
+        "page_end": 3,
+        "question_text": "In the paragraph, which of the following is NOT mentioned as one of the factors in the decline in the bald eagle population?",
+        "options": {
+          "A": "Habitat being destroyed",
+          "B": "Eagles being killed",
+          "C": "Eagles’ food being cleared",
+          "D": "Eagles’ eggs affected by DDT"
+        },
+        "correct_answer": null,
+        "answer_source": "missing",
+        "explanation": "",
+        "passage_id": "passage-0c5971d1cd-01-db35e0a2dd",
+        "passage_text": "Read the following passages and mark the letter A, B, C, or D on your answer sheet to indicate the best answer to each of the questions. In November 2009, they got an apartment together in Palo Alto, California and started work on Pinterest. And it seemed that a lot of people liked their idea. When Pinterest started in March 2010, it grew quickly and had 10 million users after the first year. This was an amazing number compared with Twitter and Facebook: Twitter took two years to reach 10 million users and Facebook took over five years. Just a year after starting, Pinterest was worth $200 million and had over 421 million page views. Silberman's ordinary interest as a boy certainly became an extraordinary business. (Adapted from English Workbook 12)",
+        "question_format": "thpt_reading_passage",
+        "knowledge_subtopic_code_v2": "E2R.02",
+        "exam_profiles": [
+          "THPT_2025_CORE"
+        ],
+        "linked_node_codes_v2": [
+          "E2R.02-14-bai-thi-truoc-buoi-hoc-tinh-hoa-doc-hieu-buoi-1-btpdf",
+          "E2R.02-15-tinh-hoa-doc-hieu-buoi-1-btpdf",
+          "E2R.02-22-bai-thi-truoc-buoi-hoc-tinh-hoa-doc-hieu-buoi-2-btpdf",
+          "E2R.02-23-tinh-hoa-doc-hieu-buoi-2-btpdf",
+          "E2R.02-ren-luyen-va-nang-cao-ki-nang-xu-li-bai-doc-hieu-10-cau-buoi"
+        ],
+        "difficulty": "basic",
+        "confidence": "medium",
+        "needs_review": true,
+        "review_reason": "merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer",
+        "ready_for_ai_solve": false,
+        "ai_model": "regex_fallback",
+        "practice_item_type": "mcq",
+        "raw_extract": {
+          "block": "Question 8. In the paragraph, which of the following is NOT mentioned as one of the factors in the decline \nin the bald eagle population? \nA. Habitat being destroyed \nB. Eagles being killed \nC. Eagles’ food being cleared \nD. Eagles’ eggs affected by DDT \n \nTram Chim – a national park in Dong Thap Province, Vietnam – was established in 1999 to preserve \nthe valuable submerged inland ecosystem. It is home to many fish and plant species and a frequent \ndestination for birds such as red-crowned cranes and herons. Unfortunately, human activities around the \npark are threatening it. More and more shrimp ponds are being constructed. While bringing money to \nfarmers, they prevent fertile floodwater of the Mekong River from entering the park. \n(Adapted from Explore New World)",
           "practice_item_type": "mcq",
           "page_start": 3,
           "page_end": 3
@@ -1700,49 +1712,52 @@
         ]
       },
       {
-        "question_id": "en-practice-b144c76dc3a9-008-c5068ca61966",
-        "source_file": "Thi online Cách làm câu hỏi tóm tắt nội dung đoạn trong bài đọc hiểu (Đề số 01).pdf",
-        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi online Cách làm câu hỏi tóm tắt nội dung đoạn trong bài đọc hiểu (Đề số 01).pdf",
-        "file_sha1": "b144c76dc3a91e7b2a384589b28368363ab755ad",
-        "question_number": 8,
+        "question_id": "en-practice-0c5971d1cd4e-010-bfa8759ea568",
+        "source_file": "Thi Online Cách xử lí câu hỏi tìm thông tin chi tiết bài đọc (Đề số 01).pdf",
+        "relative_path": "MP/CÁC DẠNG CÂU HỎI TRONG ĐỀ THI/ĐỌC HIỂU/Thi Online Cách xử lí câu hỏi tìm thông tin chi tiết bài đọc (Đề số 01).pdf",
+        "file_sha1": "0c5971d1cd4e673f8cbb376a187ecddc9b70c77a",
+        "question_number": 10,
         "page_start": 3,
-        "page_end": 3,
-        "question_text": "Which of the following best summarises paragraph 3?",
+        "page_end": 11,
+        "question_text": "In the paragraph, which of the following is NOT mentioned as one of the reasons to choose local food?",
         "options": {
-          "A": "Robo-Teach motivates students by saying kind words and praising them when they get correct answers.",
-          "B": "Robo-Teach supports learning by repeating explanations patiently and encouraging students with",
-          "C": "Robo-Teach helps students by giving instructions again if they struggle to understand a difficult",
-          "D": "Robo-Teach never needs a break and makes kids feel good by helping them finish their tasks."
+          "A": "Safety",
+          "B": "Freshness",
+          "C": "No pesticides",
+          "D": "Environmental benefits"
         },
         "correct_answer": null,
         "answer_source": "missing",
         "explanation": "",
-        "passage_id": "passage-b144c76dc3-02-7c87af7581",
-        "passage_text": "2. At Oakwood Elementary School, there is a special teaching assistant named Robo-Teach. This small, blue-and-white robot helps students with their lessons and makes learning fun. Robo-Teach can move around the classroom, answer questions, and even tell jokes to keep kids smiling. The students love how patient and kind the robot is, especially when they need extra help with maths or reading. Robo-Teach works with the teacher to make lessons more interesting. It can show videos on its small screen, quiz students with fun games, and even read stories aloud. The robot remembers each student’s name and knows which subjects they find tricky. This way, it can give them the right help when they need it. The teacher says Robo-Teach makes the classroom a happier and more organised place. The best part is that Robo-Teach never gets tired or frustrated. If a student doesn’t understand something, the robot will explain it again in a different way. It also cheers students on when they get answers right, saying things like, “Great job!” or “You’re getting better every day!” This makes the kids feel proud and excited to learn. Robo-Teach has become a favourite at Oakwood Elementary. Students look forward to seeing it every day, and even shy kids feel comfortable asking it questions. The robot may not replace human teachers, but it sure makes school a lot more fun and helps everyone learn better. Who wouldn’t want a robot friend like Robo-Teach?",
+        "passage_id": "passage-0c5971d1cd-01-db35e0a2dd",
+        "passage_text": "Read the following passages and mark the letter A, B, C, or D on your answer sheet to indicate the best answer to each of the questions. In November 2009, they got an apartment together in Palo Alto, California and started work on Pinterest. And it seemed that a lot of people liked their idea. When Pinterest started in March 2010, it grew quickly and had 10 million users after the first year. This was an amazing number compared with Twitter and Facebook: Twitter took two years to reach 10 million users and Facebook took over five years. Just a year after starting, Pinterest was worth $200 million and had over 421 million page views. Silberman's ordinary interest as a boy certainly became an extraordinary business. (Adapted from English Workbook 12)",
         "question_format": "thpt_reading_passage",
-        "knowledge_subtopic_code_v2": "E2R.08",
+        "knowledge_subtopic_code_v2": "E2R.02",
         "exam_profiles": [
           "THPT_2025_CORE"
         ],
         "linked_node_codes_v2": [
-          "E2R.08-ky-nang-lam-cau-hoi-tim-doan-chua-thong-tin-va-dien-cau-phu"
+          "E2R.02-14-bai-thi-truoc-buoi-hoc-tinh-hoa-doc-hieu-buoi-1-btpdf",
+          "E2R.02-15-tinh-hoa-doc-hieu-buoi-1-btpdf",
+          "E2R.02-22-bai-thi-truoc-buoi-hoc-tinh-hoa-doc-hieu-buoi-2-btpdf",
+          "E2R.02-23-tinh-hoa-doc-hieu-buoi-2-btpdf",
+          "E2R.02-ren-luyen-va-nang-cao-ki-nang-xu-li-bai-doc-hieu-10-cau-buoi"
         ],
         "difficulty": "basic",
         "confidence": "medium",
         "needs_review": true,
-        "review_reason": "merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer; truncated_options",
+        "review_reason": "merged_rescan_preserved_answer_metadata; possible_wrong_passage_pairing; regex_fallback_missing_answer",
         "ready_for_ai_solve": false,
         "ai_model": "regex_fallback",
         "practice_item_type": "mcq",
         "raw_extract": {
-          "block": "Question 8. Which of the following best summarises paragraph 3? \nA. Robo-Teach motivates students by saying kind words and praising them when they get correct answers. \nB. Robo-Teach supports learning by repeating explanations patiently and encouraging students with \npositive feedback and praise. \nC. Robo-Teach helps students by giving instructions again if they struggle to understand a difficult \nconcept.  \nD. Robo-Teach never needs a break and makes kids feel good by helping them finish their tasks.",
+          "block": "Question 10. In the paragraph, which of the following is NOT mentioned as one of the reasons to choose \nlocal food? \nA. Safety \nB. Freshness \nC. No pesticides    D. Environmental benefits \n \nBẢNG TỪ VỰNG \nSTT \nTừ vựng \nTừ \nloại \nPhiên âm \nNghĩa \nVí dụ \n1 \n academic \nadj \n/ˌækəˈdemɪk/ \nthuộc \nvề \nhọc \nthuật, có tính học \nthuật \nBalancing academic pursuits \nwith extracurricular activities \ncan be a challenge for \nuniversity \nstudents. \n(Cân \nbằng việc học thuật với các \nhoạt động ngoại khóa có thể \nlà một thách thức đối với \nsinh viên đại học.) \n2 \n achievement \nn \n/əˈtʃiːvmənt/ \nthành tựu \nReceiving the scholarship \nwas \na \nsignificant \nachievement that recognized",
           "practice_item_type": "mcq",
           "page_start": 3,
-          "page_end": 3
+          "page_end": 11
         },
         "quality_issues": [
-          "possible_wrong_passage_pairing",
-          "truncated_options"
+          "possible_wrong_passage_pairing"
         ]
       }
     ],
@@ -3192,8 +3207,7 @@
           "page_end": 1
         },
         "quality_issues": [
-          "duplicate_options",
-          "truncated_options"
+          "duplicate_options"
         ]
       },
       {
